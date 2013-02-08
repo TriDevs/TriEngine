@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Threading.cs" />
     <Compile Include="Logging\LogManager.cs" />
