@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace TriEngine2D.Helpers
+namespace TriDevs.TriEngine2D.Helpers
 {
 	/// <summary>
 	/// Provides various helper functions for doing threading operations.

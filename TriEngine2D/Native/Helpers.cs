@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.InteropServices;
 
-namespace TriEngine2D.Native
+namespace TriDevs.TriEngine2D.Native
 {
 	/// <summary>
 	/// Helper class with various methods to help native coding and debugging.

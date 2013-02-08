@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriEngine2D", "TriEngine2D\TriEngine2D.csproj", "{04EC0B36-EFF2-47E7-AE67-3CCCB26D8C6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriDevs.TriEngine2D", "TriEngine2D\TriDevs.TriEngine2D.csproj", "{04EC0B36-EFF2-47E7-AE67-3CCCB26D8C6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
