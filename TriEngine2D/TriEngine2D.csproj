@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\libs\log4net\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Threading.cs" />
+    <Compile Include="Logging\LogManager.cs" />
+    <Compile Include="Native\Helpers.cs" />
+    <Compile Include="Native\WinAPI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
