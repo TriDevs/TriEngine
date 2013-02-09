@@ -42,9 +42,11 @@ namespace TriDevs.TriEngine2D.Serializing
 		/// <returns>The serialized object in string format.</returns>
 		public static string Serialize<T>(T data)
 		{
+			// Create a StringWriter to hold the serialized object
 			var writer = new StringWriter();
+			// Serialize the object into the writer
 			JsonSerializer.Value.Serialize(writer, data);
-			return writer.ToString();
+			return writer.ToString(); // Return the data as string
 		}
 
 		/// <summary>
@@ -56,13 +58,18 @@ namespace TriDevs.TriEngine2D.Serializing
 		/// <param name="formatting">The formatting to use for the JSON output.</param>
 		public static void Serialize<T>(T data, string file, Formatting formatting = Formatting.Indented)
 		{
+			// Create the StreamWriter
 			using (var writer = new StreamWriter(file, false))
 			{
+				// Create the json writer
 				using (var jsonWriter = new JsonTextWriter(writer){Formatting = formatting})
 				{
+					// Now serialize the object to the file...
 					JsonSerializer.Value.Serialize(jsonWriter, data);
+					// ... and close the json writer
 					jsonWriter.Close();
 				}
+				// Finally, close the file writer
 				writer.Close();
 			}
 		}
@@ -76,13 +83,18 @@ namespace TriDevs.TriEngine2D.Serializing
 		public static T Deserialize<T>(string file)
 		{
 			T data;
+			// Create the StreamReader
 			using (var reader = new StreamReader(file))
 			{
+				// And the json reader
 				using (var jsonReader = new JsonTextReader(reader))
 				{
+					// Now deserialize the file to the requested object...
 					data = JsonSerializer.Value.Deserialize<T>(jsonReader);
+					// ... and close the json reader.
 					jsonReader.Close();
 				}
+				// Finally, close the file reader
 				reader.Close();
 			}
 			return data;
