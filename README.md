@@ -17,3 +17,5 @@ TriEngine2D depends on [log4net](http://logging.apache.org/log4net/), which is i
 
 TriEngine2D depends on [OpenTK](http://www.opentk.com/), this is not included and you will have to build/install it yourself.  
 OpenTK depends on OpenGL drivers being installed, they are usually in your normal video card drivers.
+
+If you want to run the tests you will need to have [NUnit](http://www.nunit.org/) installed.

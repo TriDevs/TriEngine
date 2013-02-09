@@ -1,15 +1,16 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TriEngine2D")]
-[assembly: AssemblyDescription("2D engine based on C#/OpenGL")]
+[assembly: AssemblyTitle("TriDevs.TriEngine2D.Tests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TriEngine2D")]
-[assembly: AssemblyCopyright("Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway")]
+[assembly: AssemblyProduct("TriDevs.TriEngine2D.Tests")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f737aac6-7d85-4ae0-9f0f-ece6f1fcc287")]
+[assembly: Guid("a39acb65-01c8-43b4-8c53-7b12989e6ffb")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -32,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.7.2336")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
