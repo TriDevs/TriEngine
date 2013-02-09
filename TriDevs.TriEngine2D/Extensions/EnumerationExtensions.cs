@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-﻿/* Please note:
+/* Please note:
  * Code for the following methods written by Hugoware:
  * Include, Remove, Has, Missing
  * The class _Value was also written by Hugoware.
