@@ -38,6 +38,49 @@ namespace TriDevs.TriEngine2D.Extensions
 	/// </summary>
 	public static class EnumerationExtensions
 	{
+		#region Helper Classes
+
+		//class to simplfy narrowing values between 
+		//a ulong and long since either value should
+		//cover any lesser value
+		private class _Value
+		{
+
+			//cached comparisons for tye to use
+			private static readonly Type _UInt64 = typeof(ulong);
+			private static readonly Type _UInt32 = typeof(long);
+
+			internal readonly long? Signed;
+			internal readonly ulong? Unsigned;
+
+			internal _Value(object value, Type type)
+			{
+
+				//make sure it is even an enum to work with
+				if (!type.IsEnum)
+					throw new ArgumentException("Value provided is not an enumerated type!");
+
+				//then check for the enumerated value
+				var compare = Enum.GetUnderlyingType(type);
+
+				//if this is an unsigned long then the only
+				//value that can hold it would be a ulong
+				try
+				{
+					if (compare == _UInt32 || compare == _UInt64)
+						Unsigned = Convert.ToUInt64(value);
+					else //otherwise, a long should cover anything else
+						Signed = Convert.ToInt64(value);
+				}
+				catch (FormatException)
+				{
+					throw new ArgumentException("Value provided is not of a supported type!");
+				}
+			}
+		}
+
+		#endregion
+
 		#region Extension Methods
 
 		/// <summary>
@@ -128,42 +171,6 @@ namespace TriDevs.TriEngine2D.Extensions
 		public static bool Missing<T>(this Enum obj, T value)
 		{
 			return !Has(obj, value);
-		}
-
-		#endregion
-
-		#region Helper Classes
-
-		//class to simplfy narrowing values between 
-		//a ulong and long since either value should
-		//cover any lesser value
-		private class _Value
-		{
-
-			//cached comparisons for tye to use
-			private static readonly Type _UInt64 = typeof(ulong);
-			private static readonly Type _UInt32 = typeof(long);
-
-			public readonly long? Signed;
-			public readonly ulong? Unsigned;
-
-			public _Value(object value, Type type)
-			{
-
-				//make sure it is even an enum to work with
-				if (!type.IsEnum)
-					throw new ArgumentException("Value provided is not an enumerated type!");
-
-				//then check for the enumerated value
-				var compare = Enum.GetUnderlyingType(type);
-
-				//if this is an unsigned long then the only
-				//value that can hold it would be a ulong
-				if (compare == _UInt32 || compare == _UInt64)
-					Unsigned = Convert.ToUInt64(value);
-				else //otherwise, a long should cover anything else
-					Signed = Convert.ToInt64(value);
-			}
 		}
 
 		#endregion
