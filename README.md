@@ -46,7 +46,7 @@ By looking through the current source code, you should be able to get a good und
 
 If you're using Visual Studio, you can change the indent behaviour by going to: **Tools** -> **Options** -> **Text Editor** -> **C#** -> **Tabs** and make sure "Insert spaces" is checked.
 
-If you write tests for your code, please place these tests in their own project: "&lt;**Namespace**&gt;.Tests", create said project if it does not exist (of type Class Library).
+If you write tests for your code, please place these tests in their own project: "&lt; **Namespace** &gt;.Tests", create said project if it does not exist (of type Class Library).
 
 We use NUnit as test framework, feel free to use something else if you want to, but make sure you document what framework you are using and that it is freely available for anyone to obtain.
 
