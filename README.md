@@ -37,7 +37,8 @@ public void Hello(string world)
 ```
  * If your method accepts many parameters, it can be useful to put parameters on separate lines, as per this style:  
 ```
-public void Hello(string world,  
+public void Hello(string world,
+
                   bool print)
 ```
  * Please write tests for your code (not strictly required, but it's a plus)
