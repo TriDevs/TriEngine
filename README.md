@@ -32,11 +32,11 @@ For your pull request to be accepted, please follow our coding style:
  * All **public** methods, accessors and members must be properly documented.
  * Use sensible variable names that describe what they are for.
  * Method declarations written as:
-```c#
+```
 public void Hello(string world)
 ```
  * If your method accepts many parameters, it can be useful to put parameters on separate lines, as per this style:
-```c#
+```
 public void Hello(string world,
                   bool print)
 ```
