@@ -46,7 +46,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -103,7 +102,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Properties</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -119,6 +118,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>ClearOldLogs()
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#a869d712123422786e4e6f738bb68bee1">TriDevs.TriEngine2D.Logging.LogManager</a>
+</li>
+<li>Deserialize&lt; T &gt;()
+: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer.html#a2687e279029d9bdf825ec60f7143e341">TriDevs.TriEngine2D.Serializing.Serializer</a>
 </li>
 <li>DestroyConsole()
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#aa08e7d3ce6fce68baddeef73861bce50">TriDevs.TriEngine2D.Logging.LogManager</a>
@@ -168,6 +170,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>Remove&lt; T &gt;()
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html#af84a3ba0fc3c15ba49f7a6d5a709b434">TriDevs.TriEngine2D.Extensions.EnumerationExtensions</a>
 </li>
+<li>Serialize&lt; T &gt;()
+: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer.html#a502d20061e461d56bd72a3d5a9cad1fc">TriDevs.TriEngine2D.Serializing.Serializer</a>
+</li>
 <li>SetCurrentThreadName()
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading.html#ad91c6256929f1e97564fb10258742c7c">TriDevs.TriEngine2D.Helpers.Threading</a>
 </li>
@@ -180,7 +185,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Feb 9 2013 15:07:01 for TriEngine2D by
+    <li class="footer">Generated on Sun Feb 10 2013 01:01:01 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
