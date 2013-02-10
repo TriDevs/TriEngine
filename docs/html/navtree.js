@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "TriEngine2D", "index.html", [
-    [ "TriEngine2D", "md__r_e_a_d_m_e.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ]
     ] ],
