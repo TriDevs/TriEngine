@@ -41,7 +41,7 @@ namespace TriDevs.TriEngine2D
         /// <summary>
         /// Patch version of the project.
         /// </summary>
-        public const int Patch = 5;
+        public const int Patch = 6;
 
         /// <summary>
         /// Optional suffix, empty if no suffix for this version.
