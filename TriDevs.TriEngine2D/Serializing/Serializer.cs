@@ -27,77 +27,77 @@ using Newtonsoft.Json;
 
 namespace TriDevs.TriEngine2D.Serializing
 {
-	/// <summary>
-	/// Provides serialization methods.
-	/// </summary>
-	public static class Serializer
-	{
-		private static readonly Lazy<JsonSerializer> JsonSerializer = new Lazy<JsonSerializer>();
+    /// <summary>
+    /// Provides serialization methods.
+    /// </summary>
+    public static class Serializer
+    {
+        private static readonly Lazy<JsonSerializer> JsonSerializer = new Lazy<JsonSerializer>();
 
-		/// <summary>
-		/// Serialize an object to string.
-		/// </summary>
-		/// <typeparam name="T">Type of data.</typeparam>
-		/// <param name="data">Data to serialize.</param>
-		/// <returns>The serialized object in string format.</returns>
-		public static string Serialize<T>(T data)
-		{
-			// Create a StringWriter to hold the serialized object
-			var writer = new StringWriter();
-			// Serialize the object into the writer
-			JsonSerializer.Value.Serialize(writer, data);
-			return writer.ToString(); // Return the data as string
-		}
+        /// <summary>
+        /// Serialize an object to string.
+        /// </summary>
+        /// <typeparam name="T">Type of data.</typeparam>
+        /// <param name="data">Data to serialize.</param>
+        /// <returns>The serialized object in string format.</returns>
+        public static string Serialize<T>(T data)
+        {
+            // Create a StringWriter to hold the serialized object
+            var writer = new StringWriter();
+            // Serialize the object into the writer
+            JsonSerializer.Value.Serialize(writer, data);
+            return writer.ToString(); // Return the data as string
+        }
 
-		/// <summary>
-		/// Serializes an object to file.
-		/// </summary>
-		/// <typeparam name="T">Type of the data.</typeparam>
-		/// <param name="data">Data to serialize.</param>
-		/// <param name="file">File to serialize to.</param>
-		/// <param name="formatting">The formatting to use for the JSON output.</param>
-		public static void Serialize<T>(T data, string file, Formatting formatting = Formatting.Indented)
-		{
-			// Create the StreamWriter
-			using (var writer = new StreamWriter(file, false))
-			{
-				// Create the json writer
-				using (var jsonWriter = new JsonTextWriter(writer){Formatting = formatting})
-				{
-					// Now serialize the object to the file...
-					JsonSerializer.Value.Serialize(jsonWriter, data);
-					// ... and close the json writer
-					jsonWriter.Close();
-				}
-				// Finally, close the file writer
-				writer.Close();
-			}
-		}
+        /// <summary>
+        /// Serializes an object to file.
+        /// </summary>
+        /// <typeparam name="T">Type of the data.</typeparam>
+        /// <param name="data">Data to serialize.</param>
+        /// <param name="file">File to serialize to.</param>
+        /// <param name="formatting">The formatting to use for the JSON output.</param>
+        public static void Serialize<T>(T data, string file, Formatting formatting = Formatting.Indented)
+        {
+            // Create the StreamWriter
+            using (var writer = new StreamWriter(file, false))
+            {
+                // Create the json writer
+                using (var jsonWriter = new JsonTextWriter(writer){Formatting = formatting})
+                {
+                    // Now serialize the object to the file...
+                    JsonSerializer.Value.Serialize(jsonWriter, data);
+                    // ... and close the json writer
+                    jsonWriter.Close();
+                }
+                // Finally, close the file writer
+                writer.Close();
+            }
+        }
 
-		/// <summary>
-		/// Deserialize a serialized object from file.
-		/// </summary>
-		/// <typeparam name="T">Type of the object being deserialized.</typeparam>
-		/// <param name="file">File to read from.</param>
-		/// <returns>The deserialized object.</returns>
-		public static T Deserialize<T>(string file)
-		{
-			T data;
-			// Create the StreamReader
-			using (var reader = new StreamReader(file))
-			{
-				// And the json reader
-				using (var jsonReader = new JsonTextReader(reader))
-				{
-					// Now deserialize the file to the requested object...
-					data = JsonSerializer.Value.Deserialize<T>(jsonReader);
-					// ... and close the json reader.
-					jsonReader.Close();
-				}
-				// Finally, close the file reader
-				reader.Close();
-			}
-			return data;
-		}
-	}
+        /// <summary>
+        /// Deserialize a serialized object from file.
+        /// </summary>
+        /// <typeparam name="T">Type of the object being deserialized.</typeparam>
+        /// <param name="file">File to read from.</param>
+        /// <returns>The deserialized object.</returns>
+        public static T Deserialize<T>(string file)
+        {
+            T data;
+            // Create the StreamReader
+            using (var reader = new StreamReader(file))
+            {
+                // And the json reader
+                using (var jsonReader = new JsonTextReader(reader))
+                {
+                    // Now deserialize the file to the requested object...
+                    data = JsonSerializer.Value.Deserialize<T>(jsonReader);
+                    // ... and close the json reader.
+                    jsonReader.Close();
+                }
+                // Finally, close the file reader
+                reader.Close();
+            }
+            return data;
+        }
+    }
 }
