@@ -8,6 +8,7 @@ IRC
 
 TriDevs has an IRC channel, feel free to hop in if you have a question about anything:  
 **Server:** irc.kottnet.net  
+**Port:** 6667, 6697 (SSL)
 **Channel:** #TriDevs
 
 The channel topic contains further info.
