@@ -1,0 +1,138 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager@{Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager}}
+}
+
+
+Class to manage logging. I\-Log interfaces should be obtained from this class' methods, as opposed to calling default log4net methods.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_ac3fa271dd594c78c0ace7bd28f0b3309}{Load\-Config} (string file=null)
+\begin{DoxyCompactList}\small\item\em Load a config to use with log4net. \end{DoxyCompactList}\item 
+static I\-Log \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a08a92793a69df04598de7e2ef26525b9}{Get\-Logger} (object sender)
+\begin{DoxyCompactList}\small\item\em Gets an I\-Log object for the specified object. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a674a0fcc99cd6101fbe655e626d3f24b}{Setup\-Console} ()
+\begin{DoxyCompactList}\small\item\em Set up a new console for this process. Will not set up a console if a debugger is attached. This method does nothing if D\-E\-B\-U\-G is not \#defined. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_aa08e7d3ce6fce68baddeef73861bce50}{Destroy\-Console} ()
+\begin{DoxyCompactList}\small\item\em Destroys the console associated with the process, if loaded. This method does nothing if D\-E\-B\-U\-G is not \#defined. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a869d712123422786e4e6f738bb68bee1}{Clear\-Old\-Logs} (int days\-Old=7, string logs\-Dir=\char`\"{}logs\char`\"{})
+\begin{DoxyCompactList}\small\item\em Clear logs that are older than the specified amount of days. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to manage logging. I\-Log interfaces should be obtained from this class' methods, as opposed to calling default log4net methods. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a869d712123422786e4e6f738bb68bee1}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}!Clear\-Old\-Logs@{Clear\-Old\-Logs}}
+\index{Clear\-Old\-Logs@{Clear\-Old\-Logs}!TriDevs::TriEngine2D::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Clear\-Old\-Logs}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager.\-Clear\-Old\-Logs (
+\begin{DoxyParamCaption}
+\item[{int}]{days\-Old = {\ttfamily 7}, }
+\item[{string}]{logs\-Dir = {\ttfamily \char`\"{}logs\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a869d712123422786e4e6f738bb68bee1}
+
+
+Clear logs that are older than the specified amount of days. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em days\-Old} & Logs older than this amount of days will be deleted.\\
+\hline
+{\em logs\-Dir} & The directory to clear.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_aa08e7d3ce6fce68baddeef73861bce50}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}!Destroy\-Console@{Destroy\-Console}}
+\index{Destroy\-Console@{Destroy\-Console}!TriDevs::TriEngine2D::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Destroy\-Console}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager.\-Destroy\-Console (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_aa08e7d3ce6fce68baddeef73861bce50}
+
+
+Destroys the console associated with the process, if loaded. This method does nothing if D\-E\-B\-U\-G is not \#defined. 
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_aa08e7d3ce6fce68baddeef73861bce50_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a08a92793a69df04598de7e2ef26525b9}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}!Get\-Logger@{Get\-Logger}}
+\index{Get\-Logger@{Get\-Logger}!TriDevs::TriEngine2D::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Get\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}static I\-Log Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager.\-Get\-Logger (
+\begin{DoxyParamCaption}
+\item[{object}]{sender}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a08a92793a69df04598de7e2ef26525b9}
+
+
+Gets an I\-Log object for the specified object. 
+
+To get the logger object for a static class, or from static context, call Get\-Logger(typeof(\-Your\-Class)). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & The object or Type to get an I\-Log object for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The I\-Log object.
+\end{DoxyReturn}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_ac3fa271dd594c78c0ace7bd28f0b3309}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}!Load\-Config@{Load\-Config}}
+\index{Load\-Config@{Load\-Config}!TriDevs::TriEngine2D::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Load\-Config}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager.\-Load\-Config (
+\begin{DoxyParamCaption}
+\item[{string}]{file = {\ttfamily null}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_ac3fa271dd594c78c0ace7bd28f0b3309}
+
+
+Load a config to use with log4net. 
+
+Load\-Config will first try to load the specified file, if not null. If it is unable to find the specified file, it will call itself again with file set to null. If no file is specified, it will attempt to load a config file following the pattern\-: \char`\"{}(\-Assembly\-Name).\-config\char`\"{} If it is unable to load the config, it will default to Basic\-Configurator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The config file to load, null if automatic loading is preferred.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a674a0fcc99cd6101fbe655e626d3f24b}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}!Setup\-Console@{Setup\-Console}}
+\index{Setup\-Console@{Setup\-Console}!TriDevs::TriEngine2D::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Setup\-Console}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Logging.\-Log\-Manager.\-Setup\-Console (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a674a0fcc99cd6101fbe655e626d3f24b}
+
+
+Set up a new console for this process. Will not set up a console if a debugger is attached. This method does nothing if D\-E\-B\-U\-G is not \#defined. 
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager_a674a0fcc99cd6101fbe655e626d3f24b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Logging/\hyperlink{_log_manager_8cs}{Log\-Manager.\-cs}\end{DoxyCompactItemize}

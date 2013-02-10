@@ -1,0 +1,93 @@
+\contentsline {chapter}{\numberline {1}Main Page}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Namespace List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Package Tri\discretionary {-}{}{}Devs}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D}{9}{section.5.2}
+\contentsline {section}{\numberline {5.3}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions}{9}{section.5.3}
+\contentsline {section}{\numberline {5.4}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers}{9}{section.5.4}
+\contentsline {section}{\numberline {5.5}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging}{10}{section.5.5}
+\contentsline {section}{\numberline {5.6}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native}{10}{section.5.6}
+\contentsline {section}{\numberline {5.7}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing}{10}{section.5.7}
+\contentsline {chapter}{\numberline {6}Class Documentation}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions Class Reference}{11}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{11}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{11}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}Has$<$ T $>$}{11}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Include$<$ T $>$}{12}{subsubsection.6.1.2.2}
+\contentsline {subsubsection}{\numberline {6.1.2.3}Missing$<$ T $>$}{12}{subsubsection.6.1.2.3}
+\contentsline {subsubsection}{\numberline {6.1.2.4}Remove$<$ T $>$}{12}{subsubsection.6.1.2.4}
+\contentsline {section}{\numberline {6.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Helpers Class Reference}{13}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{13}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{13}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Get\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{13}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error}{13}{subsubsection.6.2.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.3}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Info}{14}{subsubsection.6.2.2.3}
+\contentsline {subsubsection}{\numberline {6.2.2.4}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{14}{subsubsection.6.2.2.4}
+\contentsline {subsubsection}{\numberline {6.2.2.5}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{14}{subsubsection.6.2.2.5}
+\contentsline {subsubsection}{\numberline {6.2.2.6}Get\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{14}{subsubsection.6.2.2.6}
+\contentsline {section}{\numberline {6.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}I\discretionary {-}{}{}O Class Reference}{14}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{15}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{15}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Get\discretionary {-}{}{}Absolute\discretionary {-}{}{}Path}{15}{subsubsection.6.3.2.1}
+\contentsline {section}{\numberline {6.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging.\discretionary {-}{}{}Log\discretionary {-}{}{}Manager Class Reference}{15}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{15}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Member Function Documentation}{15}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}Clear\discretionary {-}{}{}Old\discretionary {-}{}{}Logs}{15}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}Destroy\discretionary {-}{}{}Console}{16}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}Get\discretionary {-}{}{}Logger}{16}{subsubsection.6.4.2.3}
+\contentsline {subsubsection}{\numberline {6.4.2.4}Load\discretionary {-}{}{}Config}{16}{subsubsection.6.4.2.4}
+\contentsline {subsubsection}{\numberline {6.4.2.5}Setup\discretionary {-}{}{}Console}{16}{subsubsection.6.4.2.5}
+\contentsline {section}{\numberline {6.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing.\discretionary {-}{}{}Serializer Class Reference}{17}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{17}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{17}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}Deserialize$<$ T $>$}{17}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}Serialize$<$ T $>$}{18}{subsubsection.6.5.2.2}
+\contentsline {subsubsection}{\numberline {6.5.2.3}Serialize$<$ T $>$}{18}{subsubsection.6.5.2.3}
+\contentsline {section}{\numberline {6.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}String\discretionary {-}{}{}Extensions Class Reference}{18}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{19}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Member Function Documentation}{19}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}Replace}{19}{subsubsection.6.6.2.1}
+\contentsline {subsubsection}{\numberline {6.6.2.2}Replace}{19}{subsubsection.6.6.2.2}
+\contentsline {subsubsection}{\numberline {6.6.2.3}Replace\discretionary {-}{}{}First}{19}{subsubsection.6.6.2.3}
+\contentsline {section}{\numberline {6.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Threading Class Reference}{20}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{20}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Member Function Documentation}{20}{subsection.6.7.2}
+\contentsline {subsubsection}{\numberline {6.7.2.1}Set\discretionary {-}{}{}Current\discretionary {-}{}{}Thread\discretionary {-}{}{}Name}{20}{subsubsection.6.7.2.1}
+\contentsline {section}{\numberline {6.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Version Class Reference}{20}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{21}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}Member Data Documentation}{21}{subsection.6.8.2}
+\contentsline {subsubsection}{\numberline {6.8.2.1}Major}{21}{subsubsection.6.8.2.1}
+\contentsline {subsubsection}{\numberline {6.8.2.2}Minor}{21}{subsubsection.6.8.2.2}
+\contentsline {subsubsection}{\numberline {6.8.2.3}Patch}{21}{subsubsection.6.8.2.3}
+\contentsline {subsubsection}{\numberline {6.8.2.4}Suffix}{21}{subsubsection.6.8.2.4}
+\contentsline {subsubsection}{\numberline {6.8.2.5}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format}{21}{subsubsection.6.8.2.5}
+\contentsline {subsubsection}{\numberline {6.8.2.6}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format\discretionary {-}{}{}With\discretionary {-}{}{}Suffix}{21}{subsubsection.6.8.2.6}
+\contentsline {subsection}{\numberline {6.8.3}Property Documentation}{21}{subsection.6.8.3}
+\contentsline {subsubsection}{\numberline {6.8.3.1}Version\discretionary {-}{}{}String}{21}{subsubsection.6.8.3.1}
+\contentsline {section}{\numberline {6.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I Class Reference}{22}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{22}{subsection.6.9.1}
+\contentsline {subsection}{\numberline {6.9.2}Member Function Documentation}{22}{subsection.6.9.2}
+\contentsline {subsubsection}{\numberline {6.9.2.1}Alloc\discretionary {-}{}{}Console}{22}{subsubsection.6.9.2.1}
+\contentsline {subsubsection}{\numberline {6.9.2.2}Free\discretionary {-}{}{}Console}{22}{subsubsection.6.9.2.2}
+\contentsline {subsubsection}{\numberline {6.9.2.3}Get\discretionary {-}{}{}Std\discretionary {-}{}{}Handle}{23}{subsubsection.6.9.2.3}
+\contentsline {subsection}{\numberline {6.9.3}Member Data Documentation}{23}{subsection.6.9.3}
+\contentsline {subsubsection}{\numberline {6.9.3.1}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}G\discretionary {-}{}{}E}{23}{subsubsection.6.9.3.1}
+\contentsline {subsubsection}{\numberline {6.9.3.2}S\discretionary {-}{}{}T\discretionary {-}{}{}D\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}D\discretionary {-}{}{}L\discretionary {-}{}{}E}{23}{subsubsection.6.9.3.2}
+\contentsline {chapter}{\numberline {7}File Documentation}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md File Reference}{25}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions.cs File Reference}{25}{section.7.2}
+\contentsline {section}{\numberline {7.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}String\discretionary {-}{}{}Extensions.cs File Reference}{25}{section.7.3}
+\contentsline {section}{\numberline {7.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}I\discretionary {-}{}{}O.cs File Reference}{25}{section.7.4}
+\contentsline {section}{\numberline {7.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Threading.cs File Reference}{26}{section.7.5}
+\contentsline {section}{\numberline {7.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Logging/\discretionary {-}{}{}Log\discretionary {-}{}{}Manager.cs File Reference}{26}{section.7.6}
+\contentsline {section}{\numberline {7.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Helpers.cs File Reference}{26}{section.7.7}
+\contentsline {section}{\numberline {7.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I.cs File Reference}{26}{section.7.8}
+\contentsline {section}{\numberline {7.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{27}{section.7.9}
+\contentsline {section}{\numberline {7.10}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Serializing/\discretionary {-}{}{}Serializer.cs File Reference}{27}{section.7.10}
+\contentsline {section}{\numberline {7.11}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Version.cs File Reference}{27}{section.7.11}
+\contentsline {part}{Index}{27}{section*.42}
