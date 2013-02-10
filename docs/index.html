@@ -102,19 +102,46 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>2D general-purpose engine in C#/OpenGL</p>
+<h2>IRC</h2>
+<p><a class="el" href="namespace_tri_devs.html">TriDevs</a> has an IRC channel, feel free to hop in if you have a question about anything: <b>Server:</b> irc.kottnet.net <b>Port:</b> 6667, 6697 (SSL) <b>Channel:</b> <a class="el" href="namespace_tri_devs.html">TriDevs</a></p>
+<p>The channel topic contains further info.</p>
 <h2>License</h2>
-<p>Copyright © 2013 by <a href="https://github.com/Sharparam">Adam Hellberg</a>, <a href="https://github.com/Vijfhoek">Sijmen Schoon</a> and <a href="https://github.com/anidude">Preston Shumway</a>.</p>
+<p>Copyright Â© 2013 by <a href="https://github.com/Sharparam">Adam Hellberg</a>, <a href="https://github.com/Vijfhoek">Sijmen Schoon</a> and <a href="https://github.com/anidude">Preston Shumway</a>.</p>
 <p>TriEngine2D is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>, more info can be found in the <b>LICENSE</b> file.</p>
+<h2>Contributing</h2>
+<p>You are free to fork this project and make your own changes, as long as you follow the MIT License.</p>
+<p>If you want to make a pull request, please do so to the <a href="https://github.com/TriDevs/TriEngine2D">main project</a> and not any of the "official" forks.</p>
+<p>For your pull request to be accepted, please follow our coding style:</p>
+<ul>
+<li>Indent with 4 spaces, not tabs.</li>
+<li>Curly braces placed on next line.</li>
+<li>All <b>public</b> methods, accessors and members must be properly documented.</li>
+<li>Use sensible variable names that describe what they are for.</li>
+<li>Method declarations written as:</li>
+</ul>
+<p>```c# public void Hello(string world) ```</p>
+<ul>
+<li>If your method accepts many parameters, it can be useful to put parameters on separate lines, as per this style:</li>
+</ul>
+<p>```c# public void Hello(string world, bool print) ```</p>
+<ul>
+<li>Please write tests for your code (not strictly required, but it's a plus)</li>
+</ul>
+<p>By looking through the current source code, you should be able to get a good understanding of the formatting we use.</p>
+<p>If you're using Visual Studio, you can change the indent behaviour by going to: <b>Tools</b> -&gt; <b>Options</b> -&gt; <b>Text Editor</b> -&gt; <b>C#</b> -&gt; <b>Tabs</b> and make sure "Insert spaces" is checked.</p>
+<p>If you write tests for your code, please place these tests in their own project: "&amp;lt; &lt;strong&gt;Namespace&lt;/strong&gt; &amp;gt;.Tests", create said project if it does not exist (of type Class Library).</p>
+<p>We use NUnit as test framework, feel free to use something else if you want to, but make sure you document what framework you are using and that it is freely available for anyone to obtain.</p>
 <h2>Dependencies</h2>
 <p>TriEngine2D depends on <a href="http://logging.apache.org/log4net/">log4net</a>, which is included in the <b>libs/log4net</b> folder.</p>
 <p>TriEngine2D depends on <a href="http://www.opentk.com/">OpenTK</a>, this is not included and you will have to build/install it yourself. OpenTK depends on OpenGL drivers being installed, they are usually in your normal video card drivers.</p>
+<p>TriEngine2D depends on <a href="http://json.codeplex.com/">Json.NET</a>, this is not included, but is specified in the NuGet package config. If you <a href="http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages#Using_NuGet_without_committing_packages_to_source_control">properly configure your NuGet settings</a>, NuGet will automatically download Json.NET when building any projects that depend on it.</p>
 <p>If you want to run the tests you will need to have <a href="http://www.nunit.org/">NUnit</a> installed. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Feb 10 2013 01:24:29 for TriEngine2D by
+    <li class="footer">Generated on Sun Feb 10 2013 16:36:24 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
