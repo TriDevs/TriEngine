@@ -1,0 +1,63 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_services}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Services Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_services}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Services@{Tri\-Devs.\-Tri\-Engine2\-D.\-Services}}
+}
+
+
+Provides different game-\/related service interfaces.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_services_a00f67457bccbe0ac69e969dc65181773}{Provide} (\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager}{I\-Input\-Manager} input)
+\begin{DoxyCompactList}\small\item\em Specifies an input manager service to provide. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager}{I\-Input\-Manager} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_services_ab49cfe6c3d5dd9bd45b58b7599f1355d}{Input}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The input manager service. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides different game-\/related service interfaces. 
+
+Actual service providers must be supplied from external code. All Service properties are intialized with Null-\/type services that provide no real functionality. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_services_a00f67457bccbe0ac69e969dc65181773}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services}!Provide@{Provide}}
+\index{Provide@{Provide}!TriDevs::TriEngine2D::Services@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services}}
+\subsubsection[{Provide}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Services.\-Provide (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Input\-Manager}}]{input}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_services_a00f67457bccbe0ac69e969dc65181773}
+
+
+Specifies an input manager service to provide. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & An object implementing the I\-Input\-Manager interface.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+50         \{
+51             \_input = input;
+52         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_services_ab49cfe6c3d5dd9bd45b58b7599f1355d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services}!Input@{Input}}
+\index{Input@{Input}!TriDevs::TriEngine2D::Services@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Services}}
+\subsubsection[{Input}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Input\-Manager} Tri\-Devs.\-Tri\-Engine2\-D.\-Services.\-Input\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_services_ab49cfe6c3d5dd9bd45b58b7599f1355d}
+
+
+The input manager service. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\hyperlink{_services_8cs}{Services.\-cs}\end{DoxyCompactItemize}

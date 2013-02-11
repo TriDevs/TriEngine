@@ -33,7 +33,7 @@ static string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_str
 \item[{int}]{count, }
 \item[{bool}]{case\-Insensitive = {\ttfamily false}}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_af13fed608d3d1dbd6d9adff7acb177a2}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_af13fed608d3d1dbd6d9adff7acb177a2}
 
 
 Returns a string in which the N first occurrences of a specified string are replaced with another string. 
@@ -54,6 +54,13 @@ Returns a string in which the N first occurrences of a specified string are repl
 \begin{DoxyReturn}{Returns}
 The supplied string with the N first occurrences of the specified string replaced with the other.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+56         \{
+57             var re = caseInsensitive ? \textcolor{keyword}{new} Regex(search, RegexOptions.IgnoreCase) : new Regex(search);
+58             \textcolor{keywordflow}{return} re.Replace(s, replace, count);
+59         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_a893fc7ddd1bfad51febc3db33a163edc}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions}!Replace@{Replace}}
 \index{Replace@{Replace}!TriDevs::TriEngine2D::Extensions::StringExtensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions}}
 \subsubsection[{Replace}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-String\-Extensions.\-Replace (
@@ -63,7 +70,7 @@ The supplied string with the N first occurrences of the specified string replace
 \item[{string}]{replace, }
 \item[{bool}]{case\-Insensitive = {\ttfamily false}}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_a893fc7ddd1bfad51febc3db33a163edc}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_a893fc7ddd1bfad51febc3db33a163edc}
 
 
 Returns a string in which all occurrences of a specified string are replaced with another string. 
@@ -84,6 +91,13 @@ This extension method supports case insensitive searches.
 \begin{DoxyReturn}{Returns}
 The supplied string with all occurrences of the specified string replaced with the other.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+73         \{
+74             var re = caseInsensitive ? \textcolor{keyword}{new} Regex(search, RegexOptions.IgnoreCase) : new Regex(search);
+75             \textcolor{keywordflow}{return} re.Replace(s, replace);
+76         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_ae01a3219ba8f9715bdfe813b5ecd095c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions}!Replace\-First@{Replace\-First}}
 \index{Replace\-First@{Replace\-First}!TriDevs::TriEngine2D::Extensions::StringExtensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-String\-Extensions}}
 \subsubsection[{Replace\-First}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-String\-Extensions.\-Replace\-First (
@@ -93,7 +107,7 @@ The supplied string with all occurrences of the specified string replaced with t
 \item[{string}]{replace, }
 \item[{bool}]{case\-Insensitive = {\ttfamily false}}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_ae01a3219ba8f9715bdfe813b5ecd095c}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_ae01a3219ba8f9715bdfe813b5ecd095c}
 
 
 Returns a string in which the first occurrence of a specified string is replaced with another string. 
@@ -112,6 +126,12 @@ Returns a string in which the first occurrence of a specified string is replaced
 \begin{DoxyReturn}{Returns}
 The supplied string with the first occurrence of the specified string replaced with the other.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+42         \{
+43             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions_af13fed608d3d1dbd6d9adff7acb177a2}{Replace}(s, search, replace, 1, caseInsensitive);
+44         \}
+\end{DoxyCode}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

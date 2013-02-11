@@ -1,0 +1,492 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager@{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager}}
+}
+
+
+\hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_input}{Input} manager interfacing with input methods provided by a Game\-Window.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a02702caed51c03cab2ec810cfa4b3301}{Input\-Manager} (Game\-Window window)
+\begin{DoxyCompactList}\small\item\em Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager}{Input\-Manager} associated with the specified Game\-Window. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5ef0bd64a85fdafc34324cf231038302}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates the input manager, refreshing all current and previous states. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a61294c18027c7129a27a650534b655b3}{Key\-Up} (Key key)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified key is currently unpressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a66a3455e413034020156039938390d29}{Key\-Down} (Key key)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified key is currently being pressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ab3a260ea268b4683596ff5a244fd2d95}{Key\-Pressed} (Key key)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified key has been pressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a1e74615e2ccde33e98d262d3c48d729a}{Key\-Released} (Key key)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified key has been released. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ac1318f8216ea7fee07193a00c664e011}{Button\-Up} (Mouse\-Button button)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified mouse button is currently unpressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abead1a71779c1338c64c0ff87f73b324}{Button\-Down} (Mouse\-Button button)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified mouse button is currently being pressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a78f38771f8ae3e3d6a9bfaca7dc7579d}{Button\-Pressed} (Mouse\-Button button)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified mouse button has been pressed. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a74d138767f317687d444a79ea73f321c}{Button\-Released} (Mouse\-Button button)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the specified mouse button has been released. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5f8ea7daefda14c2dfa098dc1274e59c}{Wheel\-Up} ()
+\begin{DoxyCompactList}\small\item\em Returns whether the mouse wheel was scrolled up. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a7e1354a24c39eb196294b067812befc1}{Wheel\-Down} ()
+\begin{DoxyCompactList}\small\item\em Returns whether the mouse wheel was scrolled down. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aa54a46c1abdbacb44b03737def38d70f}{Wheel\-Changed} ()
+\begin{DoxyCompactList}\small\item\em Returns whether the mouse wheel scrolled at all. \end{DoxyCompactList}\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_af8aa353e5d9434776181a42312c1499b}{Wheel\-Change} ()
+\begin{DoxyCompactList}\small\item\em Returns the mouse wheel's change in value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_afc5226998ffe43a5ee2cdd74de44d1c0}{Mouse\-X}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a532a033f6ff070bc71d9fbdccda12110}{Mouse\-Y}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_point}{Point} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aaa0b509eeb71575e3787951bdcd5a963}{Mouse\-Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a398bf5b07143fadc5eb3e5b273f14a23}{Mouse\-Wheel\-Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a55645bfeff59626e79d2cfa4eee856be}{this\mbox{[}\-Key key\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abe6100586cfcbfecf8197274dddf6d91}{this\mbox{[}\-Mouse\-Button button\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_input}{Input} manager interfacing with input methods provided by a Game\-Window. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a02702caed51c03cab2ec810cfa4b3301}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Input\-Manager@{Input\-Manager}}
+\index{Input\-Manager@{Input\-Manager}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Input\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Input\-Manager (
+\begin{DoxyParamCaption}
+\item[{Game\-Window}]{window}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a02702caed51c03cab2ec810cfa4b3301}
+
+
+Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager}{Input\-Manager} associated with the specified Game\-Window. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & The Game\-Window this \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager}{Input\-Manager} will interface with.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+62         \{
+63             \_mouse = window.Mouse;
+64         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abead1a71779c1338c64c0ff87f73b324}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Button\-Down@{Button\-Down}}
+\index{Button\-Down@{Button\-Down}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Button\-Down}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Button\-Down (
+\begin{DoxyParamCaption}
+\item[{Mouse\-Button}]{button}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abead1a71779c1338c64c0ff87f73b324}
+
+
+Returns whether or not the specified mouse button is currently being pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & The button to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if button is currently being pressed, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a8383fd315905874db04d455211fec203}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+101         \{
+102             \textcolor{keywordflow}{return} \_mouseState[button];
+103         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a78f38771f8ae3e3d6a9bfaca7dc7579d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Button\-Pressed@{Button\-Pressed}}
+\index{Button\-Pressed@{Button\-Pressed}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Button\-Pressed}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Button\-Pressed (
+\begin{DoxyParamCaption}
+\item[{Mouse\-Button}]{button}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a78f38771f8ae3e3d6a9bfaca7dc7579d}
+
+
+Returns whether or not the specified mouse button has been pressed. 
+
+Only returns true if the last state of the mouse button was not pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & Button to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if button was pressed, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a2b09825487ca4dfccbce5d91ff03bbb1}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+106         \{
+107             \textcolor{keywordflow}{return} \_mouseState[button] && !\_lastMouseState[button];
+108         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a74d138767f317687d444a79ea73f321c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Button\-Released@{Button\-Released}}
+\index{Button\-Released@{Button\-Released}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Button\-Released}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Button\-Released (
+\begin{DoxyParamCaption}
+\item[{Mouse\-Button}]{button}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a74d138767f317687d444a79ea73f321c}
+
+
+Returns whether or not the specified mouse button has been released. 
+
+Only returns true if the last state of the button was pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & The button to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the button was released, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a42249b011c0ba487a2464d2b32e014f5}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+111         \{
+112             \textcolor{keywordflow}{return} !\_mouseState[button] && \_lastMouseState[button];
+113         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ac1318f8216ea7fee07193a00c664e011}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Button\-Up@{Button\-Up}}
+\index{Button\-Up@{Button\-Up}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Button\-Up}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Button\-Up (
+\begin{DoxyParamCaption}
+\item[{Mouse\-Button}]{button}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ac1318f8216ea7fee07193a00c664e011}
+
+
+Returns whether or not the specified mouse button is currently unpressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & Button to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the button is currently up (not pressed), false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a7e3896e1a022954b73b5e6323e3c85ae}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+96         \{
+97             \textcolor{keywordflow}{return} !\_mouseState[button];
+98         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a66a3455e413034020156039938390d29}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Key\-Down@{Key\-Down}}
+\index{Key\-Down@{Key\-Down}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Key\-Down}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Key\-Down (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a66a3455e413034020156039938390d29}
+
+
+Returns whether or not the specified key is currently being pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if key is currently being pressed, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a380e86578e668193eb874acbd2754389}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+81         \{
+82             \textcolor{keywordflow}{return} \_keyboardState[key];
+83         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ab3a260ea268b4683596ff5a244fd2d95}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Key\-Pressed@{Key\-Pressed}}
+\index{Key\-Pressed@{Key\-Pressed}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Key\-Pressed}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Key\-Pressed (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_ab3a260ea268b4683596ff5a244fd2d95}
+
+
+Returns whether or not the specified key has been pressed. 
+
+Only returns true if the last state of the key was not pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if key was pressed, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a0dcc608b0c3ffb806262c9f829373dcb}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+86         \{
+87             \textcolor{keywordflow}{return} \_keyboardState[key] && !\_lastKeyboardState[key];
+88         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a1e74615e2ccde33e98d262d3c48d729a}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Key\-Released@{Key\-Released}}
+\index{Key\-Released@{Key\-Released}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Key\-Released}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Key\-Released (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a1e74615e2ccde33e98d262d3c48d729a}
+
+
+Returns whether or not the specified key has been released. 
+
+Only returns true if the last state of the key was pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if key was released, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a54feb5f23a217ad5bcd104cc8912247b}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+91         \{
+92             \textcolor{keywordflow}{return} !\_keyboardState[key] && \_lastKeyboardState[key];
+93         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a61294c18027c7129a27a650534b655b3}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Key\-Up@{Key\-Up}}
+\index{Key\-Up@{Key\-Up}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Key\-Up}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Key\-Up (
+\begin{DoxyParamCaption}
+\item[{Key}]{key}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a61294c18027c7129a27a650534b655b3}
+
+
+Returns whether or not the specified key is currently unpressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key to query for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the key is currently up (not pressed), false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_ade2a17c4700b1588c35f9e150fb9d529}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+76         \{
+77             \textcolor{keywordflow}{return} !\_keyboardState[key];
+78         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5ef0bd64a85fdafc34324cf231038302}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Update@{Update}}
+\index{Update@{Update}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5ef0bd64a85fdafc34324cf231038302}
+
+
+Updates the input manager, refreshing all current and previous states. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a0cc046decb859d0f4d0b23a5a83d078f}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+67         \{
+68             \_lastKeyboardState = \_keyboardState;
+69             \_keyboardState = Keyboard.GetState();
+70 
+71             \_lastMouseState = \_mouseState;
+72             \_mouseState = Mouse.GetState();
+73         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_af8aa353e5d9434776181a42312c1499b}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Wheel\-Change@{Wheel\-Change}}
+\index{Wheel\-Change@{Wheel\-Change}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Wheel\-Change}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Wheel\-Change (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_af8aa353e5d9434776181a42312c1499b}
+
+
+Returns the mouse wheel's change in value. 
+
+\begin{DoxyReturn}{Returns}
+Negative value if wheel scrolled down, positive value if scrolled up, zero if not scrolled.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_afbd3f200724d419be432da3a2dc639bd}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+131         \{
+132             \textcolor{keywordflow}{return} \_mouseState.Wheel - \_lastMouseState.Wheel;
+133         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aa54a46c1abdbacb44b03737def38d70f}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Wheel\-Changed@{Wheel\-Changed}}
+\index{Wheel\-Changed@{Wheel\-Changed}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Wheel\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Wheel\-Changed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aa54a46c1abdbacb44b03737def38d70f}
+
+
+Returns whether the mouse wheel scrolled at all. 
+
+\begin{DoxyReturn}{Returns}
+True if the mouse wheel scrolled, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a422262f2b1887b337459aa6137f24a13}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+126         \{
+127             \textcolor{keywordflow}{return} \_mouseState.Wheel != \_lastMouseState.Wheel;
+128         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a7e1354a24c39eb196294b067812befc1}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Wheel\-Down@{Wheel\-Down}}
+\index{Wheel\-Down@{Wheel\-Down}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Wheel\-Down}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Wheel\-Down (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a7e1354a24c39eb196294b067812befc1}
+
+
+Returns whether the mouse wheel was scrolled down. 
+
+\begin{DoxyReturn}{Returns}
+True if mouse wheel was scrolled down, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_a44ee1f8e71eb4879734e15bc031f1850}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+121         \{
+122             \textcolor{keywordflow}{return} \_mouseState.Wheel < \_lastMouseState.Wheel;
+123         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5f8ea7daefda14c2dfa098dc1274e59c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Wheel\-Up@{Wheel\-Up}}
+\index{Wheel\-Up@{Wheel\-Up}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Wheel\-Up}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Wheel\-Up (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a5f8ea7daefda14c2dfa098dc1274e59c}
+
+
+Returns whether the mouse wheel was scrolled up. 
+
+\begin{DoxyReturn}{Returns}
+True if mouse wheel was scrolled up, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager_ac4c51409fea3e154c0b8f82cd7b2d930}{Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-I\-Input\-Manager}.
+
+
+\begin{DoxyCode}
+116         \{
+117             \textcolor{keywordflow}{return} \_mouseState.Wheel > \_lastMouseState.Wheel;
+118         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aaa0b509eeb71575e3787951bdcd5a963}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Mouse\-Position@{Mouse\-Position}}
+\index{Mouse\-Position@{Mouse\-Position}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Mouse\-Position}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point} Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Mouse\-Position\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_aaa0b509eeb71575e3787951bdcd5a963}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a398bf5b07143fadc5eb3e5b273f14a23}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Mouse\-Wheel\-Value@{Mouse\-Wheel\-Value}}
+\index{Mouse\-Wheel\-Value@{Mouse\-Wheel\-Value}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Mouse\-Wheel\-Value}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Mouse\-Wheel\-Value\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a398bf5b07143fadc5eb3e5b273f14a23}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_afc5226998ffe43a5ee2cdd74de44d1c0}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Mouse\-X@{Mouse\-X}}
+\index{Mouse\-X@{Mouse\-X}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Mouse\-X}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Mouse\-X\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_afc5226998ffe43a5ee2cdd74de44d1c0}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a532a033f6ff070bc71d9fbdccda12110}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!Mouse\-Y@{Mouse\-Y}}
+\index{Mouse\-Y@{Mouse\-Y}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{Mouse\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-Mouse\-Y\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a532a033f6ff070bc71d9fbdccda12110}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a55645bfeff59626e79d2cfa4eee856be}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!this\mbox{[}\-Key key\mbox{]}@{this[Key key]}}
+\index{this\mbox{[}\-Key key\mbox{]}@{this[Key key]}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{this[Key key]}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-this\mbox{[}Key key\mbox{]}\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_a55645bfeff59626e79d2cfa4eee856be}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abe6100586cfcbfecf8197274dddf6d91}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}!this\mbox{[}\-Mouse\-Button button\mbox{]}@{this[Mouse\-Button button]}}
+\index{this\mbox{[}\-Mouse\-Button button\mbox{]}@{this[Mouse\-Button button]}!TriDevs::TriEngine2D::Input::InputManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Input\-::\-Input\-Manager}}
+\subsubsection[{this[Mouse\-Button button]}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Input.\-Input\-Manager.\-this\mbox{[}Mouse\-Button button\mbox{]}\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager_abe6100586cfcbfecf8197274dddf6d91}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Input/\hyperlink{_input_manager_8cs}{Input\-Manager.\-cs}\end{DoxyCompactItemize}

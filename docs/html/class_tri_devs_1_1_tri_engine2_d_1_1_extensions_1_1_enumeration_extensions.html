@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine2D
-   &#160;<span id="projectnumber">v0.0.6</span>
+   &#160;<span id="projectnumber">v0.0.7</span>
    </div>
    <div id="projectbrief">2D general-purpose engine in C#/OpenGL</div>
   </td>
@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -161,7 +162,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -181,7 +182,22 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the enum has the value(s), false otherwise.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            Type type = value.GetType();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="comment">//determine the values</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            var parsed = <span class="keyword">new</span> _Value(check, type);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">if</span> (parsed.Signed.HasValue) <span class="comment">//if (parsed.Signed is long)</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                <span class="keywordflow">return</span> (Convert.ToInt64(value) &amp; (long)parsed.Signed) == (long)parsed.Signed;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="keywordflow">if</span> (parsed.Unsigned.HasValue) <span class="comment">//if (parsed.Unsigned is ulong)</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <span class="keywordflow">return</span> (Convert.ToUInt64(value) &amp; (ulong)parsed.Unsigned) == (ulong)parsed.Unsigned;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a4ffbe4d416dfcdb513b5e7c3da3ac4b8"></a>
@@ -211,7 +227,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -231,7 +247,25 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New enum T with the new values.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            var type = value.GetType();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="comment">//determine the values</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordtype">object</span> result = value;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            var parsed = <span class="keyword">new</span> _Value(append, type);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordflow">if</span> (parsed.Signed.HasValue) <span class="comment">//if (parsed.Signed is long)</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                result = Convert.ToInt64(value) | (long)parsed.Signed;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parsed.Unsigned.HasValue) <span class="comment">//else if (parsed.Unsigned is ulong)</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                result = Convert.ToUInt64(value) | (ulong)parsed.Unsigned;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="comment">//return the final value</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">return</span> (T)Enum.Parse(type, result.ToString());</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="ae1c9bea90f49ced7862b67721190b3b6"></a>
@@ -261,7 +295,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -281,7 +315,10 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the enum is missing the value(s), false otherwise.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">return</span> !Has(obj, value);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="af84a3ba0fc3c15ba49f7a6d5a709b434"></a>
@@ -311,7 +348,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -331,7 +368,25 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>New enum T with the value(s) removed.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            Type type = value.GetType();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="comment">//determine the values</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordtype">object</span> result = value;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            var parsed = <span class="keyword">new</span> _Value(<span class="keyword">remove</span>, type);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">if</span> (parsed.Signed.HasValue) <span class="comment">//if (parsed.Signed is long)</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                result = Convert.ToInt64(value) &amp; ~(long)parsed.Signed;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (parsed.Unsigned.HasValue) <span class="comment">//else if (parsed.Unsigned is ulong)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                result = Convert.ToUInt64(value) &amp; ~(ulong)parsed.Unsigned;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="comment">//return the final value</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">return</span> (T)Enum.Parse(type, result.ToString());</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -343,7 +398,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d.html">TriEngine2D</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions.html">Extensions</a></li><li class="navelem"><a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html">EnumerationExtensions</a></li>
-    <li class="footer">Generated on Sun Feb 10 2013 18:59:25 for TriEngine2D by
+    <li class="footer">Generated on Mon Feb 11 2013 02:06:50 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -25,7 +25,7 @@ Provides various helper functions for doing \hyperlink{class_tri_devs_1_1_tri_en
 \begin{DoxyParamCaption}
 \item[{string}]{path}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o_a70b2f97cd90222b5620b2219024fb930}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o_a70b2f97cd90222b5620b2219024fb930}
 
 
 Resolves the absolute path from a relative path. 
@@ -38,6 +38,12 @@ Resolves the absolute path from a relative path.
 \begin{DoxyReturn}{Returns}
 The absolute path to the item.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{keywordflow}{return} Path.Combine(Directory.GetCurrentDirectory(), path);
+41         \}
+\end{DoxyCode}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

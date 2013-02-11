@@ -35,7 +35,7 @@ Helper class with various methods to help native coding and debugging.
 \begin{DoxyParamCaption}
 \item[{int}]{err}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a5b17c6604e5b4437cf7f43c9b36bbeb0}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a5b17c6604e5b4437cf7f43c9b36bbeb0}
 
 
 Gets the error message associated with an error code. 
@@ -48,13 +48,19 @@ Gets the error message associated with an error code.
 \begin{DoxyReturn}{Returns}
 The error message.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+61         \{
+62             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}{GetWin32Exception}(err).Message;
+63         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}!Get\-Last\-Error@{Get\-Last\-Error}}
 \index{Get\-Last\-Error@{Get\-Last\-Error}!TriDevs::TriEngine2D::Native::Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}}
 \subsubsection[{Get\-Last\-Error}]{\setlength{\rightskip}{0pt plus 5cm}static int Tri\-Devs.\-Tri\-Engine2\-D.\-Native.\-Helpers.\-Get\-Last\-Error (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}
 
 
 Gets the last error that was thrown. 
@@ -62,13 +68,19 @@ Gets the last error that was thrown.
 \begin{DoxyReturn}{Returns}
 The error code associated with the thrown error.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{keywordflow}{return} Marshal.GetLastWin32Error();
+41         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a85c747f60d22fab009a581c5af083638}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}!Get\-Last\-Error\-Info@{Get\-Last\-Error\-Info}}
 \index{Get\-Last\-Error\-Info@{Get\-Last\-Error\-Info}!TriDevs::TriEngine2D::Native::Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}}
 \subsubsection[{Get\-Last\-Error\-Info}]{\setlength{\rightskip}{0pt plus 5cm}static int Tri\-Devs.\-Tri\-Engine2\-D.\-Native.\-Helpers.\-Get\-Last\-Error\-Info (
 \begin{DoxyParamCaption}
 \item[{out string}]{message}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a85c747f60d22fab009a581c5af083638}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a85c747f60d22fab009a581c5af083638}
 
 
 Gets information about the last error that was thrown. 
@@ -81,13 +93,21 @@ Gets information about the last error that was thrown.
 \begin{DoxyReturn}{Returns}
 The error code associated with the thrown error.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+49         \{
+50             var err = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}{GetLastError}();
+51             message = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}{GetWin32Exception}(err).Message;
+52             \textcolor{keywordflow}{return} err;
+53         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_acf353d2b5a36feb5ded89f1df052b1e9}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}!Get\-Last\-Error\-Message@{Get\-Last\-Error\-Message}}
 \index{Get\-Last\-Error\-Message@{Get\-Last\-Error\-Message}!TriDevs::TriEngine2D::Native::Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}}
 \subsubsection[{Get\-Last\-Error\-Message}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine2\-D.\-Native.\-Helpers.\-Get\-Last\-Error\-Message (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_acf353d2b5a36feb5ded89f1df052b1e9}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_acf353d2b5a36feb5ded89f1df052b1e9}
 
 
 Gets the error message associated with the last thrown error. 
@@ -95,13 +115,19 @@ Gets the error message associated with the last thrown error.
 \begin{DoxyReturn}{Returns}
 The error message.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+70         \{
+71             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a5b17c6604e5b4437cf7f43c9b36bbeb0}{GetErrorMessage}(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}{GetLastError}());
+72         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a86f7cd51f64aab602738d302fba88780}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}!Get\-Last\-Win32\-Exception@{Get\-Last\-Win32\-Exception}}
 \index{Get\-Last\-Win32\-Exception@{Get\-Last\-Win32\-Exception}!TriDevs::TriEngine2D::Native::Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}}
 \subsubsection[{Get\-Last\-Win32\-Exception}]{\setlength{\rightskip}{0pt plus 5cm}static Win32\-Exception Tri\-Devs.\-Tri\-Engine2\-D.\-Native.\-Helpers.\-Get\-Last\-Win32\-Exception (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a86f7cd51f64aab602738d302fba88780}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a86f7cd51f64aab602738d302fba88780}
 
 
 Gets the Win32\-Exception associated with the last thrown error. 
@@ -109,13 +135,19 @@ Gets the Win32\-Exception associated with the last thrown error.
 \begin{DoxyReturn}{Returns}
 The Win32\-Exception.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+89         \{
+90             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}{GetWin32Exception}(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a91706a8e469b4b4cbaa01e7deded9b72}{GetLastError}());
+91         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}!Get\-Win32\-Exception@{Get\-Win32\-Exception}}
 \index{Get\-Win32\-Exception@{Get\-Win32\-Exception}!TriDevs::TriEngine2D::Native::Helpers@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Native\-::\-Helpers}}
 \subsubsection[{Get\-Win32\-Exception}]{\setlength{\rightskip}{0pt plus 5cm}static Win32\-Exception Tri\-Devs.\-Tri\-Engine2\-D.\-Native.\-Helpers.\-Get\-Win32\-Exception (
 \begin{DoxyParamCaption}
 \item[{int}]{err}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers_a51d7df2b5be278abcd99abd298866b62}
 
 
 Gets the Win32\-Exception associated with the specified error code. 
@@ -128,6 +160,12 @@ Gets the Win32\-Exception associated with the specified error code.
 \begin{DoxyReturn}{Returns}
 The Win32\-Exception for the provided error code.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+80         \{
+81             \textcolor{keywordflow}{return} \textcolor{keyword}{new} Win32Exception(err);
+82         \}
+\end{DoxyCode}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

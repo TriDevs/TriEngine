@@ -25,7 +25,7 @@ Provides various helper functions for doing threading operations.
 \begin{DoxyParamCaption}
 \item[{string}]{name}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading_ad91c6256929f1e97564fb10258742c7c}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading_ad91c6256929f1e97564fb10258742c7c}
 
 
 Sets the name of the current thread, does nothing if the thread already has a name. 
@@ -35,6 +35,15 @@ Sets the name of the current thread, does nothing if the thread already has a na
 {\em name} & The new name for the current thread\\
 \hline
 \end{DoxyParams}
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{comment}{// We can't set the name on a thread if it's already set, it would throw an exception}
+41             \textcolor{comment}{// So we have to check if the current name is null before trying to set a new one}
+42             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrEmpty(Thread.CurrentThread.Name))
+43                 Thread.CurrentThread.Name = name;
+44         \}
+\end{DoxyCode}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

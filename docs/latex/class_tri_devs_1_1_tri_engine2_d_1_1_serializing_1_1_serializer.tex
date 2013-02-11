@@ -29,7 +29,7 @@ Provides serialization methods.
 \begin{DoxyParamCaption}
 \item[{string}]{file}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_a2687e279029d9bdf825ec60f7143e341}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_a2687e279029d9bdf825ec60f7143e341}
 
 
 Deserialize a serialized object from file. 
@@ -47,13 +47,34 @@ Deserialize a serialized object from file.
 \begin{DoxyReturn}{Returns}
 The deserialized object.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+84         \{
+85             T data;
+86             \textcolor{comment}{// Create the StreamReader}
+87             \textcolor{keyword}{using} (var reader = \textcolor{keyword}{new} StreamReader(file))
+88             \{
+89                 \textcolor{comment}{// And the json reader}
+90                 \textcolor{keyword}{using} (var jsonReader = \textcolor{keyword}{new} JsonTextReader(reader))
+91                 \{
+92                     \textcolor{comment}{// Now deserialize the file to the requested object...}
+93                     data = JsonSerializer.Value.Deserialize<T>(jsonReader);
+94                     \textcolor{comment}{// ... and close the json reader.}
+95                     jsonReader.Close();
+96                 \}
+97                 \textcolor{comment}{// Finally, close the file reader}
+98                 reader.Close();
+99             \}
+100             \textcolor{keywordflow}{return} data;
+101         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_a502d20061e461d56bd72a3d5a9cad1fc}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer}!Serialize$<$ T $>$@{Serialize$<$ T $>$}}
 \index{Serialize$<$ T $>$@{Serialize$<$ T $>$}!TriDevs::TriEngine2D::Serializing::Serializer@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer}}
 \subsubsection[{Serialize$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine2\-D.\-Serializing.\-Serializer.\-Serialize$<$ T $>$ (
 \begin{DoxyParamCaption}
 \item[{T}]{data}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_a502d20061e461d56bd72a3d5a9cad1fc}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_a502d20061e461d56bd72a3d5a9cad1fc}
 
 
 Serialize an object to string. 
@@ -71,6 +92,16 @@ Serialize an object to string.
 \begin{DoxyReturn}{Returns}
 The serialized object in string format.
 \end{DoxyReturn}
+
+\begin{DoxyCode}
+44         \{
+45             \textcolor{comment}{// Create a StringWriter to hold the serialized object}
+46             var writer = \textcolor{keyword}{new} StringWriter();
+47             \textcolor{comment}{// Serialize the object into the writer}
+48             JsonSerializer.Value.Serialize(writer, data);
+49             \textcolor{keywordflow}{return} writer.ToString(); \textcolor{comment}{// Return the data as string}
+50         \}
+\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_aa434aee0925b683112dd359d1506c835}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer}!Serialize$<$ T $>$@{Serialize$<$ T $>$}}
 \index{Serialize$<$ T $>$@{Serialize$<$ T $>$}!TriDevs::TriEngine2D::Serializing::Serializer@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Serializing\-::\-Serializer}}
 \subsubsection[{Serialize$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine2\-D.\-Serializing.\-Serializer.\-Serialize$<$ T $>$ (
@@ -79,7 +110,7 @@ The serialized object in string format.
 \item[{string}]{file, }
 \item[{Formatting}]{formatting = {\ttfamily Formatting.Indented}}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_aa434aee0925b683112dd359d1506c835}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer_aa434aee0925b683112dd359d1506c835}
 
 
 Serializes an object to file. 
@@ -98,6 +129,25 @@ Serializes an object to file.
 {\em formatting} & The formatting to use for the J\-S\-O\-N output.\\
 \hline
 \end{DoxyParams}
+
+\begin{DoxyCode}
+60         \{
+61             \textcolor{comment}{// Create the StreamWriter}
+62             \textcolor{keyword}{using} (var writer = \textcolor{keyword}{new} StreamWriter(file, \textcolor{keyword}{false}))
+63             \{
+64                 \textcolor{comment}{// Create the json writer}
+65                 \textcolor{keyword}{using} (var jsonWriter = \textcolor{keyword}{new} JsonTextWriter(writer)\{Formatting = formatting\})
+66                 \{
+67                     \textcolor{comment}{// Now serialize the object to the file...}
+68                     JsonSerializer.Value.Serialize(jsonWriter, data);
+69                     \textcolor{comment}{// ... and close the json writer}
+70                     jsonWriter.Close();
+71                 \}
+72                 \textcolor{comment}{// Finally, close the file writer}
+73                 writer.Close();
+74             \}
+75         \}
+\end{DoxyCode}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
