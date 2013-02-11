@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriDevs.TriEngine2D", "TriD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriDevs.TriEngine2D.Tests", "TriDevs.TriEngine2D.Tests\TriDevs.TriEngine2D.Tests.csproj", "{13ABA498-F6B3-4D3E-AF79-9C1393068D41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriDevs.TriEngine2D.EngineTest", "TriDevs.TriEngine2D.EngineTest\TriDevs.TriEngine2D.EngineTest.csproj", "{F60ADF4E-8FD3-4AA9-8B9F-B6FEA97FF7B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{13ABA498-F6B3-4D3E-AF79-9C1393068D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13ABA498-F6B3-4D3E-AF79-9C1393068D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13ABA498-F6B3-4D3E-AF79-9C1393068D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60ADF4E-8FD3-4AA9-8B9F-B6FEA97FF7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60ADF4E-8FD3-4AA9-8B9F-B6FEA97FF7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60ADF4E-8FD3-4AA9-8B9F-B6FEA97FF7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60ADF4E-8FD3-4AA9-8B9F-B6FEA97FF7B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
