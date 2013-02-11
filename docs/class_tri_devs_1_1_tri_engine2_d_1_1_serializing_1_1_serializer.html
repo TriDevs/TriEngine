@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine2D
-   &#160;<span id="projectnumber">v0.0.6</span>
+   &#160;<span id="projectnumber">v0.0.7</span>
    </div>
    <div id="projectbrief">2D general-purpose engine in C#/OpenGL</div>
   </td>
@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -147,7 +148,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -166,7 +167,25 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The deserialized object.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            T data;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="comment">// Create the StreamReader</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keyword">using</span> (var reader = <span class="keyword">new</span> StreamReader(file))</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <span class="comment">// And the json reader</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keyword">using</span> (var jsonReader = <span class="keyword">new</span> JsonTextReader(reader))</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    <span class="comment">// Now deserialize the file to the requested object...</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    data = JsonSerializer.Value.Deserialize&lt;T&gt;(jsonReader);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                    <span class="comment">// ... and close the json reader.</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    jsonReader.Close();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="comment">// Finally, close the file reader</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                reader.Close();</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordflow">return</span> data;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a502d20061e461d56bd72a3d5a9cad1fc"></a>
@@ -186,7 +205,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -205,7 +224,14 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The serialized object in string format.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="comment">// Create a StringWriter to hold the serialized object</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            var writer = <span class="keyword">new</span> StringWriter();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="comment">// Serialize the object into the writer</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            JsonSerializer.Value.Serialize(writer, data);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">return</span> writer.ToString(); <span class="comment">// Return the data as string</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="aa434aee0925b683112dd359d1506c835"></a>
@@ -241,7 +267,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -261,7 +287,23 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="comment">// Create the StreamWriter</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keyword">using</span> (var writer = <span class="keyword">new</span> StreamWriter(file, <span class="keyword">false</span>))</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <span class="comment">// Create the json writer</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keyword">using</span> (var jsonWriter = <span class="keyword">new</span> JsonTextWriter(writer){Formatting = formatting})</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    <span class="comment">// Now serialize the object to the file...</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    JsonSerializer.Value.Serialize(jsonWriter, data);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    <span class="comment">// ... and close the json writer</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    jsonWriter.Close();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="comment">// Finally, close the file writer</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                writer.Close();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -273,7 +315,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d.html">TriEngine2D</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d_1_1_serializing.html">Serializing</a></li><li class="navelem"><a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer.html">Serializer</a></li>
-    <li class="footer">Generated on Sun Feb 10 2013 18:59:25 for TriEngine2D by
+    <li class="footer">Generated on Mon Feb 11 2013 02:06:50 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

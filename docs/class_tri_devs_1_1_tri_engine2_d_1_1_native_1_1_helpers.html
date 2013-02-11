@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine2D
-   &#160;<span id="projectnumber">v0.0.6</span>
+   &#160;<span id="projectnumber">v0.0.7</span>
    </div>
    <div id="projectbrief">2D general-purpose engine in C#/OpenGL</div>
   </td>
@@ -71,6 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -156,7 +157,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -169,7 +170,10 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The error message.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a51d7df2b5be278abcd99abd298866b62" title="Gets the Win32Exception associated with the specified error code. ">GetWin32Exception</a>(err).Message;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a91706a8e469b4b4cbaa01e7deded9b72"></a>
@@ -188,14 +192,17 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Gets the last error that was thrown. </p>
 <dl class="section return"><dt>Returns</dt><dd>The error code associated with the thrown error.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">return</span> Marshal.GetLastWin32Error();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a85c747f60d22fab009a581c5af083638"></a>
@@ -215,7 +222,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -228,7 +235,12 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The error code associated with the thrown error.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            var err = <a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a91706a8e469b4b4cbaa01e7deded9b72" title="Gets the last error that was thrown. ">GetLastError</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            message = <a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a51d7df2b5be278abcd99abd298866b62" title="Gets the Win32Exception associated with the specified error code. ">GetWin32Exception</a>(err).Message;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> err;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="acf353d2b5a36feb5ded89f1df052b1e9"></a>
@@ -247,14 +259,17 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Gets the error message associated with the last thrown error. </p>
 <dl class="section return"><dt>Returns</dt><dd>The error message.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a5b17c6604e5b4437cf7f43c9b36bbeb0" title="Gets the error message associated with an error code. ">GetErrorMessage</a>(<a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a91706a8e469b4b4cbaa01e7deded9b72" title="Gets the last error that was thrown. ">GetLastError</a>());</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a86f7cd51f64aab602738d302fba88780"></a>
@@ -273,14 +288,17 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Gets the Win32Exception associated with the last thrown error. </p>
 <dl class="section return"><dt>Returns</dt><dd>The Win32Exception.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a51d7df2b5be278abcd99abd298866b62" title="Gets the Win32Exception associated with the specified error code. ">GetWin32Exception</a>(<a class="code" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a91706a8e469b4b4cbaa01e7deded9b72" title="Gets the last error that was thrown. ">GetLastError</a>());</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a51d7df2b5be278abcd99abd298866b62"></a>
@@ -300,7 +318,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -313,7 +331,10 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The Win32Exception for the provided error code.</dd></dl>
-
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Win32Exception(err);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -325,7 +346,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d.html">TriEngine2D</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d_1_1_native.html">Native</a></li><li class="navelem"><a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html">Helpers</a></li>
-    <li class="footer">Generated on Sun Feb 10 2013 18:59:25 for TriEngine2D by
+    <li class="footer">Generated on Mon Feb 11 2013 02:06:50 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
