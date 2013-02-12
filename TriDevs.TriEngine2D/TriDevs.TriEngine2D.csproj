@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audio\IAudioManager.cs" />
+    <Compile Include="Audio\NullAudioManager.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Helpers\IO.cs" />
