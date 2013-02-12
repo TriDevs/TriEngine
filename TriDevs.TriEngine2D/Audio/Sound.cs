@@ -1,4 +1,4 @@
-﻿/* IAudioManager.cs
+﻿/* Sound.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -23,57 +23,21 @@
 
 namespace TriDevs.TriEngine2D.Audio
 {
-    /// <summary>
-    /// Used as a fallback AudioManager object when the service locator fails to find one.
-    /// </summary>
-    public class NullAudioManager : IAudioManager
-    {
-		private static readonly ISound Sound = new NullSound();
-		private static readonly ISong Song = new NullSong();
+	/// <summary>
+	/// Sound class that can be used with the <see cref="AudioManager" />.
+	/// </summary>
+	public class Sound : ISound
+	{
+		private readonly string _name;
+		private readonly string _file;
 
-	    public void Dispose()
-	    {
-		    
-	    }
+		public string Name { get { return _name; } }
+		public string File { get { return _file; } }
 
-	    public void StopAll()
-	    {
-		    
-	    }
-
-	    public ISound LoadSound(string name, string file)
-	    {
-		    return Sound;
-	    }
-
-	    public bool HasSound(string name)
-	    {
-		    return false;
-	    }
-
-	    public ISound GetSound(string name)
-	    {
-		    return Sound;
-	    }
-
-	    public ISong LoadSong(string name, string file)
-	    {
-		    return Song;
-	    }
-
-	    public bool HasSong(string name)
-	    {
-		    return false;
-	    }
-
-	    public ISong GetSong(string name)
-	    {
-		    return Song;
-	    }
-
-	    public void StopAllSongs()
-	    {
-		    
-	    }
-    }
+		internal Sound(string name, string file)
+		{
+			_name = name;
+			_file = file;
+		}
+	}
 }

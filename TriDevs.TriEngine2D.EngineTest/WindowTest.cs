@@ -2,6 +2,7 @@
 using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Input;
+using TriDevs.TriEngine2D.Audio;
 using TriDevs.TriEngine2D.Input;
 
 namespace TriDevs.TriEngine2D.EngineTest
@@ -20,7 +21,7 @@ namespace TriDevs.TriEngine2D.EngineTest
         public WindowTest() : base(800, 600, GraphicsMode.Default, "TriEngine2D Test")
         {
             VSync = VSyncMode.On;
-            Services.Provide(new InputManager(this));
+            Services.Provide(new InputManager(this), new AudioManager());
         }
 
         protected override void OnUpdateFrame(FrameEventArgs e)
@@ -41,5 +42,12 @@ namespace TriDevs.TriEngine2D.EngineTest
             else if (Services.Input.ButtonReleased(MouseButton.Left))
                 Console.WriteLine("Released LMB");
         }
+
+		protected override void OnUnload(EventArgs e)
+		{
+			Services.Audio.Dispose();
+
+			base.OnUnload(e);
+		}
     }
 }

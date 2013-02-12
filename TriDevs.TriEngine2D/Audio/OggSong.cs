@@ -1,4 +1,4 @@
-﻿/* IAudioManager.cs
+﻿/* OggSong.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,59 +21,64 @@
  * SOFTWARE.
  */
 
+using NVorbis.OpenTKSupport;
+
 namespace TriDevs.TriEngine2D.Audio
 {
-    /// <summary>
-    /// Used as a fallback AudioManager object when the service locator fails to find one.
-    /// </summary>
-    public class NullAudioManager : IAudioManager
-    {
-		private static readonly ISound Sound = new NullSound();
-		private static readonly ISong Song = new NullSong();
+	class OggSong : ISong
+	{
+		private readonly string _name;
+		private readonly string _file;
 
-	    public void Dispose()
-	    {
-		    
-	    }
+		private OggStream _stream;
 
-	    public void StopAll()
-	    {
-		    
-	    }
+		public string Name { get { return _name; } }
+		public string File { get { return _file; } }
 
-	    public ISound LoadSound(string name, string file)
-	    {
-		    return Sound;
-	    }
+		public float Volume
+		{
+			get { return _stream.Volume; }
+			set { _stream.Volume = value; }
+		}
 
-	    public bool HasSound(string name)
-	    {
-		    return false;
-	    }
+		public bool IsLooped
+		{
+			get { return _stream.IsLooped; }
+			set { _stream.IsLooped = value; }
+		}
 
-	    public ISound GetSound(string name)
-	    {
-		    return Sound;
-	    }
+		internal OggSong(string name, string file)
+		{
+			_name = name;
+			_file = file;
 
-	    public ISong LoadSong(string name, string file)
-	    {
-		    return Song;
-	    }
+			_stream = new OggStream(_file);
+			_stream.Prepare();
+		}
 
-	    public bool HasSong(string name)
-	    {
-		    return false;
-	    }
+		public void Dispose()
+		{
+			_stream.Dispose();
+		}
+		
+		public void Play()
+		{
+			_stream.Play();
+		}
 
-	    public ISong GetSong(string name)
-	    {
-		    return Song;
-	    }
+		public void Stop()
+		{
+			_stream.Stop();
+		}
 
-	    public void StopAllSongs()
-	    {
-		    
-	    }
-    }
+		public void Pause()
+		{
+			_stream.Pause();
+		}
+
+		public void Resume()
+		{
+			_stream.Resume();
+		}
+	}
 }

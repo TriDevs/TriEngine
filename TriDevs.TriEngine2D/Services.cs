@@ -66,5 +66,16 @@ namespace TriDevs.TriEngine2D
         {
             _audio = audio;
         }
+
+		/// <summary>
+		/// Specifies what services to provide.
+		/// </summary>
+		/// <param name="input">The input service to provide.</param>
+		/// <param name="audio">The audio service to provide.</param>
+		public static void Provide(IInputManager input, IAudioManager audio)
+		{
+			Provide(input);
+			Provide(audio);
+		}
     }
 }
