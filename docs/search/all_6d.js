@@ -1,6 +1,8 @@
 var searchData=
 [
   ['major',['Major',['../class_tri_devs_1_1_tri_engine2_d_1_1_version.html#adf7439103e5307870f8a9b953e9f3933',1,'TriDevs::TriEngine2D::Version']]],
+  ['math',['Math',['../class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math.html',1,'TriDevs::TriEngine2D::Helpers']]],
+  ['math_2ecs',['Math.cs',['../_math_8cs.html',1,'']]],
   ['minor',['Minor',['../class_tri_devs_1_1_tri_engine2_d_1_1_version.html#a46c99b37d8caad10a9702e9823f6cded',1,'TriDevs::TriEngine2D::Version']]],
   ['missing_3c_20t_20_3e',['Missing&lt; T &gt;',['../class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html#ae1c9bea90f49ced7862b67721190b3b6',1,'TriDevs::TriEngine2D::Extensions::EnumerationExtensions']]],
   ['mouseposition',['MousePosition',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a59ffc200aff9e1b5c2830dbc7492152a',1,'TriDevs.TriEngine2D.Input.IInputManager.MousePosition()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html#aaa0b509eeb71575e3787951bdcd5a963',1,'TriDevs.TriEngine2D.Input.InputManager.MousePosition()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#aad7209f97294a7ce7bbb9cc9295d21dd',1,'TriDevs.TriEngine2D.Input.NullInputManager.MousePosition()']]],

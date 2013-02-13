@@ -1,4 +1,5 @@
 var searchData=
 [
+  ['file',['File',['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html#a5610c3ab21ec36403c5a632a24a57c54',1,'TriDevs.TriEngine2D.Audio.ISong.File()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound.html#af308fcad8f9f11a39af7a3d253039cae',1,'TriDevs.TriEngine2D.Audio.ISound.File()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_song.html#a5289b8467615467a7bea4902f1ae1ef2',1,'TriDevs.TriEngine2D.Audio.NullSong.File()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html#a4fd40e54f9c2662a95a4fdf3e71bc313',1,'TriDevs.TriEngine2D.Audio.NullSound.File()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#ad91b8000e8c5cba9966c7bccb45f757e',1,'TriDevs.TriEngine2D.Audio.Song.File()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html#acdc085b638bf51a4d395b8e88281f6eb',1,'TriDevs.TriEngine2D.Audio.Sound.File()']]],
   ['freeconsole',['FreeConsole',['../class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_win_a_p_i.html#a14d148cdaa742fd0d25fd962f6c1f8c4',1,'TriDevs::TriEngine2D::Native::WinAPI']]]
 ];
