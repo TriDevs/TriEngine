@@ -23,39 +23,39 @@
 
 namespace TriDevs.TriEngine2D.Audio
 {
-	/// <summary>
-	/// Fallback song class used in <see cref="NullAudioManager" />.
-	/// </summary>
-	public class NullSong : ISong
-	{
-		public string Name { get { return "Foo"; } }
-		public string File { get { return "foo.ogg"; } }
-		public float Volume { get; set; }
-		public bool IsLooped { get; set; }
+    /// <summary>
+    /// Fallback song class used in <see cref="NullAudioManager" />.
+    /// </summary>
+    public class NullSong : ISong
+    {
+        public string Name { get { return "Foo"; } }
+        public string File { get { return "foo.ogg"; } }
+        public float Volume { get; set; }
+        public bool IsLooped { get; set; }
 
-		public void Dispose()
-		{
-			
-		}
-		
-		public void Play()
-		{
-			
-		}
+        public void Dispose()
+        {
+            
+        }
+        
+        public void Play()
+        {
+            
+        }
 
-		public void Stop()
-		{
-			
-		}
+        public void Stop()
+        {
+            
+        }
 
-		public void Pause()
-		{
-			
-		}
+        public void Pause()
+        {
+            
+        }
 
-		public void Resume()
-		{
-			
-		}
-	}
+        public void Resume()
+        {
+            
+        }
+    }
 }

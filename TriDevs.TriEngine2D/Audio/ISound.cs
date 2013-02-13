@@ -21,21 +21,33 @@
  * SOFTWARE.
  */
 
+using System;
+
 namespace TriDevs.TriEngine2D.Audio
 {
-	/// <summary>
-	/// A sound file for use with the audio manager.
-	/// </summary>
-	public interface ISound
-	{
-		/// <summary>
-		/// Unique name of this sound object.
-		/// </summary>
-		string Name { get; }
+    /// <summary>
+    /// A sound file for use with the audio manager.
+    /// </summary>
+    public interface ISound : IDisposable
+    {
+        /// <summary>
+        /// Unique name of this sound object.
+        /// </summary>
+        string Name { get; }
 
-		/// <summary>
-		/// Path to the file this sound object is associated with.
-		/// </summary>
-		string File { get; }
-	}
+        /// <summary>
+        /// Path to the file this sound object is associated with.
+        /// </summary>
+        string File { get; }
+
+        /// <summary>
+        /// Plays the sound.
+        /// </summary>
+        void Play();
+
+        /// <summary>
+        /// Stops the sound.
+        /// </summary>
+        void Stop();
+    }
 }

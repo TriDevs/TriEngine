@@ -1,4 +1,4 @@
-﻿/* OggSong.cs
+﻿/* Math.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,64 +21,21 @@
  * SOFTWARE.
  */
 
-using NVorbis.OpenTKSupport;
-
 namespace TriDevs.TriEngine2D.Audio
 {
-	class OggSong : ISong
-	{
-		private readonly string _name;
-		private readonly string _file;
+    /// <summary>
+    /// Different audio formats usable with audio managers.
+    /// </summary>
+    public enum AudioFormat
+    {
+        /// <summary>
+        /// The Ogg Vorbis format.
+        /// </summary>
+        Ogg,
 
-		private OggStream _stream;
-
-		public string Name { get { return _name; } }
-		public string File { get { return _file; } }
-
-		public float Volume
-		{
-			get { return _stream.Volume; }
-			set { _stream.Volume = value; }
-		}
-
-		public bool IsLooped
-		{
-			get { return _stream.IsLooped; }
-			set { _stream.IsLooped = value; }
-		}
-
-		internal OggSong(string name, string file)
-		{
-			_name = name;
-			_file = file;
-
-			_stream = new OggStream(_file);
-			_stream.Prepare();
-		}
-
-		public void Dispose()
-		{
-			_stream.Dispose();
-		}
-		
-		public void Play()
-		{
-			_stream.Play();
-		}
-
-		public void Stop()
-		{
-			_stream.Stop();
-		}
-
-		public void Pause()
-		{
-			_stream.Pause();
-		}
-
-		public void Resume()
-		{
-			_stream.Resume();
-		}
-	}
+        /// <summary>
+        /// The WAVE format
+        /// </summary>
+        Wav
+    }
 }

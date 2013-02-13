@@ -4,11 +4,12 @@
         <name>NVorbis</name>
     </assembly>
     <members>
-        <member name="M:NVorbis.IVorbisStreamStatus.ResetStats">
+        <member name="M:NVorbis.Ogg.ContainerReader.GatherNextPage(System.Int32,NVorbis.Ogg.ContainerReader.PageReaderLock)">
             <summary>
-            Gets the counters for latency and bitrate calculations, as well as overall bit counts
+            Gathers pages until finding a page for the stream indicated
             </summary>
         </member>
+        <!-- Badly formed XML comment ignored for member "M:NVorbis.IVorbisStreamStatus.ResetStats" -->
         <member name="P:NVorbis.IVorbisStreamStatus.EffectiveBitRate">
             <summary>
             Gets the calculated bit rate of audio stream data for the everything decoded so far
@@ -138,11 +139,6 @@
         <member name="P:NVorbis.VorbisReader.TotalTime">
             <summary>
             Gets the total length of the current logical stream
-            </summary>
-        </member>
-        <member name="M:NVorbis.Ogg.ContainerReader.GatherNextPage(System.Int32,NVorbis.Ogg.ContainerReader.PageReaderLock)">
-            <summary>
-            Gathers pages until finding a page for the stream indicated
             </summary>
         </member>
     </members>

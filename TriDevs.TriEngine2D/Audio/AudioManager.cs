@@ -28,102 +28,104 @@ using OpenTK.Audio;
 
 namespace TriDevs.TriEngine2D.Audio
 {
-	/// <summary>
-	/// Class to manage engine audio.
-	/// </summary>
-	public class AudioManager : IAudioManager
-	{
-		private const int OggStreamCount = 100;
+    /// <summary>
+    /// Class to manage engine audio.
+    /// </summary>
+    public class AudioManager : IAudioManager
+    {
+        private const int OggStreamCount = 100;
 
-		private AudioContext _context;
-		private OggStreamer _oggStreamer;
+        private AudioContext _context;
+        private OggStreamer _oggStreamer;
 
-		private readonly List<ISound> _sounds;
-		private readonly List<ISong> _songs; 
+        private readonly List<ISound> _sounds;
+        private readonly List<ISong> _songs; 
 
-		/// <summary>
-		/// Creates a new instance of <see cref="AudioManager" />.
-		/// </summary>
-		public AudioManager()
-		{
-			_context = new AudioContext();
-			_oggStreamer = new OggStreamer();
-			_sounds = new List<ISound>();
-			_songs = new List<ISong>();
-		}
+        /// <summary>
+        /// Creates a new instance of <see cref="AudioManager" />.
+        /// </summary>
+        public AudioManager()
+        {
+            _context = new AudioContext();
+            _oggStreamer = new OggStreamer();
+            _sounds = new List<ISound>();
+            _songs = new List<ISong>();
+        }
 
-		public void Dispose()
-		{
-			foreach (var song in _songs)
-			{
-				if (song == null)
-					continue;
+        public void Dispose()
+        {
+            foreach (var sound in _sounds.Where(sound => sound != null))
+                sound.Dispose();
 
-				song.Stop();
-				song.Dispose();
-			}
+            foreach (var song in _songs.Where(song => song != null))
+                song.Dispose();
 
-			if (_oggStreamer != null)
-			{
-				_oggStreamer.Dispose();
-				_oggStreamer = null;
-			}
-			
-			if (_context != null)
-			{
-				_context.Dispose();
-				_context = null;
-			}
-		}
+            if (_oggStreamer != null)
+            {
+                _oggStreamer.Dispose();
+                _oggStreamer = null;
+            }
+            
+            if (_context != null)
+            {
+                _context.Dispose();
+                _context = null;
+            }
+        }
 
-		public void StopAll()
-		{
-			StopAllSongs();
-		}
+        public void StopAll()
+        {
+            StopAllSongs();
+        }
 
-		public ISound LoadSound(string name, string file)
-		{
-			var existing = _sounds.FirstOrDefault(s => s.Name == name);
-			if (existing != null)
-				return existing;
-			var sound = new Sound(name, file);
-			_sounds.Add(sound);
-			return sound;
-		}
+        public ISound LoadSound(string name, string file, AudioFormat format = AudioFormat.Wav)
+        {
+            var existing = _sounds.FirstOrDefault(s => s.Name == name);
+            if (existing != null)
+                return existing;
+            var sound = new Sound(name, file, format);
+            _sounds.Add(sound);
+            return sound;
+        }
 
-		public bool HasSound(string name)
-		{
-			return _sounds.Any(s => s.Name == name);
-		}
+        public bool HasSound(string name)
+        {
+            return _sounds.Any(s => s.Name == name);
+        }
 
-		public ISound GetSound(string name)
-		{
-			return _sounds.FirstOrDefault(s => s.Name == name);
-		}
+        public ISound GetSound(string name)
+        {
+            return _sounds.FirstOrDefault(s => s.Name == name);
+        }
 
-		public ISong LoadSong(string name, string file)
-		{
-			var existing = _songs.FirstOrDefault(s => s.Name == name);
-			if (existing != null)
-				return existing;
-			var song = new OggSong(name, file);
-			_songs.Add(song);
-			return song;
-		}
+        public void StopAllSounds()
+        {
+            _sounds.ForEach(s => s.Stop());
+        }
 
-		public bool HasSong(string name)
-		{
-			return _songs.Any(s => s.Name == name);
-		}
+        public ISong LoadSong(string name, string file, AudioFormat format = AudioFormat.Ogg)
+        {
+            var existing = _songs.FirstOrDefault(s => s.Name == name);
+            if (existing != null)
+                return existing;
+            var song = new Song(name, file, format);
+            _songs.Add(song);
+            return song;
+        }
 
-		public ISong GetSong(string name)
-		{
-			return _songs.FirstOrDefault(s => s.Name == name);
-		}
+        public bool HasSong(string name)
+        {
+            return _songs.Any(s => s.Name == name);
+        }
 
-		public void StopAllSongs()
-		{
-			_songs.ForEach(s => s.Stop());
-		}
-	}
+        public ISong GetSong(string name)
+        {
+            return _songs.FirstOrDefault(s => s.Name == name);
+        }
+
+        public void StopAllSongs()
+        {
+            _songs.ForEach(s => s.Stop());
+        }
+    }
 }

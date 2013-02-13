@@ -28,52 +28,57 @@ namespace TriDevs.TriEngine2D.Audio
     /// </summary>
     public class NullAudioManager : IAudioManager
     {
-		private static readonly ISound Sound = new NullSound();
-		private static readonly ISong Song = new NullSong();
+        private static readonly ISound Sound = new NullSound();
+        private static readonly ISong Song = new NullSong();
 
-	    public void Dispose()
-	    {
-		    
-	    }
+        public void Dispose()
+        {
+            
+        }
 
-	    public void StopAll()
-	    {
-		    
-	    }
+        public void StopAll()
+        {
+            
+        }
 
-	    public ISound LoadSound(string name, string file)
-	    {
-		    return Sound;
-	    }
+        public ISound LoadSound(string name, string file, AudioFormat format = AudioFormat.Wav)
+        {
+            return Sound;
+        }
 
-	    public bool HasSound(string name)
-	    {
-		    return false;
-	    }
+        public bool HasSound(string name)
+        {
+            return false;
+        }
 
-	    public ISound GetSound(string name)
-	    {
-		    return Sound;
-	    }
+        public ISound GetSound(string name)
+        {
+            return Sound;
+        }
 
-	    public ISong LoadSong(string name, string file)
-	    {
-		    return Song;
-	    }
+        public void StopAllSounds()
+        {
+            
+        }
 
-	    public bool HasSong(string name)
-	    {
-		    return false;
-	    }
+        public ISong LoadSong(string name, string file, AudioFormat format = AudioFormat.Ogg)
+        {
+            return Song;
+        }
 
-	    public ISong GetSong(string name)
-	    {
-		    return Song;
-	    }
+        public bool HasSong(string name)
+        {
+            return false;
+        }
 
-	    public void StopAllSongs()
-	    {
-		    
-	    }
+        public ISong GetSong(string name)
+        {
+            return Song;
+        }
+
+        public void StopAllSongs()
+        {
+            
+        }
     }
 }

@@ -25,53 +25,53 @@ using System;
 
 namespace TriDevs.TriEngine2D.Audio
 {
-	/// <summary>
-	/// A song that will be streamed in the audio player.
-	/// </summary>
-	public interface ISong : IDisposable
-	{
-		/// <summary>
-		/// Unique name of this song object.
-		/// </summary>
-		string Name { get; }
+    /// <summary>
+    /// A song that will be streamed in the audio player.
+    /// </summary>
+    public interface ISong : IDisposable
+    {
+        /// <summary>
+        /// Unique name of this song object.
+        /// </summary>
+        string Name { get; }
 
-		/// <summary>
-		/// Path to the file associated with this song object.
-		/// </summary>
-		string File { get; }
+        /// <summary>
+        /// Path to the file associated with this song object.
+        /// </summary>
+        string File { get; }
 
-		/// <summary>
-		/// Gets or sets the song volume.
-		/// </summary>
-		float Volume { get; set; }
+        /// <summary>
+        /// Gets or sets the song volume.
+        /// </summary>
+        float Volume { get; set; }
 
-		/// <summary>
-		/// Gets or sets a value indicating that the song should be looped
-		/// once it reaches the end.
-		/// </summary>
-		bool IsLooped { get; set; }
+        /// <summary>
+        /// Gets or sets a value indicating that the song should be looped
+        /// once it reaches the end.
+        /// </summary>
+        bool IsLooped { get; set; }
 
-		/// <summary>
-		/// Starts playback of the song.
-		/// </summary>
-		void Play();
+        /// <summary>
+        /// Starts playback of the song.
+        /// </summary>
+        void Play();
 
-		/// <summary>
-		/// Stops playback of the song.
-		/// </summary>
-		void Stop();
+        /// <summary>
+        /// Stops playback of the song.
+        /// </summary>
+        void Stop();
 
-		/// <summary>
-		/// Pauses playback of the song.
-		/// </summary>
-		/// <remarks>
-		/// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
-		/// </remarks>
-		void Pause();
+        /// <summary>
+        /// Pauses playback of the song.
+        /// </summary>
+        /// <remarks>
+        /// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
+        /// </remarks>
+        void Pause();
 
-		/// <summary>
-		/// Resumes playback of a paused song.
-		/// </summary>
-		void Resume();
-	}
+        /// <summary>
+        /// Resumes playback of a paused song.
+        /// </summary>
+        void Resume();
+    }
 }

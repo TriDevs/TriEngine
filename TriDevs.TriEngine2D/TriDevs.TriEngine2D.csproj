@@ -39,10 +39,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NVorbis">
+    <Reference Include="NVorbis, Version=0.5.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\libs\NVorbis\NVorbis.dll</HintPath>
     </Reference>
-    <Reference Include="NVorbis.OpenTKSupport">
+    <Reference Include="NVorbis.OpenTKSupport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\libs\NVorbis\NVorbis.OpenTKSupport.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
@@ -55,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audio\AudioFormat.cs" />
     <Compile Include="Audio\AudioManager.cs" />
     <Compile Include="Audio\IAudioManager.cs" />
     <Compile Include="Audio\ISong.cs" />
@@ -62,11 +65,12 @@
     <Compile Include="Audio\NullAudioManager.cs" />
     <Compile Include="Audio\NullSong.cs" />
     <Compile Include="Audio\NullSound.cs" />
-    <Compile Include="Audio\OggSong.cs" />
+    <Compile Include="Audio\Song.cs" />
     <Compile Include="Audio\Sound.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Helpers\IO.cs" />
+    <Compile Include="Helpers\Math.cs" />
     <Compile Include="Helpers\Threading.cs" />
     <Compile Include="Input\IInputManager.cs" />
     <Compile Include="Input\InputManager.cs" />

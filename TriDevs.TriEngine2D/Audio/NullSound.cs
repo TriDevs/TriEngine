@@ -23,12 +23,26 @@
 
 namespace TriDevs.TriEngine2D.Audio
 {
-	/// <summary>
-	/// Fallback sound class used in <see cref="NullAudioManager" />.
-	/// </summary>
-	public class NullSound : ISound
-	{
-		public string Name { get { return "Foo"; } }
-		public string File { get { return "foo.ogg"; } }
-	}
+    /// <summary>
+    /// Fallback sound class used in <see cref="NullAudioManager" />.
+    /// </summary>
+    public class NullSound : ISound
+    {
+        public string Name { get { return "Foo"; } }
+        public string File { get { return "foo.wav"; } }
+        public void Play()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Stop()
+        {
+            
+        }
+
+        public void Dispose()
+        {
+            
+        }
+    }
 }
