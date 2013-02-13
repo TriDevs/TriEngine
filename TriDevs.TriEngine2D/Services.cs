@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using TriDevs.TriEngine2D.Audio;
 using TriDevs.TriEngine2D.Input;
 
 namespace TriDevs.TriEngine2D
@@ -36,11 +37,17 @@ namespace TriDevs.TriEngine2D
     public static class Services
     {
         private static IInputManager _input = new NullInputManager();
+        private static IAudioManager _audio = new NullAudioManager();
 
         /// <summary>
         /// The input manager service.
         /// </summary>
         public static IInputManager Input { get { return _input; } }
+
+        /// <summary>
+        /// The audio manager service.
+        /// </summary>
+        public static IAudioManager Audio { get { return _audio; } }
 
         /// <summary>
         /// Specifies an input manager service to provide.
@@ -50,5 +57,25 @@ namespace TriDevs.TriEngine2D
         {
             _input = input;
         }
+
+        /// <summary>
+        /// Specifies an audio manager service to provide.
+        /// </summary>
+        /// <param name="audio">An object implementing the <see cref="IAudioManager" /> interface.</param>
+        public static void Provide(IAudioManager audio)
+        {
+            _audio = audio;
+        }
+
+		/// <summary>
+		/// Specifies what services to provide.
+		/// </summary>
+		/// <param name="input">The input service to provide.</param>
+		/// <param name="audio">The audio service to provide.</param>
+		public static void Provide(IInputManager input, IAudioManager audio)
+		{
+			Provide(input);
+			Provide(audio);
+		}
     }
 }

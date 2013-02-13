@@ -66,4 +66,7 @@ OpenTK depends on OpenGL drivers being installed, they are usually in your norma
 TriEngine2D depends on [Json.NET](http://json.codeplex.com/), this is not included, but is specified in the NuGet package config.  
 If you [properly configure your NuGet settings](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages#Using_NuGet_without_committing_packages_to_source_control), NuGet will automatically download Json.NET when building any projects that depend on it.
 
+TriEngine2D depends on [NVorbis](http://nvorbis.codeplex.com/), which is included in the **libs/NVorbis** folder.  
+[NVorbis is licensed under Ms-PL.](http://nvorbis.codeplex.com/license)
+
 If you want to run the tests you will need to have [NUnit](http://www.nunit.org/) installed.
