@@ -21,6 +21,8 @@
  * SOFTWARE.
  */
 
+using System;
+
 namespace TriDevs.TriEngine2D.Helpers
 {
     /// <summary>
@@ -37,6 +39,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the byte.</returns>
         public static byte Clamp(byte value, byte min, byte max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -49,6 +54,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the short.</returns>
         public static short Clamp(short value, short min, short max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -61,6 +69,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the unsigned short.</returns>
         public static ushort Clamp(ushort value, ushort min, ushort max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -73,6 +84,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the integer.</returns>
         public static int Clamp(int value, int min, int max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -85,6 +99,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the unsigned integer.</returns>
         public static uint Clamp(uint value, uint min, uint max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -97,6 +114,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the 64-bit integer.</returns>
         public static long Clamp(long value, long min, long max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -109,6 +129,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the 64-bit unsigned integer.</returns>
         public static ulong Clamp(ulong value, ulong min, ulong max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -121,6 +144,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the float.</returns>
         public static float Clamp(float value, float min, float max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
 
@@ -133,6 +159,9 @@ namespace TriDevs.TriEngine2D.Helpers
         /// <returns>The clamped value of the double.</returns>
         public static double Clamp(double value, double min, double max)
         {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be greater than maximum value.", "min");
+
             return value < min ? min : (value > max ? max : value);
         }
     }
