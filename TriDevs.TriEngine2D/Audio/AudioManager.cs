@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using NVorbis.OpenTKSupport;
@@ -33,8 +34,6 @@ namespace TriDevs.TriEngine2D.Audio
     /// </summary>
     public class AudioManager : IAudioManager
     {
-        private const int OggStreamCount = 100;
-
         private AudioContext _context;
         private OggStreamer _oggStreamer;
 
@@ -75,6 +74,7 @@ namespace TriDevs.TriEngine2D.Audio
 
         public void StopAll()
         {
+            StopAllSounds();
             StopAllSongs();
         }
 
@@ -83,6 +83,11 @@ namespace TriDevs.TriEngine2D.Audio
             var existing = _sounds.FirstOrDefault(s => s.Name == name);
             if (existing != null)
                 return existing;
+
+            var loaded = _sounds.FirstOrDefault(s => s.File == file) != null;
+            if (loaded)
+                throw new Exception("The sound file \"" + file + "\" has already been loaded under a different name.");
+
             var sound = new Sound(name, file, format);
             _sounds.Add(sound);
             return sound;
@@ -108,6 +113,11 @@ namespace TriDevs.TriEngine2D.Audio
             var existing = _songs.FirstOrDefault(s => s.Name == name);
             if (existing != null)
                 return existing;
+
+            var loaded = _songs.FirstOrDefault(s => s.File == file) != null;
+            if (loaded)
+                throw new Exception("The song file \"" + file + "\" has already been loaded under a different name.");
+
             var song = new Song(name, file, format);
             _songs.Add(song);
             return song;

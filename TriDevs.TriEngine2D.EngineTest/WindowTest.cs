@@ -20,7 +20,7 @@ namespace TriDevs.TriEngine2D.EngineTest
             }
         }
 
-        public WindowTest() : base(800, 600, GraphicsMode.Default, "TriEngine2D Test")
+        private WindowTest() : base(800, 600, GraphicsMode.Default, "TriEngine2D Test")
         {
             VSync = VSyncMode.On;
             Services.Provide(new InputManager(this), new AudioManager());

@@ -68,7 +68,7 @@ namespace TriDevs.TriEngine2D.Audio
                 _stream = new OggStream(_file);
                 _stream.Prepare();
             }
-            catch (InvalidDataException ex)
+            catch (InvalidDataException)
             {
                 _stream.Dispose();
                 _stream = new OggStream(_file);
@@ -92,7 +92,7 @@ namespace TriDevs.TriEngine2D.Audio
             {
                 _stream.Play();
             }
-            catch (InvalidDataException ex)
+            catch (InvalidDataException)
             {
                 Stop();
                 Play();

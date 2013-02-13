@@ -30,9 +30,10 @@ namespace TriDevs.TriEngine2D.Audio
     {
         public string Name { get { return "Foo"; } }
         public string File { get { return "foo.wav"; } }
+        
         public void Play()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public void Stop()

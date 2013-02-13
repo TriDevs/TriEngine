@@ -23,7 +23,6 @@
 
 using System;
 using System.IO;
-using System.Threading;
 using OpenTK.Audio.OpenAL;
 
 namespace TriDevs.TriEngine2D.Audio
@@ -34,7 +33,6 @@ namespace TriDevs.TriEngine2D.Audio
     public class Sound : ISound
     {
         private const int SourceCount = 16;
-        private const int UpdateDelay = 200;
 
         private readonly string _name;
         private readonly string _file;
@@ -48,12 +46,6 @@ namespace TriDevs.TriEngine2D.Audio
         private readonly ALSourceState[] _states;
 
         private readonly byte[] _data;
-
-        // The update thread will take care of updating each source state
-        // regularly (Playing, paused, stopped et.c)
-        private readonly Thread _updateThread;
-
-        private bool _active;
 
         public string Name { get { return _name; } }
         public string File { get { return _file; } }
@@ -90,14 +82,6 @@ namespace TriDevs.TriEngine2D.Audio
                 AL.Source(_sources[i], ALSourcei.Buffer, _buffer);
                 _states[i] = GetSourceState(_sources[i]);
             }
-
-            // The sound is active!
-            _active = true;
-
-            // Start the update thread, we need updated states for our
-            // "multiple simultaneus playback system" (TM) to work
-            _updateThread = new Thread(ThreadUpdate) {Name = "SoundStateUpdate"};
-            _updateThread.Start();
         }
 
         /// <summary>
@@ -181,37 +165,11 @@ namespace TriDevs.TriEngine2D.Audio
             }
         }
 
-        private void UpdateStates()
-        {
-            for (var i = 0; i < SourceCount; i++)
-                _states[i] = GetSourceState(_sources[i]);
-        }
-
-        private void ThreadUpdate()
-        {
-            try
-            {
-                while (_active)
-                {
-                    UpdateStates();
-                    Thread.Sleep(UpdateDelay);
-                }
-            }
-            catch (ThreadInterruptedException)
-            {
-                
-            }
-            catch (ThreadAbortException)
-            {
-                
-            }
-        }
-
         public void Play()
         {
             for (var i = 0; i < SourceCount; i++)
             {
-                if (_states[i] != ALSourceState.Playing)
+                if (GetSourceState(_sources[i]) != ALSourceState.Playing)
                 {
                     AL.SourcePlay(_sources[i]);
                     return;
@@ -227,8 +185,6 @@ namespace TriDevs.TriEngine2D.Audio
 
         public void Dispose()
         {
-            _active = false;
-            _updateThread.Join(UpdateDelay * 4);
             Stop();
             AL.DeleteSources(_sources);
             AL.DeleteBuffer(_buffer);
