@@ -1,5 +1,6 @@
 var searchData=
 [
   ['deserialize_3c_20t_20_3e',['Deserialize&lt; T &gt;',['../class_tri_devs_1_1_tri_engine2_d_1_1_serializing_1_1_serializer.html#a2687e279029d9bdf825ec60f7143e341',1,'TriDevs::TriEngine2D::Serializing::Serializer']]],
-  ['destroyconsole',['DestroyConsole',['../class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#aa08e7d3ce6fce68baddeef73861bce50',1,'TriDevs::TriEngine2D::Logging::LogManager']]]
+  ['destroyconsole',['DestroyConsole',['../class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#aa08e7d3ce6fce68baddeef73861bce50',1,'TriDevs::TriEngine2D::Logging::LogManager']]],
+  ['dispose',['Dispose',['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a1e24a72dae82a81ca9ee88ac70a7312d',1,'TriDevs.TriEngine2D.Audio.AudioManager.Dispose()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_audio_manager.html#acdc195eb5458a1fa19cb75772959bafa',1,'TriDevs.TriEngine2D.Audio.NullAudioManager.Dispose()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_song.html#a76f29f0d77110e7c2317ea0b5fbf1d1f',1,'TriDevs.TriEngine2D.Audio.NullSong.Dispose()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html#adfb4c3733aba1b38fef0db35e0e86f5a',1,'TriDevs.TriEngine2D.Audio.NullSound.Dispose()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#a4b8a4273fdb225879009ecd64e61bba7',1,'TriDevs.TriEngine2D.Audio.Song.Dispose()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html#ad77df80da5230fd51a494372387edd4f',1,'TriDevs.TriEngine2D.Audio.Sound.Dispose()']]]
 ];

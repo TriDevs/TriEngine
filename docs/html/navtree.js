@@ -2,7 +2,12 @@ var NAVTREE =
 [
   [ "TriEngine2D", "index.html", [
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Namespace List", "namespaces.html", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
+      ] ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -23,7 +28,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_assembly_info_8cs.html"
+"_assembly_info_8cs.html",
+"namespace_tri_devs_1_1_tri_engine2_d.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

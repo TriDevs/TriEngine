@@ -1,0 +1,190 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song@{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song}}
+}
+
+
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song}{Song} class that can be used with \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager}{Audio\-Manager}.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4b8a4273fdb225879009ecd64e61bba7}{Dispose} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a40f9fc397fb5c4566a77caf1814cc7bf}{Play} ()
+\begin{DoxyCompactList}\small\item\em Starts playback of the song. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a24edfbb8f48ece05a9f94b23843778a5}{Stop} ()
+\begin{DoxyCompactList}\small\item\em Stops playback of the song. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4a9ade0874f3fcdac22d521451586abe}{Pause} ()
+\begin{DoxyCompactList}\small\item\em Pauses playback of the song. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adc4bc60055df0bd9a58850de19a0b37a}{Resume} ()
+\begin{DoxyCompactList}\small\item\em Resumes playback of a paused song. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a250432e270435b4a7db08d81de5bd1cf}{Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_ad91b8000e8c5cba9966c7bccb45f757e}{File}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adee5d7e1dfa7870600b7a3433ce0dc18}{Volume}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a14ef6a7c19c61a1dbe7a7accd0ad2e4a}{Is\-Looped}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song}{Song} class that can be used with \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager}{Audio\-Manager}. 
+
+The song class will stream from a specified file, instead of loading it into memory. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4b8a4273fdb225879009ecd64e61bba7}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4b8a4273fdb225879009ecd64e61bba7}
+
+\begin{DoxyCode}
+80         \{
+81             \textcolor{keywordflow}{if} (\_stream == null)
+82                 \textcolor{keywordflow}{return};
+83 
+84             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a24edfbb8f48ece05a9f94b23843778a5}{Stop}();
+85             \_stream.Dispose();
+86             \_stream = null;
+87         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4a9ade0874f3fcdac22d521451586abe}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Pause@{Pause}}
+\index{Pause@{Pause}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Pause}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Pause (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a4a9ade0874f3fcdac22d521451586abe}
+
+
+Pauses playback of the song. 
+
+Call the \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adc4bc60055df0bd9a58850de19a0b37a}{Resume} or \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a40f9fc397fb5c4566a77caf1814cc7bf}{Play} method to resume playback. 
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song_a20f46283f7d75eeea4c482d4487940b4}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Song}.
+
+
+\begin{DoxyCode}
+108         \{
+109             \_stream.Pause();
+110         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a40f9fc397fb5c4566a77caf1814cc7bf}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Play@{Play}}
+\index{Play@{Play}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Play}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a40f9fc397fb5c4566a77caf1814cc7bf}
+
+
+Starts playback of the song. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song_aa74ea0cbad5692f36956eee31c50a6ad}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Song}.
+
+
+\begin{DoxyCode}
+90         \{
+91             \textcolor{keywordflow}{try}
+92             \{
+93                 \_stream.Play();
+94             \}
+95             \textcolor{keywordflow}{catch} (InvalidDataException)
+96             \{
+97                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a24edfbb8f48ece05a9f94b23843778a5}{Stop}();
+98                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a40f9fc397fb5c4566a77caf1814cc7bf}{Play}();
+99             \}
+100         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adc4bc60055df0bd9a58850de19a0b37a}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Resume@{Resume}}
+\index{Resume@{Resume}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Resume}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Resume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adc4bc60055df0bd9a58850de19a0b37a}
+
+
+Resumes playback of a paused song. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song_ac7e2044d8ee146ad36fbfe7ffc6061fd}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Song}.
+
+
+\begin{DoxyCode}
+113         \{
+114             \_stream.Resume();
+115         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a24edfbb8f48ece05a9f94b23843778a5}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Stop@{Stop}}
+\index{Stop@{Stop}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Stop}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a24edfbb8f48ece05a9f94b23843778a5}
+
+
+Stops playback of the song. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song_a1777ba55d024dc7ba7288689d7eaa7de}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Song}.
+
+
+\begin{DoxyCode}
+103         \{
+104             \_stream.Stop();
+105         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_ad91b8000e8c5cba9966c7bccb45f757e}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!File@{File}}
+\index{File@{File}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{File}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-File\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_ad91b8000e8c5cba9966c7bccb45f757e}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a14ef6a7c19c61a1dbe7a7accd0ad2e4a}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Is\-Looped@{Is\-Looped}}
+\index{Is\-Looped@{Is\-Looped}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Is\-Looped}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Is\-Looped\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a14ef6a7c19c61a1dbe7a7accd0ad2e4a}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a250432e270435b4a7db08d81de5bd1cf}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Name@{Name}}
+\index{Name@{Name}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Name}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Name\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_a250432e270435b4a7db08d81de5bd1cf}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adee5d7e1dfa7870600b7a3433ce0dc18}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}!Volume@{Volume}}
+\index{Volume@{Volume}!TriDevs::TriEngine2D::Audio::Song@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Song}}
+\subsubsection[{Volume}]{\setlength{\rightskip}{0pt plus 5cm}float Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Song.\-Volume\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song_adee5d7e1dfa7870600b7a3433ce0dc18}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Audio/\hyperlink{_song_8cs}{Song.\-cs}\end{DoxyCompactItemize}

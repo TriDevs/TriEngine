@@ -1,0 +1,131 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound@{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound}}
+}
+
+
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound}{Sound} class that can be used with the \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager}{Audio\-Manager}.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ac3c5f503b38724749891c2e80452b507}{Play} ()
+\begin{DoxyCompactList}\small\item\em Plays the sound. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_a438bcba9d063d1aff5329a2c4f8354b0}{Stop} ()
+\begin{DoxyCompactList}\small\item\em Stops the sound. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ad77df80da5230fd51a494372387edd4f}{Dispose} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_aa229d7b8273ba4b1077ed9279d726b87}{Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_acdc085b638bf51a4d395b8e88281f6eb}{File}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound}{Sound} class that can be used with the \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager}{Audio\-Manager}. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ad77df80da5230fd51a494372387edd4f}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Audio::Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ad77df80da5230fd51a494372387edd4f}
+
+\begin{DoxyCode}
+187         \{
+188             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_a438bcba9d063d1aff5329a2c4f8354b0}{Stop}();
+189             AL.DeleteSources(\_sources);
+190             AL.DeleteBuffer(\_buffer);
+191         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ac3c5f503b38724749891c2e80452b507}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}!Play@{Play}}
+\index{Play@{Play}!TriDevs::TriEngine2D::Audio::Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}}
+\subsubsection[{Play}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound.\-Play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_ac3c5f503b38724749891c2e80452b507}
+
+
+Plays the sound. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound_a10ce9e86e0795a89000719bc8078bfd4}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Sound}.
+
+
+\begin{DoxyCode}
+169         \{
+170             \textcolor{keywordflow}{for} (var i = 0; i < SourceCount; i++)
+171             \{
+172                 \textcolor{keywordflow}{if} (GetSourceState(\_sources[i]) != ALSourceState.Playing)
+173                 \{
+174                     AL.SourcePlay(\_sources[i]);
+175                     \textcolor{keywordflow}{return};
+176                 \}
+177             \}
+178         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_a438bcba9d063d1aff5329a2c4f8354b0}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}!Stop@{Stop}}
+\index{Stop@{Stop}!TriDevs::TriEngine2D::Audio::Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}}
+\subsubsection[{Stop}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound.\-Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_a438bcba9d063d1aff5329a2c4f8354b0}
+
+
+Stops the sound. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound_a9ad9c109f807052de7883d2b04995344}{Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-I\-Sound}.
+
+
+\begin{DoxyCode}
+181         \{
+182             \textcolor{keywordflow}{for} (var i = 0; i < SourceCount; i++)
+183                 AL.SourceStop(\_sources[i]);
+184         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_acdc085b638bf51a4d395b8e88281f6eb}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}!File@{File}}
+\index{File@{File}!TriDevs::TriEngine2D::Audio::Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}}
+\subsubsection[{File}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound.\-File\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_acdc085b638bf51a4d395b8e88281f6eb}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_aa229d7b8273ba4b1077ed9279d726b87}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}!Name@{Name}}
+\index{Name@{Name}!TriDevs::TriEngine2D::Audio::Sound@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio\-::\-Sound}}
+\subsubsection[{Name}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Audio.\-Sound.\-Name\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound_aa229d7b8273ba4b1077ed9279d726b87}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Audio/\hyperlink{_sound_8cs}{Sound.\-cs}\end{DoxyCompactItemize}
