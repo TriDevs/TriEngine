@@ -1,4 +1,4 @@
-﻿/* ControlClicked.cs
+﻿/* LinkLabel.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,14 +21,32 @@
  * SOFTWARE.
  */
 
-using System;
-
-namespace TriDevs.TriEngine2D.UI.Events
+namespace TriDevs.TriEngine2D.UI
 {
     /// <summary>
-    /// Delegate handler for the control clicked event.
+    /// A label that, when clicked, will open a URL.
     /// </summary>
-    /// <param name="sender">The object that raised the event.</param>
-    /// <param name="e"></param>
-    public delegate void ControlClickedEventHandler(object sender, EventArgs e);
+    public class LinkLabel : Label
+    {
+        private string _url;
+
+        /// <summary>
+        /// Gets or sets the URL that will open when this label is clicked.
+        /// </summary>
+        public string Url
+        {
+            get { return _url; }
+            set
+            {
+                // TODO: Validate value to make sure it's a valid URL
+                _url = value;
+            }
+        }
+
+        protected override void OnClicked()
+        {
+            System.Diagnostics.Process.Start(_url);
+            base.OnClicked();
+        }
+    }
 }

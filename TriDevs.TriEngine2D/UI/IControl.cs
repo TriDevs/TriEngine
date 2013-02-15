@@ -23,6 +23,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using TriDevs.TriEngine2D.UI.Events;
@@ -53,6 +54,21 @@ namespace TriDevs.TriEngine2D.UI
         /// The color of this control.
         /// </summary>
         Color Color { get; set; }
+
+        /// <summary>
+        /// The position of this control, in pixel coordinates.
+        /// </summary>
+        Point<int> Position { get; set; }
+
+        /// <summary>
+        /// Gets or sets the size of this control, in pixels.
+        /// </summary>
+        Point<int> Size { get; set; } 
+
+        /// <summary>
+        /// Gets or sets the text associated with this control.
+        /// </summary>
+        string Text { get; set; }
 
         /// <summary>
         /// Enables the control.

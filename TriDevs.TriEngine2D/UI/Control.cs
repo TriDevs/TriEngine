@@ -36,9 +36,17 @@ namespace TriDevs.TriEngine2D.UI
         /// </summary>
         public event ControlClickedEventHandler Clicked;
 
-        public abstract bool Enabled { get; set; }
+        public virtual bool Enabled { get; set; }
+
         public virtual bool Visible { get; set; }
+
         public virtual Color Color { get; set; }
+
+        public virtual Point<int> Position { get; set; }
+        
+        public virtual Point<int> Size { get; set; }
+
+        public virtual string Text { get; set; }
 
         protected virtual void OnClicked()
         {

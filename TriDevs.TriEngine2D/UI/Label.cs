@@ -1,4 +1,4 @@
-﻿/* VisibleChanged.cs
+﻿/* Label.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,9 +21,23 @@
  * SOFTWARE.
  */
 
-using System;
-
-namespace TriDevs.TriEngine2D.UI.Events
+namespace TriDevs.TriEngine2D.UI
 {
-    public delegate void VisibleChangedEventHandler(Control control, EventArgs e);
+    /// <summary>
+    /// A simple label to display text on the screen.
+    /// </summary>
+    public class Label : Control
+    {
+        private string _text;
+
+        public override string Text
+        {
+            get { return _text; }
+            set
+            {
+                // TODO: Update label
+                _text = value;
+            }
+        }
+    }
 }
