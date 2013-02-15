@@ -1,4 +1,4 @@
-﻿/* IDrawable.cs
+﻿/* IGameComponent.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,16 +21,19 @@
  * SOFTWARE.
  */
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 namespace TriDevs.TriEngine2D.Interfaces
 {
     /// <summary>
-    /// Implements a simple draw method.
+    /// A game component that can be added to <see cref="GameState" /> objects.
+    /// Drawable game components also implement a draw method to draw themselves to screen.
     /// </summary>
-    public interface IDrawable
+    public interface IDrawableGameComponent : IGameComponent, IDrawable
     {
-        /// <summary>
-        /// Draw the object to screen.
-        /// </summary>
-        void Draw();
+
     }
 }
