@@ -1,4 +1,4 @@
-﻿/* Point.cs
+﻿/* LinkLabel.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,33 +21,32 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine2D.UI
 {
     /// <summary>
-    /// A struct representing an X/Y coordinate.
+    /// A label that, when clicked, will open a URL.
     /// </summary>
-    /// <typeparam name="T">The type used for the X and Y members.</typeparam>
-    public struct Point<T> where T : struct
+    public class LinkLabel : Label
     {
-        /// <summary>
-        /// The X value of the coordinate.
-        /// </summary>
-        public T X;
+        private string _url;
 
         /// <summary>
-        /// The Y value of the coordinate.
+        /// Gets or sets the URL that will open when this label is clicked.
         /// </summary>
-        public T Y;
-
-        /// <summary>
-        /// Creates a new <see cref="Point&lt;T&gt;" /> with the specified X and Y values.
-        /// </summary>
-        /// <param name="x">The X value.</param>
-        /// <param name="y">The Y value.</param>
-        public Point(T x, T y)
+        public string Url
         {
-            X = x;
-            Y = y;
+            get { return _url; }
+            set
+            {
+                // TODO: Validate value to make sure it's a valid URL
+                _url = value;
+            }
+        }
+
+        protected override void OnClicked()
+        {
+            System.Diagnostics.Process.Start(_url);
+            base.OnClicked();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿/* Point.cs
+﻿/* ControlClicked.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,33 +21,14 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D
+using System;
+
+namespace TriDevs.TriEngine2D.UI.Events
 {
     /// <summary>
-    /// A struct representing an X/Y coordinate.
+    /// Delegate handler for the control clicked event.
     /// </summary>
-    /// <typeparam name="T">The type used for the X and Y members.</typeparam>
-    public struct Point<T> where T : struct
-    {
-        /// <summary>
-        /// The X value of the coordinate.
-        /// </summary>
-        public T X;
-
-        /// <summary>
-        /// The Y value of the coordinate.
-        /// </summary>
-        public T Y;
-
-        /// <summary>
-        /// Creates a new <see cref="Point&lt;T&gt;" /> with the specified X and Y values.
-        /// </summary>
-        /// <param name="x">The X value.</param>
-        /// <param name="y">The Y value.</param>
-        public Point(T x, T y)
-        {
-            X = x;
-            Y = y;
-        }
-    }
+    /// <param name="sender">The object that raised the event.</param>
+    /// <param name="e"></param>
+    public delegate void ControlClickedEventHandler(object sender, EventArgs e);
 }
