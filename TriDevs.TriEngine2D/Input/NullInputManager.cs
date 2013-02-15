@@ -22,6 +22,7 @@
  */
 
 using OpenTK.Input;
+using TriDevs.TriEngine2D.Input.Events;
 
 namespace TriDevs.TriEngine2D.Input
 {
@@ -30,9 +31,81 @@ namespace TriDevs.TriEngine2D.Input
     /// </summary>
     public class NullInputManager : IInputManager
     {
+        /// <summary>
+        /// Raised when a key is pressed down.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event KeyDownEventHandler KeyDown;
+
+        /// <summary>
+        /// Raised when a key is released.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event KeyUpEventHandler KeyUp;
+
+        /// <summary>
+        /// Raised when a character is typed.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event KeyPressEventHandler KeyPress;
+
+        /// <summary>
+        /// Raised when a mouse button is pressed down.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event MouseDownEventHandler MouseDown;
+
+        /// <summary>
+        /// Raised when a mouse button is released.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event MouseUpEventHandler MouseUp;
+
+        /// <summary>
+        /// Raised when the mouse wheel value changes.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event MouseWheelChangedEventHandler WheelChanged;
+
+        /// <summary>
+        /// Raised when the mouse wheel is scrolled downwards.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event MouseWheelDownEventHandler WheelDown;
+
+        /// <summary>
+        /// Raised when the mouse wheel is scrolled upwards.
+        /// </summary>
+        /// <remarks>
+        /// This particular event is never raised,
+        /// it's merely a placeholder in case a proper InputManager was not supplied.
+        /// </remarks>
+        public event MouseWheelUpEventHandler WheelUp;
+
         public int MouseX { get { return 0; } }
         public int MouseY { get { return 0; } }
-        public Point MousePosition { get { return new Point(0, 0); } }
+        public Point<int> MousePosition { get { return new Point<int>(0, 0); } }
         public int MouseWheelValue { get { return 0; } }
 
         public bool this[Key key]
@@ -50,12 +123,12 @@ namespace TriDevs.TriEngine2D.Input
             // Do nothing
         }
 
-        public bool KeyUp(Key key)
+        public bool IsKeyUp(Key key)
         {
             return true;
         }
 
-        public bool KeyDown(Key key)
+        public bool IsKeyDown(Key key)
         {
             return false;
         }
@@ -70,37 +143,37 @@ namespace TriDevs.TriEngine2D.Input
             return false;
         }
 
-        public bool ButtonUp(MouseButton button)
+        public bool IsMouseUp(MouseButton button)
         {
             return true;
         }
 
-        public bool ButtonDown(MouseButton button)
+        public bool IsMouseDown(MouseButton button)
         {
             return false;
         }
 
-        public bool ButtonPressed(MouseButton button)
+        public bool MousePressed(MouseButton button)
         {
             return false;
         }
 
-        public bool ButtonReleased(MouseButton button)
+        public bool MouseReleased(MouseButton button)
         {
             return false;
         }
 
-        public bool WheelUp()
+        public bool IsWheelUp()
         {
             return false;
         }
 
-        public bool WheelDown()
+        public bool IsWheelDown()
         {
             return false;
         }
 
-        public bool WheelChanged()
+        public bool IsWheelChanged()
         {
             return false;
         }

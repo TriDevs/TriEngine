@@ -22,6 +22,7 @@
  */
 
 using OpenTK.Input;
+using TriDevs.TriEngine2D.Input.Events;
 
 namespace TriDevs.TriEngine2D.Input
 {
@@ -30,6 +31,46 @@ namespace TriDevs.TriEngine2D.Input
     /// </summary>
     public interface IInputManager
     {
+        /// <summary>
+        /// Raised when a key is pressed down.
+        /// </summary>
+        event KeyDownEventHandler KeyDown;
+
+        /// <summary>
+        /// Raised when a key is released.
+        /// </summary>
+        event KeyUpEventHandler KeyUp;
+
+        /// <summary>
+        /// Raised when a character is typed.
+        /// </summary>
+        event KeyPressEventHandler KeyPress;
+
+        /// <summary>
+        /// Raised when a mouse button is pressed down.
+        /// </summary>
+        event MouseDownEventHandler MouseDown;
+
+        /// <summary>
+        /// Raised when a mouse button is released.
+        /// </summary>
+        event MouseUpEventHandler MouseUp;
+
+        /// <summary>
+        /// Raised when the mouse wheel value changes.
+        /// </summary>
+        event MouseWheelChangedEventHandler WheelChanged;
+
+        /// <summary>
+        /// Raised when the mouse wheel is scrolled downwards.
+        /// </summary>
+        event MouseWheelDownEventHandler WheelDown;
+
+        /// <summary>
+        /// Raised when the mouse wheel is scrolled upwards.
+        /// </summary>
+        event MouseWheelUpEventHandler WheelUp;
+
         /// <summary>
         /// Gets the absolute X position of the pointer,
         /// in window pixel coordinates.
@@ -46,7 +87,7 @@ namespace TriDevs.TriEngine2D.Input
         /// Gets a <see cref="Point" /> representing the position of the mouse pointer,
         /// in window pixel coordinates.
         /// </summary>
-        Point MousePosition { get; }
+        Point<int> MousePosition { get; }
 
         /// <summary>
         /// Gets the current value of the mouse wheel.
@@ -77,14 +118,14 @@ namespace TriDevs.TriEngine2D.Input
         /// </summary>
         /// <param name="key">Key to query for.</param>
         /// <returns>True if the key is currently up (not pressed), false otherwise.</returns>
-        bool KeyUp(Key key);
+        bool IsKeyUp(Key key);
 
         /// <summary>
         /// Returns whether or not the specified key is currently being pressed.
         /// </summary>
         /// <param name="key">Key to query for.</param>
         /// <returns>True if key is currently being pressed, false otherwise.</returns>
-        bool KeyDown(Key key);
+        bool IsKeyDown(Key key);
         
         /// <summary>
         /// Returns whether or not the specified key has been pressed.
@@ -111,14 +152,14 @@ namespace TriDevs.TriEngine2D.Input
         /// </summary>
         /// <param name="button">Button to query for.</param>
         /// <returns>True if the button is currently up (not pressed), false otherwise.</returns>
-        bool ButtonUp(MouseButton button);
+        bool IsMouseUp(MouseButton button);
 
         /// <summary>
         /// Returns whether or not the specified mouse button is currently being pressed.
         /// </summary>
         /// <param name="button">The button to query for.</param>
         /// <returns>True if button is currently being pressed, false otherwise.</returns>
-        bool ButtonDown(MouseButton button);
+        bool IsMouseDown(MouseButton button);
 
         /// <summary>
         /// Returns whether or not the specified mouse button has been pressed.
@@ -128,7 +169,7 @@ namespace TriDevs.TriEngine2D.Input
         /// </remarks>
         /// <param name="button">Button to query for.</param>
         /// <returns>True if button was pressed, false otherwise.</returns>
-        bool ButtonPressed(MouseButton button);
+        bool MousePressed(MouseButton button);
 
         /// <summary>
         /// Returns whether or not the specified mouse button has been released.
@@ -138,25 +179,25 @@ namespace TriDevs.TriEngine2D.Input
         /// </remarks>
         /// <param name="button">The button to query for.</param>
         /// <returns>True if the button was released, false otherwise.</returns>
-        bool ButtonReleased(MouseButton button);
+        bool MouseReleased(MouseButton button);
 
         /// <summary>
         /// Returns whether the mouse wheel was scrolled up.
         /// </summary>
         /// <returns>True if mouse wheel was scrolled up, false otherwise.</returns>
-        bool WheelUp();
+        bool IsWheelUp();
 
         /// <summary>
         /// Returns whether the mouse wheel was scrolled down.
         /// </summary>
         /// <returns>True if mouse wheel was scrolled down, false otherwise.</returns>
-        bool WheelDown();
+        bool IsWheelDown();
 
         /// <summary>
         /// Returns whether the mouse wheel scrolled at all.
         /// </summary>
         /// <returns>True if the mouse wheel scrolled, false otherwise.</returns>
-        bool WheelChanged();
+        bool IsWheelChanged();
 
         /// <summary>
         /// Returns the mouse wheel's change in value.
