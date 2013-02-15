@@ -26,24 +26,24 @@ namespace TriDevs.TriEngine2D
     /// <summary>
     /// A struct representing an X/Y coordinate.
     /// </summary>
-    public struct Point
+    public struct Point<T>
     {
         /// <summary>
         /// The X value of the coordinate.
         /// </summary>
-        public int X;
+        public T X;
 
         /// <summary>
         /// The Y value of the coordinate.
         /// </summary>
-        public int Y;
+        public T Y;
 
         /// <summary>
-        /// Creates a new <see cref="Point" /> with the specified X and Y values.
+        /// Creates a new <see cref="Point&lt;T&gt;" /> with the specified X and Y values.
         /// </summary>
         /// <param name="x">The X value.</param>
         /// <param name="y">The Y value.</param>
-        public Point(int x, int y)
+        public Point(T x, T y)
         {
             X = x;
             Y = y;

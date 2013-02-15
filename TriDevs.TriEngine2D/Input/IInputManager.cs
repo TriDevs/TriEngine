@@ -46,7 +46,7 @@ namespace TriDevs.TriEngine2D.Input
         /// Gets a <see cref="Point" /> representing the position of the mouse pointer,
         /// in window pixel coordinates.
         /// </summary>
-        Point MousePosition { get; }
+        Point<int> MousePosition { get; }
 
         /// <summary>
         /// Gets the current value of the mouse wheel.

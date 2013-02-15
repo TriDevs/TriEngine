@@ -32,7 +32,7 @@ namespace TriDevs.TriEngine2D.Input
     {
         public int MouseX { get { return 0; } }
         public int MouseY { get { return 0; } }
-        public Point MousePosition { get { return new Point(0, 0); } }
+        public Point<int> MousePosition { get { return new Point<int>(0, 0); } }
         public int MouseWheelValue { get { return 0; } }
 
         public bool this[Key key]

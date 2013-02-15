@@ -41,7 +41,7 @@ namespace TriDevs.TriEngine2D.Input
 
         public int MouseX { get { return _mouse.X; } }
         public int MouseY { get { return _mouse.Y; } }
-        public Point MousePosition { get { return new Point(MouseX, MouseY); } }
+        public Point<int> MousePosition { get { return new Point<int>(MouseX, MouseY); } }
         public int MouseWheelValue { get { return _mouseState.Wheel; } }
 
         public bool this[Key key]
