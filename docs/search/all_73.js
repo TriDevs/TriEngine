@@ -7,6 +7,8 @@ var searchData=
   ['services_2ecs',['Services.cs',['../_services_8cs.html',1,'']]],
   ['setcurrentthreadname',['SetCurrentThreadName',['../class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading.html#ad91c6256929f1e97564fb10258742c7c',1,'TriDevs::TriEngine2D::Helpers::Threading']]],
   ['setupconsole',['SetupConsole',['../class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#a674a0fcc99cd6101fbe655e626d3f24b',1,'TriDevs::TriEngine2D::Logging::LogManager']]],
+  ['show',['Show',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#a5be351a3f27e9acf27542b83291c8651',1,'TriDevs.TriEngine2D.UI.Control.Show()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#a552f33edcdca3292d87d0cf3f4223ad5',1,'TriDevs.TriEngine2D.UI.IControl.Show()']]],
+  ['size',['Size',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#a9f162a69e4a170ed284cf13b0eaa655f',1,'TriDevs.TriEngine2D.UI.Control.Size()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#afc66d577eebbce35df396621c881334c',1,'TriDevs.TriEngine2D.UI.IControl.Size()']]],
   ['song',['Song',['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html',1,'TriDevs::TriEngine2D::Audio']]],
   ['song_2ecs',['Song.cs',['../_song_8cs.html',1,'']]],
   ['sound',['Sound',['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html',1,'TriDevs::TriEngine2D::Audio']]],

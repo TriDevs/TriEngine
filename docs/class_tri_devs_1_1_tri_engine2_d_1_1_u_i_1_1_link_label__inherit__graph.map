@@ -1,0 +1,5 @@
+<map id="TriDevs.TriEngine2D.UI.LinkLabel" name="TriDevs.TriEngine2D.UI.LinkLabel">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label.html" title="A simple label to display text on the screen. " alt="" coords="69,155,123,181"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html" title="Base control class that all other controls inherits from. Defines basic UI control behaviour..." alt="" coords="65,80,127,107"/>
+<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html" title="A UI control that can be drawn on screen and interacted with. " alt="" coords="63,5,129,32"/>
+</map>

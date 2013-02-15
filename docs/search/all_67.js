@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['g',['G',['../struct_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_color.html#a62e164ea8c88b08b85de9bd80e9e33f1',1,'TriDevs::TriEngine2D::UI::Color']]],
   ['getabsolutepath',['GetAbsolutePath',['../class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o.html#a70b2f97cd90222b5620b2219024fb930',1,'TriDevs::TriEngine2D::Helpers::IO']]],
   ['geterrormessage',['GetErrorMessage',['../class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a5b17c6604e5b4437cf7f43c9b36bbeb0',1,'TriDevs::TriEngine2D::Native::Helpers']]],
   ['getlasterror',['GetLastError',['../class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#a91706a8e469b4b4cbaa01e7deded9b72',1,'TriDevs::TriEngine2D::Native::Helpers']]],

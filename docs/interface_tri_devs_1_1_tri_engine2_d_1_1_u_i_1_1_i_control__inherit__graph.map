@@ -1,0 +1,5 @@
+<map id="TriDevs.TriEngine2D.UI.IControl" name="TriDevs.TriEngine2D.UI.IControl">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html" title="Base control class that all other controls inherits from. Defines basic UI control behaviour..." alt="" coords="7,80,205,107"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label.html" title="A simple label to display text on the screen. " alt="" coords="12,155,201,181"/>
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label.html" title="A label that, when clicked, will open a URL. " alt="" coords="15,230,197,271"/>
+</map>
