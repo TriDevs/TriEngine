@@ -62,9 +62,12 @@ The clamped value of the byte.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-39         \{
-40             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-41         \}
+41         \{
+42             \textcolor{keywordflow}{if} (min > max)
+43                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+44 
+45             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+46         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a0cbf700705a6a400092a11d8b6cd10e4}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -93,9 +96,12 @@ The clamped value of the short.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-51         \{
-52             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-53         \}
+56         \{
+57             \textcolor{keywordflow}{if} (min > max)
+58                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+59 
+60             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+61         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_abc3481fdae505fc0c826c254a4e919ff}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -124,9 +130,12 @@ The clamped value of the unsigned short.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-63         \{
-64             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-65         \}
+71         \{
+72             \textcolor{keywordflow}{if} (min > max)
+73                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+74 
+75             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+76         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a20b975f6c75f2b30e54c6051a7d363df}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -155,9 +164,12 @@ The clamped value of the integer.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-75         \{
-76             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-77         \}
+86         \{
+87             \textcolor{keywordflow}{if} (min > max)
+88                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+89 
+90             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+91         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ac47eb16092e993da716e3187e94e70fe}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -186,9 +198,12 @@ The clamped value of the unsigned integer.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-87         \{
-88             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-89         \}
+101         \{
+102             \textcolor{keywordflow}{if} (min > max)
+103                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+104 
+105             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+106         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a8bf4a27be5be0d5019f4c4c4630dea12}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -217,9 +232,12 @@ The clamped value of the 64-\/bit integer.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-99         \{
-100             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-101         \}
+116         \{
+117             \textcolor{keywordflow}{if} (min > max)
+118                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+119 
+120             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+121         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a36137a079842e61c479e49912dd7c825}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -248,9 +266,12 @@ The clamped value of the 64-\/bit unsigned integer.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-111         \{
-112             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-113         \}
+131         \{
+132             \textcolor{keywordflow}{if} (min > max)
+133                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+134 
+135             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+136         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ab7bef68051503cf981d8d40a42995bd7}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -279,9 +300,12 @@ The clamped value of the float.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-123         \{
-124             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-125         \}
+146         \{
+147             \textcolor{keywordflow}{if} (min > max)
+148                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+149 
+150             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+151         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a1ca86361f1c492c65f901a98b86fd710}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
 \index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
@@ -310,9 +334,12 @@ The clamped value of the double.
 \end{DoxyReturn}
 
 \begin{DoxyCode}
-135         \{
-136             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
-137         \}
+161         \{
+162             \textcolor{keywordflow}{if} (min > max)
+163                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+164 
+165             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+166         \}
 \end{DoxyCode}
 
 

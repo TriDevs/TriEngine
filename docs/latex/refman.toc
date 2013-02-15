@@ -14,305 +14,425 @@
 \contentsline {subsection}{\numberline {6.3.1}Enumeration Type Documentation}{12}{subsection.6.3.1}
 \contentsline {subsubsection}{\numberline {6.3.1.1}Audio\discretionary {-}{}{}Format}{12}{subsubsection.6.3.1.1}
 \contentsline {section}{\numberline {6.4}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions}{12}{section.6.4}
-\contentsline {section}{\numberline {6.5}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers}{12}{section.6.5}
+\contentsline {section}{\numberline {6.5}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers}{13}{section.6.5}
 \contentsline {section}{\numberline {6.6}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input}{13}{section.6.6}
-\contentsline {section}{\numberline {6.7}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging}{13}{section.6.7}
-\contentsline {section}{\numberline {6.8}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native}{13}{section.6.8}
-\contentsline {section}{\numberline {6.9}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing}{13}{section.6.9}
-\contentsline {chapter}{\numberline {7}Class Documentation}{15}{chapter.7}
-\contentsline {section}{\numberline {7.1}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Class Reference}{15}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{16}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Constructor \& Destructor Documentation}{17}{subsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.2.1}Audio\discretionary {-}{}{}Manager}{17}{subsubsection.7.1.2.1}
-\contentsline {subsection}{\numberline {7.1.3}Member Function Documentation}{17}{subsection.7.1.3}
-\contentsline {subsubsection}{\numberline {7.1.3.1}Dispose}{17}{subsubsection.7.1.3.1}
-\contentsline {subsubsection}{\numberline {7.1.3.2}Get\discretionary {-}{}{}Song}{17}{subsubsection.7.1.3.2}
-\contentsline {subsubsection}{\numberline {7.1.3.3}Get\discretionary {-}{}{}Sound}{17}{subsubsection.7.1.3.3}
-\contentsline {subsubsection}{\numberline {7.1.3.4}Has\discretionary {-}{}{}Song}{18}{subsubsection.7.1.3.4}
-\contentsline {subsubsection}{\numberline {7.1.3.5}Has\discretionary {-}{}{}Sound}{18}{subsubsection.7.1.3.5}
-\contentsline {subsubsection}{\numberline {7.1.3.6}Load\discretionary {-}{}{}Song}{18}{subsubsection.7.1.3.6}
-\contentsline {subsubsection}{\numberline {7.1.3.7}Load\discretionary {-}{}{}Sound}{19}{subsubsection.7.1.3.7}
-\contentsline {subsubsection}{\numberline {7.1.3.8}Stop\discretionary {-}{}{}All}{19}{subsubsection.7.1.3.8}
-\contentsline {subsubsection}{\numberline {7.1.3.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{20}{subsubsection.7.1.3.9}
-\contentsline {subsubsection}{\numberline {7.1.3.10}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{20}{subsubsection.7.1.3.10}
-\contentsline {section}{\numberline {7.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions Class Reference}{20}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{20}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Member Function Documentation}{20}{subsection.7.2.2}
-\contentsline {subsubsection}{\numberline {7.2.2.1}Has$<$ T $>$}{20}{subsubsection.7.2.2.1}
-\contentsline {subsubsection}{\numberline {7.2.2.2}Include$<$ T $>$}{21}{subsubsection.7.2.2.2}
-\contentsline {subsubsection}{\numberline {7.2.2.3}Missing$<$ T $>$}{21}{subsubsection.7.2.2.3}
-\contentsline {subsubsection}{\numberline {7.2.2.4}Remove$<$ T $>$}{22}{subsubsection.7.2.2.4}
-\contentsline {section}{\numberline {7.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Helpers Class Reference}{22}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{23}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Member Function Documentation}{23}{subsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.2.1}Get\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{23}{subsubsection.7.3.2.1}
-\contentsline {subsubsection}{\numberline {7.3.2.2}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error}{23}{subsubsection.7.3.2.2}
-\contentsline {subsubsection}{\numberline {7.3.2.3}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Info}{23}{subsubsection.7.3.2.3}
-\contentsline {subsubsection}{\numberline {7.3.2.4}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{24}{subsubsection.7.3.2.4}
-\contentsline {subsubsection}{\numberline {7.3.2.5}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{24}{subsubsection.7.3.2.5}
-\contentsline {subsubsection}{\numberline {7.3.2.6}Get\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{24}{subsubsection.7.3.2.6}
-\contentsline {section}{\numberline {7.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Interface Reference}{25}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{26}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Member Function Documentation}{26}{subsection.7.4.2}
-\contentsline {subsubsection}{\numberline {7.4.2.1}Get\discretionary {-}{}{}Song}{26}{subsubsection.7.4.2.1}
-\contentsline {subsubsection}{\numberline {7.4.2.2}Get\discretionary {-}{}{}Sound}{26}{subsubsection.7.4.2.2}
-\contentsline {subsubsection}{\numberline {7.4.2.3}Has\discretionary {-}{}{}Song}{26}{subsubsection.7.4.2.3}
-\contentsline {subsubsection}{\numberline {7.4.2.4}Has\discretionary {-}{}{}Sound}{27}{subsubsection.7.4.2.4}
-\contentsline {subsubsection}{\numberline {7.4.2.5}Load\discretionary {-}{}{}Song}{27}{subsubsection.7.4.2.5}
-\contentsline {subsubsection}{\numberline {7.4.2.6}Load\discretionary {-}{}{}Sound}{27}{subsubsection.7.4.2.6}
-\contentsline {subsubsection}{\numberline {7.4.2.7}Stop\discretionary {-}{}{}All}{28}{subsubsection.7.4.2.7}
-\contentsline {subsubsection}{\numberline {7.4.2.8}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{28}{subsubsection.7.4.2.8}
-\contentsline {subsubsection}{\numberline {7.4.2.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{28}{subsubsection.7.4.2.9}
-\contentsline {section}{\numberline {7.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Interface Reference}{28}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{29}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Member Function Documentation}{29}{subsection.7.5.2}
-\contentsline {subsubsection}{\numberline {7.5.2.1}Button\discretionary {-}{}{}Down}{29}{subsubsection.7.5.2.1}
-\contentsline {subsubsection}{\numberline {7.5.2.2}Button\discretionary {-}{}{}Pressed}{30}{subsubsection.7.5.2.2}
-\contentsline {subsubsection}{\numberline {7.5.2.3}Button\discretionary {-}{}{}Released}{30}{subsubsection.7.5.2.3}
-\contentsline {subsubsection}{\numberline {7.5.2.4}Button\discretionary {-}{}{}Up}{30}{subsubsection.7.5.2.4}
-\contentsline {subsubsection}{\numberline {7.5.2.5}Key\discretionary {-}{}{}Down}{30}{subsubsection.7.5.2.5}
-\contentsline {subsubsection}{\numberline {7.5.2.6}Key\discretionary {-}{}{}Pressed}{31}{subsubsection.7.5.2.6}
-\contentsline {subsubsection}{\numberline {7.5.2.7}Key\discretionary {-}{}{}Released}{31}{subsubsection.7.5.2.7}
-\contentsline {subsubsection}{\numberline {7.5.2.8}Key\discretionary {-}{}{}Up}{31}{subsubsection.7.5.2.8}
-\contentsline {subsubsection}{\numberline {7.5.2.9}Update}{31}{subsubsection.7.5.2.9}
-\contentsline {subsubsection}{\numberline {7.5.2.10}Wheel\discretionary {-}{}{}Change}{32}{subsubsection.7.5.2.10}
-\contentsline {subsubsection}{\numberline {7.5.2.11}Wheel\discretionary {-}{}{}Changed}{32}{subsubsection.7.5.2.11}
-\contentsline {subsubsection}{\numberline {7.5.2.12}Wheel\discretionary {-}{}{}Down}{32}{subsubsection.7.5.2.12}
-\contentsline {subsubsection}{\numberline {7.5.2.13}Wheel\discretionary {-}{}{}Up}{32}{subsubsection.7.5.2.13}
-\contentsline {subsection}{\numberline {7.5.3}Property Documentation}{32}{subsection.7.5.3}
-\contentsline {subsubsection}{\numberline {7.5.3.1}Mouse\discretionary {-}{}{}Position}{32}{subsubsection.7.5.3.1}
-\contentsline {subsubsection}{\numberline {7.5.3.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{32}{subsubsection.7.5.3.2}
-\contentsline {subsubsection}{\numberline {7.5.3.3}Mouse\discretionary {-}{}{}X}{32}{subsubsection.7.5.3.3}
-\contentsline {subsubsection}{\numberline {7.5.3.4}Mouse\discretionary {-}{}{}Y}{33}{subsubsection.7.5.3.4}
-\contentsline {subsubsection}{\numberline {7.5.3.5}this[Key key]}{33}{subsubsection.7.5.3.5}
-\contentsline {subsubsection}{\numberline {7.5.3.6}this[Mouse\discretionary {-}{}{}Button button]}{33}{subsubsection.7.5.3.6}
-\contentsline {section}{\numberline {7.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Class Reference}{33}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{35}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Constructor \& Destructor Documentation}{35}{subsection.7.6.2}
-\contentsline {subsubsection}{\numberline {7.6.2.1}Input\discretionary {-}{}{}Manager}{35}{subsubsection.7.6.2.1}
-\contentsline {subsection}{\numberline {7.6.3}Member Function Documentation}{35}{subsection.7.6.3}
-\contentsline {subsubsection}{\numberline {7.6.3.1}Button\discretionary {-}{}{}Down}{35}{subsubsection.7.6.3.1}
-\contentsline {subsubsection}{\numberline {7.6.3.2}Button\discretionary {-}{}{}Pressed}{35}{subsubsection.7.6.3.2}
-\contentsline {subsubsection}{\numberline {7.6.3.3}Button\discretionary {-}{}{}Released}{36}{subsubsection.7.6.3.3}
-\contentsline {subsubsection}{\numberline {7.6.3.4}Button\discretionary {-}{}{}Up}{36}{subsubsection.7.6.3.4}
-\contentsline {subsubsection}{\numberline {7.6.3.5}Key\discretionary {-}{}{}Down}{36}{subsubsection.7.6.3.5}
-\contentsline {subsubsection}{\numberline {7.6.3.6}Key\discretionary {-}{}{}Pressed}{37}{subsubsection.7.6.3.6}
-\contentsline {subsubsection}{\numberline {7.6.3.7}Key\discretionary {-}{}{}Released}{37}{subsubsection.7.6.3.7}
-\contentsline {subsubsection}{\numberline {7.6.3.8}Key\discretionary {-}{}{}Up}{37}{subsubsection.7.6.3.8}
-\contentsline {subsubsection}{\numberline {7.6.3.9}Update}{38}{subsubsection.7.6.3.9}
-\contentsline {subsubsection}{\numberline {7.6.3.10}Wheel\discretionary {-}{}{}Change}{38}{subsubsection.7.6.3.10}
-\contentsline {subsubsection}{\numberline {7.6.3.11}Wheel\discretionary {-}{}{}Changed}{38}{subsubsection.7.6.3.11}
-\contentsline {subsubsection}{\numberline {7.6.3.12}Wheel\discretionary {-}{}{}Down}{38}{subsubsection.7.6.3.12}
-\contentsline {subsubsection}{\numberline {7.6.3.13}Wheel\discretionary {-}{}{}Up}{39}{subsubsection.7.6.3.13}
-\contentsline {subsection}{\numberline {7.6.4}Property Documentation}{39}{subsection.7.6.4}
-\contentsline {subsubsection}{\numberline {7.6.4.1}Mouse\discretionary {-}{}{}Position}{39}{subsubsection.7.6.4.1}
-\contentsline {subsubsection}{\numberline {7.6.4.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{39}{subsubsection.7.6.4.2}
-\contentsline {subsubsection}{\numberline {7.6.4.3}Mouse\discretionary {-}{}{}X}{39}{subsubsection.7.6.4.3}
-\contentsline {subsubsection}{\numberline {7.6.4.4}Mouse\discretionary {-}{}{}Y}{39}{subsubsection.7.6.4.4}
-\contentsline {subsubsection}{\numberline {7.6.4.5}this[Key key]}{39}{subsubsection.7.6.4.5}
-\contentsline {subsubsection}{\numberline {7.6.4.6}this[Mouse\discretionary {-}{}{}Button button]}{39}{subsubsection.7.6.4.6}
-\contentsline {section}{\numberline {7.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}I\discretionary {-}{}{}O Class Reference}{39}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{39}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Member Function Documentation}{39}{subsection.7.7.2}
-\contentsline {subsubsection}{\numberline {7.7.2.1}Get\discretionary {-}{}{}Absolute\discretionary {-}{}{}Path}{39}{subsubsection.7.7.2.1}
-\contentsline {section}{\numberline {7.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Song Interface Reference}{40}{section.7.8}
-\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{41}{subsection.7.8.1}
-\contentsline {subsection}{\numberline {7.8.2}Member Function Documentation}{41}{subsection.7.8.2}
-\contentsline {subsubsection}{\numberline {7.8.2.1}Pause}{41}{subsubsection.7.8.2.1}
-\contentsline {subsubsection}{\numberline {7.8.2.2}Play}{41}{subsubsection.7.8.2.2}
-\contentsline {subsubsection}{\numberline {7.8.2.3}Resume}{41}{subsubsection.7.8.2.3}
-\contentsline {subsubsection}{\numberline {7.8.2.4}Stop}{41}{subsubsection.7.8.2.4}
-\contentsline {subsection}{\numberline {7.8.3}Property Documentation}{42}{subsection.7.8.3}
-\contentsline {subsubsection}{\numberline {7.8.3.1}File}{42}{subsubsection.7.8.3.1}
-\contentsline {subsubsection}{\numberline {7.8.3.2}Is\discretionary {-}{}{}Looped}{42}{subsubsection.7.8.3.2}
-\contentsline {subsubsection}{\numberline {7.8.3.3}Name}{42}{subsubsection.7.8.3.3}
-\contentsline {subsubsection}{\numberline {7.8.3.4}Volume}{42}{subsubsection.7.8.3.4}
-\contentsline {section}{\numberline {7.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Sound Interface Reference}{42}{section.7.9}
-\contentsline {subsection}{\numberline {7.9.1}Detailed Description}{43}{subsection.7.9.1}
-\contentsline {subsection}{\numberline {7.9.2}Member Function Documentation}{43}{subsection.7.9.2}
-\contentsline {subsubsection}{\numberline {7.9.2.1}Play}{43}{subsubsection.7.9.2.1}
-\contentsline {subsubsection}{\numberline {7.9.2.2}Stop}{43}{subsubsection.7.9.2.2}
-\contentsline {subsection}{\numberline {7.9.3}Property Documentation}{44}{subsection.7.9.3}
-\contentsline {subsubsection}{\numberline {7.9.3.1}File}{44}{subsubsection.7.9.3.1}
-\contentsline {subsubsection}{\numberline {7.9.3.2}Name}{44}{subsubsection.7.9.3.2}
-\contentsline {section}{\numberline {7.10}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging.\discretionary {-}{}{}Log\discretionary {-}{}{}Manager Class Reference}{44}{section.7.10}
-\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{44}{subsection.7.10.1}
-\contentsline {subsection}{\numberline {7.10.2}Member Function Documentation}{44}{subsection.7.10.2}
-\contentsline {subsubsection}{\numberline {7.10.2.1}Clear\discretionary {-}{}{}Old\discretionary {-}{}{}Logs}{44}{subsubsection.7.10.2.1}
-\contentsline {subsubsection}{\numberline {7.10.2.2}Destroy\discretionary {-}{}{}Console}{45}{subsubsection.7.10.2.2}
-\contentsline {subsubsection}{\numberline {7.10.2.3}Get\discretionary {-}{}{}Logger}{45}{subsubsection.7.10.2.3}
-\contentsline {subsubsection}{\numberline {7.10.2.4}Load\discretionary {-}{}{}Config}{46}{subsubsection.7.10.2.4}
-\contentsline {subsubsection}{\numberline {7.10.2.5}Setup\discretionary {-}{}{}Console}{46}{subsubsection.7.10.2.5}
-\contentsline {section}{\numberline {7.11}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Math Class Reference}{47}{section.7.11}
-\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{47}{subsection.7.11.1}
-\contentsline {subsection}{\numberline {7.11.2}Member Function Documentation}{48}{subsection.7.11.2}
-\contentsline {subsubsection}{\numberline {7.11.2.1}Clamp}{48}{subsubsection.7.11.2.1}
-\contentsline {subsubsection}{\numberline {7.11.2.2}Clamp}{48}{subsubsection.7.11.2.2}
-\contentsline {subsubsection}{\numberline {7.11.2.3}Clamp}{48}{subsubsection.7.11.2.3}
-\contentsline {subsubsection}{\numberline {7.11.2.4}Clamp}{49}{subsubsection.7.11.2.4}
-\contentsline {subsubsection}{\numberline {7.11.2.5}Clamp}{49}{subsubsection.7.11.2.5}
-\contentsline {subsubsection}{\numberline {7.11.2.6}Clamp}{49}{subsubsection.7.11.2.6}
-\contentsline {subsubsection}{\numberline {7.11.2.7}Clamp}{49}{subsubsection.7.11.2.7}
-\contentsline {subsubsection}{\numberline {7.11.2.8}Clamp}{50}{subsubsection.7.11.2.8}
-\contentsline {subsubsection}{\numberline {7.11.2.9}Clamp}{50}{subsubsection.7.11.2.9}
-\contentsline {section}{\numberline {7.12}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Class Reference}{50}{section.7.12}
-\contentsline {subsection}{\numberline {7.12.1}Detailed Description}{52}{subsection.7.12.1}
-\contentsline {subsection}{\numberline {7.12.2}Member Function Documentation}{52}{subsection.7.12.2}
-\contentsline {subsubsection}{\numberline {7.12.2.1}Dispose}{52}{subsubsection.7.12.2.1}
-\contentsline {subsubsection}{\numberline {7.12.2.2}Get\discretionary {-}{}{}Song}{52}{subsubsection.7.12.2.2}
-\contentsline {subsubsection}{\numberline {7.12.2.3}Get\discretionary {-}{}{}Sound}{52}{subsubsection.7.12.2.3}
-\contentsline {subsubsection}{\numberline {7.12.2.4}Has\discretionary {-}{}{}Song}{53}{subsubsection.7.12.2.4}
-\contentsline {subsubsection}{\numberline {7.12.2.5}Has\discretionary {-}{}{}Sound}{53}{subsubsection.7.12.2.5}
-\contentsline {subsubsection}{\numberline {7.12.2.6}Load\discretionary {-}{}{}Song}{53}{subsubsection.7.12.2.6}
-\contentsline {subsubsection}{\numberline {7.12.2.7}Load\discretionary {-}{}{}Sound}{54}{subsubsection.7.12.2.7}
-\contentsline {subsubsection}{\numberline {7.12.2.8}Stop\discretionary {-}{}{}All}{54}{subsubsection.7.12.2.8}
-\contentsline {subsubsection}{\numberline {7.12.2.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{54}{subsubsection.7.12.2.9}
-\contentsline {subsubsection}{\numberline {7.12.2.10}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{54}{subsubsection.7.12.2.10}
-\contentsline {section}{\numberline {7.13}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Class Reference}{55}{section.7.13}
+\contentsline {section}{\numberline {6.7}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events}{13}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Function Documentation}{14}{subsection.6.7.1}
+\contentsline {subsubsection}{\numberline {6.7.1.1}Key\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{14}{subsubsection.6.7.1.1}
+\contentsline {subsubsection}{\numberline {6.7.1.2}Key\discretionary {-}{}{}Press\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{14}{subsubsection.6.7.1.2}
+\contentsline {subsubsection}{\numberline {6.7.1.3}Key\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{14}{subsubsection.6.7.1.3}
+\contentsline {subsubsection}{\numberline {6.7.1.4}Mouse\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{14}{subsubsection.6.7.1.4}
+\contentsline {subsubsection}{\numberline {6.7.1.5}Mouse\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{14}{subsubsection.6.7.1.5}
+\contentsline {subsubsection}{\numberline {6.7.1.6}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{15}{subsubsection.6.7.1.6}
+\contentsline {subsubsection}{\numberline {6.7.1.7}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{15}{subsubsection.6.7.1.7}
+\contentsline {subsubsection}{\numberline {6.7.1.8}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{15}{subsubsection.6.7.1.8}
+\contentsline {section}{\numberline {6.8}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces}{15}{section.6.8}
+\contentsline {section}{\numberline {6.9}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging}{15}{section.6.9}
+\contentsline {section}{\numberline {6.10}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native}{15}{section.6.10}
+\contentsline {section}{\numberline {6.11}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing}{16}{section.6.11}
+\contentsline {section}{\numberline {6.12}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I}{16}{section.6.12}
+\contentsline {section}{\numberline {6.13}Package Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Events}{16}{section.6.13}
+\contentsline {subsection}{\numberline {6.13.1}Function Documentation}{16}{subsection.6.13.1}
+\contentsline {subsubsection}{\numberline {6.13.1.1}Control\discretionary {-}{}{}Clicked\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}{16}{subsubsection.6.13.1.1}
+\contentsline {chapter}{\numberline {7}Class Documentation}{17}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Class Reference}{17}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{18}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Constructor \& Destructor Documentation}{19}{subsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2.1}Audio\discretionary {-}{}{}Manager}{19}{subsubsection.7.1.2.1}
+\contentsline {subsection}{\numberline {7.1.3}Member Function Documentation}{19}{subsection.7.1.3}
+\contentsline {subsubsection}{\numberline {7.1.3.1}Dispose}{19}{subsubsection.7.1.3.1}
+\contentsline {subsubsection}{\numberline {7.1.3.2}Get\discretionary {-}{}{}Song}{19}{subsubsection.7.1.3.2}
+\contentsline {subsubsection}{\numberline {7.1.3.3}Get\discretionary {-}{}{}Sound}{19}{subsubsection.7.1.3.3}
+\contentsline {subsubsection}{\numberline {7.1.3.4}Has\discretionary {-}{}{}Song}{20}{subsubsection.7.1.3.4}
+\contentsline {subsubsection}{\numberline {7.1.3.5}Has\discretionary {-}{}{}Sound}{20}{subsubsection.7.1.3.5}
+\contentsline {subsubsection}{\numberline {7.1.3.6}Load\discretionary {-}{}{}Song}{20}{subsubsection.7.1.3.6}
+\contentsline {subsubsection}{\numberline {7.1.3.7}Load\discretionary {-}{}{}Sound}{21}{subsubsection.7.1.3.7}
+\contentsline {subsubsection}{\numberline {7.1.3.8}Stop\discretionary {-}{}{}All}{21}{subsubsection.7.1.3.8}
+\contentsline {subsubsection}{\numberline {7.1.3.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{22}{subsubsection.7.1.3.9}
+\contentsline {subsubsection}{\numberline {7.1.3.10}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{22}{subsubsection.7.1.3.10}
+\contentsline {section}{\numberline {7.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Color Struct Reference}{22}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{22}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Constructor \& Destructor Documentation}{23}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}Color}{23}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}Color}{23}{subsubsection.7.2.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Member Function Documentation}{23}{subsection.7.2.3}
+\contentsline {subsubsection}{\numberline {7.2.3.1}To\discretionary {-}{}{}Vector3}{23}{subsubsection.7.2.3.1}
+\contentsline {subsubsection}{\numberline {7.2.3.2}To\discretionary {-}{}{}Vector4}{23}{subsubsection.7.2.3.2}
+\contentsline {subsection}{\numberline {7.2.4}Member Data Documentation}{24}{subsection.7.2.4}
+\contentsline {subsubsection}{\numberline {7.2.4.1}A}{24}{subsubsection.7.2.4.1}
+\contentsline {subsubsection}{\numberline {7.2.4.2}B}{24}{subsubsection.7.2.4.2}
+\contentsline {subsubsection}{\numberline {7.2.4.3}G}{24}{subsubsection.7.2.4.3}
+\contentsline {subsubsection}{\numberline {7.2.4.4}R}{24}{subsubsection.7.2.4.4}
+\contentsline {section}{\numberline {7.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Control Class Reference}{24}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{25}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Member Function Documentation}{26}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Disable}{26}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Enable}{26}{subsubsection.7.3.2.2}
+\contentsline {subsubsection}{\numberline {7.3.2.3}Hide}{26}{subsubsection.7.3.2.3}
+\contentsline {subsubsection}{\numberline {7.3.2.4}On\discretionary {-}{}{}Clicked}{26}{subsubsection.7.3.2.4}
+\contentsline {subsubsection}{\numberline {7.3.2.5}Show}{27}{subsubsection.7.3.2.5}
+\contentsline {subsection}{\numberline {7.3.3}Property Documentation}{27}{subsection.7.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.1}Color}{27}{subsubsection.7.3.3.1}
+\contentsline {subsubsection}{\numberline {7.3.3.2}Enabled}{27}{subsubsection.7.3.3.2}
+\contentsline {subsubsection}{\numberline {7.3.3.3}Position}{27}{subsubsection.7.3.3.3}
+\contentsline {subsubsection}{\numberline {7.3.3.4}Size}{27}{subsubsection.7.3.3.4}
+\contentsline {subsubsection}{\numberline {7.3.3.5}Text}{27}{subsubsection.7.3.3.5}
+\contentsline {subsubsection}{\numberline {7.3.3.6}Visible}{27}{subsubsection.7.3.3.6}
+\contentsline {subsection}{\numberline {7.3.4}Event Documentation}{27}{subsection.7.3.4}
+\contentsline {subsubsection}{\numberline {7.3.4.1}Clicked}{27}{subsubsection.7.3.4.1}
+\contentsline {section}{\numberline {7.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions Class Reference}{27}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{27}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Member Function Documentation}{28}{subsection.7.4.2}
+\contentsline {subsubsection}{\numberline {7.4.2.1}Has$<$ T $>$}{28}{subsubsection.7.4.2.1}
+\contentsline {subsubsection}{\numberline {7.4.2.2}Include$<$ T $>$}{28}{subsubsection.7.4.2.2}
+\contentsline {subsubsection}{\numberline {7.4.2.3}Missing$<$ T $>$}{29}{subsubsection.7.4.2.3}
+\contentsline {subsubsection}{\numberline {7.4.2.4}Remove$<$ T $>$}{29}{subsubsection.7.4.2.4}
+\contentsline {section}{\numberline {7.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Helpers Class Reference}{30}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{30}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Member Function Documentation}{30}{subsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.2.1}Get\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{30}{subsubsection.7.5.2.1}
+\contentsline {subsubsection}{\numberline {7.5.2.2}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error}{30}{subsubsection.7.5.2.2}
+\contentsline {subsubsection}{\numberline {7.5.2.3}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Info}{31}{subsubsection.7.5.2.3}
+\contentsline {subsubsection}{\numberline {7.5.2.4}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Message}{31}{subsubsection.7.5.2.4}
+\contentsline {subsubsection}{\numberline {7.5.2.5}Get\discretionary {-}{}{}Last\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{31}{subsubsection.7.5.2.5}
+\contentsline {subsubsection}{\numberline {7.5.2.6}Get\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}{31}{subsubsection.7.5.2.6}
+\contentsline {section}{\numberline {7.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Interface Reference}{32}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{33}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Member Function Documentation}{33}{subsection.7.6.2}
+\contentsline {subsubsection}{\numberline {7.6.2.1}Get\discretionary {-}{}{}Song}{33}{subsubsection.7.6.2.1}
+\contentsline {subsubsection}{\numberline {7.6.2.2}Get\discretionary {-}{}{}Sound}{33}{subsubsection.7.6.2.2}
+\contentsline {subsubsection}{\numberline {7.6.2.3}Has\discretionary {-}{}{}Song}{34}{subsubsection.7.6.2.3}
+\contentsline {subsubsection}{\numberline {7.6.2.4}Has\discretionary {-}{}{}Sound}{34}{subsubsection.7.6.2.4}
+\contentsline {subsubsection}{\numberline {7.6.2.5}Load\discretionary {-}{}{}Song}{34}{subsubsection.7.6.2.5}
+\contentsline {subsubsection}{\numberline {7.6.2.6}Load\discretionary {-}{}{}Sound}{34}{subsubsection.7.6.2.6}
+\contentsline {subsubsection}{\numberline {7.6.2.7}Stop\discretionary {-}{}{}All}{35}{subsubsection.7.6.2.7}
+\contentsline {subsubsection}{\numberline {7.6.2.8}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{35}{subsubsection.7.6.2.8}
+\contentsline {subsubsection}{\numberline {7.6.2.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{35}{subsubsection.7.6.2.9}
+\contentsline {section}{\numberline {7.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}I\discretionary {-}{}{}Control Interface Reference}{35}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{37}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Member Function Documentation}{37}{subsection.7.7.2}
+\contentsline {subsubsection}{\numberline {7.7.2.1}Disable}{37}{subsubsection.7.7.2.1}
+\contentsline {subsubsection}{\numberline {7.7.2.2}Enable}{37}{subsubsection.7.7.2.2}
+\contentsline {subsubsection}{\numberline {7.7.2.3}Hide}{37}{subsubsection.7.7.2.3}
+\contentsline {subsubsection}{\numberline {7.7.2.4}Show}{37}{subsubsection.7.7.2.4}
+\contentsline {subsection}{\numberline {7.7.3}Property Documentation}{37}{subsection.7.7.3}
+\contentsline {subsubsection}{\numberline {7.7.3.1}Color}{37}{subsubsection.7.7.3.1}
+\contentsline {subsubsection}{\numberline {7.7.3.2}Enabled}{37}{subsubsection.7.7.3.2}
+\contentsline {subsubsection}{\numberline {7.7.3.3}Position}{37}{subsubsection.7.7.3.3}
+\contentsline {subsubsection}{\numberline {7.7.3.4}Size}{37}{subsubsection.7.7.3.4}
+\contentsline {subsubsection}{\numberline {7.7.3.5}Text}{38}{subsubsection.7.7.3.5}
+\contentsline {subsubsection}{\numberline {7.7.3.6}Visible}{38}{subsubsection.7.7.3.6}
+\contentsline {subsection}{\numberline {7.7.4}Event Documentation}{38}{subsection.7.7.4}
+\contentsline {subsubsection}{\numberline {7.7.4.1}Clicked}{38}{subsubsection.7.7.4.1}
+\contentsline {section}{\numberline {7.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces.\discretionary {-}{}{}I\discretionary {-}{}{}Drawable Interface Reference}{38}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{38}{subsection.7.8.1}
+\contentsline {subsection}{\numberline {7.8.2}Member Function Documentation}{38}{subsection.7.8.2}
+\contentsline {subsubsection}{\numberline {7.8.2.1}Draw}{38}{subsubsection.7.8.2.1}
+\contentsline {section}{\numberline {7.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Interface Reference}{38}{section.7.9}
+\contentsline {subsection}{\numberline {7.9.1}Detailed Description}{40}{subsection.7.9.1}
+\contentsline {subsection}{\numberline {7.9.2}Member Function Documentation}{40}{subsection.7.9.2}
+\contentsline {subsubsection}{\numberline {7.9.2.1}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}{40}{subsubsection.7.9.2.1}
+\contentsline {subsubsection}{\numberline {7.9.2.2}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}{40}{subsubsection.7.9.2.2}
+\contentsline {subsubsection}{\numberline {7.9.2.3}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}{41}{subsubsection.7.9.2.3}
+\contentsline {subsubsection}{\numberline {7.9.2.4}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}{41}{subsubsection.7.9.2.4}
+\contentsline {subsubsection}{\numberline {7.9.2.5}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}{41}{subsubsection.7.9.2.5}
+\contentsline {subsubsection}{\numberline {7.9.2.6}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}{41}{subsubsection.7.9.2.6}
+\contentsline {subsubsection}{\numberline {7.9.2.7}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}{42}{subsubsection.7.9.2.7}
+\contentsline {subsubsection}{\numberline {7.9.2.8}Key\discretionary {-}{}{}Pressed}{42}{subsubsection.7.9.2.8}
+\contentsline {subsubsection}{\numberline {7.9.2.9}Key\discretionary {-}{}{}Released}{42}{subsubsection.7.9.2.9}
+\contentsline {subsubsection}{\numberline {7.9.2.10}Mouse\discretionary {-}{}{}Pressed}{42}{subsubsection.7.9.2.10}
+\contentsline {subsubsection}{\numberline {7.9.2.11}Mouse\discretionary {-}{}{}Released}{43}{subsubsection.7.9.2.11}
+\contentsline {subsubsection}{\numberline {7.9.2.12}Update}{43}{subsubsection.7.9.2.12}
+\contentsline {subsubsection}{\numberline {7.9.2.13}Wheel\discretionary {-}{}{}Change}{43}{subsubsection.7.9.2.13}
+\contentsline {subsection}{\numberline {7.9.3}Property Documentation}{43}{subsection.7.9.3}
+\contentsline {subsubsection}{\numberline {7.9.3.1}Mouse\discretionary {-}{}{}Position}{43}{subsubsection.7.9.3.1}
+\contentsline {subsubsection}{\numberline {7.9.3.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{43}{subsubsection.7.9.3.2}
+\contentsline {subsubsection}{\numberline {7.9.3.3}Mouse\discretionary {-}{}{}X}{43}{subsubsection.7.9.3.3}
+\contentsline {subsubsection}{\numberline {7.9.3.4}Mouse\discretionary {-}{}{}Y}{43}{subsubsection.7.9.3.4}
+\contentsline {subsubsection}{\numberline {7.9.3.5}this[Key key]}{43}{subsubsection.7.9.3.5}
+\contentsline {subsubsection}{\numberline {7.9.3.6}this[Mouse\discretionary {-}{}{}Button button]}{44}{subsubsection.7.9.3.6}
+\contentsline {subsection}{\numberline {7.9.4}Event Documentation}{44}{subsection.7.9.4}
+\contentsline {subsubsection}{\numberline {7.9.4.1}Key\discretionary {-}{}{}Down}{44}{subsubsection.7.9.4.1}
+\contentsline {subsubsection}{\numberline {7.9.4.2}Key\discretionary {-}{}{}Press}{44}{subsubsection.7.9.4.2}
+\contentsline {subsubsection}{\numberline {7.9.4.3}Key\discretionary {-}{}{}Up}{44}{subsubsection.7.9.4.3}
+\contentsline {subsubsection}{\numberline {7.9.4.4}Mouse\discretionary {-}{}{}Down}{44}{subsubsection.7.9.4.4}
+\contentsline {subsubsection}{\numberline {7.9.4.5}Mouse\discretionary {-}{}{}Up}{44}{subsubsection.7.9.4.5}
+\contentsline {subsubsection}{\numberline {7.9.4.6}Wheel\discretionary {-}{}{}Changed}{44}{subsubsection.7.9.4.6}
+\contentsline {subsubsection}{\numberline {7.9.4.7}Wheel\discretionary {-}{}{}Down}{44}{subsubsection.7.9.4.7}
+\contentsline {subsubsection}{\numberline {7.9.4.8}Wheel\discretionary {-}{}{}Up}{45}{subsubsection.7.9.4.8}
+\contentsline {section}{\numberline {7.10}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Class Reference}{45}{section.7.10}
+\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{47}{subsection.7.10.1}
+\contentsline {subsection}{\numberline {7.10.2}Constructor \& Destructor Documentation}{47}{subsection.7.10.2}
+\contentsline {subsubsection}{\numberline {7.10.2.1}Input\discretionary {-}{}{}Manager}{47}{subsubsection.7.10.2.1}
+\contentsline {subsubsection}{\numberline {7.10.2.2}Input\discretionary {-}{}{}Manager}{47}{subsubsection.7.10.2.2}
+\contentsline {subsection}{\numberline {7.10.3}Member Function Documentation}{47}{subsection.7.10.3}
+\contentsline {subsubsection}{\numberline {7.10.3.1}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}{47}{subsubsection.7.10.3.1}
+\contentsline {subsubsection}{\numberline {7.10.3.2}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}{48}{subsubsection.7.10.3.2}
+\contentsline {subsubsection}{\numberline {7.10.3.3}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}{48}{subsubsection.7.10.3.3}
+\contentsline {subsubsection}{\numberline {7.10.3.4}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}{48}{subsubsection.7.10.3.4}
+\contentsline {subsubsection}{\numberline {7.10.3.5}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}{48}{subsubsection.7.10.3.5}
+\contentsline {subsubsection}{\numberline {7.10.3.6}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}{49}{subsubsection.7.10.3.6}
+\contentsline {subsubsection}{\numberline {7.10.3.7}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}{49}{subsubsection.7.10.3.7}
+\contentsline {subsubsection}{\numberline {7.10.3.8}Key\discretionary {-}{}{}Pressed}{49}{subsubsection.7.10.3.8}
+\contentsline {subsubsection}{\numberline {7.10.3.9}Key\discretionary {-}{}{}Released}{50}{subsubsection.7.10.3.9}
+\contentsline {subsubsection}{\numberline {7.10.3.10}Mouse\discretionary {-}{}{}Pressed}{50}{subsubsection.7.10.3.10}
+\contentsline {subsubsection}{\numberline {7.10.3.11}Mouse\discretionary {-}{}{}Released}{50}{subsubsection.7.10.3.11}
+\contentsline {subsubsection}{\numberline {7.10.3.12}Update}{51}{subsubsection.7.10.3.12}
+\contentsline {subsubsection}{\numberline {7.10.3.13}Wheel\discretionary {-}{}{}Change}{51}{subsubsection.7.10.3.13}
+\contentsline {subsection}{\numberline {7.10.4}Property Documentation}{51}{subsection.7.10.4}
+\contentsline {subsubsection}{\numberline {7.10.4.1}Mouse\discretionary {-}{}{}Position}{51}{subsubsection.7.10.4.1}
+\contentsline {subsubsection}{\numberline {7.10.4.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{51}{subsubsection.7.10.4.2}
+\contentsline {subsubsection}{\numberline {7.10.4.3}Mouse\discretionary {-}{}{}X}{51}{subsubsection.7.10.4.3}
+\contentsline {subsubsection}{\numberline {7.10.4.4}Mouse\discretionary {-}{}{}Y}{51}{subsubsection.7.10.4.4}
+\contentsline {subsubsection}{\numberline {7.10.4.5}this[Key key]}{51}{subsubsection.7.10.4.5}
+\contentsline {subsubsection}{\numberline {7.10.4.6}this[Mouse\discretionary {-}{}{}Button button]}{51}{subsubsection.7.10.4.6}
+\contentsline {subsection}{\numberline {7.10.5}Event Documentation}{51}{subsection.7.10.5}
+\contentsline {subsubsection}{\numberline {7.10.5.1}Key\discretionary {-}{}{}Down}{51}{subsubsection.7.10.5.1}
+\contentsline {subsubsection}{\numberline {7.10.5.2}Key\discretionary {-}{}{}Press}{51}{subsubsection.7.10.5.2}
+\contentsline {subsubsection}{\numberline {7.10.5.3}Key\discretionary {-}{}{}Up}{51}{subsubsection.7.10.5.3}
+\contentsline {subsubsection}{\numberline {7.10.5.4}Mouse\discretionary {-}{}{}Down}{52}{subsubsection.7.10.5.4}
+\contentsline {subsubsection}{\numberline {7.10.5.5}Mouse\discretionary {-}{}{}Up}{52}{subsubsection.7.10.5.5}
+\contentsline {subsubsection}{\numberline {7.10.5.6}Wheel\discretionary {-}{}{}Changed}{52}{subsubsection.7.10.5.6}
+\contentsline {subsubsection}{\numberline {7.10.5.7}Wheel\discretionary {-}{}{}Down}{52}{subsubsection.7.10.5.7}
+\contentsline {subsubsection}{\numberline {7.10.5.8}Wheel\discretionary {-}{}{}Up}{52}{subsubsection.7.10.5.8}
+\contentsline {section}{\numberline {7.11}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}I\discretionary {-}{}{}O Class Reference}{52}{section.7.11}
+\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{52}{subsection.7.11.1}
+\contentsline {subsection}{\numberline {7.11.2}Member Function Documentation}{52}{subsection.7.11.2}
+\contentsline {subsubsection}{\numberline {7.11.2.1}Get\discretionary {-}{}{}Absolute\discretionary {-}{}{}Path}{52}{subsubsection.7.11.2.1}
+\contentsline {section}{\numberline {7.12}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Song Interface Reference}{53}{section.7.12}
+\contentsline {subsection}{\numberline {7.12.1}Detailed Description}{54}{subsection.7.12.1}
+\contentsline {subsection}{\numberline {7.12.2}Member Function Documentation}{54}{subsection.7.12.2}
+\contentsline {subsubsection}{\numberline {7.12.2.1}Pause}{54}{subsubsection.7.12.2.1}
+\contentsline {subsubsection}{\numberline {7.12.2.2}Play}{54}{subsubsection.7.12.2.2}
+\contentsline {subsubsection}{\numberline {7.12.2.3}Resume}{54}{subsubsection.7.12.2.3}
+\contentsline {subsubsection}{\numberline {7.12.2.4}Stop}{54}{subsubsection.7.12.2.4}
+\contentsline {subsection}{\numberline {7.12.3}Property Documentation}{55}{subsection.7.12.3}
+\contentsline {subsubsection}{\numberline {7.12.3.1}File}{55}{subsubsection.7.12.3.1}
+\contentsline {subsubsection}{\numberline {7.12.3.2}Is\discretionary {-}{}{}Looped}{55}{subsubsection.7.12.3.2}
+\contentsline {subsubsection}{\numberline {7.12.3.3}Name}{55}{subsubsection.7.12.3.3}
+\contentsline {subsubsection}{\numberline {7.12.3.4}Volume}{55}{subsubsection.7.12.3.4}
+\contentsline {section}{\numberline {7.13}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Sound Interface Reference}{55}{section.7.13}
 \contentsline {subsection}{\numberline {7.13.1}Detailed Description}{56}{subsection.7.13.1}
 \contentsline {subsection}{\numberline {7.13.2}Member Function Documentation}{56}{subsection.7.13.2}
-\contentsline {subsubsection}{\numberline {7.13.2.1}Button\discretionary {-}{}{}Down}{56}{subsubsection.7.13.2.1}
-\contentsline {subsubsection}{\numberline {7.13.2.2}Button\discretionary {-}{}{}Pressed}{57}{subsubsection.7.13.2.2}
-\contentsline {subsubsection}{\numberline {7.13.2.3}Button\discretionary {-}{}{}Released}{57}{subsubsection.7.13.2.3}
-\contentsline {subsubsection}{\numberline {7.13.2.4}Button\discretionary {-}{}{}Up}{57}{subsubsection.7.13.2.4}
-\contentsline {subsubsection}{\numberline {7.13.2.5}Key\discretionary {-}{}{}Down}{58}{subsubsection.7.13.2.5}
-\contentsline {subsubsection}{\numberline {7.13.2.6}Key\discretionary {-}{}{}Pressed}{58}{subsubsection.7.13.2.6}
-\contentsline {subsubsection}{\numberline {7.13.2.7}Key\discretionary {-}{}{}Released}{58}{subsubsection.7.13.2.7}
-\contentsline {subsubsection}{\numberline {7.13.2.8}Key\discretionary {-}{}{}Up}{59}{subsubsection.7.13.2.8}
-\contentsline {subsubsection}{\numberline {7.13.2.9}Update}{59}{subsubsection.7.13.2.9}
-\contentsline {subsubsection}{\numberline {7.13.2.10}Wheel\discretionary {-}{}{}Change}{59}{subsubsection.7.13.2.10}
-\contentsline {subsubsection}{\numberline {7.13.2.11}Wheel\discretionary {-}{}{}Changed}{59}{subsubsection.7.13.2.11}
-\contentsline {subsubsection}{\numberline {7.13.2.12}Wheel\discretionary {-}{}{}Down}{60}{subsubsection.7.13.2.12}
-\contentsline {subsubsection}{\numberline {7.13.2.13}Wheel\discretionary {-}{}{}Up}{60}{subsubsection.7.13.2.13}
-\contentsline {subsection}{\numberline {7.13.3}Property Documentation}{60}{subsection.7.13.3}
-\contentsline {subsubsection}{\numberline {7.13.3.1}Mouse\discretionary {-}{}{}Position}{60}{subsubsection.7.13.3.1}
-\contentsline {subsubsection}{\numberline {7.13.3.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{60}{subsubsection.7.13.3.2}
-\contentsline {subsubsection}{\numberline {7.13.3.3}Mouse\discretionary {-}{}{}X}{60}{subsubsection.7.13.3.3}
-\contentsline {subsubsection}{\numberline {7.13.3.4}Mouse\discretionary {-}{}{}Y}{60}{subsubsection.7.13.3.4}
-\contentsline {subsubsection}{\numberline {7.13.3.5}this[Key key]}{60}{subsubsection.7.13.3.5}
-\contentsline {subsubsection}{\numberline {7.13.3.6}this[Mouse\discretionary {-}{}{}Button button]}{60}{subsubsection.7.13.3.6}
-\contentsline {section}{\numberline {7.14}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Song Class Reference}{60}{section.7.14}
-\contentsline {subsection}{\numberline {7.14.1}Detailed Description}{62}{subsection.7.14.1}
-\contentsline {subsection}{\numberline {7.14.2}Member Function Documentation}{62}{subsection.7.14.2}
-\contentsline {subsubsection}{\numberline {7.14.2.1}Dispose}{62}{subsubsection.7.14.2.1}
-\contentsline {subsubsection}{\numberline {7.14.2.2}Pause}{62}{subsubsection.7.14.2.2}
-\contentsline {subsubsection}{\numberline {7.14.2.3}Play}{62}{subsubsection.7.14.2.3}
-\contentsline {subsubsection}{\numberline {7.14.2.4}Resume}{62}{subsubsection.7.14.2.4}
-\contentsline {subsubsection}{\numberline {7.14.2.5}Stop}{62}{subsubsection.7.14.2.5}
-\contentsline {subsection}{\numberline {7.14.3}Property Documentation}{63}{subsection.7.14.3}
-\contentsline {subsubsection}{\numberline {7.14.3.1}File}{63}{subsubsection.7.14.3.1}
-\contentsline {subsubsection}{\numberline {7.14.3.2}Is\discretionary {-}{}{}Looped}{63}{subsubsection.7.14.3.2}
-\contentsline {subsubsection}{\numberline {7.14.3.3}Name}{63}{subsubsection.7.14.3.3}
-\contentsline {subsubsection}{\numberline {7.14.3.4}Volume}{63}{subsubsection.7.14.3.4}
-\contentsline {section}{\numberline {7.15}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Sound Class Reference}{63}{section.7.15}
-\contentsline {subsection}{\numberline {7.15.1}Detailed Description}{64}{subsection.7.15.1}
-\contentsline {subsection}{\numberline {7.15.2}Member Function Documentation}{64}{subsection.7.15.2}
-\contentsline {subsubsection}{\numberline {7.15.2.1}Dispose}{64}{subsubsection.7.15.2.1}
-\contentsline {subsubsection}{\numberline {7.15.2.2}Play}{64}{subsubsection.7.15.2.2}
-\contentsline {subsubsection}{\numberline {7.15.2.3}Stop}{65}{subsubsection.7.15.2.3}
-\contentsline {subsection}{\numberline {7.15.3}Property Documentation}{65}{subsection.7.15.3}
-\contentsline {subsubsection}{\numberline {7.15.3.1}File}{65}{subsubsection.7.15.3.1}
-\contentsline {subsubsection}{\numberline {7.15.3.2}Name}{65}{subsubsection.7.15.3.2}
-\contentsline {section}{\numberline {7.16}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Point Struct Reference}{65}{section.7.16}
-\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{65}{subsection.7.16.1}
-\contentsline {subsection}{\numberline {7.16.2}Constructor \& Destructor Documentation}{65}{subsection.7.16.2}
-\contentsline {subsubsection}{\numberline {7.16.2.1}Point}{65}{subsubsection.7.16.2.1}
-\contentsline {subsection}{\numberline {7.16.3}Member Data Documentation}{66}{subsection.7.16.3}
-\contentsline {subsubsection}{\numberline {7.16.3.1}X}{66}{subsubsection.7.16.3.1}
-\contentsline {subsubsection}{\numberline {7.16.3.2}Y}{66}{subsubsection.7.16.3.2}
-\contentsline {section}{\numberline {7.17}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing.\discretionary {-}{}{}Serializer Class Reference}{66}{section.7.17}
-\contentsline {subsection}{\numberline {7.17.1}Detailed Description}{66}{subsection.7.17.1}
-\contentsline {subsection}{\numberline {7.17.2}Member Function Documentation}{66}{subsection.7.17.2}
-\contentsline {subsubsection}{\numberline {7.17.2.1}Deserialize$<$ T $>$}{66}{subsubsection.7.17.2.1}
-\contentsline {subsubsection}{\numberline {7.17.2.2}Serialize$<$ T $>$}{67}{subsubsection.7.17.2.2}
-\contentsline {subsubsection}{\numberline {7.17.2.3}Serialize$<$ T $>$}{67}{subsubsection.7.17.2.3}
-\contentsline {section}{\numberline {7.18}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Services Class Reference}{68}{section.7.18}
-\contentsline {subsection}{\numberline {7.18.1}Detailed Description}{68}{subsection.7.18.1}
-\contentsline {subsection}{\numberline {7.18.2}Member Function Documentation}{68}{subsection.7.18.2}
-\contentsline {subsubsection}{\numberline {7.18.2.1}Provide}{68}{subsubsection.7.18.2.1}
-\contentsline {subsubsection}{\numberline {7.18.2.2}Provide}{69}{subsubsection.7.18.2.2}
-\contentsline {subsubsection}{\numberline {7.18.2.3}Provide}{69}{subsubsection.7.18.2.3}
-\contentsline {subsection}{\numberline {7.18.3}Property Documentation}{69}{subsection.7.18.3}
-\contentsline {subsubsection}{\numberline {7.18.3.1}Audio}{69}{subsubsection.7.18.3.1}
-\contentsline {subsubsection}{\numberline {7.18.3.2}Input}{69}{subsubsection.7.18.3.2}
-\contentsline {section}{\numberline {7.19}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Song Class Reference}{69}{section.7.19}
-\contentsline {subsection}{\numberline {7.19.1}Detailed Description}{71}{subsection.7.19.1}
-\contentsline {subsection}{\numberline {7.19.2}Member Function Documentation}{71}{subsection.7.19.2}
-\contentsline {subsubsection}{\numberline {7.19.2.1}Dispose}{71}{subsubsection.7.19.2.1}
-\contentsline {subsubsection}{\numberline {7.19.2.2}Pause}{71}{subsubsection.7.19.2.2}
-\contentsline {subsubsection}{\numberline {7.19.2.3}Play}{71}{subsubsection.7.19.2.3}
-\contentsline {subsubsection}{\numberline {7.19.2.4}Resume}{71}{subsubsection.7.19.2.4}
-\contentsline {subsubsection}{\numberline {7.19.2.5}Stop}{72}{subsubsection.7.19.2.5}
-\contentsline {subsection}{\numberline {7.19.3}Property Documentation}{72}{subsection.7.19.3}
-\contentsline {subsubsection}{\numberline {7.19.3.1}File}{72}{subsubsection.7.19.3.1}
-\contentsline {subsubsection}{\numberline {7.19.3.2}Is\discretionary {-}{}{}Looped}{72}{subsubsection.7.19.3.2}
-\contentsline {subsubsection}{\numberline {7.19.3.3}Name}{72}{subsubsection.7.19.3.3}
-\contentsline {subsubsection}{\numberline {7.19.3.4}Volume}{72}{subsubsection.7.19.3.4}
-\contentsline {section}{\numberline {7.20}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Sound Class Reference}{72}{section.7.20}
-\contentsline {subsection}{\numberline {7.20.1}Detailed Description}{73}{subsection.7.20.1}
-\contentsline {subsection}{\numberline {7.20.2}Member Function Documentation}{73}{subsection.7.20.2}
-\contentsline {subsubsection}{\numberline {7.20.2.1}Dispose}{73}{subsubsection.7.20.2.1}
-\contentsline {subsubsection}{\numberline {7.20.2.2}Play}{73}{subsubsection.7.20.2.2}
-\contentsline {subsubsection}{\numberline {7.20.2.3}Stop}{74}{subsubsection.7.20.2.3}
-\contentsline {subsection}{\numberline {7.20.3}Property Documentation}{74}{subsection.7.20.3}
-\contentsline {subsubsection}{\numberline {7.20.3.1}File}{74}{subsubsection.7.20.3.1}
-\contentsline {subsubsection}{\numberline {7.20.3.2}Name}{74}{subsubsection.7.20.3.2}
-\contentsline {section}{\numberline {7.21}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}String\discretionary {-}{}{}Extensions Class Reference}{74}{section.7.21}
-\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{74}{subsection.7.21.1}
-\contentsline {subsection}{\numberline {7.21.2}Member Function Documentation}{74}{subsection.7.21.2}
-\contentsline {subsubsection}{\numberline {7.21.2.1}Replace}{74}{subsubsection.7.21.2.1}
-\contentsline {subsubsection}{\numberline {7.21.2.2}Replace}{75}{subsubsection.7.21.2.2}
-\contentsline {subsubsection}{\numberline {7.21.2.3}Replace\discretionary {-}{}{}First}{75}{subsubsection.7.21.2.3}
-\contentsline {section}{\numberline {7.22}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Threading Class Reference}{76}{section.7.22}
-\contentsline {subsection}{\numberline {7.22.1}Detailed Description}{76}{subsection.7.22.1}
-\contentsline {subsection}{\numberline {7.22.2}Member Function Documentation}{76}{subsection.7.22.2}
-\contentsline {subsubsection}{\numberline {7.22.2.1}Set\discretionary {-}{}{}Current\discretionary {-}{}{}Thread\discretionary {-}{}{}Name}{76}{subsubsection.7.22.2.1}
-\contentsline {section}{\numberline {7.23}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Version Class Reference}{76}{section.7.23}
-\contentsline {subsection}{\numberline {7.23.1}Detailed Description}{77}{subsection.7.23.1}
-\contentsline {subsection}{\numberline {7.23.2}Member Data Documentation}{77}{subsection.7.23.2}
-\contentsline {subsubsection}{\numberline {7.23.2.1}Major}{77}{subsubsection.7.23.2.1}
-\contentsline {subsubsection}{\numberline {7.23.2.2}Minor}{77}{subsubsection.7.23.2.2}
-\contentsline {subsubsection}{\numberline {7.23.2.3}Patch}{77}{subsubsection.7.23.2.3}
-\contentsline {subsubsection}{\numberline {7.23.2.4}Suffix}{77}{subsubsection.7.23.2.4}
-\contentsline {subsubsection}{\numberline {7.23.2.5}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format}{77}{subsubsection.7.23.2.5}
-\contentsline {subsubsection}{\numberline {7.23.2.6}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format\discretionary {-}{}{}With\discretionary {-}{}{}Suffix}{77}{subsubsection.7.23.2.6}
-\contentsline {subsection}{\numberline {7.23.3}Property Documentation}{77}{subsection.7.23.3}
-\contentsline {subsubsection}{\numberline {7.23.3.1}Version\discretionary {-}{}{}String}{77}{subsubsection.7.23.3.1}
-\contentsline {section}{\numberline {7.24}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I Class Reference}{78}{section.7.24}
-\contentsline {subsection}{\numberline {7.24.1}Detailed Description}{78}{subsection.7.24.1}
-\contentsline {subsection}{\numberline {7.24.2}Member Function Documentation}{78}{subsection.7.24.2}
-\contentsline {subsubsection}{\numberline {7.24.2.1}Alloc\discretionary {-}{}{}Console}{78}{subsubsection.7.24.2.1}
-\contentsline {subsubsection}{\numberline {7.24.2.2}Free\discretionary {-}{}{}Console}{78}{subsubsection.7.24.2.2}
-\contentsline {subsubsection}{\numberline {7.24.2.3}Get\discretionary {-}{}{}Std\discretionary {-}{}{}Handle}{79}{subsubsection.7.24.2.3}
-\contentsline {subsection}{\numberline {7.24.3}Member Data Documentation}{79}{subsection.7.24.3}
-\contentsline {subsubsection}{\numberline {7.24.3.1}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}G\discretionary {-}{}{}E}{79}{subsubsection.7.24.3.1}
-\contentsline {subsubsection}{\numberline {7.24.3.2}S\discretionary {-}{}{}T\discretionary {-}{}{}D\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}D\discretionary {-}{}{}L\discretionary {-}{}{}E}{79}{subsubsection.7.24.3.2}
-\contentsline {chapter}{\numberline {8}File Documentation}{81}{chapter.8}
-\contentsline {section}{\numberline {8.1}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md File Reference}{81}{section.8.1}
-\contentsline {section}{\numberline {8.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Format.cs File Reference}{81}{section.8.2}
-\contentsline {section}{\numberline {8.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{81}{section.8.3}
-\contentsline {section}{\numberline {8.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{81}{section.8.4}
-\contentsline {section}{\numberline {8.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Song.cs File Reference}{82}{section.8.5}
-\contentsline {section}{\numberline {8.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Sound.cs File Reference}{82}{section.8.6}
-\contentsline {section}{\numberline {8.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{82}{section.8.7}
-\contentsline {section}{\numberline {8.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Song.cs File Reference}{82}{section.8.8}
-\contentsline {section}{\numberline {8.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Sound.cs File Reference}{83}{section.8.9}
-\contentsline {section}{\numberline {8.10}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Song.cs File Reference}{83}{section.8.10}
-\contentsline {section}{\numberline {8.11}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Sound.cs File Reference}{83}{section.8.11}
-\contentsline {section}{\numberline {8.12}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions.cs File Reference}{83}{section.8.12}
-\contentsline {section}{\numberline {8.13}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}String\discretionary {-}{}{}Extensions.cs File Reference}{84}{section.8.13}
-\contentsline {section}{\numberline {8.14}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}I\discretionary {-}{}{}O.cs File Reference}{84}{section.8.14}
-\contentsline {section}{\numberline {8.15}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Math.cs File Reference}{84}{section.8.15}
-\contentsline {section}{\numberline {8.16}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Threading.cs File Reference}{84}{section.8.16}
-\contentsline {section}{\numberline {8.17}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{85}{section.8.17}
-\contentsline {section}{\numberline {8.18}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{85}{section.8.18}
-\contentsline {section}{\numberline {8.19}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{85}{section.8.19}
-\contentsline {section}{\numberline {8.20}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Logging/\discretionary {-}{}{}Log\discretionary {-}{}{}Manager.cs File Reference}{85}{section.8.20}
-\contentsline {section}{\numberline {8.21}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Helpers.cs File Reference}{86}{section.8.21}
-\contentsline {section}{\numberline {8.22}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I.cs File Reference}{86}{section.8.22}
-\contentsline {section}{\numberline {8.23}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Point.cs File Reference}{86}{section.8.23}
-\contentsline {section}{\numberline {8.24}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{86}{section.8.24}
-\contentsline {section}{\numberline {8.25}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Serializing/\discretionary {-}{}{}Serializer.cs File Reference}{86}{section.8.25}
-\contentsline {section}{\numberline {8.26}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Services.cs File Reference}{87}{section.8.26}
-\contentsline {section}{\numberline {8.27}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Version.cs File Reference}{87}{section.8.27}
-\contentsline {part}{Index}{87}{section*.103}
+\contentsline {subsubsection}{\numberline {7.13.2.1}Play}{56}{subsubsection.7.13.2.1}
+\contentsline {subsubsection}{\numberline {7.13.2.2}Stop}{56}{subsubsection.7.13.2.2}
+\contentsline {subsection}{\numberline {7.13.3}Property Documentation}{57}{subsection.7.13.3}
+\contentsline {subsubsection}{\numberline {7.13.3.1}File}{57}{subsubsection.7.13.3.1}
+\contentsline {subsubsection}{\numberline {7.13.3.2}Name}{57}{subsubsection.7.13.3.2}
+\contentsline {section}{\numberline {7.14}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events.\discretionary {-}{}{}Key\discretionary {-}{}{}Char\discretionary {-}{}{}Event\discretionary {-}{}{}Args Class Reference}{57}{section.7.14}
+\contentsline {subsection}{\numberline {7.14.1}Detailed Description}{58}{subsection.7.14.1}
+\contentsline {subsection}{\numberline {7.14.2}Member Data Documentation}{58}{subsection.7.14.2}
+\contentsline {subsubsection}{\numberline {7.14.2.1}Key\discretionary {-}{}{}Char}{58}{subsubsection.7.14.2.1}
+\contentsline {section}{\numberline {7.15}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events.\discretionary {-}{}{}Key\discretionary {-}{}{}Event\discretionary {-}{}{}Args Class Reference}{58}{section.7.15}
+\contentsline {subsection}{\numberline {7.15.1}Detailed Description}{59}{subsection.7.15.1}
+\contentsline {subsection}{\numberline {7.15.2}Member Data Documentation}{59}{subsection.7.15.2}
+\contentsline {subsubsection}{\numberline {7.15.2.1}Key}{59}{subsubsection.7.15.2.1}
+\contentsline {section}{\numberline {7.16}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Label Class Reference}{59}{section.7.16}
+\contentsline {subsection}{\numberline {7.16.1}Detailed Description}{61}{subsection.7.16.1}
+\contentsline {subsection}{\numberline {7.16.2}Property Documentation}{61}{subsection.7.16.2}
+\contentsline {subsubsection}{\numberline {7.16.2.1}Text}{61}{subsubsection.7.16.2.1}
+\contentsline {section}{\numberline {7.17}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Link\discretionary {-}{}{}Label Class Reference}{61}{section.7.17}
+\contentsline {subsection}{\numberline {7.17.1}Detailed Description}{62}{subsection.7.17.1}
+\contentsline {subsection}{\numberline {7.17.2}Member Function Documentation}{62}{subsection.7.17.2}
+\contentsline {subsubsection}{\numberline {7.17.2.1}On\discretionary {-}{}{}Clicked}{62}{subsubsection.7.17.2.1}
+\contentsline {subsection}{\numberline {7.17.3}Property Documentation}{63}{subsection.7.17.3}
+\contentsline {subsubsection}{\numberline {7.17.3.1}Url}{63}{subsubsection.7.17.3.1}
+\contentsline {section}{\numberline {7.18}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging.\discretionary {-}{}{}Log\discretionary {-}{}{}Manager Class Reference}{63}{section.7.18}
+\contentsline {subsection}{\numberline {7.18.1}Detailed Description}{63}{subsection.7.18.1}
+\contentsline {subsection}{\numberline {7.18.2}Member Function Documentation}{63}{subsection.7.18.2}
+\contentsline {subsubsection}{\numberline {7.18.2.1}Clear\discretionary {-}{}{}Old\discretionary {-}{}{}Logs}{63}{subsubsection.7.18.2.1}
+\contentsline {subsubsection}{\numberline {7.18.2.2}Destroy\discretionary {-}{}{}Console}{64}{subsubsection.7.18.2.2}
+\contentsline {subsubsection}{\numberline {7.18.2.3}Get\discretionary {-}{}{}Logger}{64}{subsubsection.7.18.2.3}
+\contentsline {subsubsection}{\numberline {7.18.2.4}Load\discretionary {-}{}{}Config}{65}{subsubsection.7.18.2.4}
+\contentsline {subsubsection}{\numberline {7.18.2.5}Setup\discretionary {-}{}{}Console}{65}{subsubsection.7.18.2.5}
+\contentsline {section}{\numberline {7.19}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Math Class Reference}{66}{section.7.19}
+\contentsline {subsection}{\numberline {7.19.1}Detailed Description}{66}{subsection.7.19.1}
+\contentsline {subsection}{\numberline {7.19.2}Member Function Documentation}{67}{subsection.7.19.2}
+\contentsline {subsubsection}{\numberline {7.19.2.1}Clamp}{67}{subsubsection.7.19.2.1}
+\contentsline {subsubsection}{\numberline {7.19.2.2}Clamp}{67}{subsubsection.7.19.2.2}
+\contentsline {subsubsection}{\numberline {7.19.2.3}Clamp}{67}{subsubsection.7.19.2.3}
+\contentsline {subsubsection}{\numberline {7.19.2.4}Clamp}{68}{subsubsection.7.19.2.4}
+\contentsline {subsubsection}{\numberline {7.19.2.5}Clamp}{68}{subsubsection.7.19.2.5}
+\contentsline {subsubsection}{\numberline {7.19.2.6}Clamp}{68}{subsubsection.7.19.2.6}
+\contentsline {subsubsection}{\numberline {7.19.2.7}Clamp}{69}{subsubsection.7.19.2.7}
+\contentsline {subsubsection}{\numberline {7.19.2.8}Clamp}{69}{subsubsection.7.19.2.8}
+\contentsline {subsubsection}{\numberline {7.19.2.9}Clamp}{69}{subsubsection.7.19.2.9}
+\contentsline {section}{\numberline {7.20}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager Class Reference}{70}{section.7.20}
+\contentsline {subsection}{\numberline {7.20.1}Detailed Description}{71}{subsection.7.20.1}
+\contentsline {subsection}{\numberline {7.20.2}Member Function Documentation}{72}{subsection.7.20.2}
+\contentsline {subsubsection}{\numberline {7.20.2.1}Dispose}{72}{subsubsection.7.20.2.1}
+\contentsline {subsubsection}{\numberline {7.20.2.2}Get\discretionary {-}{}{}Song}{72}{subsubsection.7.20.2.2}
+\contentsline {subsubsection}{\numberline {7.20.2.3}Get\discretionary {-}{}{}Sound}{72}{subsubsection.7.20.2.3}
+\contentsline {subsubsection}{\numberline {7.20.2.4}Has\discretionary {-}{}{}Song}{72}{subsubsection.7.20.2.4}
+\contentsline {subsubsection}{\numberline {7.20.2.5}Has\discretionary {-}{}{}Sound}{73}{subsubsection.7.20.2.5}
+\contentsline {subsubsection}{\numberline {7.20.2.6}Load\discretionary {-}{}{}Song}{73}{subsubsection.7.20.2.6}
+\contentsline {subsubsection}{\numberline {7.20.2.7}Load\discretionary {-}{}{}Sound}{73}{subsubsection.7.20.2.7}
+\contentsline {subsubsection}{\numberline {7.20.2.8}Stop\discretionary {-}{}{}All}{74}{subsubsection.7.20.2.8}
+\contentsline {subsubsection}{\numberline {7.20.2.9}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}{74}{subsubsection.7.20.2.9}
+\contentsline {subsubsection}{\numberline {7.20.2.10}Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}{74}{subsubsection.7.20.2.10}
+\contentsline {section}{\numberline {7.21}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager Class Reference}{74}{section.7.21}
+\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{76}{subsection.7.21.1}
+\contentsline {subsection}{\numberline {7.21.2}Member Function Documentation}{76}{subsection.7.21.2}
+\contentsline {subsubsection}{\numberline {7.21.2.1}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}{76}{subsubsection.7.21.2.1}
+\contentsline {subsubsection}{\numberline {7.21.2.2}Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}{77}{subsubsection.7.21.2.2}
+\contentsline {subsubsection}{\numberline {7.21.2.3}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}{77}{subsubsection.7.21.2.3}
+\contentsline {subsubsection}{\numberline {7.21.2.4}Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}{77}{subsubsection.7.21.2.4}
+\contentsline {subsubsection}{\numberline {7.21.2.5}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}{78}{subsubsection.7.21.2.5}
+\contentsline {subsubsection}{\numberline {7.21.2.6}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}{78}{subsubsection.7.21.2.6}
+\contentsline {subsubsection}{\numberline {7.21.2.7}Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}{78}{subsubsection.7.21.2.7}
+\contentsline {subsubsection}{\numberline {7.21.2.8}Key\discretionary {-}{}{}Pressed}{78}{subsubsection.7.21.2.8}
+\contentsline {subsubsection}{\numberline {7.21.2.9}Key\discretionary {-}{}{}Released}{79}{subsubsection.7.21.2.9}
+\contentsline {subsubsection}{\numberline {7.21.2.10}Mouse\discretionary {-}{}{}Pressed}{79}{subsubsection.7.21.2.10}
+\contentsline {subsubsection}{\numberline {7.21.2.11}Mouse\discretionary {-}{}{}Released}{79}{subsubsection.7.21.2.11}
+\contentsline {subsubsection}{\numberline {7.21.2.12}Update}{80}{subsubsection.7.21.2.12}
+\contentsline {subsubsection}{\numberline {7.21.2.13}Wheel\discretionary {-}{}{}Change}{80}{subsubsection.7.21.2.13}
+\contentsline {subsection}{\numberline {7.21.3}Property Documentation}{80}{subsection.7.21.3}
+\contentsline {subsubsection}{\numberline {7.21.3.1}Mouse\discretionary {-}{}{}Position}{80}{subsubsection.7.21.3.1}
+\contentsline {subsubsection}{\numberline {7.21.3.2}Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}{80}{subsubsection.7.21.3.2}
+\contentsline {subsubsection}{\numberline {7.21.3.3}Mouse\discretionary {-}{}{}X}{80}{subsubsection.7.21.3.3}
+\contentsline {subsubsection}{\numberline {7.21.3.4}Mouse\discretionary {-}{}{}Y}{80}{subsubsection.7.21.3.4}
+\contentsline {subsubsection}{\numberline {7.21.3.5}this[Key key]}{80}{subsubsection.7.21.3.5}
+\contentsline {subsubsection}{\numberline {7.21.3.6}this[Mouse\discretionary {-}{}{}Button button]}{80}{subsubsection.7.21.3.6}
+\contentsline {subsection}{\numberline {7.21.4}Event Documentation}{80}{subsection.7.21.4}
+\contentsline {subsubsection}{\numberline {7.21.4.1}Key\discretionary {-}{}{}Down}{80}{subsubsection.7.21.4.1}
+\contentsline {subsubsection}{\numberline {7.21.4.2}Key\discretionary {-}{}{}Press}{81}{subsubsection.7.21.4.2}
+\contentsline {subsubsection}{\numberline {7.21.4.3}Key\discretionary {-}{}{}Up}{81}{subsubsection.7.21.4.3}
+\contentsline {subsubsection}{\numberline {7.21.4.4}Mouse\discretionary {-}{}{}Down}{81}{subsubsection.7.21.4.4}
+\contentsline {subsubsection}{\numberline {7.21.4.5}Mouse\discretionary {-}{}{}Up}{81}{subsubsection.7.21.4.5}
+\contentsline {subsubsection}{\numberline {7.21.4.6}Wheel\discretionary {-}{}{}Changed}{81}{subsubsection.7.21.4.6}
+\contentsline {subsubsection}{\numberline {7.21.4.7}Wheel\discretionary {-}{}{}Down}{81}{subsubsection.7.21.4.7}
+\contentsline {subsubsection}{\numberline {7.21.4.8}Wheel\discretionary {-}{}{}Up}{81}{subsubsection.7.21.4.8}
+\contentsline {section}{\numberline {7.22}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Song Class Reference}{81}{section.7.22}
+\contentsline {subsection}{\numberline {7.22.1}Detailed Description}{83}{subsection.7.22.1}
+\contentsline {subsection}{\numberline {7.22.2}Member Function Documentation}{83}{subsection.7.22.2}
+\contentsline {subsubsection}{\numberline {7.22.2.1}Dispose}{83}{subsubsection.7.22.2.1}
+\contentsline {subsubsection}{\numberline {7.22.2.2}Pause}{83}{subsubsection.7.22.2.2}
+\contentsline {subsubsection}{\numberline {7.22.2.3}Play}{83}{subsubsection.7.22.2.3}
+\contentsline {subsubsection}{\numberline {7.22.2.4}Resume}{83}{subsubsection.7.22.2.4}
+\contentsline {subsubsection}{\numberline {7.22.2.5}Stop}{83}{subsubsection.7.22.2.5}
+\contentsline {subsection}{\numberline {7.22.3}Property Documentation}{84}{subsection.7.22.3}
+\contentsline {subsubsection}{\numberline {7.22.3.1}File}{84}{subsubsection.7.22.3.1}
+\contentsline {subsubsection}{\numberline {7.22.3.2}Is\discretionary {-}{}{}Looped}{84}{subsubsection.7.22.3.2}
+\contentsline {subsubsection}{\numberline {7.22.3.3}Name}{84}{subsubsection.7.22.3.3}
+\contentsline {subsubsection}{\numberline {7.22.3.4}Volume}{84}{subsubsection.7.22.3.4}
+\contentsline {section}{\numberline {7.23}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Sound Class Reference}{84}{section.7.23}
+\contentsline {subsection}{\numberline {7.23.1}Detailed Description}{85}{subsection.7.23.1}
+\contentsline {subsection}{\numberline {7.23.2}Member Function Documentation}{85}{subsection.7.23.2}
+\contentsline {subsubsection}{\numberline {7.23.2.1}Dispose}{85}{subsubsection.7.23.2.1}
+\contentsline {subsubsection}{\numberline {7.23.2.2}Play}{85}{subsubsection.7.23.2.2}
+\contentsline {subsubsection}{\numberline {7.23.2.3}Stop}{86}{subsubsection.7.23.2.3}
+\contentsline {subsection}{\numberline {7.23.3}Property Documentation}{86}{subsection.7.23.3}
+\contentsline {subsubsection}{\numberline {7.23.3.1}File}{86}{subsubsection.7.23.3.1}
+\contentsline {subsubsection}{\numberline {7.23.3.2}Name}{86}{subsubsection.7.23.3.2}
+\contentsline {section}{\numberline {7.24}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Point$<$ T $>$ Struct Template Reference}{86}{section.7.24}
+\contentsline {subsection}{\numberline {7.24.1}Detailed Description}{86}{subsection.7.24.1}
+\contentsline {subsection}{\numberline {7.24.2}Constructor \& Destructor Documentation}{87}{subsection.7.24.2}
+\contentsline {subsubsection}{\numberline {7.24.2.1}Point}{87}{subsubsection.7.24.2.1}
+\contentsline {subsection}{\numberline {7.24.3}Member Data Documentation}{87}{subsection.7.24.3}
+\contentsline {subsubsection}{\numberline {7.24.3.1}X}{87}{subsubsection.7.24.3.1}
+\contentsline {subsubsection}{\numberline {7.24.3.2}Y}{87}{subsubsection.7.24.3.2}
+\contentsline {section}{\numberline {7.25}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing.\discretionary {-}{}{}Serializer Class Reference}{87}{section.7.25}
+\contentsline {subsection}{\numberline {7.25.1}Detailed Description}{87}{subsection.7.25.1}
+\contentsline {subsection}{\numberline {7.25.2}Member Function Documentation}{87}{subsection.7.25.2}
+\contentsline {subsubsection}{\numberline {7.25.2.1}Deserialize$<$ T $>$}{87}{subsubsection.7.25.2.1}
+\contentsline {subsubsection}{\numberline {7.25.2.2}Serialize$<$ T $>$}{88}{subsubsection.7.25.2.2}
+\contentsline {subsubsection}{\numberline {7.25.2.3}Serialize$<$ T $>$}{88}{subsubsection.7.25.2.3}
+\contentsline {section}{\numberline {7.26}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Services Class Reference}{89}{section.7.26}
+\contentsline {subsection}{\numberline {7.26.1}Detailed Description}{89}{subsection.7.26.1}
+\contentsline {subsection}{\numberline {7.26.2}Member Function Documentation}{89}{subsection.7.26.2}
+\contentsline {subsubsection}{\numberline {7.26.2.1}Provide}{89}{subsubsection.7.26.2.1}
+\contentsline {subsubsection}{\numberline {7.26.2.2}Provide}{90}{subsubsection.7.26.2.2}
+\contentsline {subsubsection}{\numberline {7.26.2.3}Provide}{90}{subsubsection.7.26.2.3}
+\contentsline {subsection}{\numberline {7.26.3}Property Documentation}{90}{subsection.7.26.3}
+\contentsline {subsubsection}{\numberline {7.26.3.1}Audio}{90}{subsubsection.7.26.3.1}
+\contentsline {subsubsection}{\numberline {7.26.3.2}Input}{90}{subsubsection.7.26.3.2}
+\contentsline {section}{\numberline {7.27}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Song Class Reference}{90}{section.7.27}
+\contentsline {subsection}{\numberline {7.27.1}Detailed Description}{92}{subsection.7.27.1}
+\contentsline {subsection}{\numberline {7.27.2}Member Function Documentation}{92}{subsection.7.27.2}
+\contentsline {subsubsection}{\numberline {7.27.2.1}Dispose}{92}{subsubsection.7.27.2.1}
+\contentsline {subsubsection}{\numberline {7.27.2.2}Pause}{92}{subsubsection.7.27.2.2}
+\contentsline {subsubsection}{\numberline {7.27.2.3}Play}{92}{subsubsection.7.27.2.3}
+\contentsline {subsubsection}{\numberline {7.27.2.4}Resume}{92}{subsubsection.7.27.2.4}
+\contentsline {subsubsection}{\numberline {7.27.2.5}Stop}{93}{subsubsection.7.27.2.5}
+\contentsline {subsection}{\numberline {7.27.3}Property Documentation}{93}{subsection.7.27.3}
+\contentsline {subsubsection}{\numberline {7.27.3.1}File}{93}{subsubsection.7.27.3.1}
+\contentsline {subsubsection}{\numberline {7.27.3.2}Is\discretionary {-}{}{}Looped}{93}{subsubsection.7.27.3.2}
+\contentsline {subsubsection}{\numberline {7.27.3.3}Name}{93}{subsubsection.7.27.3.3}
+\contentsline {subsubsection}{\numberline {7.27.3.4}Volume}{93}{subsubsection.7.27.3.4}
+\contentsline {section}{\numberline {7.28}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Sound Class Reference}{93}{section.7.28}
+\contentsline {subsection}{\numberline {7.28.1}Detailed Description}{94}{subsection.7.28.1}
+\contentsline {subsection}{\numberline {7.28.2}Member Function Documentation}{94}{subsection.7.28.2}
+\contentsline {subsubsection}{\numberline {7.28.2.1}Dispose}{94}{subsubsection.7.28.2.1}
+\contentsline {subsubsection}{\numberline {7.28.2.2}Play}{94}{subsubsection.7.28.2.2}
+\contentsline {subsubsection}{\numberline {7.28.2.3}Stop}{95}{subsubsection.7.28.2.3}
+\contentsline {subsection}{\numberline {7.28.3}Property Documentation}{95}{subsection.7.28.3}
+\contentsline {subsubsection}{\numberline {7.28.3.1}File}{95}{subsubsection.7.28.3.1}
+\contentsline {subsubsection}{\numberline {7.28.3.2}Name}{95}{subsubsection.7.28.3.2}
+\contentsline {section}{\numberline {7.29}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}String\discretionary {-}{}{}Extensions Class Reference}{95}{section.7.29}
+\contentsline {subsection}{\numberline {7.29.1}Detailed Description}{95}{subsection.7.29.1}
+\contentsline {subsection}{\numberline {7.29.2}Member Function Documentation}{95}{subsection.7.29.2}
+\contentsline {subsubsection}{\numberline {7.29.2.1}Replace}{95}{subsubsection.7.29.2.1}
+\contentsline {subsubsection}{\numberline {7.29.2.2}Replace}{96}{subsubsection.7.29.2.2}
+\contentsline {subsubsection}{\numberline {7.29.2.3}Replace\discretionary {-}{}{}First}{96}{subsubsection.7.29.2.3}
+\contentsline {section}{\numberline {7.30}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Threading Class Reference}{97}{section.7.30}
+\contentsline {subsection}{\numberline {7.30.1}Detailed Description}{97}{subsection.7.30.1}
+\contentsline {subsection}{\numberline {7.30.2}Member Function Documentation}{97}{subsection.7.30.2}
+\contentsline {subsubsection}{\numberline {7.30.2.1}Set\discretionary {-}{}{}Current\discretionary {-}{}{}Thread\discretionary {-}{}{}Name}{97}{subsubsection.7.30.2.1}
+\contentsline {section}{\numberline {7.31}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Version Class Reference}{97}{section.7.31}
+\contentsline {subsection}{\numberline {7.31.1}Detailed Description}{98}{subsection.7.31.1}
+\contentsline {subsection}{\numberline {7.31.2}Member Data Documentation}{98}{subsection.7.31.2}
+\contentsline {subsubsection}{\numberline {7.31.2.1}Major}{98}{subsubsection.7.31.2.1}
+\contentsline {subsubsection}{\numberline {7.31.2.2}Minor}{98}{subsubsection.7.31.2.2}
+\contentsline {subsubsection}{\numberline {7.31.2.3}Patch}{98}{subsubsection.7.31.2.3}
+\contentsline {subsubsection}{\numberline {7.31.2.4}Suffix}{98}{subsubsection.7.31.2.4}
+\contentsline {subsubsection}{\numberline {7.31.2.5}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format}{98}{subsubsection.7.31.2.5}
+\contentsline {subsubsection}{\numberline {7.31.2.6}Version\discretionary {-}{}{}String\discretionary {-}{}{}Format\discretionary {-}{}{}With\discretionary {-}{}{}Suffix}{98}{subsubsection.7.31.2.6}
+\contentsline {subsection}{\numberline {7.31.3}Property Documentation}{98}{subsection.7.31.3}
+\contentsline {subsubsection}{\numberline {7.31.3.1}Version\discretionary {-}{}{}String}{98}{subsubsection.7.31.3.1}
+\contentsline {section}{\numberline {7.32}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I Class Reference}{99}{section.7.32}
+\contentsline {subsection}{\numberline {7.32.1}Detailed Description}{99}{subsection.7.32.1}
+\contentsline {subsection}{\numberline {7.32.2}Member Function Documentation}{99}{subsection.7.32.2}
+\contentsline {subsubsection}{\numberline {7.32.2.1}Alloc\discretionary {-}{}{}Console}{99}{subsubsection.7.32.2.1}
+\contentsline {subsubsection}{\numberline {7.32.2.2}Free\discretionary {-}{}{}Console}{99}{subsubsection.7.32.2.2}
+\contentsline {subsubsection}{\numberline {7.32.2.3}Get\discretionary {-}{}{}Std\discretionary {-}{}{}Handle}{100}{subsubsection.7.32.2.3}
+\contentsline {subsection}{\numberline {7.32.3}Member Data Documentation}{100}{subsection.7.32.3}
+\contentsline {subsubsection}{\numberline {7.32.3.1}C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}G\discretionary {-}{}{}E}{100}{subsubsection.7.32.3.1}
+\contentsline {subsubsection}{\numberline {7.32.3.2}S\discretionary {-}{}{}T\discretionary {-}{}{}D\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}O\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}P\discretionary {-}{}{}U\discretionary {-}{}{}T\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}H\discretionary {-}{}{}A\discretionary {-}{}{}N\discretionary {-}{}{}D\discretionary {-}{}{}L\discretionary {-}{}{}E}{100}{subsubsection.7.32.3.2}
+\contentsline {chapter}{\numberline {8}File Documentation}{103}{chapter.8}
+\contentsline {section}{\numberline {8.1}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md File Reference}{103}{section.8.1}
+\contentsline {section}{\numberline {8.2}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Format.cs File Reference}{103}{section.8.2}
+\contentsline {section}{\numberline {8.3}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{103}{section.8.3}
+\contentsline {section}{\numberline {8.4}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{103}{section.8.4}
+\contentsline {section}{\numberline {8.5}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Song.cs File Reference}{104}{section.8.5}
+\contentsline {section}{\numberline {8.6}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Sound.cs File Reference}{104}{section.8.6}
+\contentsline {section}{\numberline {8.7}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.cs File Reference}{104}{section.8.7}
+\contentsline {section}{\numberline {8.8}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Song.cs File Reference}{104}{section.8.8}
+\contentsline {section}{\numberline {8.9}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Sound.cs File Reference}{105}{section.8.9}
+\contentsline {section}{\numberline {8.10}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Song.cs File Reference}{105}{section.8.10}
+\contentsline {section}{\numberline {8.11}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Sound.cs File Reference}{105}{section.8.11}
+\contentsline {section}{\numberline {8.12}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions.cs File Reference}{105}{section.8.12}
+\contentsline {section}{\numberline {8.13}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}String\discretionary {-}{}{}Extensions.cs File Reference}{106}{section.8.13}
+\contentsline {section}{\numberline {8.14}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}I\discretionary {-}{}{}O.cs File Reference}{106}{section.8.14}
+\contentsline {section}{\numberline {8.15}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Math.cs File Reference}{106}{section.8.15}
+\contentsline {section}{\numberline {8.16}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Threading.cs File Reference}{106}{section.8.16}
+\contentsline {section}{\numberline {8.17}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Events/\discretionary {-}{}{}Key.cs File Reference}{107}{section.8.17}
+\contentsline {section}{\numberline {8.18}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Events/\discretionary {-}{}{}Mouse.cs File Reference}{107}{section.8.18}
+\contentsline {section}{\numberline {8.19}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{108}{section.8.19}
+\contentsline {section}{\numberline {8.20}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{108}{section.8.20}
+\contentsline {section}{\numberline {8.21}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.cs File Reference}{108}{section.8.21}
+\contentsline {section}{\numberline {8.22}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Interfaces/\discretionary {-}{}{}I\discretionary {-}{}{}Drawable.cs File Reference}{108}{section.8.22}
+\contentsline {section}{\numberline {8.23}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Logging/\discretionary {-}{}{}Log\discretionary {-}{}{}Manager.cs File Reference}{109}{section.8.23}
+\contentsline {section}{\numberline {8.24}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Helpers.cs File Reference}{109}{section.8.24}
+\contentsline {section}{\numberline {8.25}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I.cs File Reference}{109}{section.8.25}
+\contentsline {section}{\numberline {8.26}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Point.cs File Reference}{109}{section.8.26}
+\contentsline {section}{\numberline {8.27}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{110}{section.8.27}
+\contentsline {section}{\numberline {8.28}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Serializing/\discretionary {-}{}{}Serializer.cs File Reference}{110}{section.8.28}
+\contentsline {section}{\numberline {8.29}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Services.cs File Reference}{110}{section.8.29}
+\contentsline {section}{\numberline {8.30}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Color.cs File Reference}{110}{section.8.30}
+\contentsline {section}{\numberline {8.31}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Control.cs File Reference}{110}{section.8.31}
+\contentsline {section}{\numberline {8.32}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Events/\discretionary {-}{}{}Control\discretionary {-}{}{}Clicked.cs File Reference}{111}{section.8.32}
+\contentsline {section}{\numberline {8.33}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}I\discretionary {-}{}{}Control.cs File Reference}{111}{section.8.33}
+\contentsline {section}{\numberline {8.34}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Label.cs File Reference}{111}{section.8.34}
+\contentsline {section}{\numberline {8.35}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Link\discretionary {-}{}{}Label.cs File Reference}{111}{section.8.35}
+\contentsline {section}{\numberline {8.36}Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Version.cs File Reference}{112}{section.8.36}
+\contentsline {part}{Index}{112}{section*.149}

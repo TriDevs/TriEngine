@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine2D.UI.Label" name="TriDevs.TriEngine2D.UI.Label">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html" title="Base control class that all other controls inherits from. Defines basic UI control behaviour..." alt="" coords="69,80,131,107"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html" title="A UI control that can be drawn on screen and interacted with. " alt="" coords="67,5,133,32"/>
+</map>

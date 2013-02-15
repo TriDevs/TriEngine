@@ -1,0 +1,5 @@
+<map id="TriDevs.TriEngine2D.UI.Control" name="TriDevs.TriEngine2D.UI.Control">
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label.html" title="A simple label to display text on the screen. " alt="" coords="9,155,199,181"/>
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html" title="A UI control that can be drawn on screen and interacted with. " alt="" coords="71,5,137,32"/>
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label.html" title="A label that, when clicked, will open a URL. " alt="" coords="13,230,195,271"/>
+</map>
