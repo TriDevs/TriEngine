@@ -72,9 +72,12 @@
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Math.cs" />
     <Compile Include="Helpers\Threading.cs" />
+    <Compile Include="Input\Events\Key.cs" />
+    <Compile Include="Input\Events\Mouse.cs" />
     <Compile Include="Input\IInputManager.cs" />
     <Compile Include="Input\InputManager.cs" />
     <Compile Include="Input\NullInputManager.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
     <Compile Include="Logging\LogManager.cs" />
     <Compile Include="Native\Helpers.cs" />
     <Compile Include="Native\WinAPI.cs" />
@@ -85,8 +88,9 @@
     <Compile Include="UI\Color.cs" />
     <Compile Include="UI\Control.cs" />
     <Compile Include="UI\Events\ControlClicked.cs" />
-    <Compile Include="UI\Events\VisibleChanged.cs" />
     <Compile Include="UI\IControl.cs" />
+    <Compile Include="UI\Label.cs" />
+    <Compile Include="UI\LinkLabel.cs" />
     <Compile Include="Version.cs" />
   </ItemGroup>
   <ItemGroup>
