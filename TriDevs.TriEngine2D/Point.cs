@@ -26,7 +26,8 @@ namespace TriDevs.TriEngine2D
     /// <summary>
     /// A struct representing an X/Y coordinate.
     /// </summary>
-    public struct Point<T>
+    /// <typeparam name="T">The type used for the X and Y members.</typeparam>
+    public struct Point<T> where T : struct
     {
         /// <summary>
         /// The X value of the coordinate.
