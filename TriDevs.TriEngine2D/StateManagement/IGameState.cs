@@ -21,6 +21,8 @@
  * SOFTWARE.
  */
 
+using System;
+using System.Collections.Generic;
 using TriDevs.TriEngine2D.Interfaces;
 
 namespace TriDevs.TriEngine2D.StateManagement
@@ -31,6 +33,11 @@ namespace TriDevs.TriEngine2D.StateManagement
     /// </summary>
     public interface IGameState : IDrawableGameComponent
     {
+        /// <summary>
+        /// Gets or sets a value indicating whether this game state is currently paused.
+        /// </summary>
+        bool Paused { get; set; }
+
         /// <summary>
         /// Loads resources associated with this game component.
         /// </summary>
@@ -57,12 +64,85 @@ namespace TriDevs.TriEngine2D.StateManagement
         /// Adds a game component to this game state.
         /// </summary>
         /// <param name="component">The component to add.</param>
-        void AddComponent(IGameComponent component);
+        /// <returns>The component that was added.</returns>
+        IGameComponent AddComponent(IGameComponent component);
 
         /// <summary>
-        /// Removes a specific game component from this game state.
+        /// Removes the specified component from this game state.
         /// </summary>
-        /// <param name="component">The component to remove.</param>
+        /// <param name="component"></param>
         void RemoveComponent(IGameComponent component);
+
+        /// <summary>
+        /// Removes all components from the game state.
+        /// </summary>
+        void RemoveAllComponents();
+
+        /// <summary>
+        /// Removes all components of the specified type from the game state.
+        /// </summary>
+        /// <param name="type">The type of component to remove.</param>
+        void RemoveAllComponents(Type type);
+
+        /// <summary>
+        /// Removes all components that match the supplied predicate function.
+        /// </summary>
+        /// <param name="predicate">The predicate function.</param>
+        void RemoveAllComponents(Predicate<IGameComponent> predicate);
+
+        /// <summary>
+        /// Returns whether this game state contains the specified <see cref="IGameComponent" />.
+        /// </summary>
+        /// <param name="component">The component to check for.</param>
+        /// <returns>True if the component has been added to this game state, false otherwise.</returns>
+        bool HasComponent(IGameComponent component);
+
+        /// <summary>
+        /// Returns whether this game state contains a specific type of component.
+        /// </summary>
+        /// <param name="type">The type to check for.</param>
+        /// <returns>True if the type of component has been added to this game state, false otherwise.</returns>
+        bool HasComponent(Type type);
+
+        /// <summary>
+        /// Returns whether this game state contains a component that matches the supplied predicate.
+        /// </summary>
+        /// <param name="func">Predicate function to use for search.</param>
+        /// <returns>True if the game state contains a matching component, false otherwise.</returns>
+        bool HasComponent(Func<IGameComponent, bool> func);
+
+        /// <summary>
+        /// Returns a read-only collection of all components in this game state.
+        /// </summary>
+        /// <returns>Read-only collection of components.</returns>
+        IEnumerable<IGameComponent> GetAllComponents();
+
+        /// <summary>
+        /// Returns the specified component type if it exists in this game state.
+        /// </summary>
+        /// <param name="type">The component type to get.</param>
+        /// <returns>The component object, or null if it's not added to this game state.</returns>
+        IGameComponent GetComponent(Type type);
+
+        /// <summary>
+        /// Returns all components of the specified type.
+        /// </summary>
+        /// <param name="type">The type of game component requested.</param>
+        /// <returns>A collection of all components of matching type.</returns>
+        IEnumerable<IGameComponent> GetAllComponents(Type type);
+
+        /// <summary>
+        /// Returns the first component that matches the supplied predicate function.
+        /// </summary>
+        /// <param name="func">The predicate function.</param>
+        /// <returns>Component that matches the predicate, null if no matches were found.</returns>
+        IGameComponent GetComponent(Func<IGameComponent, bool> func);
+
+        /// <summary>
+        /// Returns all components that matches the supplied predicate function.
+        /// </summary>
+        /// <param name="func">The predicate function.</param>
+        /// <returns>Collection of all matching components, empty collection if no matches were found.</returns>
+        IEnumerable<IGameComponent> GetAllComponents(Func<IGameComponent, bool> func);
     }
 }

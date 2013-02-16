@@ -29,7 +29,7 @@ namespace TriDevs.TriEngine2D.StateManagement
     /// Game state manager that keeps track of the active game states and provides
     /// methods to control the states.
     /// </summary>
-    public interface IGameStateManager : IDrawableGameComponent
+    public interface IGameStateManager : IUpdatable, IDrawable
     {
         /// <summary>
         /// Gets the number of game states currently in the stack.

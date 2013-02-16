@@ -21,13 +21,28 @@
  * SOFTWARE.
  */
 
+using TriDevs.TriEngine2D.StateManagement;
+
 namespace TriDevs.TriEngine2D.Interfaces
 {
     /// <summary>
-    /// A game component that can be added to <see cref="GameState" /> objects.
+    /// A game component that can be added to <see cref="IGameState" /> objects.
     /// </summary>
     public interface IGameComponent : IUpdatable
     {
-        
+        /// <summary>
+        /// Gets or sets a value indicating whether this component is enabled or not.
+        /// </summary>
+        bool Enabled { get; set; }
+
+        /// <summary>
+        /// Enables this game component.
+        /// </summary>
+        void Enable();
+
+        /// <summary>
+        /// Disables this game component.
+        /// </summary>
+        void Disable();
     }
 }

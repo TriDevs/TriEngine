@@ -21,15 +21,10 @@
  * SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace TriDevs.TriEngine2D.Interfaces
 {
     /// <summary>
-    /// A game component that can be added to <see cref="GameState" /> objects.
+    /// A game component that can be added to GameState objects.
     /// Drawable game components also implement a draw method to draw themselves to screen.
     /// </summary>
     public interface IDrawableGameComponent : IGameComponent, IDrawable
