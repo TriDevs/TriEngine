@@ -59,7 +59,7 @@ namespace TriDevs.TriEngine2D.UI
         /// This method is used to raise the click event from internal engine code.
         /// Seeing as controls do not currently have a way to detect clicks on their own.
         /// </summary>
-        internal virtual void Click()
+        internal void Click()
         {
             OnClicked();
         }
