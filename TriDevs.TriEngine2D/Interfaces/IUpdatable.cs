@@ -1,4 +1,4 @@
-﻿/* IDrawable.cs
+﻿/* IUpdatable.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,16 +21,21 @@
  * SOFTWARE.
  */
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 namespace TriDevs.TriEngine2D.Interfaces
 {
     /// <summary>
-    /// Implements a simple draw method.
+    /// Implements a simple update method.
     /// </summary>
-    public interface IDrawable
+    public interface IUpdatable
     {
         /// <summary>
-        /// Draw the object to screen.
+        /// Updates the object.
         /// </summary>
-        void Draw();
+        void Update();
     }
 }
