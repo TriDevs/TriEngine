@@ -28,12 +28,27 @@ var hierarchy =
         [ "TriDevs.TriEngine2D.Audio.Sound", "class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html", null ]
       ] ]
     ] ],
-    [ "TriDevs.TriEngine2D.Interfaces.IDrawable", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html", null ],
+    [ "TriDevs.TriEngine2D.Interfaces.IDrawable", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html", [
+      [ "TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html", [
+        [ "TriDevs.TriEngine2D.StateManagement.IGameState", "interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state.html", [
+          [ "TriDevs.TriEngine2D.StateManagement.GameState", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html", null ]
+        ] ]
+      ] ],
+      [ "TriDevs.TriEngine2D.StateManagement.IGameStateManager", "interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html", [
+        [ "TriDevs.TriEngine2D.StateManagement.GameStateManager", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager.html", null ]
+      ] ]
+    ] ],
     [ "TriDevs.TriEngine2D.Input.IInputManager", "interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html", [
       [ "TriDevs.TriEngine2D.Input.InputManager", "class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html", null ],
       [ "TriDevs.TriEngine2D.Input.NullInputManager", "class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html", null ]
     ] ],
     [ "TriDevs.TriEngine2D.Helpers.IO", "class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o.html", null ],
+    [ "TriDevs.TriEngine2D.Interfaces.IUpdatable", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html", [
+      [ "TriDevs.TriEngine2D.Interfaces.IGameComponent", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component.html", [
+        [ "TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html", null ]
+      ] ],
+      [ "TriDevs.TriEngine2D.StateManagement.IGameStateManager", "interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html", null ]
+    ] ],
     [ "TriDevs.TriEngine2D.Logging.LogManager", "class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html", null ],
     [ "TriDevs.TriEngine2D.Helpers.Math", "class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math.html", null ],
     [ "TriDevs.TriEngine2D.Point< T >", "struct_tri_devs_1_1_tri_engine2_d_1_1_point_3_01_t_01_4.html", null ],

@@ -9,6 +9,7 @@ var dir_eef12f4528c91f96e9d8bf3bf754e9c9 =
     [ "Native", "dir_04c2f9a0b23add30db9db6e7bb4f88ee.html", "dir_04c2f9a0b23add30db9db6e7bb4f88ee" ],
     [ "Properties", "dir_53f875ce9050e8c1b1c89d974708c7eb.html", "dir_53f875ce9050e8c1b1c89d974708c7eb" ],
     [ "Serializing", "dir_b00bafaf0925d295d47f39b3b0d0b143.html", "dir_b00bafaf0925d295d47f39b3b0d0b143" ],
+    [ "StateManagement", "dir_6c7305958f6c1f3184ea16a8299a03e4.html", "dir_6c7305958f6c1f3184ea16a8299a03e4" ],
     [ "UI", "dir_31a0ee127806f71a64a724c3552408ca.html", "dir_31a0ee127806f71a64a724c3552408ca" ],
     [ "Point.cs", "_point_8cs.html", [
       [ "Point< T >", "struct_tri_devs_1_1_tri_engine2_d_1_1_point_3_01_t_01_4.html", "struct_tri_devs_1_1_tri_engine2_d_1_1_point_3_01_t_01_4" ]
