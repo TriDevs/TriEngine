@@ -2,377 +2,432 @@
 
   \item {A}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{24}
+		\hyperpage{26}
+  \item {Active\discretionary {-}{}{}State}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{45}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{67}
+  \item {Add\discretionary {-}{}{}Component}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{35}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{60}
   \item {Alloc\discretionary {-}{}{}Console}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}, 
-		\hyperpage{99}
+		\hyperpage{128}
   \item {Audio}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Services}, 
-		\hyperpage{90}
+		\hyperpage{119}
   \item {Audio\discretionary {-}{}{}Format}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio}, 
 		\hyperpage{12}
   \item {Audio\discretionary {-}{}{}Manager}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{19}
+		\hyperpage{21}
 
   \indexspace
 
   \item {B}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{24}
+		\hyperpage{26}
 
   \indexspace
 
   \item {C\discretionary {-}{}{}O\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}P\discretionary {-}{}{}A\discretionary {-}{}{}G\discretionary {-}{}{}E}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}, 
-		\hyperpage{100}
+		\hyperpage{129}
   \item {Clamp}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}Math}, 
-		\hyperpage{67--69}
+		\hyperpage{96--98}
   \item {Clear\discretionary {-}{}{}Old\discretionary {-}{}{}Logs}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{63}
+		\hyperpage{92}
   \item {Clicked}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{38}
+		\hyperpage{53}
   \item {Color}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{23}
+		\hyperpage{25}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
+  \item {Components}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
   \item {Control\discretionary {-}{}{}Clicked\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
-		\hyperpage{16}
+		\hyperpage{17}
 
   \indexspace
 
   \item {Deserialize$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Serializing\discretionary {-}{}{}::\discretionary {-}{}{}Serializer}, 
-		\hyperpage{87}
+		\hyperpage{116}
   \item {Destroy\discretionary {-}{}{}Console}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{64}
+		\hyperpage{93}
   \item {Disable}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component}, 
+		\hyperpage{57}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{35}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{26}
+		\hyperpage{28}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
   \item {Dispose}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{19}
+		\hyperpage{21}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{72}
+		\hyperpage{101}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
-		\hyperpage{83}
+		\hyperpage{112}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
-		\hyperpage{85}
+		\hyperpage{114}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{92}
+		\hyperpage{121}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}, 
-		\hyperpage{94}
+		\hyperpage{123}
   \item {Draw}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Drawable}, 
-		\hyperpage{38}
+		\hyperpage{53}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{35}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{42}
 
   \indexspace
 
   \item {Enable}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component}, 
+		\hyperpage{57}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{35}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{26}
+		\hyperpage{28}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
   \item {Enabled}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component}, 
+		\hyperpage{57}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
 
   \indexspace
 
   \item {File}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{55}
+		\hyperpage{83}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
-		\hyperpage{57}
+		\hyperpage{85}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
-		\hyperpage{84}
+		\hyperpage{113}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
-		\hyperpage{86}
+		\hyperpage{115}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{93}
+		\hyperpage{122}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}, 
-		\hyperpage{95}
+		\hyperpage{124}
   \item {Free\discretionary {-}{}{}Console}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}, 
-		\hyperpage{99}
+		\hyperpage{128}
 
   \indexspace
 
   \item {G}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{24}
+		\hyperpage{26}
+  \item {Game\discretionary {-}{}{}State}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{34}
+  \item {Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{42}
   \item {Get\discretionary {-}{}{}Absolute\discretionary {-}{}{}Path}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}O}, 
-		\hyperpage{52}
+		\hyperpage{81}
+  \item {Get\discretionary {-}{}{}All\discretionary {-}{}{}Components}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{36}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{60, 61}
+  \item {Get\discretionary {-}{}{}Component}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{37}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{61}
   \item {Get\discretionary {-}{}{}Error\discretionary {-}{}{}Message}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{30}
+		\hyperpage{45}
   \item {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{30}
+		\hyperpage{45}
   \item {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Info}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{31}
+		\hyperpage{46}
   \item {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Message}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{31}
+		\hyperpage{46}
   \item {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{31}
+		\hyperpage{46}
   \item {Get\discretionary {-}{}{}Logger}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{64}
+		\hyperpage{93}
   \item {Get\discretionary {-}{}{}Song}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{19}
+		\hyperpage{21}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{33}
+		\hyperpage{48}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{72}
+		\hyperpage{101}
   \item {Get\discretionary {-}{}{}Sound}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{19}
+		\hyperpage{21}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{33}
+		\hyperpage{48}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{72}
+		\hyperpage{101}
   \item {Get\discretionary {-}{}{}Std\discretionary {-}{}{}Handle}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}, 
-		\hyperpage{100}
+		\hyperpage{129}
   \item {Get\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}, 
-		\hyperpage{31}
+		\hyperpage{46}
 
   \indexspace
 
   \item {Has$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}, 
-		\hyperpage{28}
+		\hyperpage{30}
+  \item {Has\discretionary {-}{}{}Component}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{37, 38}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{61, 62}
   \item {Has\discretionary {-}{}{}Song}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{20}
+		\hyperpage{22}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{34}
+		\hyperpage{49}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{72}
+		\hyperpage{101}
   \item {Has\discretionary {-}{}{}Sound}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{20}
+		\hyperpage{22}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{34}
+		\hyperpage{49}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{73}
+		\hyperpage{102}
   \item {Hide}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{26}
+		\hyperpage{28}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
 
   \indexspace
 
   \item {Include$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}, 
-		\hyperpage{28}
+		\hyperpage{30}
   \item {Input}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Services}, 
-		\hyperpage{90}
+		\hyperpage{119}
   \item {Input\discretionary {-}{}{}Manager}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{47}
+		\hyperpage{75}
   \item {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{40}
+		\hyperpage{69}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{47}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{76}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{105}
   \item {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{40}
+		\hyperpage{69}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{47}
+		\hyperpage{76}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{77}
+		\hyperpage{106}
   \item {Is\discretionary {-}{}{}Looped}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{55}
+		\hyperpage{83}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
-		\hyperpage{84}
+		\hyperpage{113}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{93}
+		\hyperpage{122}
   \item {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{41}
+		\hyperpage{69}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{48}
+		\hyperpage{76}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{77}
+		\hyperpage{106}
   \item {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{41}
+		\hyperpage{69}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{48}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{77}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{106}
   \item {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{41}
+		\hyperpage{70}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{48}
+		\hyperpage{77}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{78}
+		\hyperpage{107}
   \item {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{41}
+		\hyperpage{70}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{49}
+		\hyperpage{77}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{78}
+		\hyperpage{107}
   \item {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{41}
+		\hyperpage{70}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{49}
+		\hyperpage{77}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{78}
+		\hyperpage{107}
 
   \indexspace
 
   \item {Key}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events\discretionary {-}{}{}::\discretionary {-}{}{}Key\discretionary {-}{}{}Event\discretionary {-}{}{}Args}, 
-		\hyperpage{59}
+		\hyperpage{88}
   \item {Key\discretionary {-}{}{}Char}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events\discretionary {-}{}{}::\discretionary {-}{}{}Key\discretionary {-}{}{}Char\discretionary {-}{}{}Event\discretionary {-}{}{}Args}, 
-		\hyperpage{58}
+		\hyperpage{87}
   \item {Key\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
   \item {Key\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
 		\hyperpage{14}
   \item {Key\discretionary {-}{}{}Press}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
   \item {Key\discretionary {-}{}{}Press\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
 		\hyperpage{14}
   \item {Key\discretionary {-}{}{}Pressed}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{42}
+		\hyperpage{70}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{49}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{78}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{107}
   \item {Key\discretionary {-}{}{}Released}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{42}
+		\hyperpage{70}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{49}
+		\hyperpage{78}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{79}
+		\hyperpage{108}
   \item {Key\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
   \item {Key\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
 		\hyperpage{14}
 
   \indexspace
 
+  \item {Load}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{38}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{62}
   \item {Load\discretionary {-}{}{}Config}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{65}
+		\hyperpage{94}
   \item {Load\discretionary {-}{}{}Song}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{20}
+		\hyperpage{22}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{34}
+		\hyperpage{49}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{73}
+		\hyperpage{102}
   \item {Load\discretionary {-}{}{}Sound}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{21}
+		\hyperpage{23}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{34}
+		\hyperpage{49}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{73}
+		\hyperpage{102}
 
   \indexspace
 
   \item {Major}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Minor}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Missing$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}, 
-		\hyperpage{29}
+		\hyperpage{31}
   \item {Mouse\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{73}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
   \item {Mouse\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
 		\hyperpage{14}
   \item {Mouse\discretionary {-}{}{}Position}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
   \item {Mouse\discretionary {-}{}{}Pressed}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{42}
+		\hyperpage{71}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{50}
+		\hyperpage{78}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{79}
+		\hyperpage{108}
   \item {Mouse\discretionary {-}{}{}Released}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{42}
+		\hyperpage{71}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{50}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{79}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{108}
   \item {Mouse\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{73}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{52}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
   \item {Mouse\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}, 
 		\hyperpage{14}
@@ -387,41 +442,41 @@
 		\hyperpage{15}
   \item {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
   \item {Mouse\discretionary {-}{}{}X}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
   \item {Mouse\discretionary {-}{}{}Y}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{72}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
 		\hyperpage{80}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
+		\hyperpage{109}
 
   \indexspace
 
   \item {Name}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{55}
+		\hyperpage{83}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
-		\hyperpage{57}
+		\hyperpage{85}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
-		\hyperpage{84}
+		\hyperpage{113}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
-		\hyperpage{86}
+		\hyperpage{115}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{93}
+		\hyperpage{122}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}, 
-		\hyperpage{95}
+		\hyperpage{124}
 
   \indexspace
 
@@ -430,145 +485,189 @@
 		\hyperpage{12}
   \item {On\discretionary {-}{}{}Clicked}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{26}
+		\hyperpage{28}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Link\discretionary {-}{}{}Label}, 
-		\hyperpage{62}
+		\hyperpage{91}
 
   \indexspace
 
   \item {Patch}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Pause}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{54}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
 		\hyperpage{83}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
+		\hyperpage{112}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{92}
+		\hyperpage{121}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{38}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{63}
+  \item {Paused}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{64}
+  \item {Peek}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{43}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{66}
   \item {Play}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{54}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
-		\hyperpage{56}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
 		\hyperpage{83}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
 		\hyperpage{85}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
+		\hyperpage{112}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
+		\hyperpage{114}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{92}
+		\hyperpage{121}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}, 
-		\hyperpage{94}
+		\hyperpage{123}
   \item {Point}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Point$<$ T $>$}, 
-		\hyperpage{87}
+		\hyperpage{116}
+  \item {Pop}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{43}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{66}
   \item {Position}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
   \item {Provide}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Services}, 
-		\hyperpage{89, 90}
+		\hyperpage{118, 119}
+  \item {Push}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{43}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{66}
 
   \indexspace
 
   \item {R}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{24}
+		\hyperpage{26}
   \item {R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E.\discretionary {-}{}{}md}, 
-		\hyperpage{103}
+		\hyperpage{131}
   \item {Remove$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}, 
-		\hyperpage{29}
+		\hyperpage{31}
+  \item {Remove\discretionary {-}{}{}All\discretionary {-}{}{}Components}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{38, 39}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{63}
+  \item {Remove\discretionary {-}{}{}Component}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{39}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{63}
   \item {Replace}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Extensions}, 
-		\hyperpage{95, 96}
+		\hyperpage{124, 125}
   \item {Replace\discretionary {-}{}{}First}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Extensions}, 
-		\hyperpage{96}
+		\hyperpage{125}
   \item {Resume}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{54}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
 		\hyperpage{83}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
+		\hyperpage{112}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{92}
+		\hyperpage{121}
 
   \indexspace
 
   \item {Serialize$<$ T $>$}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Serializing\discretionary {-}{}{}::\discretionary {-}{}{}Serializer}, 
-		\hyperpage{88}
+		\hyperpage{117}
   \item {Set\discretionary {-}{}{}Current\discretionary {-}{}{}Thread\discretionary {-}{}{}Name}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}Threading}, 
-		\hyperpage{97}
+		\hyperpage{126}
   \item {Setup\discretionary {-}{}{}Console}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{65}
+		\hyperpage{94}
   \item {Show}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{26}
+		\hyperpage{28}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
   \item {Size}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
+  \item {State\discretionary {-}{}{}Count}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{45}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{67}
   \item {Stop}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{54}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
-		\hyperpage{56}
-    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
 		\hyperpage{83}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
+		\hyperpage{85}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
+		\hyperpage{112}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
-		\hyperpage{86}
+		\hyperpage{115}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{93}
+		\hyperpage{122}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}, 
-		\hyperpage{95}
+		\hyperpage{124}
   \item {Stop\discretionary {-}{}{}All}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{21}
+		\hyperpage{23}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{35}
+		\hyperpage{50}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{74}
+		\hyperpage{103}
   \item {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{21}
+		\hyperpage{23}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{35}
+		\hyperpage{50}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{74}
+		\hyperpage{103}
   \item {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{22}
+		\hyperpage{24}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{35}
+		\hyperpage{50}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{74}
+		\hyperpage{103}
   \item {Suffix}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
+  \item {Switch}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{44}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{66}
 
   \indexspace
 
   \item {Text}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{37}
+		\hyperpage{52}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Label}, 
-		\hyperpage{61}
+		\hyperpage{90}
   \item {To\discretionary {-}{}{}Vector3}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{23}
+		\hyperpage{25}
   \item {To\discretionary {-}{}{}Vector4}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}, 
-		\hyperpage{23}
+		\hyperpage{25}
   \item {Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Audio}
     \subitem {Ogg}, \hyperpage{12}
     \subitem {Wav}, \hyperpage{12}
@@ -578,262 +677,292 @@
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio}, 
 		\hyperpage{11}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{17}
+		\hyperpage{19}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{32}
+		\hyperpage{47}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{53}
-  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
-		\hyperpage{55}
-  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
-		\hyperpage{70}
-  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
 		\hyperpage{81}
-  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}I\discretionary {-}{}{}Sound}, 
 		\hyperpage{84}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}, 
+		\hyperpage{99}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
+		\hyperpage{110}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}, 
+		\hyperpage{113}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Song}, 
-		\hyperpage{90}
+		\hyperpage{119}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Audio.\discretionary {-}{}{}Sound}, 
-		\hyperpage{93}
+		\hyperpage{122}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions}, 
 		\hyperpage{12}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}, 
-		\hyperpage{27}
+		\hyperpage{29}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Extensions.\discretionary {-}{}{}String\discretionary {-}{}{}Extensions}, 
-		\hyperpage{95}
+		\hyperpage{124}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers}, 
 		\hyperpage{13}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}I\discretionary {-}{}{}O}, 
-		\hyperpage{52}
+		\hyperpage{81}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Math}, 
-		\hyperpage{66}
+		\hyperpage{95}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Helpers.\discretionary {-}{}{}Threading}, 
-		\hyperpage{97}
+		\hyperpage{126}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input}, 
 		\hyperpage{13}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events}, 
 		\hyperpage{13}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events.\discretionary {-}{}{}Key\discretionary {-}{}{}Char\discretionary {-}{}{}Event\discretionary {-}{}{}Args}, 
-		\hyperpage{57}
+		\hyperpage{86}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Events.\discretionary {-}{}{}Key\discretionary {-}{}{}Event\discretionary {-}{}{}Args}, 
-		\hyperpage{58}
+		\hyperpage{87}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{38}
+		\hyperpage{67}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{45}
+		\hyperpage{73}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Input.\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{74}
+		\hyperpage{103}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces}, 
 		\hyperpage{15}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces.\discretionary {-}{}{}I\discretionary {-}{}{}Drawable}, 
-		\hyperpage{38}
+		\hyperpage{53}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces.\discretionary {-}{}{}I\discretionary {-}{}{}Drawable\discretionary {-}{}{}Game\discretionary {-}{}{}Component}, 
+		\hyperpage{54}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces.\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component}, 
+		\hyperpage{55}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Interfaces.\discretionary {-}{}{}I\discretionary {-}{}{}Updatable}, 
+		\hyperpage{85}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging}, 
 		\hyperpage{15}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Logging.\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}, 
-		\hyperpage{63}
+		\hyperpage{92}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native}, 
-		\hyperpage{15}
+		\hyperpage{16}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Helpers}, 
-		\hyperpage{30}
+		\hyperpage{45}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Native.\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}, 
-		\hyperpage{99}
+		\hyperpage{128}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Point$<$ T $>$}, 
-		\hyperpage{86}
+		\hyperpage{115}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing}, 
 		\hyperpage{16}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Serializing.\discretionary {-}{}{}Serializer}, 
-		\hyperpage{87}
+		\hyperpage{116}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Services}, 
-		\hyperpage{89}
+		\hyperpage{118}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}State\discretionary {-}{}{}Management}, 
+		\hyperpage{16}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}State\discretionary {-}{}{}Management.\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{32}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}State\discretionary {-}{}{}Management.\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{41}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}State\discretionary {-}{}{}Management.\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{58}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}State\discretionary {-}{}{}Management.\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{64}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I}, 
 		\hyperpage{16}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Color}, 
-		\hyperpage{22}
-  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Control}, 
 		\hyperpage{24}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Control}, 
+		\hyperpage{26}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Events}, 
-		\hyperpage{16}
+		\hyperpage{17}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{35}
+		\hyperpage{50}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Label}, 
-		\hyperpage{59}
+		\hyperpage{89}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}U\discretionary {-}{}{}I.\discretionary {-}{}{}Link\discretionary {-}{}{}Label}, 
-		\hyperpage{61}
+		\hyperpage{90}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D.\discretionary {-}{}{}Version}, 
-		\hyperpage{97}
+		\hyperpage{126}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Format.\discretionary {-}{}{}cs}, 
-		\hyperpage{103}
+		\hyperpage{131}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{103}
+		\hyperpage{131}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{103}
+		\hyperpage{131}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Song.\discretionary {-}{}{}cs}, 
-		\hyperpage{104}
+		\hyperpage{132}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}I\discretionary {-}{}{}Sound.\discretionary {-}{}{}cs}, 
-		\hyperpage{104}
+		\hyperpage{132}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{104}
+		\hyperpage{132}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Song.\discretionary {-}{}{}cs}, 
-		\hyperpage{104}
+		\hyperpage{132}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Null\discretionary {-}{}{}Sound.\discretionary {-}{}{}cs}, 
-		\hyperpage{105}
+		\hyperpage{133}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Song.\discretionary {-}{}{}cs}, 
-		\hyperpage{105}
+		\hyperpage{133}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Audio/\discretionary {-}{}{}Sound.\discretionary {-}{}{}cs}, 
-		\hyperpage{105}
+		\hyperpage{133}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions.\discretionary {-}{}{}cs}, 
-		\hyperpage{105}
+		\hyperpage{133}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Extensions/\discretionary {-}{}{}String\discretionary {-}{}{}Extensions.\discretionary {-}{}{}cs}, 
-		\hyperpage{106}
+		\hyperpage{134}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}I\discretionary {-}{}{}O.\discretionary {-}{}{}cs}, 
-		\hyperpage{106}
+		\hyperpage{134}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Math.\discretionary {-}{}{}cs}, 
-		\hyperpage{106}
+		\hyperpage{134}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Helpers/\discretionary {-}{}{}Threading.\discretionary {-}{}{}cs}, 
-		\hyperpage{106}
+		\hyperpage{134}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Events/\discretionary {-}{}{}Key.\discretionary {-}{}{}cs}, 
-		\hyperpage{107}
+		\hyperpage{135}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Events/\discretionary {-}{}{}Mouse.\discretionary {-}{}{}cs}, 
-		\hyperpage{107}
+		\hyperpage{135}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{108}
+		\hyperpage{136}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{108}
+		\hyperpage{136}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Input/\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{108}
+		\hyperpage{136}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Interfaces/\discretionary {-}{}{}I\discretionary {-}{}{}Drawable.\discretionary {-}{}{}cs}, 
-		\hyperpage{108}
+		\hyperpage{136}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Interfaces/\discretionary {-}{}{}I\discretionary {-}{}{}Drawable\discretionary {-}{}{}Game\discretionary {-}{}{}Component.\discretionary {-}{}{}cs}, 
+		\hyperpage{137}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Interfaces/\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component.\discretionary {-}{}{}cs}, 
+		\hyperpage{137}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Interfaces/\discretionary {-}{}{}I\discretionary {-}{}{}Updatable.\discretionary {-}{}{}cs}, 
+		\hyperpage{137}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Logging/\discretionary {-}{}{}Log\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
-		\hyperpage{109}
+		\hyperpage{137}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Helpers.\discretionary {-}{}{}cs}, 
-		\hyperpage{109}
+		\hyperpage{138}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Native/\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I.\discretionary {-}{}{}cs}, 
-		\hyperpage{109}
+		\hyperpage{138}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Point.\discretionary {-}{}{}cs}, 
-		\hyperpage{109}
+		\hyperpage{138}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
-		\hyperpage{110}
+		\hyperpage{138}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Serializing/\discretionary {-}{}{}Serializer.\discretionary {-}{}{}cs}, 
-		\hyperpage{110}
+		\hyperpage{138}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Services.\discretionary {-}{}{}cs}, 
-		\hyperpage{110}
+		\hyperpage{139}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}State\discretionary {-}{}{}Management/\discretionary {-}{}{}Game\discretionary {-}{}{}State.\discretionary {-}{}{}cs}, 
+		\hyperpage{139}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}State\discretionary {-}{}{}Management/\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
+		\hyperpage{139}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}State\discretionary {-}{}{}Management/\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State.\discretionary {-}{}{}cs}, 
+		\hyperpage{139}
+  \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}State\discretionary {-}{}{}Management/\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
+		\hyperpage{140}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Color.\discretionary {-}{}{}cs}, 
-		\hyperpage{110}
+		\hyperpage{140}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Control.\discretionary {-}{}{}cs}, 
-		\hyperpage{110}
+		\hyperpage{140}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Events/\discretionary {-}{}{}Control\discretionary {-}{}{}Clicked.\discretionary {-}{}{}cs}, 
-		\hyperpage{111}
+		\hyperpage{140}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}I\discretionary {-}{}{}Control.\discretionary {-}{}{}cs}, 
-		\hyperpage{111}
+		\hyperpage{141}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Label.\discretionary {-}{}{}cs}, 
-		\hyperpage{111}
+		\hyperpage{141}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}U\discretionary {-}{}{}I/\discretionary {-}{}{}Link\discretionary {-}{}{}Label.\discretionary {-}{}{}cs}, 
-		\hyperpage{111}
+		\hyperpage{141}
   \item {Tri\discretionary {-}{}{}Devs.\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D/\discretionary {-}{}{}Version.\discretionary {-}{}{}cs}, 
-		\hyperpage{112}
+		\hyperpage{141}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio}
     \subitem {Audio\discretionary {-}{}{}Format}, \hyperpage{12}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}
-    \subitem {Audio\discretionary {-}{}{}Manager}, \hyperpage{19}
-    \subitem {Dispose}, \hyperpage{19}
-    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{19}
-    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{19}
-    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{20}
-    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{20}
-    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{20}
-    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{21}
-    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{21}
+    \subitem {Audio\discretionary {-}{}{}Manager}, \hyperpage{21}
+    \subitem {Dispose}, \hyperpage{21}
+    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{21}
+    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{21}
+    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{22}
+    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{22}
+    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{22}
+    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{23}
+    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{23}
     \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}, 
-		\hyperpage{21}
+		\hyperpage{23}
     \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}, 
-		\hyperpage{22}
+		\hyperpage{24}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}
-    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{33}
-    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{33}
-    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{34}
-    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{34}
-    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{34}
-    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{34}
-    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{35}
+    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{48}
+    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{48}
+    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{49}
+    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{49}
+    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{49}
+    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{49}
+    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{50}
     \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}, 
-		\hyperpage{35}
+		\hyperpage{50}
     \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}, 
-		\hyperpage{35}
+		\hyperpage{50}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}
-    \subitem {File}, \hyperpage{55}
-    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{55}
-    \subitem {Name}, \hyperpage{55}
-    \subitem {Pause}, \hyperpage{54}
-    \subitem {Play}, \hyperpage{54}
-    \subitem {Resume}, \hyperpage{54}
-    \subitem {Stop}, \hyperpage{54}
-    \subitem {Volume}, \hyperpage{55}
-  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}
-    \subitem {File}, \hyperpage{57}
-    \subitem {Name}, \hyperpage{57}
-    \subitem {Play}, \hyperpage{56}
-    \subitem {Stop}, \hyperpage{56}
-  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}
-    \subitem {Dispose}, \hyperpage{72}
-    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{72}
-    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{72}
-    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{72}
-    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{73}
-    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{73}
-    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{73}
-    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{74}
-    \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}, 
-		\hyperpage{74}
-    \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}, 
-		\hyperpage{74}
-  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}
-    \subitem {Dispose}, \hyperpage{83}
-    \subitem {File}, \hyperpage{84}
-    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{84}
-    \subitem {Name}, \hyperpage{84}
+    \subitem {File}, \hyperpage{83}
+    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{83}
+    \subitem {Name}, \hyperpage{83}
     \subitem {Pause}, \hyperpage{83}
     \subitem {Play}, \hyperpage{83}
     \subitem {Resume}, \hyperpage{83}
     \subitem {Stop}, \hyperpage{83}
-    \subitem {Volume}, \hyperpage{84}
-  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}
-    \subitem {Dispose}, \hyperpage{85}
-    \subitem {File}, \hyperpage{86}
-    \subitem {Name}, \hyperpage{86}
+    \subitem {Volume}, \hyperpage{83}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Sound}
+    \subitem {File}, \hyperpage{85}
+    \subitem {Name}, \hyperpage{85}
     \subitem {Play}, \hyperpage{85}
-    \subitem {Stop}, \hyperpage{86}
+    \subitem {Stop}, \hyperpage{85}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Audio\discretionary {-}{}{}Manager}
+    \subitem {Dispose}, \hyperpage{101}
+    \subitem {Get\discretionary {-}{}{}Song}, \hyperpage{101}
+    \subitem {Get\discretionary {-}{}{}Sound}, \hyperpage{101}
+    \subitem {Has\discretionary {-}{}{}Song}, \hyperpage{101}
+    \subitem {Has\discretionary {-}{}{}Sound}, \hyperpage{102}
+    \subitem {Load\discretionary {-}{}{}Song}, \hyperpage{102}
+    \subitem {Load\discretionary {-}{}{}Sound}, \hyperpage{102}
+    \subitem {Stop\discretionary {-}{}{}All}, \hyperpage{103}
+    \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Songs}, 
+		\hyperpage{103}
+    \subitem {Stop\discretionary {-}{}{}All\discretionary {-}{}{}Sounds}, 
+		\hyperpage{103}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}
+    \subitem {Dispose}, \hyperpage{112}
+    \subitem {File}, \hyperpage{113}
+    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{113}
+    \subitem {Name}, \hyperpage{113}
+    \subitem {Pause}, \hyperpage{112}
+    \subitem {Play}, \hyperpage{112}
+    \subitem {Resume}, \hyperpage{112}
+    \subitem {Stop}, \hyperpage{112}
+    \subitem {Volume}, \hyperpage{113}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Sound}
+    \subitem {Dispose}, \hyperpage{114}
+    \subitem {File}, \hyperpage{115}
+    \subitem {Name}, \hyperpage{115}
+    \subitem {Play}, \hyperpage{114}
+    \subitem {Stop}, \hyperpage{115}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}
-    \subitem {Dispose}, \hyperpage{92}
-    \subitem {File}, \hyperpage{93}
-    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{93}
-    \subitem {Name}, \hyperpage{93}
-    \subitem {Pause}, \hyperpage{92}
-    \subitem {Play}, \hyperpage{92}
-    \subitem {Resume}, \hyperpage{92}
-    \subitem {Stop}, \hyperpage{93}
-    \subitem {Volume}, \hyperpage{93}
+    \subitem {Dispose}, \hyperpage{121}
+    \subitem {File}, \hyperpage{122}
+    \subitem {Is\discretionary {-}{}{}Looped}, \hyperpage{122}
+    \subitem {Name}, \hyperpage{122}
+    \subitem {Pause}, \hyperpage{121}
+    \subitem {Play}, \hyperpage{121}
+    \subitem {Resume}, \hyperpage{121}
+    \subitem {Stop}, \hyperpage{122}
+    \subitem {Volume}, \hyperpage{122}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Sound}
-    \subitem {Dispose}, \hyperpage{94}
-    \subitem {File}, \hyperpage{95}
-    \subitem {Name}, \hyperpage{95}
-    \subitem {Play}, \hyperpage{94}
-    \subitem {Stop}, \hyperpage{95}
+    \subitem {Dispose}, \hyperpage{123}
+    \subitem {File}, \hyperpage{124}
+    \subitem {Name}, \hyperpage{124}
+    \subitem {Play}, \hyperpage{123}
+    \subitem {Stop}, \hyperpage{124}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}Enumeration\discretionary {-}{}{}Extensions}
-    \subitem {Has$<$ T $>$}, \hyperpage{28}
-    \subitem {Include$<$ T $>$}, \hyperpage{28}
-    \subitem {Missing$<$ T $>$}, \hyperpage{29}
-    \subitem {Remove$<$ T $>$}, \hyperpage{29}
+    \subitem {Has$<$ T $>$}, \hyperpage{30}
+    \subitem {Include$<$ T $>$}, \hyperpage{30}
+    \subitem {Missing$<$ T $>$}, \hyperpage{31}
+    \subitem {Remove$<$ T $>$}, \hyperpage{31}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Extensions\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Extensions}
-    \subitem {Replace}, \hyperpage{95, 96}
-    \subitem {Replace\discretionary {-}{}{}First}, \hyperpage{96}
+    \subitem {Replace}, \hyperpage{124, 125}
+    \subitem {Replace\discretionary {-}{}{}First}, \hyperpage{125}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}O}
     \subitem {Get\discretionary {-}{}{}Absolute\discretionary {-}{}{}Path}, 
-		\hyperpage{52}
+		\hyperpage{81}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}Math}
-    \subitem {Clamp}, \hyperpage{67--69}
+    \subitem {Clamp}, \hyperpage{96--98}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Helpers\discretionary {-}{}{}::\discretionary {-}{}{}Threading}
     \subitem {Set\discretionary {-}{}{}Current\discretionary {-}{}{}Thread\discretionary {-}{}{}Name}, 
-		\hyperpage{97}
+		\hyperpage{126}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events}
     \subitem {Key\discretionary {-}{}{}Down\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}, 
 		\hyperpage{14}
@@ -852,238 +981,313 @@
     \subitem {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}, 
 		\hyperpage{15}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events\discretionary {-}{}{}::\discretionary {-}{}{}Key\discretionary {-}{}{}Char\discretionary {-}{}{}Event\discretionary {-}{}{}Args}
-    \subitem {Key\discretionary {-}{}{}Char}, \hyperpage{58}
+    \subitem {Key\discretionary {-}{}{}Char}, \hyperpage{87}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Events\discretionary {-}{}{}::\discretionary {-}{}{}Key\discretionary {-}{}{}Event\discretionary {-}{}{}Args}
-    \subitem {Key}, \hyperpage{59}
+    \subitem {Key}, \hyperpage{88}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}
     \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}, 
-		\hyperpage{40}
+		\hyperpage{69}
     \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}, 
-		\hyperpage{40}
+		\hyperpage{69}
     \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}, 
-		\hyperpage{41}
+		\hyperpage{69}
     \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}, 
-		\hyperpage{41}
+		\hyperpage{69}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}, 
-		\hyperpage{41}
+		\hyperpage{70}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}, 
-		\hyperpage{41}
+		\hyperpage{70}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}, 
-		\hyperpage{41}
-    \subitem {Key\discretionary {-}{}{}Down}, \hyperpage{44}
-    \subitem {Key\discretionary {-}{}{}Press}, \hyperpage{44}
-    \subitem {Key\discretionary {-}{}{}Pressed}, \hyperpage{42}
-    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{42}
-    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{44}
-    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{44}
-    \subitem {Mouse\discretionary {-}{}{}Position}, \hyperpage{43}
-    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{42}
-    \subitem {Mouse\discretionary {-}{}{}Released}, \hyperpage{42}
-    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{44}
+		\hyperpage{70}
+    \subitem {Key\discretionary {-}{}{}Down}, \hyperpage{72}
+    \subitem {Key\discretionary {-}{}{}Press}, \hyperpage{72}
+    \subitem {Key\discretionary {-}{}{}Pressed}, \hyperpage{70}
+    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{70}
+    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{72}
+    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{73}
+    \subitem {Mouse\discretionary {-}{}{}Position}, \hyperpage{72}
+    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{71}
+    \subitem {Mouse\discretionary {-}{}{}Released}, \hyperpage{71}
+    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{73}
     \subitem {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}, 
-		\hyperpage{43}
-    \subitem {Mouse\discretionary {-}{}{}X}, \hyperpage{43}
-    \subitem {Mouse\discretionary {-}{}{}Y}, \hyperpage{43}
-    \subitem {Update}, \hyperpage{43}
-    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{43}
-    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{44}
-    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{44}
-    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{44}
+		\hyperpage{72}
+    \subitem {Mouse\discretionary {-}{}{}X}, \hyperpage{72}
+    \subitem {Mouse\discretionary {-}{}{}Y}, \hyperpage{72}
+    \subitem {Update}, \hyperpage{71}
+    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{71}
+    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{73}
+    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{73}
+    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{73}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}
-    \subitem {Input\discretionary {-}{}{}Manager}, \hyperpage{47}
-    \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}, 
-		\hyperpage{47}
-    \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}, 
-		\hyperpage{47}
-    \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}, 
-		\hyperpage{48}
-    \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}, 
-		\hyperpage{48}
-    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}, 
-		\hyperpage{48}
-    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}, 
-		\hyperpage{49}
-    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}, 
-		\hyperpage{49}
-    \subitem {Key\discretionary {-}{}{}Down}, \hyperpage{51}
-    \subitem {Key\discretionary {-}{}{}Press}, \hyperpage{51}
-    \subitem {Key\discretionary {-}{}{}Pressed}, \hyperpage{49}
-    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{49}
-    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{51}
-    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{51}
-    \subitem {Mouse\discretionary {-}{}{}Position}, \hyperpage{51}
-    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{50}
-    \subitem {Mouse\discretionary {-}{}{}Released}, \hyperpage{50}
-    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{52}
-    \subitem {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}, 
-		\hyperpage{51}
-    \subitem {Mouse\discretionary {-}{}{}X}, \hyperpage{51}
-    \subitem {Mouse\discretionary {-}{}{}Y}, \hyperpage{51}
-    \subitem {Update}, \hyperpage{50}
-    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{51}
-    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{52}
-    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{52}
-    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{52}
-  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}
+    \subitem {Input\discretionary {-}{}{}Manager}, \hyperpage{75}
     \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}, 
 		\hyperpage{76}
     \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}, 
-		\hyperpage{77}
+		\hyperpage{76}
     \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}, 
-		\hyperpage{77}
+		\hyperpage{76}
     \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}, 
 		\hyperpage{77}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}, 
-		\hyperpage{78}
+		\hyperpage{77}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}, 
-		\hyperpage{78}
+		\hyperpage{77}
     \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}, 
-		\hyperpage{78}
+		\hyperpage{77}
     \subitem {Key\discretionary {-}{}{}Down}, \hyperpage{80}
     \subitem {Key\discretionary {-}{}{}Press}, \hyperpage{80}
     \subitem {Key\discretionary {-}{}{}Pressed}, \hyperpage{78}
-    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{79}
-    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{81}
-    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{81}
+    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{78}
+    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{80}
+    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{80}
     \subitem {Mouse\discretionary {-}{}{}Position}, \hyperpage{80}
-    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{79}
+    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{78}
     \subitem {Mouse\discretionary {-}{}{}Released}, \hyperpage{79}
-    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{81}
+    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{80}
     \subitem {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}, 
 		\hyperpage{80}
     \subitem {Mouse\discretionary {-}{}{}X}, \hyperpage{80}
     \subitem {Mouse\discretionary {-}{}{}Y}, \hyperpage{80}
-    \subitem {Update}, \hyperpage{80}
-    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{80}
-    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{81}
-    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{81}
-    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{81}
+    \subitem {Update}, \hyperpage{79}
+    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{79}
+    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{80}
+    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{80}
+    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{80}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}
+    \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Down}, 
+		\hyperpage{105}
+    \subitem {Is\discretionary {-}{}{}Key\discretionary {-}{}{}Up}, 
+		\hyperpage{106}
+    \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Down}, 
+		\hyperpage{106}
+    \subitem {Is\discretionary {-}{}{}Mouse\discretionary {-}{}{}Up}, 
+		\hyperpage{106}
+    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Changed}, 
+		\hyperpage{107}
+    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Down}, 
+		\hyperpage{107}
+    \subitem {Is\discretionary {-}{}{}Wheel\discretionary {-}{}{}Up}, 
+		\hyperpage{107}
+    \subitem {Key\discretionary {-}{}{}Down}, \hyperpage{109}
+    \subitem {Key\discretionary {-}{}{}Press}, \hyperpage{109}
+    \subitem {Key\discretionary {-}{}{}Pressed}, \hyperpage{107}
+    \subitem {Key\discretionary {-}{}{}Released}, \hyperpage{108}
+    \subitem {Key\discretionary {-}{}{}Up}, \hyperpage{110}
+    \subitem {Mouse\discretionary {-}{}{}Down}, \hyperpage{110}
+    \subitem {Mouse\discretionary {-}{}{}Position}, \hyperpage{109}
+    \subitem {Mouse\discretionary {-}{}{}Pressed}, \hyperpage{108}
+    \subitem {Mouse\discretionary {-}{}{}Released}, \hyperpage{108}
+    \subitem {Mouse\discretionary {-}{}{}Up}, \hyperpage{110}
+    \subitem {Mouse\discretionary {-}{}{}Wheel\discretionary {-}{}{}Value}, 
+		\hyperpage{109}
+    \subitem {Mouse\discretionary {-}{}{}X}, \hyperpage{109}
+    \subitem {Mouse\discretionary {-}{}{}Y}, \hyperpage{109}
+    \subitem {Update}, \hyperpage{109}
+    \subitem {Wheel\discretionary {-}{}{}Change}, \hyperpage{109}
+    \subitem {Wheel\discretionary {-}{}{}Changed}, \hyperpage{110}
+    \subitem {Wheel\discretionary {-}{}{}Down}, \hyperpage{110}
+    \subitem {Wheel\discretionary {-}{}{}Up}, \hyperpage{110}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Drawable}
-    \subitem {Draw}, \hyperpage{38}
+    \subitem {Draw}, \hyperpage{53}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}Component}
+    \subitem {Disable}, \hyperpage{57}
+    \subitem {Enable}, \hyperpage{57}
+    \subitem {Enabled}, \hyperpage{57}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Updatable}
+    \subitem {Update}, \hyperpage{86}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Logging\discretionary {-}{}{}::\discretionary {-}{}{}Log\discretionary {-}{}{}Manager}
     \subitem {Clear\discretionary {-}{}{}Old\discretionary {-}{}{}Logs}, 
-		\hyperpage{63}
-    \subitem {Destroy\discretionary {-}{}{}Console}, \hyperpage{64}
-    \subitem {Get\discretionary {-}{}{}Logger}, \hyperpage{64}
-    \subitem {Load\discretionary {-}{}{}Config}, \hyperpage{65}
-    \subitem {Setup\discretionary {-}{}{}Console}, \hyperpage{65}
+		\hyperpage{92}
+    \subitem {Destroy\discretionary {-}{}{}Console}, \hyperpage{93}
+    \subitem {Get\discretionary {-}{}{}Logger}, \hyperpage{93}
+    \subitem {Load\discretionary {-}{}{}Config}, \hyperpage{94}
+    \subitem {Setup\discretionary {-}{}{}Console}, \hyperpage{94}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Helpers}
     \subitem {Get\discretionary {-}{}{}Error\discretionary {-}{}{}Message}, 
-		\hyperpage{30}
+		\hyperpage{45}
     \subitem {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error}, 
-		\hyperpage{30}
+		\hyperpage{45}
     \subitem {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Info}, 
-		\hyperpage{31}
+		\hyperpage{46}
     \subitem {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Error\discretionary {-}{}{}Message}, 
-		\hyperpage{31}
+		\hyperpage{46}
     \subitem {Get\discretionary {-}{}{}Last\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}, 
-		\hyperpage{31}
+		\hyperpage{46}
     \subitem {Get\discretionary {-}{}{}Win32\discretionary {-}{}{}Exception}, 
-		\hyperpage{31}
+		\hyperpage{46}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Native\discretionary {-}{}{}::\discretionary {-}{}{}Win\discretionary {-}{}{}A\discretionary {-}{}{}P\discretionary {-}{}{}I}
-    \subitem {Alloc\discretionary {-}{}{}Console}, \hyperpage{99}
-    \subitem {Free\discretionary {-}{}{}Console}, \hyperpage{99}
+    \subitem {Alloc\discretionary {-}{}{}Console}, \hyperpage{128}
+    \subitem {Free\discretionary {-}{}{}Console}, \hyperpage{128}
     \subitem {Get\discretionary {-}{}{}Std\discretionary {-}{}{}Handle}, 
-		\hyperpage{100}
+		\hyperpage{129}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Point$<$ T $>$}
-    \subitem {Point}, \hyperpage{87}
-    \subitem {X}, \hyperpage{87}
-    \subitem {Y}, \hyperpage{87}
+    \subitem {Point}, \hyperpage{116}
+    \subitem {X}, \hyperpage{116}
+    \subitem {Y}, \hyperpage{116}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Serializing\discretionary {-}{}{}::\discretionary {-}{}{}Serializer}
-    \subitem {Deserialize$<$ T $>$}, \hyperpage{87}
-    \subitem {Serialize$<$ T $>$}, \hyperpage{88}
+    \subitem {Deserialize$<$ T $>$}, \hyperpage{116}
+    \subitem {Serialize$<$ T $>$}, \hyperpage{117}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Services}
-    \subitem {Audio}, \hyperpage{90}
-    \subitem {Input}, \hyperpage{90}
-    \subitem {Provide}, \hyperpage{89, 90}
+    \subitem {Audio}, \hyperpage{119}
+    \subitem {Input}, \hyperpage{119}
+    \subitem {Provide}, \hyperpage{118, 119}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}
+    \subitem {Add\discretionary {-}{}{}Component}, \hyperpage{35}
+    \subitem {Components}, \hyperpage{40}
+    \subitem {Disable}, \hyperpage{35}
+    \subitem {Draw}, \hyperpage{35}
+    \subitem {Enable}, \hyperpage{35}
+    \subitem {Enabled}, \hyperpage{40}
+    \subitem {Game\discretionary {-}{}{}State}, \hyperpage{34}
+    \subitem {Get\discretionary {-}{}{}All\discretionary {-}{}{}Components}, 
+		\hyperpage{36}
+    \subitem {Get\discretionary {-}{}{}Component}, \hyperpage{37}
+    \subitem {Has\discretionary {-}{}{}Component}, \hyperpage{37, 38}
+    \subitem {Load}, \hyperpage{38}
+    \subitem {Pause}, \hyperpage{38}
+    \subitem {Paused}, \hyperpage{40}
+    \subitem {Remove\discretionary {-}{}{}All\discretionary {-}{}{}Components}, 
+		\hyperpage{38, 39}
+    \subitem {Remove\discretionary {-}{}{}Component}, \hyperpage{39}
+    \subitem {Unload}, \hyperpage{40}
+    \subitem {Unpause}, \hyperpage{40}
+    \subitem {Update}, \hyperpage{40}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}
+    \subitem {Active\discretionary {-}{}{}State}, \hyperpage{45}
+    \subitem {Draw}, \hyperpage{42}
+    \subitem {Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{42}
+    \subitem {Peek}, \hyperpage{43}
+    \subitem {Pop}, \hyperpage{43}
+    \subitem {Push}, \hyperpage{43}
+    \subitem {State\discretionary {-}{}{}Count}, \hyperpage{45}
+    \subitem {Switch}, \hyperpage{44}
+    \subitem {Update}, \hyperpage{44}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}
+    \subitem {Add\discretionary {-}{}{}Component}, \hyperpage{60}
+    \subitem {Get\discretionary {-}{}{}All\discretionary {-}{}{}Components}, 
+		\hyperpage{60, 61}
+    \subitem {Get\discretionary {-}{}{}Component}, \hyperpage{61}
+    \subitem {Has\discretionary {-}{}{}Component}, \hyperpage{61, 62}
+    \subitem {Load}, \hyperpage{62}
+    \subitem {Pause}, \hyperpage{63}
+    \subitem {Paused}, \hyperpage{64}
+    \subitem {Remove\discretionary {-}{}{}All\discretionary {-}{}{}Components}, 
+		\hyperpage{63}
+    \subitem {Remove\discretionary {-}{}{}Component}, \hyperpage{63}
+    \subitem {Unload}, \hyperpage{63}
+    \subitem {Unpause}, \hyperpage{64}
+  \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}
+    \subitem {Active\discretionary {-}{}{}State}, \hyperpage{67}
+    \subitem {Peek}, \hyperpage{66}
+    \subitem {Pop}, \hyperpage{66}
+    \subitem {Push}, \hyperpage{66}
+    \subitem {State\discretionary {-}{}{}Count}, \hyperpage{67}
+    \subitem {Switch}, \hyperpage{66}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Color}
-    \subitem {A}, \hyperpage{24}
-    \subitem {B}, \hyperpage{24}
-    \subitem {Color}, \hyperpage{23}
-    \subitem {G}, \hyperpage{24}
-    \subitem {R}, \hyperpage{24}
-    \subitem {To\discretionary {-}{}{}Vector3}, \hyperpage{23}
-    \subitem {To\discretionary {-}{}{}Vector4}, \hyperpage{23}
+    \subitem {A}, \hyperpage{26}
+    \subitem {B}, \hyperpage{26}
+    \subitem {Color}, \hyperpage{25}
+    \subitem {G}, \hyperpage{26}
+    \subitem {R}, \hyperpage{26}
+    \subitem {To\discretionary {-}{}{}Vector3}, \hyperpage{25}
+    \subitem {To\discretionary {-}{}{}Vector4}, \hyperpage{25}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}
-    \subitem {Clicked}, \hyperpage{27}
-    \subitem {Color}, \hyperpage{27}
-    \subitem {Disable}, \hyperpage{26}
-    \subitem {Enable}, \hyperpage{26}
-    \subitem {Enabled}, \hyperpage{27}
-    \subitem {Hide}, \hyperpage{26}
-    \subitem {On\discretionary {-}{}{}Clicked}, \hyperpage{26}
-    \subitem {Position}, \hyperpage{27}
-    \subitem {Show}, \hyperpage{26}
-    \subitem {Size}, \hyperpage{27}
-    \subitem {Text}, \hyperpage{27}
-    \subitem {Visible}, \hyperpage{27}
+    \subitem {Clicked}, \hyperpage{29}
+    \subitem {Color}, \hyperpage{29}
+    \subitem {Disable}, \hyperpage{28}
+    \subitem {Enable}, \hyperpage{28}
+    \subitem {Enabled}, \hyperpage{29}
+    \subitem {Hide}, \hyperpage{28}
+    \subitem {On\discretionary {-}{}{}Clicked}, \hyperpage{28}
+    \subitem {Position}, \hyperpage{29}
+    \subitem {Show}, \hyperpage{28}
+    \subitem {Size}, \hyperpage{29}
+    \subitem {Text}, \hyperpage{29}
+    \subitem {Visible}, \hyperpage{29}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Events}
     \subitem {Control\discretionary {-}{}{}Clicked\discretionary {-}{}{}Event\discretionary {-}{}{}Handler}, 
-		\hyperpage{16}
+		\hyperpage{17}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}
-    \subitem {Clicked}, \hyperpage{38}
-    \subitem {Color}, \hyperpage{37}
-    \subitem {Disable}, \hyperpage{37}
-    \subitem {Enable}, \hyperpage{37}
-    \subitem {Enabled}, \hyperpage{37}
-    \subitem {Hide}, \hyperpage{37}
-    \subitem {Position}, \hyperpage{37}
-    \subitem {Show}, \hyperpage{37}
-    \subitem {Size}, \hyperpage{37}
-    \subitem {Text}, \hyperpage{37}
-    \subitem {Visible}, \hyperpage{38}
+    \subitem {Clicked}, \hyperpage{53}
+    \subitem {Color}, \hyperpage{52}
+    \subitem {Disable}, \hyperpage{52}
+    \subitem {Enable}, \hyperpage{52}
+    \subitem {Enabled}, \hyperpage{52}
+    \subitem {Hide}, \hyperpage{52}
+    \subitem {Position}, \hyperpage{52}
+    \subitem {Show}, \hyperpage{52}
+    \subitem {Size}, \hyperpage{52}
+    \subitem {Text}, \hyperpage{52}
+    \subitem {Visible}, \hyperpage{53}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Label}
-    \subitem {Text}, \hyperpage{61}
+    \subitem {Text}, \hyperpage{90}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Link\discretionary {-}{}{}Label}
-    \subitem {On\discretionary {-}{}{}Clicked}, \hyperpage{62}
-    \subitem {Url}, \hyperpage{63}
+    \subitem {On\discretionary {-}{}{}Clicked}, \hyperpage{91}
+    \subitem {Url}, \hyperpage{92}
   \item {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}
-    \subitem {Major}, \hyperpage{98}
-    \subitem {Minor}, \hyperpage{98}
-    \subitem {Patch}, \hyperpage{98}
-    \subitem {Suffix}, \hyperpage{98}
-    \subitem {Version\discretionary {-}{}{}String}, \hyperpage{98}
+    \subitem {Major}, \hyperpage{127}
+    \subitem {Minor}, \hyperpage{127}
+    \subitem {Patch}, \hyperpage{127}
+    \subitem {Suffix}, \hyperpage{127}
+    \subitem {Version\discretionary {-}{}{}String}, \hyperpage{127}
     \subitem {Version\discretionary {-}{}{}String\discretionary {-}{}{}Format}, 
-		\hyperpage{98}
+		\hyperpage{127}
     \subitem {Version\discretionary {-}{}{}String\discretionary {-}{}{}Format\discretionary {-}{}{}With\discretionary {-}{}{}Suffix}, 
-		\hyperpage{98}
+		\hyperpage{127}
 
   \indexspace
 
+  \item {Unload}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{63}
+  \item {Unpause}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{64}
   \item {Update}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{71}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{50}
+		\hyperpage{79}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{80}
+		\hyperpage{109}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Interfaces\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Updatable}, 
+		\hyperpage{86}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State}, 
+		\hyperpage{40}
+    \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}State\discretionary {-}{}{}Management\discretionary {-}{}{}::\discretionary {-}{}{}Game\discretionary {-}{}{}State\discretionary {-}{}{}Manager}, 
+		\hyperpage{44}
   \item {Url}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Link\discretionary {-}{}{}Label}, 
-		\hyperpage{63}
+		\hyperpage{92}
 
   \indexspace
 
   \item {Version\discretionary {-}{}{}String}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Version\discretionary {-}{}{}String\discretionary {-}{}{}Format}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Version\discretionary {-}{}{}String\discretionary {-}{}{}Format\discretionary {-}{}{}With\discretionary {-}{}{}Suffix}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Version}, 
-		\hyperpage{98}
+		\hyperpage{127}
   \item {Visible}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}Control}, 
-		\hyperpage{27}
+		\hyperpage{29}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}U\discretionary {-}{}{}I\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Control}, 
-		\hyperpage{38}
+		\hyperpage{53}
   \item {Volume}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Song}, 
-		\hyperpage{55}
+		\hyperpage{83}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Song}, 
-		\hyperpage{84}
+		\hyperpage{113}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Audio\discretionary {-}{}{}::\discretionary {-}{}{}Song}, 
-		\hyperpage{93}
+		\hyperpage{122}
 
   \indexspace
 
@@ -1092,43 +1296,43 @@
 		\hyperpage{12}
   \item {Wheel\discretionary {-}{}{}Change}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{43}
+		\hyperpage{71}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{51}
+		\hyperpage{79}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{80}
+		\hyperpage{109}
   \item {Wheel\discretionary {-}{}{}Changed}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{73}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{52}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
   \item {Wheel\discretionary {-}{}{}Down}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{73}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{52}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
   \item {Wheel\discretionary {-}{}{}Up}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{44}
+		\hyperpage{73}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{52}
+		\hyperpage{80}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Input\discretionary {-}{}{}::\discretionary {-}{}{}Null\discretionary {-}{}{}Input\discretionary {-}{}{}Manager}, 
-		\hyperpage{81}
+		\hyperpage{110}
 
   \indexspace
 
   \item {X}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Point$<$ T $>$}, 
-		\hyperpage{87}
+		\hyperpage{116}
 
   \indexspace
 
   \item {Y}
     \subitem {Tri\discretionary {-}{}{}Devs\discretionary {-}{}{}::\discretionary {-}{}{}Tri\discretionary {-}{}{}Engine2\discretionary {-}{}{}D\discretionary {-}{}{}::\discretionary {-}{}{}Point$<$ T $>$}, 
-		\hyperpage{87}
+		\hyperpage{116}
 
 \end{theindex}

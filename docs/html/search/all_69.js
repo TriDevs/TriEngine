@@ -6,6 +6,14 @@ var searchData=
   ['icontrol_2ecs',['IControl.cs',['../_i_control_8cs.html',1,'']]],
   ['idrawable',['IDrawable',['../interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html',1,'TriDevs::TriEngine2D::Interfaces']]],
   ['idrawable_2ecs',['IDrawable.cs',['../_i_drawable_8cs.html',1,'']]],
+  ['idrawablegamecomponent',['IDrawableGameComponent',['../interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html',1,'TriDevs::TriEngine2D::Interfaces']]],
+  ['idrawablegamecomponent_2ecs',['IDrawableGameComponent.cs',['../_i_drawable_game_component_8cs.html',1,'']]],
+  ['igamecomponent',['IGameComponent',['../interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component.html',1,'TriDevs::TriEngine2D::Interfaces']]],
+  ['igamecomponent_2ecs',['IGameComponent.cs',['../_i_game_component_8cs.html',1,'']]],
+  ['igamestate',['IGameState',['../interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state.html',1,'TriDevs::TriEngine2D::StateManagement']]],
+  ['igamestate_2ecs',['IGameState.cs',['../_i_game_state_8cs.html',1,'']]],
+  ['igamestatemanager',['IGameStateManager',['../interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html',1,'TriDevs::TriEngine2D::StateManagement']]],
+  ['igamestatemanager_2ecs',['IGameStateManager.cs',['../_i_game_state_manager_8cs.html',1,'']]],
   ['iinputmanager',['IInputManager',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html',1,'TriDevs::TriEngine2D::Input']]],
   ['iinputmanager_2ecs',['IInputManager.cs',['../_i_input_manager_8cs.html',1,'']]],
   ['include_3c_20t_20_3e',['Include&lt; T &gt;',['../class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html#a4ffbe4d416dfcdb513b5e7c3da3ac4b8',1,'TriDevs::TriEngine2D::Extensions::EnumerationExtensions']]],
@@ -26,5 +34,7 @@ var searchData=
   ['isound_2ecs',['ISound.cs',['../_i_sound_8cs.html',1,'']]],
   ['iswheelchanged',['IsWheelChanged',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#af7aeda5d94a3dc5e60384e4a62f84fd2',1,'TriDevs.TriEngine2D.Input.IInputManager.IsWheelChanged()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html#a246df48ba2c2d15aba537f19abb806da',1,'TriDevs.TriEngine2D.Input.InputManager.IsWheelChanged()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#afc121c18682c20aba9cb9f224c2a907f',1,'TriDevs.TriEngine2D.Input.NullInputManager.IsWheelChanged()']]],
   ['iswheeldown',['IsWheelDown',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a01e7bb0f8255bb071678e7bcb86b97a3',1,'TriDevs.TriEngine2D.Input.IInputManager.IsWheelDown()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html#a3d5c73853f0df96af5d76584bea512b2',1,'TriDevs.TriEngine2D.Input.InputManager.IsWheelDown()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#ae9e8a97e2232df463ef38f6020500a34',1,'TriDevs.TriEngine2D.Input.NullInputManager.IsWheelDown()']]],
-  ['iswheelup',['IsWheelUp',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a0d298286b93f065e054a2d3e9fdc4073',1,'TriDevs.TriEngine2D.Input.IInputManager.IsWheelUp()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html#aa4d5c302876f5e4f99bbca7381f3d58b',1,'TriDevs.TriEngine2D.Input.InputManager.IsWheelUp()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#a1e813af823111332d09bfdacc545a929',1,'TriDevs.TriEngine2D.Input.NullInputManager.IsWheelUp()']]]
+  ['iswheelup',['IsWheelUp',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a0d298286b93f065e054a2d3e9fdc4073',1,'TriDevs.TriEngine2D.Input.IInputManager.IsWheelUp()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html#aa4d5c302876f5e4f99bbca7381f3d58b',1,'TriDevs.TriEngine2D.Input.InputManager.IsWheelUp()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#a1e813af823111332d09bfdacc545a929',1,'TriDevs.TriEngine2D.Input.NullInputManager.IsWheelUp()']]],
+  ['iupdatable',['IUpdatable',['../interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html',1,'TriDevs::TriEngine2D::Interfaces']]],
+  ['iupdatable_2ecs',['IUpdatable.cs',['../_i_updatable_8cs.html',1,'']]]
 ];

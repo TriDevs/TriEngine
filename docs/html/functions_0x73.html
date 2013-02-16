@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine2D
-   &#160;<span id="projectnumber">v0.0.8</span>
+   &#160;<span id="projectnumber">v0.0.10</span>
    </div>
    <div id="projectbrief">2D general-purpose engine in C#/OpenGL</div>
   </td>
@@ -161,20 +161,24 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 : <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#afc66d577eebbce35df396621c881334c">TriDevs.TriEngine2D.UI.IControl</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#a9f162a69e4a170ed284cf13b0eaa655f">TriDevs.TriEngine2D.UI.Control</a>
 </li>
+<li>StateCount
+: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager.html#a462438e821cbc175cf04d517c1fbdada">TriDevs.TriEngine2D.StateManagement.GameStateManager</a>
+, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html#a5c55e89438dcacfbc8784bb971796116">TriDevs.TriEngine2D.StateManagement.IGameStateManager</a>
+</li>
 <li>STD_OUTPUT_HANDLE
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_win_a_p_i.html#a19ebb40d1edf46781ea0fdf4a9c94e8b">TriDevs.TriEngine2D.Native.WinAPI</a>
 </li>
 <li>Stop()
-: <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html#a1777ba55d024dc7ba7288689d7eaa7de">TriDevs.TriEngine2D.Audio.ISong</a>
-, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound.html#a9ad9c109f807052de7883d2b04995344">TriDevs.TriEngine2D.Audio.ISound</a>
+: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#a24edfbb8f48ece05a9f94b23843778a5">TriDevs.TriEngine2D.Audio.Song</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html#a438bcba9d063d1aff5329a2c4f8354b0">TriDevs.TriEngine2D.Audio.Sound</a>
+, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html#a1777ba55d024dc7ba7288689d7eaa7de">TriDevs.TriEngine2D.Audio.ISong</a>
+, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound.html#a9ad9c109f807052de7883d2b04995344">TriDevs.TriEngine2D.Audio.ISound</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_song.html#aa5498f4a12aeeead219f9f4b6e08faaf">TriDevs.TriEngine2D.Audio.NullSong</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html#aa88a76ec334258b60968337a00edb02c">TriDevs.TriEngine2D.Audio.NullSound</a>
-, <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#a24edfbb8f48ece05a9f94b23843778a5">TriDevs.TriEngine2D.Audio.Song</a>
 </li>
 <li>StopAll()
-: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a97df8c72e846bade6448c0f3d651755a">TriDevs.TriEngine2D.Audio.AudioManager</a>
-, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_audio_manager.html#abbbb19396ba31eab12c4f2911c334dd8">TriDevs.TriEngine2D.Audio.IAudioManager</a>
+: <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_audio_manager.html#abbbb19396ba31eab12c4f2911c334dd8">TriDevs.TriEngine2D.Audio.IAudioManager</a>
+, <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a97df8c72e846bade6448c0f3d651755a">TriDevs.TriEngine2D.Audio.AudioManager</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_audio_manager.html#a47beada5aec49e38131770e0c2192358">TriDevs.TriEngine2D.Audio.NullAudioManager</a>
 </li>
 <li>StopAllSongs()
@@ -183,12 +187,16 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_audio_manager.html#a445ddef609ff3a06b25e31a97da55064">TriDevs.TriEngine2D.Audio.NullAudioManager</a>
 </li>
 <li>StopAllSounds()
-: <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a6577eb88aa3abca4fd95ac8bbb84cd77">TriDevs.TriEngine2D.Audio.AudioManager</a>
-, <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_audio_manager.html#a8a2382837eaadbd1fbc2c12eb7e563db">TriDevs.TriEngine2D.Audio.IAudioManager</a>
+: <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_audio_manager.html#a8a2382837eaadbd1fbc2c12eb7e563db">TriDevs.TriEngine2D.Audio.IAudioManager</a>
 , <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_audio_manager.html#a205cfd3f6ec1efecb65beeb9a0482b4d">TriDevs.TriEngine2D.Audio.NullAudioManager</a>
+, <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a6577eb88aa3abca4fd95ac8bbb84cd77">TriDevs.TriEngine2D.Audio.AudioManager</a>
 </li>
 <li>Suffix
 : <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_version.html#a5f7a61ae54163decac64e6acbe25e76d">TriDevs.TriEngine2D.Version</a>
+</li>
+<li>Switch()
+: <a class="el" href="interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html#acbcf0ca71694d5f9120550532dd1cf42">TriDevs.TriEngine2D.StateManagement.IGameStateManager</a>
+, <a class="el" href="class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager.html#aaa3ee6d6d5d0901b43b6ce6dec8c95f1">TriDevs.TriEngine2D.StateManagement.GameStateManager</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -196,7 +204,7 @@ $(document).ready(function(){initNavTree('functions_0x73.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Feb 15 2013 21:03:57 for TriEngine2D by
+    <li class="footer">Generated on Sat Feb 16 2013 22:42:05 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -1,3 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html" title="Indicates that the implementing class is able to be drawn on the screen. " alt="" coords="5,5,208,46"/>
+<area shape="rect" id="node1" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="5,20,208,61"/>
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html" title="A game component that can be added to GameState objects. Drawable game components also implement a dr..." alt="" coords="533,115,736,156"/>
+<area shape="rect" id="node5" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html" title="Game state manager that keeps track of the active game states and provides methods to control the sta..." alt="" coords="257,49,477,91"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state.html" title="A game state that can be used with the game state manager. Represent a specific state of the game..." alt="" coords="792,115,965,156"/>
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html" title="Base GameState class that all other game states derive from, defines basic GameState behaviour..." alt="" coords="1013,115,1187,156"/>
+<area shape="rect" id="node6" href="$class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager.html" title="Game state manager that keeps track of the active game states and provides methods to control the sta..." alt="" coords="526,49,743,91"/>
+<area shape="rect" id="node7" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="5,85,208,127"/>
+<area shape="rect" id="node8" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component.html" title="A game component that can be added to IGameState objects. " alt="" coords="265,115,468,156"/>
 </map>

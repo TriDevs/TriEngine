@@ -1,41 +1,41 @@
 This is makeindex, version 2.15 [MiKTeX 2.9] (kpathsea + Thai support).
 Scanning input file refman.idx....
-!! Input index error (file = refman.idx, line = 205):
+!! Input index error (file = refman.idx, line = 336):
    -- Extra `@' at position 646 of first argument.
-!! Input index error (file = refman.idx, line = 206):
+!! Input index error (file = refman.idx, line = 337):
    -- Extra `@' at position 74 of first argument.
-!! Input index error (file = refman.idx, line = 207):
+!! Input index error (file = refman.idx, line = 338):
    -- Extra `@' at position 679 of first argument.
-!! Input index error (file = refman.idx, line = 208):
+!! Input index error (file = refman.idx, line = 339):
    -- Extra `@' at position 107 of first argument.
 
-!! Input index error (file = refman.idx, line = 264):
+!! Input index error (file = refman.idx, line = 395):
    -- Extra `@' at position 600 of first argument.
-!! Input index error (file = refman.idx, line = 265):
+!! Input index error (file = refman.idx, line = 396):
    -- Extra `@' at position 74 of first argument.
-!! Input index error (file = refman.idx, line = 266):
+!! Input index error (file = refman.idx, line = 397):
    -- Extra `@' at position 633 of first argument.
-!! Input index error (file = refman.idx, line = 267):
+!! Input index error (file = refman.idx, line = 398):
    -- Extra `@' at position 107 of first argument.
 
-!! Input index error (file = refman.idx, line = 413):
+!! Input index error (file = refman.idx, line = 547):
    -- Extra `@' at position 652 of first argument.
-!! Input index error (file = refman.idx, line = 414):
+!! Input index error (file = refman.idx, line = 548):
    -- Extra `@' at position 74 of first argument.
-!! Input index error (file = refman.idx, line = 415):
+!! Input index error (file = refman.idx, line = 549):
    -- Extra `@' at position 685 of first argument.
-!! Input index error (file = refman.idx, line = 416):
+!! Input index error (file = refman.idx, line = 550):
    -- Extra `@' at position 107 of first argument.
 
-!! Input index error (file = refman.idx, line = 550):
+!! Input index error (file = refman.idx, line = 684):
    -- First argument too long (max 1024).
 
-!! Input index error (file = refman.idx, line = 552):
+!! Input index error (file = refman.idx, line = 686):
    -- First argument too long (max 1024).
-!! Input index error (file = refman.idx, line = 553):
+!! Input index error (file = refman.idx, line = 687):
    -- First argument too long (max 1024).
-done (574 entries accepted, 15 rejected).
-Sorting entries.......done (5809 comparisons).
-Generating output file refman.ind....done (1134 lines written, 0 warnings).
+done (715 entries accepted, 15 rejected).
+Sorting entries........done (7255 comparisons).
+Generating output file refman.ind....done (1338 lines written, 0 warnings).
 Output written in refman.ind.
 Transcript written in refman.ilg.

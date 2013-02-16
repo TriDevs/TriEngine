@@ -1,0 +1,311 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager@{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager}}
+}
+
+
+Game state manager that keeps track of the active game states and provides methods to control the states.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8a8138acfb1b983cc2661cafc52df3c7}{Game\-State\-Manager} ()
+\begin{DoxyCompactList}\small\item\em Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}{Game\-State\-Manager} with an empty state stack. \end{DoxyCompactList}\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a3e9e99043a216b0bdb8544b64a72e154}{Game\-State\-Manager} (\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} state)
+\begin{DoxyCompactList}\small\item\em Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}{Game\-State\-Manager} and pushes an initial state onto the stack. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_ab983ca2818bff5c3bd7cf0cc342d0d4c}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates the object. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a2d30555c64bf3337e1b6a328abde489e}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draw the object to screen. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1}{Push} (\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} state)
+\begin{DoxyCompactList}\small\item\em Pushes a new game state onto the stack, pausing the current one. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8f1e253ba7e4b07e6025c887ee41e298}{Pop} ()
+\begin{DoxyCompactList}\small\item\em Pops the currently active state from the stack, unpausing the previous one. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a0fa7ebccca7f275b845c3ae76cc85a50}{Peek} ()
+\begin{DoxyCompactList}\small\item\em Returns the game state at the top of the stack, without popping it. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_aaa3ee6d6d5d0901b43b6ce6dec8c95f1}{Switch} (\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} state)
+\begin{DoxyCompactList}\small\item\em Switches to a new game state, discarding all previous ones in the stack. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a462438e821cbc175cf04d517c1fbdada}{State\-Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state}{I\-Game\-State} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{Active\-State}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Game state manager that keeps track of the active game states and provides methods to control the states. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8a8138acfb1b983cc2661cafc52df3c7}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Game\-State\-Manager@{Game\-State\-Manager}}
+\index{Game\-State\-Manager@{Game\-State\-Manager}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Game\-State\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Game\-State\-Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8a8138acfb1b983cc2661cafc52df3c7}
+
+
+Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}{Game\-State\-Manager} with an empty state stack. 
+
+
+\begin{DoxyCode}
+52         \{
+53             \_states = \textcolor{keyword}{new} Stack<IGameState>();
+54         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a3e9e99043a216b0bdb8544b64a72e154}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Game\-State\-Manager@{Game\-State\-Manager}}
+\index{Game\-State\-Manager@{Game\-State\-Manager}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Game\-State\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Game\-State\-Manager (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Game\-State}}]{state}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a3e9e99043a216b0bdb8544b64a72e154}
+
+
+Creates a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager}{Game\-State\-Manager} and pushes an initial state onto the stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The state to initialize with.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+61                                                   : \textcolor{keyword}{this}()
+62         \{
+63             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1}{Push}(state);
+64         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a2d30555c64bf3337e1b6a328abde489e}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a2d30555c64bf3337e1b6a328abde489e}
+
+
+Draw the object to screen. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_a97752e755d82e7dcd22dc173192790a5}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Drawable}.
+
+
+\begin{DoxyCode}
+73         \{
+74             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState} != null)
+75                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState}.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_a97752e755d82e7dcd22dc173192790a5}{Draw}();
+76         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a0fa7ebccca7f275b845c3ae76cc85a50}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Peek@{Peek}}
+\index{Peek@{Peek}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Peek}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Game\-State} Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Peek (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a0fa7ebccca7f275b845c3ae76cc85a50}
+
+
+Returns the game state at the top of the stack, without popping it. 
+
+\begin{DoxyReturn}{Returns}
+The state at the top of the stack.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager_a9913b01df18fea6e25c3d85759bc900e}{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-I\-Game\-State\-Manager}.
+
+
+\begin{DoxyCode}
+102         \{
+103             \textcolor{keywordflow}{return} \_states.Peek();
+104         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8f1e253ba7e4b07e6025c887ee41e298}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Pop@{Pop}}
+\index{Pop@{Pop}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Pop}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Game\-State} Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Pop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8f1e253ba7e4b07e6025c887ee41e298}
+
+
+Pops the currently active state from the stack, unpausing the previous one. 
+
+\begin{DoxyReturn}{Returns}
+The state that was popped.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager_ace3e065bf46bcf62d18ecb0d8bb0f2b3}{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-I\-Game\-State\-Manager}.
+
+
+\begin{DoxyCode}
+90         \{
+91             \textcolor{keywordflow}{if} (\_states.Count == 1)
+92                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidOperationException(\textcolor{stringliteral}{"Cannot pop the last remaining game state from stack."})
+      ;
+93 
+94             var state = \_states.Pop();
+95             state.Unload();
+96             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState} = \_states.Peek();
+97             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState}.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_aa6342203830c78f40da399c4c37de2da}{Unpause}();
+98             \textcolor{keywordflow}{return} state;
+99         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Push@{Push}}
+\index{Push@{Push}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Push}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Game\-State} Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Push (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Game\-State}}]{state}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1}
+
+
+Pushes a new game state onto the stack, pausing the current one. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The new game state to push onto the stack.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The game state that was pushed.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager_add8436f8ea874ddad9b193ee22cd8533}{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-I\-Game\-State\-Manager}.
+
+
+\begin{DoxyCode}
+79         \{
+80             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState} != null)
+81                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState}.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_a09d23db483ddc6a6624c1410e2d67d60}{Pause}();
+82 
+83             state.Load();
+84             \_states.Push(state);
+85             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState} = state;
+86             \textcolor{keywordflow}{return} state;
+87         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_aaa3ee6d6d5d0901b43b6ce6dec8c95f1}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Switch@{Switch}}
+\index{Switch@{Switch}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Switch}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Game\-State} Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Switch (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Game\-State}}]{state}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_aaa3ee6d6d5d0901b43b6ce6dec8c95f1}
+
+
+Switches to a new game state, discarding all previous ones in the stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em state} & The new state to switch to.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The state that was switched to.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager_acbcf0ca71694d5f9120550532dd1cf42}{Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-I\-Game\-State\-Manager}.
+
+
+\begin{DoxyCode}
+107         \{
+108             \textcolor{keywordflow}{while} (\_states.Count > 0)
+109                 \_states.Pop().Unload();
+110 
+111             \_states = \textcolor{keyword}{new} Stack<IGameState>();
+112             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a8b1004837f558a3ab31dd6597f31d2f1}{Push}(state);
+113         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_aaa3ee6d6d5d0901b43b6ce6dec8c95f1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_ab983ca2818bff5c3bd7cf0cc342d0d4c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Update@{Update}}
+\index{Update@{Update}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_ab983ca2818bff5c3bd7cf0cc342d0d4c}
+
+
+Updates the object. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable_a01e54ce26f078bffd4434aca86e2a7e4}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Updatable}.
+
+
+\begin{DoxyCode}
+67         \{
+68             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState} != null)
+69                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{ActiveState}.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable_a01e54ce26f078bffd4434aca86e2a7e4}{Update}();
+70         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!Active\-State@{Active\-State}}
+\index{Active\-State@{Active\-State}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{Active\-State}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Game\-State} Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-Active\-State\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a31773922546e68ed67483fad253eb747}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a462438e821cbc175cf04d517c1fbdada}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}!State\-Count@{State\-Count}}
+\index{State\-Count@{State\-Count}!TriDevs::TriEngine2D::StateManagement::GameStateManager@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State\-Manager}}
+\subsubsection[{State\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State\-Manager.\-State\-Count\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager_a462438e821cbc175cf04d517c1fbdada}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-State\-Management/\hyperlink{_game_state_manager_8cs}{Game\-State\-Manager.\-cs}\end{DoxyCompactItemize}

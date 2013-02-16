@@ -1,0 +1,3 @@
+<map id="TriDevs.TriEngine2D.StateManagement.IGameState.Pause" name="TriDevs.TriEngine2D.StateManagement.IGameState.Pause">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_manager.html#a8b1004837f558a3ab31dd6597f31d2f1" title="Pushes a new game state onto the stack, pausing the current one. " alt="" coords="264,5,515,46"/>
+</map>

@@ -7,6 +7,7 @@ var searchData=
   ['color',['Color',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#a0fd69d349a7ef225ac6273c0a206356a',1,'TriDevs.TriEngine2D.UI.Control.Color()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#a335ed38fa9721a145ce551c1889bfc49',1,'TriDevs.TriEngine2D.UI.IControl.Color()'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_color.html#aa1f439e2810fd9c0e689c19a1f55f318',1,'TriDevs.TriEngine2D.UI.Color.Color(byte r, byte g, byte b, byte a=255)'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_color.html#a67daec6327e5e101cdf9e5c7f0bfa599',1,'TriDevs.TriEngine2D.UI.Color.Color(float r, float g, float b, float a=1.0f)']]],
   ['color',['Color',['../struct_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_color.html',1,'TriDevs::TriEngine2D::UI']]],
   ['color_2ecs',['Color.cs',['../_color_8cs.html',1,'']]],
+  ['components',['Components',['../class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#ab1ea74d5e4192c58474a485bf162fd67',1,'TriDevs::TriEngine2D::StateManagement::GameState']]],
   ['control',['Control',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html',1,'TriDevs::TriEngine2D::UI']]],
   ['control_2ecs',['Control.cs',['../_control_8cs.html',1,'']]],
   ['controlclicked_2ecs',['ControlClicked.cs',['../_control_clicked_8cs.html',1,'']]],
