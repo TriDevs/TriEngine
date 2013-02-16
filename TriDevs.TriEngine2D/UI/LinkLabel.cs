@@ -28,24 +28,14 @@ namespace TriDevs.TriEngine2D.UI
     /// </summary>
     public class LinkLabel : Label
     {
-        private string _url;
-
         /// <summary>
         /// Gets or sets the URL that will open when this label is clicked.
         /// </summary>
-        public string Url
-        {
-            get { return _url; }
-            set
-            {
-                // TODO: Validate value to make sure it's a valid URL
-                _url = value;
-            }
-        }
+        public virtual string Url { get; set; }
 
         protected override void OnClicked()
         {
-            System.Diagnostics.Process.Start(_url);
+            System.Diagnostics.Process.Start(Url);
             base.OnClicked();
         }
     }
