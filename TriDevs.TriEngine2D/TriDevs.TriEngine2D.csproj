@@ -67,8 +67,10 @@
     <Compile Include="Audio\NullSound.cs" />
     <Compile Include="Audio\Song.cs" />
     <Compile Include="Audio\Sound.cs" />
+    <Compile Include="EngineException.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Helpers\Exceptions.cs" />
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Math.cs" />
     <Compile Include="Helpers\Threading.cs" />

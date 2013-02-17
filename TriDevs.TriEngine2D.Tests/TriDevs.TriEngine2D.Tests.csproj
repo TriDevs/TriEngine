@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ExtensionTests\EnumerationExtensionTests.cs" />
     <Compile Include="ExtensionTests\StringExtensionTests.cs" />
+    <Compile Include="HelperTests\ExceptionHelperTests.cs" />
     <Compile Include="HelperTests\MathHelperTests.cs" />
     <Compile Include="HelperTests\ThreadingHelperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
