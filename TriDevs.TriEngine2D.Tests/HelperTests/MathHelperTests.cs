@@ -7,165 +7,228 @@ namespace TriDevs.TriEngine2D.Tests.HelperTests
     public class MathHelperTests
     {
         [Test]
-        public void NonClampTest()
+        public void ShouldNotClampFloat()
         {
-            var f  = Helpers.Math.Clamp(          0.5f,       0.0f,       1.0f );
-            var d  = Helpers.Math.Clamp(          0.5,        0.0,        1.0  );
-            var i  = Helpers.Math.Clamp(          3,          0,          5    );
-            var ui = Helpers.Math.Clamp( (uint)   3,          0,          5    );
-            var l  = Helpers.Math.Clamp( (long)   3,          0,          5    );
-            var ul = Helpers.Math.Clamp( (ulong)  3,          0,          5    );
-            var b  = Helpers.Math.Clamp( (byte)   3, (byte)   0, (byte)   5    );
-            var s  = Helpers.Math.Clamp( (short)  3, (short)  0, (short)  5    );
-            var us = Helpers.Math.Clamp( (ushort) 3, (ushort) 0, (ushort) 5    );
-            
-            Assert.AreEqual( f,  0.5f );
-            Assert.AreEqual( d,  0.5  );
-            Assert.AreEqual( i,  3    );
-            Assert.AreEqual( ui, 3    );
-            Assert.AreEqual( l,  3    );
-            Assert.AreEqual( ul, 3    );
-            Assert.AreEqual( b,  3    );
-            Assert.AreEqual( s,  3    );
-            Assert.AreEqual( us, 3    );
+            Assert.AreEqual(Helpers.Math.Clamp(0.5f, 0.0f, 1.0f), 0.5f);
         }
 
         [Test]
-        public void MinClampTest()
+        public void ShouldNotClampDouble()
         {
-            var f  = Helpers.Math.Clamp(         -1.5f,       0.0f,        1.0f );
-            var d  = Helpers.Math.Clamp(         -1.5,        0.0,         1.0  );
-            var i  = Helpers.Math.Clamp(         -3,          0,           5    );
-            var ui = Helpers.Math.Clamp( (uint)   3,          5,          10    );
-            var l  = Helpers.Math.Clamp( (long)  -3,          0,           5    );
-            var ul = Helpers.Math.Clamp( (ulong)  3,          5,          10    );
-            var b  = Helpers.Math.Clamp( (byte)   3, (byte)   5, (byte)   10    );
-            var s  = Helpers.Math.Clamp( (short) -3, (short)  0, (short)   5    );
-            var us = Helpers.Math.Clamp( (ushort) 3, (ushort) 5, (ushort) 10    );
-            
-            Assert.AreEqual( f,  0.0f );
-            Assert.AreEqual( d,  0.0  );
-            Assert.AreEqual( i,  0    );
-            Assert.AreEqual( ui, 5    );
-            Assert.AreEqual( l,  0    );
-            Assert.AreEqual( ul, 5    );
-            Assert.AreEqual( b,  5    );
-            Assert.AreEqual( s,  0    );
-            Assert.AreEqual( us, 5    );
+            Assert.AreEqual(Helpers.Math.Clamp(0.5, 0.0, 1.0), 0.5);
         }
 
         [Test]
-        public void MaxClampTest()
+        public void ShouldNotClampInt16()
         {
-            var f  = Helpers.Math.Clamp(           1.5f,       0.0f,       1.0f );
-            var d  = Helpers.Math.Clamp(           1.5,        0.0,        1.0  );
-            var i  = Helpers.Math.Clamp(          10,          0,          5    );
-            var ui = Helpers.Math.Clamp( (uint)   10,          0,          5    );
-            var l  = Helpers.Math.Clamp( (long)   10,          0,          5    );
-            var ul = Helpers.Math.Clamp( (ulong)  10,          0,          5    );
-            var b  = Helpers.Math.Clamp( (byte)   10, (byte)   0, (byte)   5    );
-            var s  = Helpers.Math.Clamp( (short)  10, (short)  0, (short)  5    );
-            var us = Helpers.Math.Clamp( (ushort) 10, (ushort) 0, (ushort) 5    );
-            
-            Assert.AreEqual( f,  1.0f );
-            Assert.AreEqual( d,  1.0  );
-            Assert.AreEqual( i,  5    );
-            Assert.AreEqual( ui, 5    );
-            Assert.AreEqual( l,  5    );
-            Assert.AreEqual( ul, 5    );
-            Assert.AreEqual( b,  5    );
-            Assert.AreEqual( s,  5    );
-            Assert.AreEqual( us, 5    );
+            Assert.AreEqual(Helpers.Math.Clamp((short) 3, (short) 0, (short) 5), 3);
         }
 
         [Test]
-        public void ExceptionClampTest()
+        public void ShouldNotClampUInt16()
         {
-            const int expectedExceptions = 9;
-            int exceptionCount = 0;
+            Assert.AreEqual(Helpers.Math.Clamp((ushort) 3, (ushort) 0, (ushort) 5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp(0.5f, 1.0f, 0.0f);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldNotClampInt32()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(3, 0, 5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp(0.5, 1.0, 0.0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldNotClampUInt32()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((uint) 3, 0, 5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp(5, 10, 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldNotClampInt64()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((long) 3, 0, 5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((uint) 5, 10, 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldNotClampUInt64()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((ulong)3, 0, 5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((long) 5, 10, 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldNotClampByte()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((byte)3, (byte)0, (byte)5), 3);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((ulong) 5, 10, 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldClampFloatToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(-1.5f, 0.0f, 1.0f), 0.0f);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((byte) 5, (byte) 10, (byte) 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldClampDoubleToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(-1.5, 0.0, 1.0), 0.0);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((short) 5, (short) 10, (short) 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldClampInt16ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((short) -3, (short) 0, (short) 5), 0);
+        }
 
-            try
-            {
-                Helpers.Math.Clamp((ushort) 5, (ushort) 10, (ushort) 0);
-            }
-            catch (ArgumentException)
-            {
-                exceptionCount++;
-            }
+        [Test]
+        public void ShouldClampUInt16ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((ushort) 3, (ushort) 5, (ushort) 10), 5);
+        }
 
-            Assert.AreEqual(exceptionCount, expectedExceptions, "All Clamp methods did not throw the expected exception!");
+        [Test]
+        public void ShouldClampInt32ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(-3, 0, 5), 0);
+        }
+
+        [Test]
+        public void ShouldClampUInt32ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((uint) 3, 5, 10), 5);
+        }
+
+        [Test]
+        public void ShouldClampInt64ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((long) -3, 0, 5), 0);
+        }
+
+        [Test]
+        public void ShouldClampUInt64ToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((ulong) 3, 5, 10), 5);
+        }
+
+        [Test]
+        public void ShouldClampByteToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((byte) 3, (byte) 5, (byte) 10), 5);
+        }
+
+        [Test]
+        public void ShouldClampFloatToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(1.5f, 0.0f, 1.0f), 1.0f);
+        }
+
+        [Test]
+        public void ShouldClampDoubleToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(1.5, 0.0, 1.0), 1.0);
+        }
+
+        [Test]
+        public void ShouldClampInt16ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((short) 10, (short) 0, (short) 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampUInt16ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((ushort) 10, (ushort) 0, (ushort) 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampInt32ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(10, 0, 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampUInt32ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((uint) 10, 0, 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampInt64ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((long) 10, 0, 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampUInt64ToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((ulong) 10, 0, 5), 5);
+        }
+
+        [Test]
+        public void ShouldClampByteToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp((byte) 10, (byte) 0, (byte) 5), 5);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowFloatClampArgumentException()
+        {
+            Helpers.Math.Clamp(0.5f, 1.0f, 0.0f);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowDoubleClampArgumentException()
+        {
+            Helpers.Math.Clamp(0.5, 1.0, 0.0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowInt16ClampArgumentException()
+        {
+            Helpers.Math.Clamp((short) 5, (short) 10, (short) 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowUInt16ClampArgumentException()
+        {
+            Helpers.Math.Clamp((ushort) 5, (ushort) 10, (ushort) 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowInt32ClampArgumentException()
+        {
+            Helpers.Math.Clamp(5, 10, 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowUInt32ClampArgumentException()
+        {
+            Helpers.Math.Clamp((uint) 5, 10, 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowInt64ClampArgumentException()
+        {
+            Helpers.Math.Clamp((long) 5, 10, 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowUInt64ClampArgumentException()
+        {
+            Helpers.Math.Clamp((ulong) 5, 10, 0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowByteClampArgumentException()
+        {
+            Helpers.Math.Clamp((byte) 5, (byte) 10, (byte) 0);
         }
     }
 }
