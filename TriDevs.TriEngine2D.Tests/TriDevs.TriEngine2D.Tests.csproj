@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +47,7 @@
     <Compile Include="HelperTests\ThreadingHelperTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StateManagementTests\GameStateTests.cs" />
+    <Compile Include="UITests\ColorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TriDevs.TriEngine2D\TriDevs.TriEngine2D.csproj">
