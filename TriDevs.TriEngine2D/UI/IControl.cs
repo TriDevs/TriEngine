@@ -26,6 +26,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using TriDevs.TriEngine2D.Interfaces;
 using TriDevs.TriEngine2D.UI.Events;
 
 namespace TriDevs.TriEngine2D.UI
@@ -33,7 +34,7 @@ namespace TriDevs.TriEngine2D.UI
     /// <summary>
     /// A UI control that can be drawn on screen and interacted with.
     /// </summary>
-    public interface IControl
+    public interface IControl : IUpdatable, IDrawable
     {
         /// <summary>
         /// Raised when this control is clicked on by the user.

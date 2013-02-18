@@ -89,6 +89,7 @@
     <Compile Include="Native\WinAPI.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
     <Compile Include="Serializing\Serializer.cs" />
     <Compile Include="Services.cs" />
     <Compile Include="StateManagement\GameState.cs" />
@@ -96,8 +97,10 @@
     <Compile Include="StateManagement\IGameState.cs" />
     <Compile Include="StateManagement\IGameStateManager.cs" />
     <Compile Include="UI\Control.cs" />
+    <Compile Include="UI\ControlManager.cs" />
     <Compile Include="UI\Events\ControlClicked.cs" />
     <Compile Include="UI\IControl.cs" />
+    <Compile Include="UI\IControlManager.cs" />
     <Compile Include="UI\Label.cs" />
     <Compile Include="UI\LinkLabel.cs" />
     <Compile Include="Version.cs" />
