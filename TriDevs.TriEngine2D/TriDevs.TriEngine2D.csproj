@@ -67,6 +67,7 @@
     <Compile Include="Audio\NullSound.cs" />
     <Compile Include="Audio\Song.cs" />
     <Compile Include="Audio\Sound.cs" />
+    <Compile Include="Color.cs" />
     <Compile Include="EngineException.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
@@ -94,7 +95,6 @@
     <Compile Include="StateManagement\GameStateManager.cs" />
     <Compile Include="StateManagement\IGameState.cs" />
     <Compile Include="StateManagement\IGameStateManager.cs" />
-    <Compile Include="UI\Color.cs" />
     <Compile Include="UI\Control.cs" />
     <Compile Include="UI\Events\ControlClicked.cs" />
     <Compile Include="UI\IControl.cs" />

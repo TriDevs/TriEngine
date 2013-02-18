@@ -23,10 +23,10 @@
 
 using OpenTK;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine2D
 {
     /// <summary>
-    /// Represents an RGBA color that can be used with TriEngine2D UI controls.
+    /// Represents an RGBA color that can be used with TriEngine2D.
     /// </summary>
     public struct Color
     {
