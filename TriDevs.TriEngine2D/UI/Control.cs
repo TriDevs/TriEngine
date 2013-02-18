@@ -31,8 +31,6 @@ namespace TriDevs.TriEngine2D.UI
     /// </summary>
     public abstract class Control : IControl
     {
-        private Rectangle _rectangle;
-
         /// <summary>
         /// Raised when this control is clicked on by the user.
         /// </summary>
@@ -48,7 +46,10 @@ namespace TriDevs.TriEngine2D.UI
         
         public virtual Point<int> Size { get; set; }
 
-        public virtual Rectangle Rectangle { get { return _rectangle; } }
+        public virtual Rectangle Rectangle
+        {
+            get { return new Rectangle(Position, Size); }
+        }
 
         public virtual string Text { get; set; }
 

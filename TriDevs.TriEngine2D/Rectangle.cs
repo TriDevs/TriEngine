@@ -67,7 +67,7 @@ namespace TriDevs.TriEngine2D
             Y = y;
             Width = width;
             Height = height;
-            
+            Color = Color.Black;
         }
 
         public bool Intersects(Rectangle other)

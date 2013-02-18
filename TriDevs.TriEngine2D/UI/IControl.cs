@@ -64,7 +64,12 @@ namespace TriDevs.TriEngine2D.UI
         /// <summary>
         /// Gets or sets the size of this control, in pixels.
         /// </summary>
-        Point<int> Size { get; set; } 
+        Point<int> Size { get; set; }
+
+        /// <summary>
+        /// Gets the rectangular area on the screen that this control is occupying.
+        /// </summary>
+        Rectangle Rectangle { get; }
 
         /// <summary>
         /// Gets or sets the text associated with this control.
