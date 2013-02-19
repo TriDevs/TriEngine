@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using OpenTK.Input;
 using TriDevs.TriEngine2D.UI.Events;
 
 namespace TriDevs.TriEngine2D.UI
@@ -49,6 +50,11 @@ namespace TriDevs.TriEngine2D.UI
         public virtual Rectangle Rectangle
         {
             get { return new Rectangle(Position, Size); }
+            set
+            {
+                Position = new Point<int>(value.X, value.Y);
+                Size = new Point<int>(value.Width, value.Height);
+            }
         }
 
         public virtual string Text { get; set; }
@@ -62,7 +68,8 @@ namespace TriDevs.TriEngine2D.UI
 
         /// <summary>
         /// This method is used to raise the click event from internal engine code.
-        /// Seeing as controls do not currently have a way to detect clicks on their own.
+        /// Normally the Control.Update method handles this, only use this if clicks
+        /// have to be manually detected outside of normal update calls.
         /// </summary>
         internal void Click()
         {
@@ -91,7 +98,19 @@ namespace TriDevs.TriEngine2D.UI
 
         public virtual void Update()
         {
-            
+            // Return immediately if there is no mouse click
+            // We only run the click handlers if the user has is releasing
+            // the mouse button while on a control, to mimic how most UIs
+            // handle click events.
+            if (!Services.Input.MouseReleased(MouseButton.Left))
+                return;
+
+            var mousePos = Services.Input.MousePosition;
+            // "Cache" the rectangle so we don't create a new one each time we want a value
+            var rect = Rectangle;
+            if ((mousePos.X >= rect.X && mousePos.X <= (rect.X + rect.Width))
+                || (mousePos.Y >= rect.Y && mousePos.Y <= (rect.Y + rect.Height)))
+                OnClicked();
         }
 
         public virtual void Draw()

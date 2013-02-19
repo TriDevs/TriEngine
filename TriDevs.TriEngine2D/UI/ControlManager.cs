@@ -66,7 +66,7 @@ namespace TriDevs.TriEngine2D.UI
 
         public void Update()
         {
-            
+            _controls.ForEach(c => c.Update());
         }
 
         public void Draw()

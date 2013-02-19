@@ -69,7 +69,7 @@ namespace TriDevs.TriEngine2D.UI
         /// <summary>
         /// Gets the rectangular area on the screen that this control is occupying.
         /// </summary>
-        Rectangle Rectangle { get; }
+        Rectangle Rectangle { get; set; }
 
         /// <summary>
         /// Gets or sets the text associated with this control.
