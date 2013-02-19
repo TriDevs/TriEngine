@@ -55,21 +55,41 @@ namespace TriDevs.TriEngine2D
         /// </summary>
         public readonly Color Color;
 
-        public Rectangle(Point<int> position, Point<int> size)
-            : this(position.X, position.Y, size.X, size.Y)
+        /// <summary>
+        /// Initializes a new <see cref="Rectangle" /> with position and size based on two
+        /// point objects.
+        /// </summary>
+        /// <param name="position">The point to get position from.</param>
+        /// <param name="size">The point to get width and height from.</param>
+        /// <param name="color">Color of this rectangle, set to null for default color of black.</param>
+        public Rectangle(Point<int> position, Point<int> size, Color? color = null)
+            : this(position.X, position.Y, size.X, size.Y, color)
         {
             
         }
 
-        public Rectangle(int x, int y, int width, int height)
+        /// <summary>
+        /// Initializes a new rectangle with specified position and size. 
+        /// </summary>
+        /// <param name="x">X-position of this rectangle, in screen pixels.</param>
+        /// <param name="y">Y-position of this rectangle, in screen pixels.</param>
+        /// <param name="width">Width of this rectangle, in pixels.</param>
+        /// <param name="height">Height of this rectangle, in pixels.</param>
+        /// <param name="color">Color of this rectangle, set to null for default color of black.</param>
+        public Rectangle(int x, int y, int width, int height, Color? color = null)
         {
             X = x;
             Y = y;
             Width = width;
             Height = height;
-            Color = Color.Black;
+            Color = color.HasValue ? color.Value : Color.Black;
         }
 
+        /// <summary>
+        /// Returns whether this rectangle is intersecting with another rectangle.
+        /// </summary>
+        /// <param name="other">Rectangle to check against.</param>
+        /// <returns>True if this rectangle is intersecting with the other rectangle, false otherwise.</returns>
         public bool Intersects(Rectangle other)
         {
             if (Equals(other))
