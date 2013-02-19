@@ -1,6 +1,7 @@
 ﻿using System;
 using OpenTK;
 using OpenTK.Graphics;
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using TriDevs.TriEngine2D.Audio;
 using TriDevs.TriEngine2D.Input;
@@ -33,7 +34,7 @@ namespace TriDevs.TriEngine2D.EngineTest
             //Services.Audio.LoadSound("test", "test1.wav");
             //Services.Audio.LoadSound("test2", "test2.wav");
             //Services.Audio.LoadSong("unknown2", "menu4.ogg");
-            var control = new Label {Rectangle = new Rectangle(10, 10, 100, 100)};
+            var control = new Label {Rectangle = new Rectangle(10, 10, 100, 100), Color = Color.Green};
             control.Clicked += (sender, args) => Console.WriteLine("Control clicked!");
             _controlManager.AddControl(control);
         }
@@ -49,6 +50,24 @@ namespace TriDevs.TriEngine2D.EngineTest
                 mem /= 1024;
             }
             return string.Format("{0:0.###} {1}", mem, types[order]);
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            GL.ClearColor(Color.CornflowerBlue.ToColor4());
+        }
+
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+
+            GL.Viewport(ClientRectangle.X, ClientRectangle.Y, ClientRectangle.Width, ClientRectangle.Height);
+
+            Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView((float)Math.PI / 4, Width / (float)Height, 1.0f, 64.0f);
+            GL.MatrixMode(MatrixMode.Projection);
+            GL.LoadMatrix(ref projection);
         }
 
         protected override void OnUpdateFrame(FrameEventArgs e)
@@ -85,6 +104,21 @@ namespace TriDevs.TriEngine2D.EngineTest
             //    Services.Audio.GetSound("test2").Play();
 
             _controlManager.Update();
+        }
+
+        protected override void OnRenderFrame(FrameEventArgs e)
+        {
+            base.OnRenderFrame(e);
+
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+
+            Matrix4 modelview = Matrix4.LookAt(Vector3.Zero, Vector3.UnitZ, Vector3.UnitY);
+            GL.MatrixMode(MatrixMode.Modelview);
+            GL.LoadMatrix(ref modelview);
+
+            _controlManager.Draw();
+
+            SwapBuffers();
         }
 
         protected override void OnUnload(EventArgs e)

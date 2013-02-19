@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using TriDevs.TriEngine2D.UI.Events;
 
@@ -115,7 +116,15 @@ namespace TriDevs.TriEngine2D.UI
 
         public virtual void Draw()
         {
-
+            // Placeholder drawing,
+            // we should replace this with proper control drawing
+            var color = Color.ToVector3();
+            GL.Begin(BeginMode.Quads);
+            GL.Color3(color); GL.Vertex3(2.0f, 0.0f, 4.0f); //GL.Vertex2(Position.X, Position.Y + Size.Y);
+            GL.Color3(color); GL.Vertex3(2.0f, 2.0f, 4.0f); //GL.Vertex2(Position.X, Position.Y);
+            GL.Color3(color); GL.Vertex3(0.0f, 2.0f, 4.0f); //GL.Vertex2(Position.X + Size.X, Position.Y);
+            GL.Color3(color); GL.Vertex3(0.0f, 0.0f, 4.0f); //GL.Vertex2(Position.X + Size.X, Position.Y + Size.Y);
+            GL.End();
         }
     }
 }
