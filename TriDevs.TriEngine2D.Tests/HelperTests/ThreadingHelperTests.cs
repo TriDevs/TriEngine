@@ -29,7 +29,6 @@ namespace TriDevs.TriEngine2D.Tests.HelperTests
                 Threading.SetCurrentThreadName(expected);
                 Threading.SetCurrentThreadName(NewThreadName);
                 resultName = Thread.CurrentThread.Name;
-                
             });
             thread.Start();
             thread.Join();
