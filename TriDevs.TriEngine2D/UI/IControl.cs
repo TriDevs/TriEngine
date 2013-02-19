@@ -26,6 +26,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using TriDevs.TriEngine2D.Interfaces;
 using TriDevs.TriEngine2D.UI.Events;
 
 namespace TriDevs.TriEngine2D.UI
@@ -33,7 +34,7 @@ namespace TriDevs.TriEngine2D.UI
     /// <summary>
     /// A UI control that can be drawn on screen and interacted with.
     /// </summary>
-    public interface IControl
+    public interface IControl : IUpdatable, IDrawable
     {
         /// <summary>
         /// Raised when this control is clicked on by the user.
@@ -63,7 +64,12 @@ namespace TriDevs.TriEngine2D.UI
         /// <summary>
         /// Gets or sets the size of this control, in pixels.
         /// </summary>
-        Point<int> Size { get; set; } 
+        Point<int> Size { get; set; }
+
+        /// <summary>
+        /// Gets the rectangular area on the screen that this control is occupying.
+        /// </summary>
+        Rectangle Rectangle { get; set; }
 
         /// <summary>
         /// Gets or sets the text associated with this control.

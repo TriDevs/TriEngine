@@ -10,27 +10,51 @@ namespace TriDevs.TriEngine2D.Tests.ExtensionTests
         private const string FooString = "Foo Foo Foo";
 
         [Test]
-        public void ReplaceFirstTest()
+        public void ReplaceFirstCaseSensitive()
         {
             const string expected = "Bar Bar Baz";
             Assert.AreEqual(TestString.ReplaceFirst("Foo", "Bar"), expected);
             Assert.AreNotEqual(TestString.ReplaceFirst("foo", "Bar"), expected);
+        }
+
+        [Test]
+        public void ReplaceFirstCaseInsensitive()
+        {
+            const string expected = "Bar Bar Baz";
             Assert.AreEqual(TestString.ReplaceFirst("Foo", "Bar", true), expected);
             Assert.AreEqual(TestString.ReplaceFirst("foo", "Bar", true), expected);
         }
 
         [Test]
-        public void ReplaceTest()
+        public void ReplaceAllCaseSensitive()
         {
-            const string expectedAll = "Bar Bar Bar";
-            const string expectedNumber = "Bar Bar Foo";
-            Assert.AreEqual(FooString.Replace("Foo", "Bar", false), expectedAll);
-            Assert.AreNotEqual(FooString.Replace("foo", "Bar", false), expectedAll);
-            Assert.AreEqual(FooString.Replace("foo", "Bar", true), expectedAll);
-            Assert.AreEqual(FooString.Replace("Foo", "Bar", 2), expectedNumber);
-            Assert.AreNotEqual(FooString.Replace("foo", "Bar", 2), expectedNumber);
-            Assert.AreEqual(FooString.Replace("Foo", "Bar", 2, true), expectedNumber);
-            Assert.AreEqual(FooString.Replace("foo", "Bar", 2, true), expectedNumber);
+            const string expected = "Bar Bar Bar";
+            Assert.AreEqual(FooString.Replace("Foo", "Bar", false), expected);
+            Assert.AreNotEqual(FooString.Replace("foo", "Bar", false), expected);
+        }
+
+        [Test]
+        public void ReplaceAllCaseInsensitive()
+        {
+            const string expected = "Bar Bar Bar";
+            Assert.AreEqual(FooString.Replace("Foo", "Bar", true), expected);
+            Assert.AreEqual(FooString.Replace("foo", "Bar", true), expected);
+        }
+
+        [Test]
+        public void ReplaceTwoOccurrencesCaseSensitive()
+        {
+            const string expected = "Bar Bar Foo";
+            Assert.AreEqual(FooString.Replace("Foo", "Bar", 2), expected);
+            Assert.AreNotEqual(FooString.Replace("foo", "Bar", 2), expected);
+        }
+
+        [Test]
+        public void ReplaceTwoOccurrencesCaseInsensitive()
+        {
+            const string expected = "Bar Bar Foo";
+            Assert.AreEqual(FooString.Replace("Foo", "Bar", 2, true), expected);
+            Assert.AreEqual(FooString.Replace("foo", "Bar", 2, true), expected);
         }
     }
 }
