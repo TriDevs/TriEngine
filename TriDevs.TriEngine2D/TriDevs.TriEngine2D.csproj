@@ -72,6 +72,7 @@
     <Compile Include="EngineException.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="GameWindow2D.cs" />
     <Compile Include="Helpers\Exceptions.cs" />
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Math.cs" />
@@ -108,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Shaders\Fragment.glsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Shaders\Vertex.glsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Text\" />

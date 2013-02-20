@@ -9,34 +9,52 @@ using TriDevs.TriEngine2D.UI;
 
 namespace TriDevs.TriEngine2D.EngineTest
 {
-    public class WindowTest : GameWindow
+    public class Window2DTest : GameWindow2D
     {
         private string _activeSong = "unknown1";
         private IControlManager _controlManager;
+        private IControl _control;
+        private bool _clickToggle = false;
 
         [STAThread]
         public static void Main(string[] args)
         {
-            using (var test = new WindowTest())
+            using (var test = new Window2DTest())
             {
                 test.Run(30.0);
             }
         }
 
-        private WindowTest() : base(800, 600, GraphicsMode.Default, "TriEngine2D Test")
+        private Window2DTest() : base(800, 600, "TriEngine2D Test")
         {
-            VSync = VSyncMode.On;
             Services.Provide(new InputManager(this), new AudioManager());
             _controlManager = new ControlManager();
-            //Services.Audio.LoadSong("unknown1", "menu1.ogg");
-            //Services.Audio.LoadSong("call", "menu2.ogg");
+            Services.Audio.LoadSong("unknown1", "menu1.ogg");
+            Services.Audio.LoadSong("call", "menu2.ogg");
             //Services.Audio.LoadSong("pirates", "menu3.ogg").IsLooped = true;
-            //Services.Audio.LoadSound("test", "test1.wav");
-            //Services.Audio.LoadSound("test2", "test2.wav");
+            Services.Audio.LoadSound("test", "test1.wav");
+            Services.Audio.LoadSound("test2", "test2.wav");
             //Services.Audio.LoadSong("unknown2", "menu4.ogg");
-            var control = new Label {Rectangle = new Rectangle(10, 10, 100, 100), Color = Color.Green};
-            control.Clicked += (sender, args) => Console.WriteLine("Control clicked!");
-            _controlManager.AddControl(control);
+            _control = new Label {Rectangle = new Rectangle(100, 100, 250, 250), Color = Color.Green};
+            _control.Clicked += ControlClicked;
+            _controlManager.AddControl(_control);
+        }
+
+        private void ControlClicked(object sender, EventArgs e)
+        {
+            Console.WriteLine("Control clicked!");
+            if (_clickToggle)
+            {
+                _control.Color = Color.Green;
+                _control.Position = new Point<int>(100, 100);
+                _clickToggle = false;
+            }
+            else
+            {
+                _control.Color = Color.Red;
+                _control.Position = new Point<int>(200, 200);
+                _clickToggle = true;
+            }
         }
 
         private string GetMemUsageString()
@@ -52,24 +70,6 @@ namespace TriDevs.TriEngine2D.EngineTest
             return string.Format("{0:0.###} {1}", mem, types[order]);
         }
 
-        protected override void OnLoad(EventArgs e)
-        {
-            base.OnLoad(e);
-
-            GL.ClearColor(Color.CornflowerBlue.ToColor4());
-        }
-
-        protected override void OnResize(EventArgs e)
-        {
-            base.OnResize(e);
-
-            GL.Viewport(ClientRectangle.X, ClientRectangle.Y, ClientRectangle.Width, ClientRectangle.Height);
-
-            Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView((float)Math.PI / 4, Width / (float)Height, 1.0f, 64.0f);
-            GL.MatrixMode(MatrixMode.Projection);
-            GL.LoadMatrix(ref projection);
-        }
-
         protected override void OnUpdateFrame(FrameEventArgs e)
         {
             base.OnUpdateFrame(e);
@@ -78,51 +78,80 @@ namespace TriDevs.TriEngine2D.EngineTest
 
             Title = string.Format("TriEngine2D Test X: {0}; Y: {1}; Mem: {2}", Services.Input.MouseX, Services.Input.MouseY, GetMemUsageString());
 
-            //if (Services.Input.KeyPressed(Key.Number1))
-            //    _activeSong = "unknown1";
-            //else if (Services.Input.KeyPressed(Key.Number2))
-            //    _activeSong = "call";
-            //else if (Services.Input.KeyPressed(Key.Number3))
-            //    _activeSong = "pirates";
+            if (!Focused)
+                return;
 
-            //var song = Services.Audio.GetSong(_activeSong);
+            if (Services.Input.KeyPressed(Key.Number1))
+            {
+                _activeSong = "unknown1";
+                Console.WriteLine("Selected song " + _activeSong);
+            }
+            else if (Services.Input.KeyPressed(Key.Number2))
+            {
+                _activeSong = "call";
+                Console.WriteLine("Selected song " + _activeSong);
+            }
+            else if (Services.Input.KeyPressed(Key.Number3))
+            {
+                _activeSong = "pirates";
+                Console.WriteLine("Selected song " + _activeSong);
+            }
 
-            //if (Services.Input.KeyPressed(Key.P))
-            //    song.Play();
-            //else if (Services.Input.KeyPressed(Key.S))
-            //    song.Stop();
-            //else if (Services.Input.KeyPressed(Key.U))
-            //    song.Pause();
-            //else if (Services.Input.KeyPressed(Key.R))
-            //    song.Resume();
-            //else if (Services.Input.KeyPressed(Key.L))
-            //    song.IsLooped = !song.IsLooped;
+            var song = Services.Audio.GetSong(_activeSong);
 
-            //if (Services.Input.KeyPressed(Key.Space))
-            //    Services.Audio.GetSound("test").Play();
-            //else if (Services.Input.KeyPressed(Key.B))
-            //    Services.Audio.GetSound("test2").Play();
+            if (Services.Input.KeyPressed(Key.P))
+            {
+                Console.WriteLine("Playing " + _activeSong);
+                song.Play();
+            }
+            else if (Services.Input.KeyPressed(Key.S))
+            {
+                Console.WriteLine("Stopping " + _activeSong);
+                song.Stop();
+            }
+            else if (Services.Input.KeyPressed(Key.U))
+            {
+                Console.WriteLine("Pausing " + _activeSong);
+                song.Pause();
+            }
+            else if (Services.Input.KeyPressed(Key.R))
+            {
+                Console.WriteLine("Resuming " + _activeSong);
+                song.Resume();
+            }
+            else if (Services.Input.KeyPressed(Key.L))
+            {
+                song.IsLooped = !song.IsLooped;
+                Console.WriteLine(_activeSong + " is {0} looping", song.IsLooped ? "now" : "no longer");
+            }
+            else if (Services.Input.KeyPressed(Key.Minus))
+            {
+                song.Volume -= 0.1f;
+                Console.WriteLine("Volume of " + _activeSong + " set to {0}", song.Volume);
+            }
+            else if (Services.Input.KeyPressed(Key.Plus))
+            {
+                song.Volume += 0.1f;
+                Console.WriteLine("Volume of " + _activeSong + " set to {0}", song.Volume);
+            }
+
+            if (Services.Input.KeyPressed(Key.Space))
+                Services.Audio.GetSound("test").Play();
+            else if (Services.Input.KeyPressed(Key.B))
+                Services.Audio.GetSound("test2").Play();
 
             _controlManager.Update();
         }
 
-        protected override void OnRenderFrame(FrameEventArgs e)
+        protected override void OnDraw(FrameEventArgs e)
         {
-            base.OnRenderFrame(e);
-
-            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
-
-            Matrix4 modelview = Matrix4.LookAt(Vector3.Zero, Vector3.UnitZ, Vector3.UnitY);
-            GL.MatrixMode(MatrixMode.Modelview);
-            GL.LoadMatrix(ref modelview);
-
             _controlManager.Draw();
-
-            SwapBuffers();
         }
 
         protected override void OnUnload(EventArgs e)
         {
+            Console.WriteLine("UNLOAD!");
+
             Services.Audio.Dispose();
 
             base.OnUnload(e);

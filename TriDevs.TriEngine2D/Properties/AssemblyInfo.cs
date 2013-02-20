@@ -33,7 +33,7 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.85.1307")]
+[assembly: AssemblyFileVersion("1.0.101.0014")]
 
 // Allow Test project to access internal members
 [assembly: InternalsVisibleTo("TriDevs.TriEngine2D.Tests")]
