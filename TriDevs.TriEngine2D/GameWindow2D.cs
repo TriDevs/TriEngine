@@ -28,6 +28,9 @@ using OpenTK.Graphics.OpenGL;
 
 namespace TriDevs.TriEngine2D
 {
+    /// <summary>
+    /// Game window class specialized for drawing 2D graphics.
+    /// </summary>
     public abstract class GameWindow2D : GameWindow
     {
         protected Color ClearColor;
@@ -66,7 +69,7 @@ namespace TriDevs.TriEngine2D
         {
             base.OnRenderFrame(e);
 
-            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+            GL.Clear(ClearBufferMask.ColorBufferBit);
 
             OnDraw(e);
 

@@ -1,4 +1,4 @@
-﻿/* ITextObject.cs
+﻿/* FontConstructionConfig.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -26,53 +26,42 @@ using QuickFont;
 namespace TriDevs.TriEngine2D.Text
 {
     /// <summary>
-    /// Implements methods to construct a text object and render it to screen.
+    /// Container class for different QFont configurations for use with the Font constructor.
     /// </summary>
-    public interface ITextObject
+    public class FontConstructionConfig
     {
         /// <summary>
-        /// Gets the <see cref="Font" /> font instance associated with this text object.
+        /// The builder configuration used when constructing fonts
+        /// from non-qfont files.
         /// </summary>
-        Font Font { get; }
+        public QFontBuilderConfiguration BuildConfig;
+        
+        /// <summary>
+        /// The loader configuration used when contruscting fonts
+        /// from a qfont file.
+        /// </summary>
+        public QFontLoaderConfiguration LoadConfig;
 
         /// <summary>
-        /// Gets or sets the text value of this text object.
+        /// Initialize a new <see cref="FontConstructionConfig" /> with a load configuration.
         /// </summary>
-        string Text { get; set; }
+        /// <param name="loadConfig">The <see cref="QFontLoaderConfiguration" /> to use.</param>
+        public FontConstructionConfig(QFontLoaderConfiguration loadConfig)
+            : this(null, loadConfig)
+        {
+            
+        }
 
         /// <summary>
-        /// Gets or sets the color of the text.
+        /// Initializes a new <see cref="FontConstructionConfig" /> with a builder configuration
+        /// and optional loader configuration.
         /// </summary>
-        Color Color { get; set; }
-
-        /// <summary>
-        /// Gets or sets the screen position of this text, in pixels.
-        /// </summary>
-        Point<int> Position { get; set; }
-
-        /// <summary>
-        /// Gets or sets a <see cref="QFontAlignment" /> value to
-        /// manage how this text is aligned on screen.
-        /// </summary>
-        QFontAlignment Alignment { get; set; }
-
-        /// <summary>
-        /// Draws this text object to screen with default parameters.
-        /// </summary>
-        void Draw();
-
-        /// <summary>
-        /// Draws this text object to a specific position on the screen
-        /// specified by the supplied Point struct.
-        /// </summary>
-        /// <param name="position">Point class with X/Y coordinates.</param>
-        void Draw(Point<int> position);
-
-        /// <summary>
-        /// Draws this text oject to screen at the specified X/Y position.
-        /// </summary>
-        /// <param name="x"></param>
-        /// <param name="y"></param>
-        void Draw(int x, int y);
+        /// <param name="buildConfig">The builder configuration to use.</param>
+        /// <param name="loadConfig">Optional loader configuration to set.</param>
+        public FontConstructionConfig(QFontBuilderConfiguration buildConfig, QFontLoaderConfiguration loadConfig = null)
+        {
+            BuildConfig = buildConfig;
+            LoadConfig = loadConfig;
+        }
     }
 }

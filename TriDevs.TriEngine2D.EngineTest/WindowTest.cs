@@ -3,8 +3,10 @@ using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
+using QuickFont;
 using TriDevs.TriEngine2D.Audio;
 using TriDevs.TriEngine2D.Input;
+using TriDevs.TriEngine2D.Text;
 using TriDevs.TriEngine2D.UI;
 
 namespace TriDevs.TriEngine2D.EngineTest
@@ -15,6 +17,8 @@ namespace TriDevs.TriEngine2D.EngineTest
         private IControlManager _controlManager;
         private IControl _control;
         private bool _clickToggle = false;
+        private Font _font;
+        private TextObject _text;
 
         [STAThread]
         public static void Main(string[] args)
@@ -38,6 +42,8 @@ namespace TriDevs.TriEngine2D.EngineTest
             _control = new Label {Rectangle = new Rectangle(100, 100, 250, 250), Color = Color.Green};
             _control.Clicked += ControlClicked;
             _controlManager.AddControl(_control);
+            _font = Resources.LoadFont("Anon", "Anonymous.ttf", 32);
+            _text = new TextObject("Hello, World!", _font, new Point<int>(100, 100), QFontAlignment.Left);
         }
 
         private void ControlClicked(object sender, EventArgs e)
@@ -146,6 +152,8 @@ namespace TriDevs.TriEngine2D.EngineTest
         protected override void OnDraw(FrameEventArgs e)
         {
             _controlManager.Draw();
+
+            _text.Draw();
         }
 
         protected override void OnUnload(EventArgs e)
