@@ -48,6 +48,9 @@
       <HintPath>..\libs\NVorbis\NVorbis.OpenTKSupport.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="QuickFont">
+      <HintPath>..\libs\QuickFont\QuickFont.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -98,6 +101,10 @@
     <Compile Include="StateManagement\GameStateManager.cs" />
     <Compile Include="StateManagement\IGameState.cs" />
     <Compile Include="StateManagement\IGameStateManager.cs" />
+    <Compile Include="Text\Font.cs" />
+    <Compile Include="Text\FontType.cs" />
+    <Compile Include="Text\ITextObject.cs" />
+    <Compile Include="Text\TextObject.cs" />
     <Compile Include="UI\Control.cs" />
     <Compile Include="UI\ControlManager.cs" />
     <Compile Include="UI\Events\ControlClicked.cs" />
@@ -116,9 +123,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Text\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>

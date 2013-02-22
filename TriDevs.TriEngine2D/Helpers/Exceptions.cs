@@ -33,6 +33,11 @@ namespace TriDevs.TriEngine2D.Helpers
     {
         private static readonly log4net.ILog _log = LogManager.GetLogger(typeof (Exceptions));
 
+        internal static void Throw(string message)
+        {
+            Throw(new EngineException(message));
+        }
+
         // Using this method to throw exceptions, we can automatically
         // wrap generic exceptions inside an EngineException.
         internal static void Throw(Exception exception, string message = null)
