@@ -48,21 +48,24 @@ namespace TriDevs.TriEngine2D.StateManagement
         public virtual void Enable()
         {
             Enabled = true;
+            Components.ForEach(c => c.Enable());
         }
 
         public virtual void Disable()
         {
+            Components.ForEach(c => c.Disable());
             Enabled = false;
         }
 
         public virtual void Update()
         {
-            
+            Components.ForEach(c => c.Update());
         }
 
         public virtual void Draw()
         {
-            
+            foreach (var component in Components.OfType<IDrawableGameComponent>())
+                component.Draw();
         }
 
         public virtual void Load()
