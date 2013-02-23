@@ -770,6 +770,15 @@ namespace TriDevs.TriEngine2D
         public readonly float A;
 
         /// <summary>
+        /// Creates a new color from a <see cref="Color4" /> color.
+        /// </summary>
+        /// <param name="color">The base <see cref="Color4" /> to use, RGBA will be copied from this color.</param>
+        public Color(Color4 color) : this(color.R, color.G, color.B, color.A)
+        {
+            
+        }
+
+        /// <summary>
         /// Creates a new color from a base color with new alpha value.
         /// </summary>
         /// <param name="base">The base color to use, RGB will be copied from this color.</param>

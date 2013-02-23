@@ -22,7 +22,6 @@
  */
 
 using OpenTK;
-using OpenTK.Graphics.OpenGL;
 using QuickFont;
 
 namespace TriDevs.TriEngine2D.Text
@@ -33,6 +32,8 @@ namespace TriDevs.TriEngine2D.Text
     public class TextObject : ITextObject
     {
         private Vector2 _vectorPos;
+        private Rectangle _bounds;
+        private QFontAlignment _alignment;
 
         public Font Font { get; private set; }
         public string Text { get; set; }
@@ -41,10 +42,24 @@ namespace TriDevs.TriEngine2D.Text
         public Point<int> Position
         {
             get { return new Point<int>((int) _vectorPos.X, (int) _vectorPos.Y); }
-            set { _vectorPos = new Vector2(value.X, value.Y); }
+            set
+            {
+                _vectorPos = new Vector2(value.X, value.Y);
+                CalculateBounds();
+            }
         }
 
-        public QFontAlignment Alignment { get; set; }
+        public Rectangle Bounds { get { return _bounds; } }
+
+        public QFontAlignment Alignment
+        {
+            get { return _alignment; }
+            set
+            {
+                _alignment = value;
+                CalculateBounds();
+            }
+        }
 
         /// <summary>
         /// Initializes a new <see cref="TextObject" /> instance.
@@ -59,6 +74,12 @@ namespace TriDevs.TriEngine2D.Text
             Font = font;
             Position = position;
             Alignment = alignment;
+        }
+
+        private void CalculateBounds()
+        {
+            var size = Font.QFont.Measure(Text, Alignment);
+            _bounds = new Rectangle((int) _vectorPos.X, (int) _vectorPos.Y, (int) size.Width, (int) size.Height);
         }
 
         public void Draw()

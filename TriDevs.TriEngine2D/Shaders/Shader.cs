@@ -32,15 +32,23 @@ namespace TriDevs.TriEngine2D.Shaders
     /// </summary>
     public class Shader : IDisposable
     {
+        private readonly string _name;
+        private readonly string _file;
+
         /// <summary>
         /// The name of this shader object.
         /// </summary>
-        public readonly string Name;
+        public string Name { get { return _name; } }
+
+        /// <summary>
+        /// The file containing the source for this shader.
+        /// </summary>
+        public string File { get { return _file; } }
 
         /// <summary>
         /// ID of the shader compiled by OpenGL.
         /// </summary>
-        public readonly int Id;
+        public readonly int ID;
 
         /// <summary>
         /// Creates a new shader from specified GLSL source file.
@@ -53,16 +61,27 @@ namespace TriDevs.TriEngine2D.Shaders
         /// <param name="type">The type of shader to create.</param>
         public Shader(string name, string file, ShaderType type)
         {
-            Name = name ?? Path.GetFileNameWithoutExtension(file);
-            Id = GL.CreateShader(type);
-            var source = File.ReadAllText(file);
-            GL.ShaderSource(Id, source);
-            GL.CompileShader(Id);
+            _file = file;
+            _name = name ?? GetDefaultName(_file);
+            ID = GL.CreateShader(type);
+            var source = System.IO.File.ReadAllText(_file);
+            GL.ShaderSource(ID, source);
+            GL.CompileShader(ID);
+        }
+
+        /// <summary>
+        /// Returns an auto-generated shader name based on the file name.
+        /// </summary>
+        /// <param name="file">The file name.</param>
+        /// <returns>The auto-generated shader name.</returns>
+        public static string GetDefaultName(string file)
+        {
+            return Path.GetFileNameWithoutExtension(file);
         }
 
         public void Dispose()
         {
-            GL.DeleteShader(Id);
+            GL.DeleteShader(ID);
         }
     }
 }

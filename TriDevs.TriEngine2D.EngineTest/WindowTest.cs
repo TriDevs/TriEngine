@@ -1,7 +1,5 @@
 ﻿using System;
 using OpenTK;
-using OpenTK.Graphics;
-using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using QuickFont;
 using TriDevs.TriEngine2D.Audio;
@@ -16,7 +14,7 @@ namespace TriDevs.TriEngine2D.EngineTest
         private string _activeSong = "unknown1";
         private IControlManager _controlManager;
         private IControl _control;
-        private bool _clickToggle = false;
+        private bool _clickToggle;
         private Font _font;
         private TextObject _text;
 

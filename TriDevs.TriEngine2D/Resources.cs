@@ -36,7 +36,7 @@ namespace TriDevs.TriEngine2D
     public static class Resources
     {
         private static readonly Dictionary<string, Font> Fonts;
-        private static readonly Dictionary<string, Shader> Shaders; 
+        private static readonly Dictionary<string, Shader> Shaders;
 
         static Resources()
         {
@@ -63,7 +63,7 @@ namespace TriDevs.TriEngine2D
         /// Adds a font instance to the resources.
         /// </summary>
         /// <param name="font">The font object to add.</param>
-        /// <exception cref="EngineException">Thrown if the resources already contains the specified font.</exception>
+        /// <exception cref="EngineException">Thrown if the resources already contain the specified font.</exception>
         public static void AddFont(Font font)
         {
             if (Fonts.ContainsKey(font.Name))
@@ -76,7 +76,7 @@ namespace TriDevs.TriEngine2D
         /// Adds a shader instance to the resources.
         /// </summary>
         /// <param name="shader">The shader object to add.</param>
-        /// <exception cref="EngineException">Thrown if the resources already contains the specified shader.</exception>
+        /// <exception cref="EngineException">Thrown if the resources already contain the specified shader.</exception>
         public static void AddShader(Shader shader)
         {
             if (Shaders.ContainsKey(shader.Name))

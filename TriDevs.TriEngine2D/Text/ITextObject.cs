@@ -51,6 +51,11 @@ namespace TriDevs.TriEngine2D.Text
         Point<int> Position { get; set; }
 
         /// <summary>
+        /// Gets the bounds of this text object.
+        /// </summary>
+        Rectangle Bounds { get; }
+
+        /// <summary>
         /// Gets or sets a <see cref="QFontAlignment" /> value to
         /// manage how this text is aligned on screen.
         /// </summary>

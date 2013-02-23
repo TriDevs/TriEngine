@@ -93,6 +93,7 @@
     <Compile Include="Native\Helpers.cs" />
     <Compile Include="Native\WinAPI.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="Resources.cs" />
@@ -119,10 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Shaders\Fragment.glsl">
+    <None Include="Resources\Shaders\Fragment.glsl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Shaders\Vertex.glsl">
+    <None Include="Resources\Shaders\Vertex.glsl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

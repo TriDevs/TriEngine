@@ -1,4 +1,4 @@
-﻿/* ISong.cs
+﻿/* Program.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -22,56 +22,40 @@
  */
 
 using System;
+using OpenTK.Graphics.OpenGL;
+using TriDevs.TriEngine2D.Shaders;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine2D
 {
     /// <summary>
-    /// A song that will be streamed in the audio player.
+    /// An OpenGL program.
     /// </summary>
-    public interface ISong : IDisposable
+    public class Program : IDisposable
     {
         /// <summary>
-        /// Gets the name associated with this song.
+        /// The ID of this program.
         /// </summary>
-        string Name { get; }
+        public readonly int ID;
 
         /// <summary>
-        /// Gets the file this song was loaded from.
+        /// Initializes a new <see cref="Program" /> as a shader program.
         /// </summary>
-        string File { get; }
+        /// <param name="shaders">The shaders to attach.</param>
+        public Program(params Shader[] shaders)
+        {
+            ID = GL.CreateProgram();
 
-        /// <summary>
-        /// Gets or sets the song volume.
-        /// </summary>
-        float Volume { get; set; }
+            foreach (var shader in shaders)
+            {
+                GL.AttachShader(ID, shader.ID);
+            }
 
-        /// <summary>
-        /// Gets or sets a value indicating that the song should be looped
-        /// once it reaches the end.
-        /// </summary>
-        bool IsLooped { get; set; }
+            GL.LinkProgram(ID);
+        }
 
-        /// <summary>
-        /// Starts playback of the song.
-        /// </summary>
-        void Play();
-
-        /// <summary>
-        /// Stops playback of the song.
-        /// </summary>
-        void Stop();
-
-        /// <summary>
-        /// Pauses playback of the song.
-        /// </summary>
-        /// <remarks>
-        /// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
-        /// </remarks>
-        void Pause();
-
-        /// <summary>
-        /// Resumes playback of a paused song.
-        /// </summary>
-        void Resume();
+        public void Dispose()
+        {
+            GL.DeleteProgram(ID);
+        }
     }
 }
