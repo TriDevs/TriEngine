@@ -36,25 +36,11 @@ namespace TriDevs.TriEngine2D.StateManagement
     {
         protected readonly List<IGameComponent> Components;
 
-        public bool Enabled { get; set; }
-
         public bool Paused { get; set; }
 
         protected GameState()
         {
             Components = new List<IGameComponent>();
-        }
-
-        public virtual void Enable()
-        {
-            Enabled = true;
-            Components.ForEach(c => c.Enable());
-        }
-
-        public virtual void Disable()
-        {
-            Components.ForEach(c => c.Disable());
-            Enabled = false;
         }
 
         public virtual void Update()
