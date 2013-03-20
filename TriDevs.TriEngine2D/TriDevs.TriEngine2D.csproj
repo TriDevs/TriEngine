@@ -48,8 +48,12 @@
       <HintPath>..\libs\NVorbis\NVorbis.OpenTKSupport.dll</HintPath>
     </Reference>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL" />
+    <Reference Include="QuickFont">
+      <HintPath>..\libs\QuickFont\QuickFont.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,6 +75,7 @@
     <Compile Include="EngineException.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="GameWindow2D.cs" />
     <Compile Include="Helpers\Exceptions.cs" />
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Math.cs" />
@@ -88,14 +93,22 @@
     <Compile Include="Native\Helpers.cs" />
     <Compile Include="Native\WinAPI.cs" />
     <Compile Include="Point.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />
+    <Compile Include="Resources.cs" />
     <Compile Include="Serializing\Serializer.cs" />
     <Compile Include="Services.cs" />
+    <Compile Include="Shaders\Shader.cs" />
     <Compile Include="StateManagement\GameState.cs" />
     <Compile Include="StateManagement\GameStateManager.cs" />
     <Compile Include="StateManagement\IGameState.cs" />
     <Compile Include="StateManagement\IGameStateManager.cs" />
+    <Compile Include="Text\Font.cs" />
+    <Compile Include="Text\FontConstructionConfig.cs" />
+    <Compile Include="Text\FontType.cs" />
+    <Compile Include="Text\ITextObject.cs" />
+    <Compile Include="Text\TextObject.cs" />
     <Compile Include="UI\Control.cs" />
     <Compile Include="UI\ControlManager.cs" />
     <Compile Include="UI\Events\ControlClicked.cs" />
@@ -107,10 +120,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Resources\Shaders\Fragment.glsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\Shaders\Vertex.glsl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Text\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>

@@ -31,12 +31,12 @@ namespace TriDevs.TriEngine2D.Audio
     public interface ISound : IDisposable
     {
         /// <summary>
-        /// Unique name of this sound object.
+        /// Gets the name associated with this sound.
         /// </summary>
         string Name { get; }
 
         /// <summary>
-        /// Path to the file this sound object is associated with.
+        /// Gets the file this sound was created from.
         /// </summary>
         string File { get; }
 

@@ -1,4 +1,4 @@
-﻿/* ISong.cs
+﻿/* FontConstructionConfig.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,57 +21,47 @@
  * SOFTWARE.
  */
 
-using System;
+using QuickFont;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine2D.Text
 {
     /// <summary>
-    /// A song that will be streamed in the audio player.
+    /// Container class for different QFont configurations for use with the Font constructor.
     /// </summary>
-    public interface ISong : IDisposable
+    public class FontConstructionConfig
     {
         /// <summary>
-        /// Gets the name associated with this song.
+        /// The builder configuration used when constructing fonts
+        /// from non-qfont files.
         /// </summary>
-        string Name { get; }
+        public QFontBuilderConfiguration BuildConfig;
+        
+        /// <summary>
+        /// The loader configuration used when contruscting fonts
+        /// from a qfont file.
+        /// </summary>
+        public QFontLoaderConfiguration LoadConfig;
 
         /// <summary>
-        /// Gets the file this song was loaded from.
+        /// Initialize a new <see cref="FontConstructionConfig" /> with a load configuration.
         /// </summary>
-        string File { get; }
+        /// <param name="loadConfig">The <see cref="QFontLoaderConfiguration" /> to use.</param>
+        public FontConstructionConfig(QFontLoaderConfiguration loadConfig)
+            : this(null, loadConfig)
+        {
+            
+        }
 
         /// <summary>
-        /// Gets or sets the song volume.
+        /// Initializes a new <see cref="FontConstructionConfig" /> with a builder configuration
+        /// and optional loader configuration.
         /// </summary>
-        float Volume { get; set; }
-
-        /// <summary>
-        /// Gets or sets a value indicating that the song should be looped
-        /// once it reaches the end.
-        /// </summary>
-        bool IsLooped { get; set; }
-
-        /// <summary>
-        /// Starts playback of the song.
-        /// </summary>
-        void Play();
-
-        /// <summary>
-        /// Stops playback of the song.
-        /// </summary>
-        void Stop();
-
-        /// <summary>
-        /// Pauses playback of the song.
-        /// </summary>
-        /// <remarks>
-        /// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
-        /// </remarks>
-        void Pause();
-
-        /// <summary>
-        /// Resumes playback of a paused song.
-        /// </summary>
-        void Resume();
+        /// <param name="buildConfig">The builder configuration to use.</param>
+        /// <param name="loadConfig">Optional loader configuration to set.</param>
+        public FontConstructionConfig(QFontBuilderConfiguration buildConfig, QFontLoaderConfiguration loadConfig = null)
+        {
+            BuildConfig = buildConfig;
+            LoadConfig = loadConfig;
+        }
     }
 }

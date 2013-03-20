@@ -31,7 +31,7 @@ namespace TriDevs.TriEngine2D.StateManagement
     /// A game state that can be used with the game state manager.
     /// Represent a specific state of the game, like main menu and options screen.
     /// </summary>
-    public interface IGameState : IDrawableGameComponent
+    public interface IGameState : IDrawable, IUpdatable
     {
         /// <summary>
         /// Gets or sets a value indicating whether this game state is currently paused.
