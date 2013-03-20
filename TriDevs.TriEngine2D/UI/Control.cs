@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 using TriDevs.TriEngine2D.UI.Events;
 
@@ -109,13 +110,23 @@ namespace TriDevs.TriEngine2D.UI
             // "Cache" the rectangle so we don't create a new one each time we want a value
             var rect = Rectangle;
             if ((mousePos.X >= rect.X && mousePos.X <= (rect.X + rect.Width))
-                || (mousePos.Y >= rect.Y && mousePos.Y <= (rect.Y + rect.Height)))
+                && (mousePos.Y >= rect.Y && mousePos.Y <= (rect.Y + rect.Height)))
                 OnClicked();
         }
 
         public virtual void Draw()
         {
-
+            // Placeholder drawing,
+            // we should replace this with proper control drawing
+            GL.Disable(EnableCap.Texture2D);
+            var color = Color.ToVector3();
+            GL.Color3(color);
+            GL.Begin(BeginMode.Quads);
+            GL.Vertex2(Position.X, Position.Y);
+            GL.Vertex2(Position.X + Size.X, Position.Y);
+            GL.Vertex2(Position.X + Size.X, Position.Y + Size.Y);
+            GL.Vertex2(Position.X, Position.Y + Size.Y);
+            GL.End();
         }
     }
 }

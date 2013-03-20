@@ -1,4 +1,4 @@
-﻿/* ISong.cs
+﻿/* FontType.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -22,56 +22,30 @@
  */
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine2D.Text
 {
     /// <summary>
-    /// A song that will be streamed in the audio player.
+    /// Different font types supported by TriEngine2D.
     /// </summary>
-    public interface ISong : IDisposable
+    public enum FontType
     {
         /// <summary>
-        /// Gets the name associated with this song.
+        /// TrueType font file
         /// </summary>
-        string Name { get; }
+        TTF,
 
         /// <summary>
-        /// Gets the file this song was loaded from.
+        /// QFont *.qfont files.
         /// </summary>
-        string File { get; }
+        QFont,
 
         /// <summary>
-        /// Gets or sets the song volume.
+        /// Specifies that the font type is not supported by the library.
         /// </summary>
-        float Volume { get; set; }
-
-        /// <summary>
-        /// Gets or sets a value indicating that the song should be looped
-        /// once it reaches the end.
-        /// </summary>
-        bool IsLooped { get; set; }
-
-        /// <summary>
-        /// Starts playback of the song.
-        /// </summary>
-        void Play();
-
-        /// <summary>
-        /// Stops playback of the song.
-        /// </summary>
-        void Stop();
-
-        /// <summary>
-        /// Pauses playback of the song.
-        /// </summary>
-        /// <remarks>
-        /// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
-        /// </remarks>
-        void Pause();
-
-        /// <summary>
-        /// Resumes playback of a paused song.
-        /// </summary>
-        void Resume();
+        Unsupported
     }
 }

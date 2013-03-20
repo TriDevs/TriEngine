@@ -1,4 +1,4 @@
-﻿/* ISong.cs
+﻿/* ITextObject.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,57 +21,63 @@
  * SOFTWARE.
  */
 
-using System;
+using QuickFont;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine2D.Text
 {
     /// <summary>
-    /// A song that will be streamed in the audio player.
+    /// Implements methods to construct a text object and render it to screen.
     /// </summary>
-    public interface ISong : IDisposable
+    public interface ITextObject
     {
         /// <summary>
-        /// Gets the name associated with this song.
+        /// Gets the <see cref="Font" /> font instance associated with this text object.
         /// </summary>
-        string Name { get; }
+        Font Font { get; }
 
         /// <summary>
-        /// Gets the file this song was loaded from.
+        /// Gets or sets the text value of this text object.
         /// </summary>
-        string File { get; }
+        string Text { get; set; }
 
         /// <summary>
-        /// Gets or sets the song volume.
+        /// Gets or sets the color of the text.
         /// </summary>
-        float Volume { get; set; }
+        Color Color { get; set; }
 
         /// <summary>
-        /// Gets or sets a value indicating that the song should be looped
-        /// once it reaches the end.
+        /// Gets or sets the screen position of this text, in pixels.
         /// </summary>
-        bool IsLooped { get; set; }
+        Point<int> Position { get; set; }
 
         /// <summary>
-        /// Starts playback of the song.
+        /// Gets the bounds of this text object.
         /// </summary>
-        void Play();
+        Rectangle Bounds { get; }
 
         /// <summary>
-        /// Stops playback of the song.
+        /// Gets or sets a <see cref="QFontAlignment" /> value to
+        /// manage how this text is aligned on screen.
         /// </summary>
-        void Stop();
+        QFontAlignment Alignment { get; set; }
 
         /// <summary>
-        /// Pauses playback of the song.
+        /// Draws this text object to screen with default parameters.
         /// </summary>
-        /// <remarks>
-        /// Call the <see cref="Resume" /> or <see cref="Play" /> method to resume playback.
-        /// </remarks>
-        void Pause();
+        void Draw();
 
         /// <summary>
-        /// Resumes playback of a paused song.
+        /// Draws this text object to a specific position on the screen
+        /// specified by the supplied Point struct.
         /// </summary>
-        void Resume();
+        /// <param name="position">Point class with X/Y coordinates.</param>
+        void Draw(Point<int> position);
+
+        /// <summary>
+        /// Draws this text oject to screen at the specified X/Y position.
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        void Draw(int x, int y);
     }
 }
