@@ -33,7 +33,7 @@ namespace TriDevs.TriEngine2D.EngineTest
             _controlManager = new ControlManager();
             Services.Audio.LoadSong("unknown1", "menu1.ogg");
             Services.Audio.LoadSong("call", "menu2.ogg");
-            //Services.Audio.LoadSong("pirates", "menu3.ogg").IsLooped = true;
+            Services.Audio.LoadSong("pirates", "menu3.ogg").IsLooped = true;
             Services.Audio.LoadSound("test", "test1.wav");
             Services.Audio.LoadSound("test2", "test2.wav");
             //Services.Audio.LoadSong("unknown2", "menu4.ogg");
