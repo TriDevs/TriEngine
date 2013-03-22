@@ -187,6 +187,10 @@ namespace TriDevs.TriEngine2D.Text
             return Name;
         }
 
+        /// <summary>
+        /// Disposes of this font instance,
+        /// releasing all unmanaged resources.
+        /// </summary>
         public void Dispose()
         {
             QFont.Dispose();
