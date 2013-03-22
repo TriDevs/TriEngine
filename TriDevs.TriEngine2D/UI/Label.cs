@@ -21,6 +21,10 @@
  * SOFTWARE.
  */
 
+using OpenTK.Input;
+using QuickFont;
+using TriDevs.TriEngine2D.Text;
+
 namespace TriDevs.TriEngine2D.UI
 {
     /// <summary>
@@ -29,15 +33,116 @@ namespace TriDevs.TriEngine2D.UI
     public class Label : Control
     {
         private string _text;
+        private Font _font;
+        private TextObject _textObject;
+        private QFontAlignment _alignment;
+
+        private Point<int> _position;
+        private Point<int> _drawPosition; 
 
         public override string Text
         {
             get { return _text; }
             set
             {
-                // TODO: Update label
                 _text = value;
+                UpdateTextObject();
             }
+        }
+
+        public override Point<int> Position
+        {
+            get { return _position; }
+            set
+            {
+                _position = value;
+                UpdateTextObject();
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the <see cref="QFontAlignment" />
+        /// of this label's text.
+        /// </summary>
+        public virtual QFontAlignment Alignment
+        {
+            get { return _alignment; }
+            set
+            {
+                _alignment = value;
+                UpdateTextObject();
+            }
+        }
+
+        /// <summary>
+        /// Sets the font that this label uses.
+        /// </summary>
+        /// <param name="font">The new font instance to use.</param>
+        public virtual void SetFont(Font font)
+        {
+            _font = font;
+            UpdateTextObject();
+        }
+
+        protected virtual void UpdateTextObject()
+        {
+            if (_font == null)
+                return;
+
+            if (_textObject == null)
+            {
+                _textObject = new TextObject(_text, _font, Position, Alignment);
+            }
+            else
+            {
+                _textObject.Text = Text;
+                _textObject.Font = _font;
+                _textObject.Position = Position;
+                _textObject.Alignment = Alignment;
+            }
+
+            Size = new Point<int>(_textObject.Bounds.Width, _textObject.Bounds.Height);
+
+            switch (Alignment)
+            {
+                case QFontAlignment.Centre:
+                    _drawPosition = new Point<int>(Position.X - Size.X / 2, Position.Y);
+                    break;
+                case QFontAlignment.Right:
+                    _drawPosition = new Point<int>(Position.X - Size.X, Position.Y);
+                    break;
+                default:
+                    _drawPosition = Position;
+                    break;
+            }
+
+            System.Console.WriteLine("New size set to: {0}x{1}", Size.X, Size.Y);
+            System.Console.WriteLine("Position: {0}x{1}", Position.X, Position.Y);
+            System.Console.WriteLine("Draw pos: {0}x{1}", _drawPosition.X, _drawPosition.Y);
+        }
+
+        public override void Update()
+        {
+            // Override update logic to translate mouse click
+            // positions when label is aligned in a certain way
+
+            if (!Services.Input.MouseReleased(MouseButton.Left))
+                return;
+
+            var mousePos = Services.Input.MousePosition;
+            if ((mousePos.X >= _drawPosition.X && mousePos.X <= (_drawPosition.X + Rectangle.Width))
+                && (mousePos.Y >= _drawPosition.Y && mousePos.Y <= (_drawPosition.Y + Rectangle.Height)))
+                OnClicked();
+        }
+
+        public override void Draw()
+        {
+            base.Draw(_drawPosition);
+
+            if (_textObject == null)
+                return;
+
+            _textObject.Draw();
         }
     }
 }

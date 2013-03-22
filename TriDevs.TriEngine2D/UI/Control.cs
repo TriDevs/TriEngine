@@ -107,14 +107,17 @@ namespace TriDevs.TriEngine2D.UI
                 return;
 
             var mousePos = Services.Input.MousePosition;
-            // "Cache" the rectangle so we don't create a new one each time we want a value
-            var rect = Rectangle;
-            if ((mousePos.X >= rect.X && mousePos.X <= (rect.X + rect.Width))
-                && (mousePos.Y >= rect.Y && mousePos.Y <= (rect.Y + rect.Height)))
+            if ((mousePos.X >= Rectangle.X && mousePos.X <= (Rectangle.X + Rectangle.Width))
+                && (mousePos.Y >= Rectangle.Y && mousePos.Y <= (Rectangle.Y + Rectangle.Height)))
                 OnClicked();
         }
 
         public virtual void Draw()
+        {
+            Draw(Position);
+        }
+
+        protected virtual void Draw(Point<int> position)
         {
             // Placeholder drawing,
             // we should replace this with proper control drawing
@@ -122,10 +125,10 @@ namespace TriDevs.TriEngine2D.UI
             var color = Color.ToVector3();
             GL.Color3(color);
             GL.Begin(BeginMode.Quads);
-            GL.Vertex2(Position.X, Position.Y);
-            GL.Vertex2(Position.X + Size.X, Position.Y);
-            GL.Vertex2(Position.X + Size.X, Position.Y + Size.Y);
-            GL.Vertex2(Position.X, Position.Y + Size.Y);
+            GL.Vertex2(position.X, position.Y);
+            GL.Vertex2(position.X + Size.X, position.Y);
+            GL.Vertex2(position.X + Size.X, position.Y + Size.Y);
+            GL.Vertex2(position.X, position.Y + Size.Y);
             GL.End();
         }
     }
