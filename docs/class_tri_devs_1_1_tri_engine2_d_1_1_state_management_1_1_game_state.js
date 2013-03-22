@@ -2,9 +2,7 @@ var class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state =
 [
     [ "GameState", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a85c13247aa4ed19acf7ec750e4eb94df", null ],
     [ "AddComponent", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a49b2f8ff22d23c05ac8a9743e784db75", null ],
-    [ "Disable", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#aa9711675b30e13851131f8734070d775", null ],
     [ "Draw", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a53a4361f96b0a795f4bb20a5ae5cf954", null ],
-    [ "Enable", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a4ac1b81901a490b43714433361cca771", null ],
     [ "GetAllComponents", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a475ae428f7c2c7ef10fa2cb12f3c6574", null ],
     [ "GetAllComponents", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a8fa4417a8b9478dfec607a92270de936", null ],
     [ "GetAllComponents", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a177a6fd37f338568b7e72890bcf1f80f", null ],
@@ -23,6 +21,5 @@ var class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state =
     [ "Unpause", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#ad6f7c81f1bcbcfc3567be8a8018e6069", null ],
     [ "Update", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a98663c5a2d77ebee9ed0f1dd91f6509a", null ],
     [ "Components", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#ab1ea74d5e4192c58474a485bf162fd67", null ],
-    [ "Enabled", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#aee11105734b6d29be5e29a8d8248a499", null ],
     [ "Paused", "class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#aa90383289e518b7c606a479c48b28510", null ]
 ];
