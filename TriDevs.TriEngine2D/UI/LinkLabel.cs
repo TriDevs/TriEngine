@@ -21,6 +21,8 @@
  * SOFTWARE.
  */
 
+using System.ComponentModel;
+
 namespace TriDevs.TriEngine2D.UI
 {
     /// <summary>
@@ -35,7 +37,19 @@ namespace TriDevs.TriEngine2D.UI
 
         protected override void OnClicked()
         {
-            System.Diagnostics.Process.Start(Url);
+            if (!string.IsNullOrEmpty(Url))
+            {
+                try
+                {
+                    System.Diagnostics.Process.Start(Url);
+                }
+                catch (Win32Exception)
+                {
+                    
+                }
+                
+            }
+            
             base.OnClicked();
         }
     }

@@ -3,6 +3,8 @@ TriEngine2D
 
 2D general-purpose engine in C#/OpenGL
 
+Will eventually have scripting API for Lua (and possible additional languages)
+
 IRC
 ---
 

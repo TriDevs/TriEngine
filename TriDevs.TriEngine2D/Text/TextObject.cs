@@ -21,6 +21,7 @@
  * SOFTWARE.
  */
 
+using System;
 using OpenTK;
 using QuickFont;
 
@@ -34,10 +35,16 @@ namespace TriDevs.TriEngine2D.Text
         private Vector2 _vectorPos;
         private Rectangle _bounds;
         private QFontAlignment _alignment;
+        private string _text;
 
-        public Font Font { get; private set; }
-        public string Text { get; set; }
+        public Font Font { get; set; }
         public Color Color { get; set; }
+
+        public string Text
+        {
+            get { return _text; }
+            set { _text = value ?? string.Empty; }
+        }
 
         public Point<int> Position
         {
@@ -61,6 +68,13 @@ namespace TriDevs.TriEngine2D.Text
             }
         }
 
+        public TextObject(string text, string fontName, Point<int> position = new Point<int>(),
+                          QFontAlignment alignment = QFontAlignment.Centre)
+            : this(text, Resources.GetFont(fontName), position, alignment)
+        {
+            
+        }
+
         /// <summary>
         /// Initializes a new <see cref="TextObject" /> instance.
         /// </summary>
@@ -68,8 +82,12 @@ namespace TriDevs.TriEngine2D.Text
         /// <param name="font">The font to use for this text object.</param>
         /// <param name="position">The intitial position of this text object.</param>
         /// <param name="alignment">The intitial alignment of the text in this text object.</param>
-        public TextObject(string text, Font font, Point<int> position = new Point<int>(), QFontAlignment alignment = QFontAlignment.Centre)
+        public TextObject(string text, Font font, Point<int> position = new Point<int>(),
+                          QFontAlignment alignment = QFontAlignment.Centre)
         {
+            if (font == null)
+                throw new EngineException("Font supplied for TextObject is null!", new ArgumentNullException("font"));
+
             Text = text;
             Font = font;
             Position = position;

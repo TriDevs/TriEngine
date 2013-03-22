@@ -17,6 +17,8 @@ namespace TriDevs.TriEngine2D.EngineTest
         private bool _clickToggle;
         private Font _font;
         private TextObject _text;
+        private Label _label;
+        private LinkLabel _link;
 
         [STAThread]
         public static void Main(string[] args)
@@ -37,11 +39,32 @@ namespace TriDevs.TriEngine2D.EngineTest
             Services.Audio.LoadSound("test", "test1.wav");
             Services.Audio.LoadSound("test2", "test2.wav");
             //Services.Audio.LoadSong("unknown2", "menu4.ogg");
-            _control = new Label {Rectangle = new Rectangle(100, 100, 250, 250), Color = Color.Green};
+            _font = Resources.LoadFont("Anon", "Anonymous.ttf", 32);
+            _control = new Label
+            {
+                Rectangle = new Rectangle(100, 100, 250, 250),
+                Color = Color.Green,
+                Alignment = QFontAlignment.Left,
+                Text = "Test"
+            };
+            ((Label) _control).SetFont(_font);
             _control.Clicked += ControlClicked;
             _controlManager.AddControl(_control);
-            _font = Resources.LoadFont("Anon", "Anonymous.ttf", 32);
-            _text = new TextObject("Hello, World!", _font, new Point<int>(100, 100), QFontAlignment.Left);
+            _text = new TextObject("Hello, World!", _font, new Point<int>(100, 50), QFontAlignment.Left);
+            _label = new Label();
+            _label.SetFont(_font);
+            _label.Position = new Point<int>(250, 300);
+            _label.Text = "Foo Bar Baz";
+            _label.Alignment = QFontAlignment.Right;
+            _controlManager.AddControl(_label);
+            _link = new LinkLabel();
+            _link.SetFont(_font);
+            _link.Position = new Point<int>(300, 500);
+            
+            _link.Text = "Go to google";
+            _link.Alignment = QFontAlignment.Centre;
+            _link.Url = "http://www.google.com/";
+            _controlManager.AddControl(_link);
         }
 
         private void ControlClicked(object sender, EventArgs e)
@@ -52,12 +75,14 @@ namespace TriDevs.TriEngine2D.EngineTest
                 _control.Color = Color.Green;
                 _control.Position = new Point<int>(100, 100);
                 _clickToggle = false;
+                _label.Text = "Foo Bar Baz";
             }
             else
             {
                 _control.Color = Color.Red;
                 _control.Position = new Point<int>(200, 200);
                 _clickToggle = true;
+                _label.Text = "Baz Bar Foo";
             }
         }
 
