@@ -8,20 +8,22 @@ A label that, when clicked, will open a U\-R\-L.
 
 
 
-Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label\-:\nopagebreak
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=216pt]{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label__inherit__graph}
+\includegraphics[width=219pt]{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label__inherit__graph}
 \end{center}
 \end{figure}
 
 
-Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label\-:\nopagebreak
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=216pt]{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label__coll__graph}
+\includegraphics[width=219pt]{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Protected Member Functions}
@@ -32,7 +34,7 @@ override void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
-string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_ad05f4d55ad4c170752367321a4a4837f}{Url}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+virtual string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_a6a4b37c0c7d9910451a8444dfb9853a2}{Url}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Gets or sets the U\-R\-L that will open when this label is clicked. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
@@ -56,10 +58,22 @@ Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_contr
 
 
 \begin{DoxyCode}
-47         \{
-48             System.Diagnostics.Process.Start(\_url);
-49             base.OnClicked();
-50         \}
+39         \{
+40             \textcolor{keywordflow}{if} (!\textcolor{keywordtype}{string}.IsNullOrEmpty(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_a6a4b37c0c7d9910451a8444dfb9853a2}{Url}))
+41             \{
+42                 \textcolor{keywordflow}{try}
+43                 \{
+44                     System.Diagnostics.Process.Start(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_a6a4b37c0c7d9910451a8444dfb9853a2}{Url});
+45                 \}
+46                 \textcolor{keywordflow}{catch} (Win32Exception)
+47                 \{
+48                     
+49                 \}
+50                 
+51             \}
+52             
+53             base.OnClicked();
+54         \}
 \end{DoxyCode}
 
 
@@ -75,9 +89,9 @@ Here is the call graph for this function\-:\nopagebreak
 
 
 \subsection{Property Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_ad05f4d55ad4c170752367321a4a4837f}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Link\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Link\-Label}!Url@{Url}}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_a6a4b37c0c7d9910451a8444dfb9853a2}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Link\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Link\-Label}!Url@{Url}}
 \index{Url@{Url}!TriDevs::TriEngine2D::UI::LinkLabel@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Link\-Label}}
-\subsubsection[{Url}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label.\-Url\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_ad05f4d55ad4c170752367321a4a4837f}
+\subsubsection[{Url}]{\setlength{\rightskip}{0pt plus 5cm}virtual string Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Link\-Label.\-Url\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_link_label_a6a4b37c0c7d9910451a8444dfb9853a2}
 
 
 Gets or sets the U\-R\-L that will open when this label is clicked. 

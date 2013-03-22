@@ -1,0 +1,108 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_program}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Program Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_program}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Program@{Tri\-Devs.\-Tri\-Engine2\-D.\-Program}}
+}
+
+
+An Open\-G\-L program.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Program\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_tri_devs_1_1_tri_engine2_d_1_1_program__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Program\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{class_tri_devs_1_1_tri_engine2_d_1_1_program__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a969fe4833d8007e74cf9d044258da15c}{Program} (params \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_shaders_1_1_shader}{Shader}\mbox{[}$\,$\mbox{]} shaders)
+\begin{DoxyCompactList}\small\item\em Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program}{Program} as a shader program. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a15cd46f4867cc37f14e1e2f4c0d19521}{Dispose} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{I\-D}
+\begin{DoxyCompactList}\small\item\em The I\-D of this program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+An Open\-G\-L program. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_program_a969fe4833d8007e74cf9d044258da15c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}!Program@{Program}}
+\index{Program@{Program}!TriDevs::TriEngine2D::Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}}
+\subsubsection[{Program}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-Program.\-Program (
+\begin{DoxyParamCaption}
+\item[{params {\bf Shader}\mbox{[}$\,$\mbox{]}}]{shaders}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_program_a969fe4833d8007e74cf9d044258da15c}
+
+
+Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program}{Program} as a shader program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em shaders} & The shaders to attach.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+45         \{
+46             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{ID} = GL.CreateProgram();
+47 
+48             \textcolor{keywordflow}{foreach} (var shader \textcolor{keywordflow}{in} shaders)
+49             \{
+50                 GL.AttachShader(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{ID}, shader.ID);
+51             \}
+52 
+53             GL.LinkProgram(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{ID});
+54         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_program_a15cd46f4867cc37f14e1e2f4c0d19521}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Program.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_program_a15cd46f4867cc37f14e1e2f4c0d19521}
+
+\begin{DoxyCode}
+57         \{
+58             GL.DeleteProgram(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{ID});
+59         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}!I\-D@{I\-D}}
+\index{I\-D@{I\-D}!TriDevs::TriEngine2D::Program@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Program}}
+\subsubsection[{I\-D}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine2\-D.\-Program.\-I\-D}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_program_a413005d91abe8331ec351dedcafd4fa5}
+
+
+The I\-D of this program. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\hyperlink{_program_8cs}{Program.\-cs}\end{DoxyCompactItemize}

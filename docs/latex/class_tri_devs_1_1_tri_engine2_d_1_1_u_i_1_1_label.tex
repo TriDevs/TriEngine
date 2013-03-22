@@ -8,7 +8,8 @@ A simple label to display text on the screen.
 
 
 
-Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:\nopagebreak
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -17,18 +18,37 @@ Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:\nopagebrea
 \end{figure}
 
 
-Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:\nopagebreak
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=222pt]{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label__coll__graph}
 \end{center}
 \end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a31b2de1912fc33234435806d5a2ef644}{Set\-Font} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{Font} font)
+\begin{DoxyCompactList}\small\item\em Sets the font that this label uses. \end{DoxyCompactList}\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a97e8c9ee95cedecab10ba505438e0d1b}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates the object. \end{DoxyCompactList}\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_aaa532c9037ca1b51bab8f7eb2673438d}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draw the object to screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_abfc2bbb0e44e6b54b98b89e4a37653bf}{Update\-Text\-Object} ()
+\end{DoxyCompactItemize}
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
 override string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a06d91dd4e855e27c97b5b652653e4971}{Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
-\end{DoxyCompactItemize}
+\item 
+override Point$<$ int $>$ \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+virtual Q\-Font\-Alignment \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}{Alignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the Q\-Font\-Alignment of this label's text. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Additional Inherited Members}
 
 
@@ -37,7 +57,152 @@ A simple label to display text on the screen.
 
 
 
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_aaa532c9037ca1b51bab8f7eb2673438d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_aaa532c9037ca1b51bab8f7eb2673438d}
+
+
+Draw the object to screen. 
+
+
+
+Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9b3ac8028bcf4b7e4d128e2be6f30fed}{Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Control}.
+
+
+\begin{DoxyCode}
+139         \{
+140             base.Draw(\_drawPosition);
+141 
+142             \textcolor{keywordflow}{if} (\_textObject == null)
+143                 \textcolor{keywordflow}{return};
+144 
+145             \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_aa1dac84508d96d14b330d9cc8b084257}{Draw}();
+146         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a31b2de1912fc33234435806d5a2ef644}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Set\-Font@{Set\-Font}}
+\index{Set\-Font@{Set\-Font}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Set\-Font}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Set\-Font (
+\begin{DoxyParamCaption}
+\item[{{\bf Font}}]{font}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a31b2de1912fc33234435806d5a2ef644}
+
+
+Sets the font that this label uses. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em font} & The new font instance to use.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+82         \{
+83             \_font = font;
+84             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_abfc2bbb0e44e6b54b98b89e4a37653bf}{UpdateTextObject}();
+85         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a97e8c9ee95cedecab10ba505438e0d1b}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Update@{Update}}
+\index{Update@{Update}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a97e8c9ee95cedecab10ba505438e0d1b}
+
+
+Updates the object. 
+
+
+
+Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_aa8d0ceefa447589c60c278adfe059be1}{Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Control}.
+
+
+\begin{DoxyCode}
+125         \{
+126             \textcolor{comment}{// Override update logic to translate mouse click}
+127             \textcolor{comment}{// positions when label is aligned in a certain way}
+128 
+129             \textcolor{keywordflow}{if} (!Services.Input.MouseReleased(MouseButton.Left))
+130                 \textcolor{keywordflow}{return};
+131 
+132             var mousePos = Services.Input.MousePosition;
+133             \textcolor{keywordflow}{if} ((mousePos.X >= \_drawPosition.X && mousePos.X <= (\_drawPosition.X + 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_abcbba8d52dd84084bf239f2aea001bf7}{Rectangle}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a0e6a4faf2c4ba9c9284d7715ae9a555c}{Width}))
+134                 && (mousePos.Y >= \_drawPosition.Y && mousePos.Y <= (\_drawPosition.Y + 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_abcbba8d52dd84084bf239f2aea001bf7}{Rectangle}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a955ba67d04f81e6f30a983cd579d4509}{Height})))
+135                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_aa5d2b95535bb697420b640e5db72bc48}{OnClicked}();
+136         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_abfc2bbb0e44e6b54b98b89e4a37653bf}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Update\-Text\-Object@{Update\-Text\-Object}}
+\index{Update\-Text\-Object@{Update\-Text\-Object}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Update\-Text\-Object}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Update\-Text\-Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_abfc2bbb0e44e6b54b98b89e4a37653bf}
+
+\begin{DoxyCode}
+88         \{
+89             \textcolor{keywordflow}{if} (\_font == null)
+90                 \textcolor{keywordflow}{return};
+91 
+92             \textcolor{keywordflow}{if} (\_textObject == null)
+93             \{
+94                 \_textObject = \textcolor{keyword}{new} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object}{TextObject}(\_text, \_font, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}, 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}{Alignment});
+95             \}
+96             \textcolor{keywordflow}{else}
+97             \{
+98                 \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_a0dce4ff36f856afc71b4959b35e3532e}{Text} = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a06d91dd4e855e27c97b5b652653e4971}{Text};
+99                 \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_a98860724ada9531b20cc846a27cb8474}{Font} = \_font;
+100                 \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_aa435399fa007f05799ddbf347186497b}{Position} = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position};
+101                 \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_a3c59472099b0820dc92263fdffb1e864}{Alignment} = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}{Alignment};
+102             \}
+103 
+104             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size} = \textcolor{keyword}{new} Point<int>(\_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_af2a650b14fc3bab0401cf6cdf2de500e}{Bounds}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a0e6a4faf2c4ba9c9284d7715ae9a555c}{Width}, \_textObject.
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_af2a650b14fc3bab0401cf6cdf2de500e}{Bounds}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a955ba67d04f81e6f30a983cd579d4509}{Height});
+105 
+106             \textcolor{keywordflow}{switch} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}{Alignment})
+107             \{
+108                 \textcolor{keywordflow}{case} QFontAlignment.Centre:
+109                     \_drawPosition = \textcolor{keyword}{new} Point<int>(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.X - \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.X / 2, 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.Y);
+110                     \textcolor{keywordflow}{break};
+111                 \textcolor{keywordflow}{case} QFontAlignment.Right:
+112                     \_drawPosition = \textcolor{keyword}{new} Point<int>(\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.X - \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.X, 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.Y);
+113                     \textcolor{keywordflow}{break};
+114                 \textcolor{keywordflow}{default}:
+115                     \_drawPosition = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position};
+116                     \textcolor{keywordflow}{break};
+117             \}
+118 
+119             System.Console.WriteLine(\textcolor{stringliteral}{"New size set to: \{0\}x\{1\}"}, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.X, 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.Y);
+120             System.Console.WriteLine(\textcolor{stringliteral}{"Position: \{0\}x\{1\}"}, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.X, 
+      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.Y);
+121             System.Console.WriteLine(\textcolor{stringliteral}{"Draw pos: \{0\}x\{1\}"}, \_drawPosition.X, \_drawPosition.Y);
+122         \}
+\end{DoxyCode}
+
+
 \subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Alignment@{Alignment}}
+\index{Alignment@{Alignment}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Alignment}]{\setlength{\rightskip}{0pt plus 5cm}virtual Q\-Font\-Alignment Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Alignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a9070b8e7fd4e88683c44b1d3348753dc}
+
+
+Gets or sets the Q\-Font\-Alignment of this label's text. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Position@{Position}}
+\index{Position@{Position}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
+\subsubsection[{Position}]{\setlength{\rightskip}{0pt plus 5cm}override Point$<$int$>$ Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a06d91dd4e855e27c97b5b652653e4971}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Text@{Text}}
 \index{Text@{Text}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
 \subsubsection[{Text}]{\setlength{\rightskip}{0pt plus 5cm}override string Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label.\-Text\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a06d91dd4e855e27c97b5b652653e4971}

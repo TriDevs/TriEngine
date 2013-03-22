@@ -7,6 +7,7 @@ var interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control =
     [ "Color", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#a335ed38fa9721a145ce551c1889bfc49", null ],
     [ "Enabled", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#ac9ede42532a11e5b9257b349936cae61", null ],
     [ "Position", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#a521dee44f18d905b5fc0ee94b0f515a2", null ],
+    [ "Rectangle", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#ab75652686e2cf736e50995aef3dd8183", null ],
     [ "Size", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#afc66d577eebbce35df396621c881334c", null ],
     [ "Text", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#a4d46268068ed2824a1ad78be6b3a9ebb", null ],
     [ "Visible", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#ac0217db5d8c9b8ee6e226df157aceac6", null ],

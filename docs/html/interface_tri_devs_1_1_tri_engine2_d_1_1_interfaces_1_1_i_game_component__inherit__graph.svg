@@ -44,10 +44,10 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state.html" target="_top" xlink:title="A game state that can be used with the game state manager. Represent a specific state of the game...">
-<polygon fill="white" stroke="black" points="11,-69 11,-99 141,-99 141,-69 11,-69"/>
-<text text-anchor="start" x="19" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.State</text>
-<text text-anchor="middle" x="76" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">Management.IGameState</text>
+<g id="a_node4"><a xlink:href="interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_manager.html" target="_top" xlink:title="Manages various UI controls, automatically updating and drawing them to the screen. ">
+<polygon fill="white" stroke="black" points="0,-69 0,-99 152,-99 152,-69 0,-69"/>
+<text text-anchor="start" x="8" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.UI.IControl</text>
+<text text-anchor="middle" x="76" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">Manager</text>
 </a>
 </g>
 </g>
@@ -58,10 +58,10 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html" target="_top" xlink:title="Base GameState class that all other game states derive from, defines basic GameState behaviour...">
-<polygon fill="white" stroke="black" points="11,-1 11,-31 141,-31 141,-1 11,-1"/>
-<text text-anchor="start" x="19" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.State</text>
-<text text-anchor="middle" x="76" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00">Management.GameState</text>
+<g id="a_node5"><a xlink:href="class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_manager.html" target="_top" xlink:title="Control manager to manage various UI controls for a game. ">
+<polygon fill="white" stroke="black" points="1.5,-1 1.5,-31 150.5,-31 150.5,-1 1.5,-1"/>
+<text text-anchor="start" x="9.5" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.UI.Control</text>
+<text text-anchor="middle" x="76" y="-8" font-family="Helvetica,sans-Serif" font-size="10.00">Manager</text>
 </a>
 </g>
 </g>

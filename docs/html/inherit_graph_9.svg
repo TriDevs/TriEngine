@@ -11,10 +11,10 @@
 <polygon fill="white" stroke="white" points="-4,5 -4,-34 149,-34 149,5 -4,5"/>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<g id="a_node1"><a xlink:href="class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html" target="_top" xlink:title="Class to manage logging. ILog interfaces should be obtained from this class&#39; methods, as opposed to calling default log4net methods. ">
+<g id="a_node1"><a xlink:href="class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading.html" target="_top" xlink:title="Provides various helper functions for doing threading operations. ">
 <polygon fill="white" stroke="black" points="0.5,-0 0.5,-30 143.5,-30 143.5,-0 0.5,-0"/>
-<text text-anchor="start" x="8.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.Logging.</text>
-<text text-anchor="middle" x="72" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">LogManager</text>
+<text text-anchor="start" x="8.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D.Helpers.</text>
+<text text-anchor="middle" x="72" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">Threading</text>
 </a>
 </g>
 </g>

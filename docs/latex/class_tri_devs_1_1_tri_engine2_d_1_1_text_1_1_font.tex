@@ -1,0 +1,288 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font@{Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font}}
+}
+
+
+Holds a specific font type.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_abd7ebef3af655176cec13e88f9fecb61}{Font} (string name, string file, int size, bool drop\-Shadow=false, \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{Font\-Type} type=Font\-Type.\-T\-T\-F)
+\begin{DoxyCompactList}\small\item\em Initalizes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{Font} instance. \end{DoxyCompactList}\item 
+\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7c1bf1b4bb6fb8f988009bd771a5ee13}{Font} (string name, string file, int size, \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{Font\-Type} type, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_construction_config}{Font\-Construction\-Config} font\-Construction\-Config)
+\begin{DoxyCompactList}\small\item\em Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{Font} instance using the specified builder configuration. \end{DoxyCompactList}\item 
+override string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a68347a3700cc1617cbc7b0d3eb498560}{To\-String} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a36c74d7febd08e2a9f474636c527c771}{Dispose} ()
+\begin{DoxyCompactList}\small\item\em Disposes of this font instance, releasing all unmanaged resources. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a27c7b15b894bd63bcebc831f00a1a0b3}{Get\-Default\-Name} (string file, int size)
+\begin{DoxyCompactList}\small\item\em Returns an auto-\/generated font name based on the file name and font size. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af6d31c9d2a35759ce7c2c6432fd34955}{Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the name of this font instance. \end{DoxyCompactList}\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a9a452edb5662bf9ad60ccb4896417565}{File}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the file used to create this font instance. \end{DoxyCompactList}\item 
+int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a17657517dee9abfa8c1c59c8446b8796}{Size}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the size of this font in points. \end{DoxyCompactList}\item 
+\hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{Font\-Type} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7903acb278fd03aa45ff8355e0ab0c23}{Type}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the font type. \end{DoxyCompactList}\item 
+Q\-Font \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{Q\-Font}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the Q\-Font instance associated with this font. \end{DoxyCompactList}\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_color}{Color} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af320710de94cc455e73a45c67be90c06}{Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the color of this font. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Holds a specific font type. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_abd7ebef3af655176cec13e88f9fecb61}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Font@{Font}}
+\index{Font@{Font}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Font}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Font (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{file, }
+\item[{int}]{size, }
+\item[{bool}]{drop\-Shadow = {\ttfamily false}, }
+\item[{{\bf Font\-Type}}]{type = {\ttfamily FontType.TTF}}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_abd7ebef3af655176cec13e88f9fecb61}
+
+
+Initalizes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{Font} instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to use for identifying this font, must be unique. Can be set to null to allow the constructor to auto-\/generate a name for the font. \\
+\hline
+{\em file} & Path to the font file (T\-T\-F or qfont).\\
+\hline
+{\em size} & Size (in points) to use for this font.\\
+\hline
+{\em drop\-Shadow} & Whether or not this font should have shadows.\\
+\hline
+{\em type} & The type of font. This will be detected by the file extension, but can be manually specified to control the fallback type used if one was not detected from the file name \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+93             : \textcolor{keyword}{this}(
+94                 name, file, size, type,
+95                 \textcolor{keyword}{new} FontConstructionConfig(\textcolor{keyword}{new} QFontBuilderConfiguration(dropShadow),
+96                                            \textcolor{keyword}{new} QFontLoaderConfiguration(dropShadow)))
+97         \{
+98             
+99         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7c1bf1b4bb6fb8f988009bd771a5ee13}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Font@{Font}}
+\index{Font@{Font}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Font}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Font (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{file, }
+\item[{int}]{size, }
+\item[{{\bf Font\-Type}}]{type, }
+\item[{{\bf Font\-Construction\-Config}}]{font\-Construction\-Config}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7c1bf1b4bb6fb8f988009bd771a5ee13}
+
+
+Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font}{Font} instance using the specified builder configuration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to use for identifying this font, must be unique. Can be set to null to allow the constructor to auto-\/generate a name for the font. \\
+\hline
+{\em file} & Path to the font file (T\-T\-F or qfont).\\
+\hline
+{\em size} & Size (in points) to use for this font.\\
+\hline
+{\em type} & The type of font. This will be detected by the file extension, but can be manually specified to control the fallback type used if one was not detected from the file name \\
+\hline
+{\em font\-Construction\-Config} & The \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_construction_config}{Font\-Construction\-Config} containing relevant font build/load configurations.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+117         \{
+118             \_file = file;
+119             \_size = size;
+120 
+121             var ext = Path.GetExtension(\_file);
+122 
+123             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrEmpty(ext))
+124                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Failed to get file extension of font file!"},
+125                                           \textcolor{keyword}{new} IOException(\textcolor{stringliteral}{"System.IO.Path.GetExtension returned null or
+       empty for specified file."}));
+126 
+127             \textcolor{comment}{// Disable resharper warning, we are checking for null, resharper doesn't like IsNullOrEmpty}
+128             \textcolor{comment}{// ReSharper disable PossibleNullReferenceException}
+129             ext = ext.TrimStart(\textcolor{charliteral}{'.'}).ToLower();
+130             \textcolor{comment}{// ReSharper restore PossibleNullReferenceException}
+131 
+132             \textcolor{keywordflow}{switch} (ext)
+133             \{
+134                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"ttf"}:
+135                     type = \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{FontType}.TTF;
+136                     \textcolor{keywordflow}{break};
+137                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"qfont"}:
+138                     type = \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{FontType}.QFont;
+139                     \textcolor{keywordflow}{break};
+140             \}
+141 
+142             \_type = type;
+143 
+144             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{QFont} font;
+145 
+146             \textcolor{keywordflow}{switch} (\_type)
+147             \{
+148                 \textcolor{keywordflow}{case} \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{FontType}.TTF:
+149                     \textcolor{keywordflow}{if} (fontConstructionConfig.BuildConfig == null)
+150                         \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Builder configuration was null but requested font type
+       requires a builder config!"},
+151                                                   \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"BuildConfig was null."}, \textcolor{stringliteral}{"
+      fontConstructionConfig"}));
+152                     font = \textcolor{keyword}{new} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{QFont}(\_file, \_size, fontConstructionConfig.BuildConfig);
+153                     \textcolor{keywordflow}{break};
+154                 \textcolor{keywordflow}{case} \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_text_aa624efa98f1dcfec7cddff37f08bbe75}{FontType}.QFont:
+155                     \textcolor{keywordflow}{if} (fontConstructionConfig.LoadConfig == null)
+156                         \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Loader configuration was null but requested font type
+       requires a loader config!"},
+157                                                   \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"LoadConfig was null."}, \textcolor{stringliteral}{"
+      fontConstructionConfig"}));
+158                     font = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{QFont}.FromQFontFile(\_file, fontConstructionConfig.LoadConfig);
+159                     \textcolor{keywordflow}{break};
+160                 \textcolor{keywordflow}{default}:
+161                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Unsupported font type: "} + \_type,
+162                                               \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Font type unsupported."}, \textcolor{stringliteral}{"type"}));
+163             \}
+164 
+165             \textcolor{keywordflow}{if} (font == null)
+166                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Font failed to initialize!"},
+167                                           \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Font failed to initialize."}, \textcolor{stringliteral}{"file"}));
+168 
+169             \_qfont = font;
+170 
+171             \_name = name ?? \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a27c7b15b894bd63bcebc831f00a1a0b3}{GetDefaultName}(file, size);
+172         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a36c74d7febd08e2a9f474636c527c771}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a36c74d7febd08e2a9f474636c527c771}
+
+
+Disposes of this font instance, releasing all unmanaged resources. 
+
+
+\begin{DoxyCode}
+195         \{
+196             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{QFont}.Dispose();
+197         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a27c7b15b894bd63bcebc831f00a1a0b3}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Get\-Default\-Name@{Get\-Default\-Name}}
+\index{Get\-Default\-Name@{Get\-Default\-Name}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Get\-Default\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Get\-Default\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{file, }
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a27c7b15b894bd63bcebc831f00a1a0b3}
+
+
+Returns an auto-\/generated font name based on the file name and font size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The file name.\\
+\hline
+{\em size} & The size (in points) of the font.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The auto-\/generated font name.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+181         \{
+182             \textcolor{keywordflow}{return} \textcolor{keywordtype}{string}.Format(NameFormat, Path.GetFileNameWithoutExtension(file), size);
+183         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a68347a3700cc1617cbc7b0d3eb498560}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!To\-String@{To\-String}}
+\index{To\-String@{To\-String}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{To\-String}]{\setlength{\rightskip}{0pt plus 5cm}override string Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-To\-String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a68347a3700cc1617cbc7b0d3eb498560}
+
+\begin{DoxyCode}
+186         \{
+187             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af6d31c9d2a35759ce7c2c6432fd34955}{Name};
+188         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af320710de94cc455e73a45c67be90c06}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Color@{Color}}
+\index{Color@{Color}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Color}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Color} Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Color\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af320710de94cc455e73a45c67be90c06}
+
+
+Gets or sets the color of this font. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a9a452edb5662bf9ad60ccb4896417565}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!File@{File}}
+\index{File@{File}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{File}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-File\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a9a452edb5662bf9ad60ccb4896417565}
+
+
+Gets the file used to create this font instance. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af6d31c9d2a35759ce7c2c6432fd34955}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Name@{Name}}
+\index{Name@{Name}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Name}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Name\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_af6d31c9d2a35759ce7c2c6432fd34955}
+
+
+Gets the name of this font instance. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Q\-Font@{Q\-Font}}
+\index{Q\-Font@{Q\-Font}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Q\-Font}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Font Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Q\-Font\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a019de011e935ea9017eb805ff778581a}
+
+
+Gets the Q\-Font instance associated with this font. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a17657517dee9abfa8c1c59c8446b8796}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Size@{Size}}
+\index{Size@{Size}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Size}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Size\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a17657517dee9abfa8c1c59c8446b8796}
+
+
+Gets the size of this font in points. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7903acb278fd03aa45ff8355e0ab0c23}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}!Type@{Type}}
+\index{Type@{Type}!TriDevs::TriEngine2D::Text::Font@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Text\-::\-Font}}
+\subsubsection[{Type}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Font\-Type} Tri\-Devs.\-Tri\-Engine2\-D.\-Text.\-Font.\-Type\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_a7903acb278fd03aa45ff8355e0ab0c23}
+
+
+Gets the font type. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Text/\hyperlink{_font_8cs}{Font.\-cs}\end{DoxyCompactItemize}

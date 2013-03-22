@@ -8,11 +8,22 @@ A \hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_u_i}{U\-I} control that ca
 
 
 
-Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control\-:\nopagebreak
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=232pt]{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
@@ -33,12 +44,14 @@ bool \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ac9ed
 \begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether this control can be interacted with. \end{DoxyCompactList}\item 
 bool \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ac0217db5d8c9b8ee6e226df157aceac6}{Visible}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether this control should be drawn to the screen. \end{DoxyCompactList}\item 
-\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_color}{Color} \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a335ed38fa9721a145ce551c1889bfc49}{Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_color}{Color} \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a335ed38fa9721a145ce551c1889bfc49}{Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em The color of this control. \end{DoxyCompactList}\item 
 Point$<$ int $>$ \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a521dee44f18d905b5fc0ee94b0f515a2}{Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em The position of this control, in pixel coordinates. \end{DoxyCompactList}\item 
 Point$<$ int $>$ \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_afc66d577eebbce35df396621c881334c}{Size}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Gets or sets the size of this control, in pixels. \end{DoxyCompactList}\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle}{Rectangle} \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ab75652686e2cf736e50995aef3dd8183}{Rectangle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the rectangular area on the screen that this control is occupying. \end{DoxyCompactList}\item 
 string \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a4d46268068ed2824a1ad78be6b3a9ebb}{Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \begin{DoxyCompactList}\small\item\em Gets or sets the text associated with this control. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Events}
@@ -84,6 +97,18 @@ Enables the control.
 
 Implemented in \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_af0927254d6268f4d8548ff04e6043dd4}{Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Control}.
 
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ad846f81cb6d55f85d58b0b7471db8adf_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ac412cfe26fd89c93f4321651a4c57e4d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}!Hide@{Hide}}
 \index{Hide@{Hide}!TriDevs::TriEngine2D::UI::IControl@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}}
 \subsubsection[{Hide}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control.\-Hide (
@@ -99,6 +124,18 @@ Hides the control.
 
 Implemented in \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_aab4cd69da19b9bdfd232bdcfdad8131c}{Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Control}.
 
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ac412cfe26fd89c93f4321651a4c57e4d_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a552f33edcdca3292d87d0cf3f4223ad5}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}!Show@{Show}}
 \index{Show@{Show}!TriDevs::TriEngine2D::UI::IControl@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}}
 \subsubsection[{Show}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control.\-Show (
@@ -113,6 +150,18 @@ Shows the control.
 
 
 Implemented in \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a5be351a3f27e9acf27542b83291c8651}{Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Control}.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_a552f33edcdca3292d87d0cf3f4223ad5_icgraph}
+\end{center}
+\end{figure}
+
 
 
 
@@ -137,6 +186,13 @@ Gets or sets a value indicating whether this control can be interacted with.
 
 
 The position of this control, in pixel coordinates. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ab75652686e2cf736e50995aef3dd8183}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!TriDevs::TriEngine2D::UI::IControl@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}}
+\subsubsection[{Rectangle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rectangle} Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-I\-Control.\-Rectangle\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_ab75652686e2cf736e50995aef3dd8183}
+
+
+Gets the rectangular area on the screen that this control is occupying. 
 
 \hypertarget{interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_afc66d577eebbce35df396621c881334c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}!Size@{Size}}
 \index{Size@{Size}!TriDevs::TriEngine2D::UI::IControl@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-I\-Control}}

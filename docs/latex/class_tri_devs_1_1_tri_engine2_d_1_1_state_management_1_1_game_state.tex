@@ -13,7 +13,7 @@ Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=251pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state__inherit__graph}
+\includegraphics[width=219pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state__inherit__graph}
 \end{center}
 \end{figure}
 
@@ -23,16 +23,12 @@ Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=251pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state__coll__graph}
+\includegraphics[width=219pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a4ac1b81901a490b43714433361cca771}{Enable} ()
-\begin{DoxyCompactList}\small\item\em Enables this game component. \end{DoxyCompactList}\item 
-virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa9711675b30e13851131f8734070d775}{Disable} ()
-\begin{DoxyCompactList}\small\item\em Disables this game component. \end{DoxyCompactList}\item 
 virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a98663c5a2d77ebee9ed0f1dd91f6509a}{Update} ()
 \begin{DoxyCompactList}\small\item\em Updates the object. \end{DoxyCompactList}\item 
 virtual void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a53a4361f96b0a795f4bb20a5ae5cf954}{Draw} ()
@@ -84,8 +80,6 @@ readonly List$<$ \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_
 \subsection*{Properties}
 \begin{DoxyCompactItemize}
 \item 
-bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aee11105734b6d29be5e29a8d8248a499}{Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
-\item 
 bool \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{Paused}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
 \end{DoxyCompactItemize}
 
@@ -105,9 +99,9 @@ Base \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_s
 )\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a85c13247aa4ed19acf7ec750e4eb94df}
 
 \begin{DoxyCode}
-44         \{
-45             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components} = \textcolor{keyword}{new} List<IGameComponent>();
-46         \}
+42         \{
+43             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components} = \textcolor{keyword}{new} List<IGameComponent>();
+44         \}
 \end{DoxyCode}
 
 
@@ -137,19 +131,18 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-89         \{
-90             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_af9248f0b37ff14a01b4a4e8365fa79c9}{HasComponent}(component))
-91                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidOperationException(\textcolor{stringliteral}{"Cannot add the same component more than once."});
-92             
-93             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Add(component);
-94             component.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component_a47b1cb281294d1823fbbb3b5873855d2}{Enable}();
-95             \textcolor{keywordflow}{return} component; \textcolor{comment}{// var comp = someState.AddComponent(new SomeComponent());}
-96         \}
+78         \{
+79             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_af9248f0b37ff14a01b4a4e8365fa79c9}{HasComponent}(component))
+80                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidOperationException(\textcolor{stringliteral}{"Cannot add the same component more than once."});
+81             
+82             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Add(component);
+83             component.\hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component_a47b1cb281294d1823fbbb3b5873855d2}{Enable}();
+84             \textcolor{keywordflow}{return} component; \textcolor{comment}{// var comp = someState.AddComponent(new SomeComponent());}
+85         \}
 \end{DoxyCode}
 
 
-Here is the call graph for this function\-:
-\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -158,27 +151,6 @@ Here is the call graph for this function\-:
 \end{figure}
 
 
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa9711675b30e13851131f8734070d775}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Disable@{Disable}}
-\index{Disable@{Disable}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
-\subsubsection[{Disable}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Disable (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa9711675b30e13851131f8734070d775}
-
-
-Disables this game component. 
-
-
-
-Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component_aa4824ba36a253c051718b707d022379e}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Game\-Component}.
-
-
-\begin{DoxyCode}
-54         \{
-55             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aee11105734b6d29be5e29a8d8248a499}{Enabled} = \textcolor{keyword}{false};
-56         \}
-\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a53a4361f96b0a795f4bb20a5ae5cf954}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Draw@{Draw}}
 \index{Draw@{Draw}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
 \subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Draw (
@@ -196,31 +168,36 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_
 
 
 \begin{DoxyCode}
-64         \{
-65             
-66         \}
+52         \{
+53             \textcolor{keywordflow}{foreach} (var component \textcolor{keywordflow}{in} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.OfType<
+      \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component}{IDrawableGameComponent}>())
+54                 component.Draw();
+55         \}
 \end{DoxyCode}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a4ac1b81901a490b43714433361cca771}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Enable@{Enable}}
-\index{Enable@{Enable}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
-\subsubsection[{Enable}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Enable (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a4ac1b81901a490b43714433361cca771}
 
 
-Enables this game component. 
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a53a4361f96b0a795f4bb20a5ae5cf954_cgraph}
+\end{center}
+\end{figure}
 
 
 
-Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component_a47b1cb281294d1823fbbb3b5873855d2}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Game\-Component}.
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a53a4361f96b0a795f4bb20a5ae5cf954_icgraph}
+\end{center}
+\end{figure}
 
 
-\begin{DoxyCode}
-49         \{
-50             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aee11105734b6d29be5e29a8d8248a499}{Enabled} = \textcolor{keyword}{true};
-51         \}
-\end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a475ae428f7c2c7ef10fa2cb12f3c6574}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Get\-All\-Components@{Get\-All\-Components}}
 \index{Get\-All\-Components@{Get\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
 \subsubsection[{Get\-All\-Components}]{\setlength{\rightskip}{0pt plus 5cm}I\-Enumerable$<${\bf I\-Game\-Component}$>$ Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Get\-All\-Components (
@@ -241,9 +218,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-145         \{
-146             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.AsReadOnly();
-147         \}
+134         \{
+135             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.AsReadOnly();
+136         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a8fa4417a8b9478dfec607a92270de936}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Get\-All\-Components@{Get\-All\-Components}}
 \index{Get\-All\-Components@{Get\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -270,9 +247,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-155         \{
-156             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FindAll(c => c.GetType() == type);
-157         \}
+144         \{
+145             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FindAll(c => c.GetType() == type);
+146         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a177a6fd37f338568b7e72890bcf1f80f}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Get\-All\-Components@{Get\-All\-Components}}
 \index{Get\-All\-Components@{Get\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -299,9 +276,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-165         \{
-166             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Where(func);
-167         \}
+154         \{
+155             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Where(func);
+156         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a26a8b145ad9d81584b379f2ff3bfb96c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Get\-Component@{Get\-Component}}
 \index{Get\-Component@{Get\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -328,9 +305,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-150         \{
-151             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(c => c.GetType() == type);
-152         \}
+139         \{
+140             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(c => c.GetType() == type);
+141         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a61f3c1e4d5cb7ad3e15b2bc8c79a0850}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Get\-Component@{Get\-Component}}
 \index{Get\-Component@{Get\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -357,9 +334,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-160         \{
-161             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(func);
-162         \}
+149         \{
+150             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(func);
+151         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_af9248f0b37ff14a01b4a4e8365fa79c9}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Has\-Component@{Has\-Component}}
 \index{Has\-Component@{Has\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -386,9 +363,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-130         \{
-131             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Contains(component);
-132         \}
+119         \{
+120             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Contains(component);
+121         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_af939166ddc88eeba03831893ff67de0d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Has\-Component@{Has\-Component}}
 \index{Has\-Component@{Has\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -415,9 +392,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-135         \{
-136             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Any(c => c.GetType() == type);
-137         \}
+124         \{
+125             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Any(c => c.GetType() == type);
+126         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a39f7799bc961aab20a70fedc9af698af}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Has\-Component@{Has\-Component}}
 \index{Has\-Component@{Has\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -444,9 +421,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-140         \{
-141             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Any(func);
-142         \}
+129         \{
+130             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Any(func);
+131         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_af1ab72f80dac8aa3d00d70bbcdbf6d80}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Load@{Load}}
 \index{Load@{Load}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -465,9 +442,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-69         \{
-70             
-71         \}
+58         \{
+59             
+60         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a9bc6b5223a440c2f5d3207de7966231d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Pause@{Pause}}
 \index{Pause@{Pause}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -486,9 +463,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-79         \{
-80             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{Paused} = \textcolor{keyword}{true};
-81         \}
+68         \{
+69             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{Paused} = \textcolor{keyword}{true};
+70         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a3698c121ebec73ddb039a98bd7a3899b}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Remove\-All\-Components@{Remove\-All\-Components}}
 \index{Remove\-All\-Components@{Remove\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -507,10 +484,10 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-109         \{
-110             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.ForEach(c => c.Disable());
-111             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Clear();
-112         \}
+98         \{
+99             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.ForEach(c => c.Disable());
+100             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Clear();
+101         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a0384d192aaf3bb18cdeb96145f64fe2d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Remove\-All\-Components@{Remove\-All\-Components}}
 \index{Remove\-All\-Components@{Remove\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -534,9 +511,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-115         \{
-116             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a3698c121ebec73ddb039a98bd7a3899b}{RemoveAllComponents}(c => c.GetType() == type);
-117         \}
+104         \{
+105             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a3698c121ebec73ddb039a98bd7a3899b}{RemoveAllComponents}(c => c.GetType() == type);
+106         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ae5ed08d9ca56b624068a477902de56b1}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Remove\-All\-Components@{Remove\-All\-Components}}
 \index{Remove\-All\-Components@{Remove\-All\-Components}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -560,14 +537,14 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-120         \{
-121             var removed = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FindAll(predicate);
-122             \textcolor{keywordflow}{if} (removed.Count < 1)
-123                 \textcolor{keywordflow}{return};
-124 
-125             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.RemoveAll(predicate);
-126             removed.ForEach(c => c.Disable());
-127         \}
+109         \{
+110             var removed = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FindAll(predicate);
+111             \textcolor{keywordflow}{if} (removed.Count < 1)
+112                 \textcolor{keywordflow}{return};
+113 
+114             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.RemoveAll(predicate);
+115             removed.ForEach(c => c.Disable());
+116         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ae604dd5e2634397ee9b017e6ff5f1091}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Remove\-Component@{Remove\-Component}}
 \index{Remove\-Component@{Remove\-Component}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -591,19 +568,18 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-99         \{
-100             var match = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(c => c == component);
-101             \textcolor{keywordflow}{if} (match == null)
-102                 \textcolor{keywordflow}{return};
-103 
-104             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Remove(match);
-105             match.Disable();
-106         \}
+88         \{
+89             var match = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.FirstOrDefault(c => c == component);
+90             \textcolor{keywordflow}{if} (match == null)
+91                 \textcolor{keywordflow}{return};
+92 
+93             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.Remove(match);
+94             match.Disable();
+95         \}
 \end{DoxyCode}
 
 
-Here is the call graph for this function\-:
-\nopagebreak
+Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -629,9 +605,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-74         \{
-75             
-76         \}
+63         \{
+64             
+65         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ad6f7c81f1bcbcfc3567be8a8018e6069}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Unpause@{Unpause}}
 \index{Unpause@{Unpause}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -650,9 +626,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_
 
 
 \begin{DoxyCode}
-84         \{
-85             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{Paused} = \textcolor{keyword}{false};
-86         \}
+73         \{
+74             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{Paused} = \textcolor{keyword}{false};
+75         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_a98663c5a2d77ebee9ed0f1dd91f6509a}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Update@{Update}}
 \index{Update@{Update}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
@@ -671,9 +647,9 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_
 
 
 \begin{DoxyCode}
-59         \{
-60             
-61         \}
+47         \{
+48             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_ab1ea74d5e4192c58474a485bf162fd67}{Components}.ForEach(c => c.Update());
+49         \}
 \end{DoxyCode}
 
 
@@ -684,9 +660,6 @@ Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_
 
 
 \subsection{Property Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aee11105734b6d29be5e29a8d8248a499}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Enabled@{Enabled}}
-\index{Enabled@{Enabled}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
-\subsubsection[{Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aee11105734b6d29be5e29a8d8248a499}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}!Paused@{Paused}}
 \index{Paused@{Paused}!TriDevs::TriEngine2D::StateManagement::GameState@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-State\-Management\-::\-Game\-State}}
 \subsubsection[{Paused}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine2\-D.\-State\-Management.\-Game\-State.\-Paused\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state_aa90383289e518b7c606a479c48b28510}
