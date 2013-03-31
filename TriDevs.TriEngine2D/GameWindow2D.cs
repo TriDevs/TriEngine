@@ -33,7 +33,17 @@ namespace TriDevs.TriEngine2D
     /// </summary>
     public abstract class GameWindow2D : GameWindow
     {
-        protected Color ClearColor;
+        private Color _clearColor;
+
+        protected Color ClearColor
+        {
+            get { return _clearColor; }
+            set
+            {
+                _clearColor = value;
+                GL.ClearColor(_clearColor.ToColor4());
+            }
+        }
 
         protected GameWindow2D(int width, int height, string title, bool vsync = true)
             : base(width, height, GraphicsMode.Default, title)
@@ -101,17 +111,12 @@ namespace TriDevs.TriEngine2D
                 //GL.PixelStore(PixelStoreParameter.UnpackAlignment, 1);
                 //GL.RenderMode(RenderingMode.Render);
 
-                Clear();
+                GL.ClearColor(ClearColor.ToColor4());
             }
             catch (Exception ex)
             {
                 Helpers.Exceptions.Throw(ex, "Initialization of 2D game window failed during OpenGL setup!");
             }
-        }
-
-        protected void Clear()
-        {
-            GL.ClearColor(ClearColor.ToColor4());
         }
     }
 }
