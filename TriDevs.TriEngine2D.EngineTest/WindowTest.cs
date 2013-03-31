@@ -3,6 +3,7 @@ using OpenTK;
 using OpenTK.Input;
 using QuickFont;
 using TriDevs.TriEngine2D.Audio;
+using TriDevs.TriEngine2D.Graphics;
 using TriDevs.TriEngine2D.Input;
 using TriDevs.TriEngine2D.Text;
 using TriDevs.TriEngine2D.UI;
@@ -19,6 +20,9 @@ namespace TriDevs.TriEngine2D.EngineTest
         private TextObject _text;
         private Label _label;
         private LinkLabel _link;
+
+        private Triangle _triangle;
+        private Graphics.Rectangle _rectangle;
 
         [STAThread]
         public static void Main(string[] args)
@@ -65,6 +69,9 @@ namespace TriDevs.TriEngine2D.EngineTest
             _link.Alignment = QFontAlignment.Centre;
             _link.Url = "http://www.google.com/";
             _controlManager.AddControl(_link);
+
+            _triangle = new Triangle(new Point<int>(100, 25), new Point<int>(50, 100), new Point<int>(150, 100));
+            _rectangle = new Graphics.Rectangle(new Rectangle(200, 100, 100, 200));
         }
 
         private void ControlClicked(object sender, EventArgs e)
@@ -177,6 +184,9 @@ namespace TriDevs.TriEngine2D.EngineTest
             _controlManager.Draw();
 
             _text.Draw();
+
+            _triangle.Draw();
+            _rectangle.Draw();
         }
 
         protected override void OnUnload(EventArgs e)

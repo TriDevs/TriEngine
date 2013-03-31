@@ -76,6 +76,8 @@
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="GameWindow2D.cs" />
+    <Compile Include="Graphics\Rectangle.cs" />
+    <Compile Include="Graphics\Triangle.cs" />
     <Compile Include="Helpers\Exceptions.cs" />
     <Compile Include="Helpers\IO.cs" />
     <Compile Include="Helpers\Math.cs" />
