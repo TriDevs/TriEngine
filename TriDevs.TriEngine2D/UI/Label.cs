@@ -115,10 +115,6 @@ namespace TriDevs.TriEngine2D.UI
                     _drawPosition = Position;
                     break;
             }
-
-            System.Console.WriteLine("New size set to: {0}x{1}", Size.X, Size.Y);
-            System.Console.WriteLine("Position: {0}x{1}", Position.X, Position.Y);
-            System.Console.WriteLine("Draw pos: {0}x{1}", _drawPosition.X, _drawPosition.Y);
         }
 
         public override void Update()
