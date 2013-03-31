@@ -75,7 +75,9 @@
     <Compile Include="EngineException.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\Vector3Extensions.cs" />
     <Compile Include="GameWindow2D.cs" />
+    <Compile Include="Graphics\Primitive.cs" />
     <Compile Include="Graphics\Rectangle.cs" />
     <Compile Include="Graphics\Triangle.cs" />
     <Compile Include="Helpers\Exceptions.cs" />
