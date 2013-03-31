@@ -31,9 +31,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_assembly_info_8cs.html",
-"class_tri_devs_1_1_tri_engine2_d_1_1_resources.html#a3a9185a6ea2eff4b541a494e659c9d03",
-"interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a9f7767fe300acc7861be1e0c94ba415b",
-"struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ae9b0dca0da12afa288c2197c39dc57a7"
+"class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_helpers.html#acf353d2b5a36feb5ded89f1df052b1e9",
+"interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html#a143f5147279fe1807635d1e8b9b4e7c7",
+"struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ad049225cef59cc367954411fe01965ec"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

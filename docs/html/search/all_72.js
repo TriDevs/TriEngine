@@ -2,8 +2,10 @@ var searchData=
 [
   ['r',['R',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021',1,'TriDevs::TriEngine2D::Color']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html',1,'TriDevs::TriEngine2D::Graphics']]],
   ['rectangle',['Rectangle',['../struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle.html',1,'TriDevs::TriEngine2D']]],
-  ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#abcbba8d52dd84084bf239f2aea001bf7',1,'TriDevs.TriEngine2D.UI.Control.Rectangle()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#ab75652686e2cf736e50995aef3dd8183',1,'TriDevs.TriEngine2D.UI.IControl.Rectangle()'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle.html#a1477d4ed6b9859e910afa3e3ee464de2',1,'TriDevs.TriEngine2D.Rectangle.Rectangle(Point&lt; int &gt; position, Point&lt; int &gt; size, Color?color=null)'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle.html#a9bb491954d323ce92b1114727cfe5f3f',1,'TriDevs.TriEngine2D.Rectangle.Rectangle(int x, int y, int width, int height, Color?color=null)']]],
+  ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control.html#abcbba8d52dd84084bf239f2aea001bf7',1,'TriDevs.TriEngine2D.UI.Control.Rectangle()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control.html#ab75652686e2cf736e50995aef3dd8183',1,'TriDevs.TriEngine2D.UI.IControl.Rectangle()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html#af4ef9a87cfb8fccd625544ab4a67b06e',1,'TriDevs.TriEngine2D.Graphics.Rectangle.Rectangle()'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle.html#a1477d4ed6b9859e910afa3e3ee464de2',1,'TriDevs.TriEngine2D.Rectangle.Rectangle(Point&lt; int &gt; position, Point&lt; int &gt; size, Color?color=null)'],['../struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle.html#a9bb491954d323ce92b1114727cfe5f3f',1,'TriDevs.TriEngine2D.Rectangle.Rectangle(int x, int y, int width, int height, Color?color=null)']]],
+  ['rectangle_2ecs',['Rectangle.cs',['../_graphics_2_rectangle_8cs.html',1,'']]],
   ['rectangle_2ecs',['Rectangle.cs',['../_rectangle_8cs.html',1,'']]],
   ['red',['Red',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ab879f9bfa08935879d4b9879dcb32495',1,'TriDevs::TriEngine2D::Color']]],
   ['remove_3c_20t_20_3e',['Remove&lt; T &gt;',['../class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html#af84a3ba0fc3c15ba49f7a6d5a709b434',1,'TriDevs::TriEngine2D::Extensions::EnumerationExtensions']]],
@@ -16,6 +18,7 @@ var searchData=
   ['resources',['Resources',['../class_tri_devs_1_1_tri_engine2_d_1_1_resources.html',1,'TriDevs::TriEngine2D']]],
   ['resources_2ecs',['Resources.cs',['../_resources_8cs.html',1,'']]],
   ['resume',['Resume',['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html#ac7e2044d8ee146ad36fbfe7ffc6061fd',1,'TriDevs.TriEngine2D.Audio.ISong.Resume()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_song.html#ae05ce2123a764f238d69223dc297b74b',1,'TriDevs.TriEngine2D.Audio.NullSong.Resume()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#adc4bc60055df0bd9a58850de19a0b37a',1,'TriDevs.TriEngine2D.Audio.Song.Resume()']]],
+  ['righttriangle',['RightTriangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html#a89366e6a5a27c27770e75d9c2e5f095d',1,'TriDevs::TriEngine2D::Graphics::Rectangle']]],
   ['rosybrown',['RosyBrown',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a0273800b7d32bf08b982beb95f9e6dd6',1,'TriDevs::TriEngine2D::Color']]],
   ['royalblue',['RoyalBlue',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af560b006971ca8af57fa8ed0726494e2',1,'TriDevs::TriEngine2D::Color']]]
 ];

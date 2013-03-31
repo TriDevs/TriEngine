@@ -8,8 +8,7 @@ A simple label to display text on the screen.
 
 
 
-Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:
-\nopagebreak
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -18,8 +17,7 @@ Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:
 \end{figure}
 
 
-Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:
-\nopagebreak
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-U\-I.\-Label\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -75,14 +73,14 @@ Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_contr
 
 
 \begin{DoxyCode}
-139         \{
-140             base.Draw(\_drawPosition);
-141 
-142             \textcolor{keywordflow}{if} (\_textObject == null)
-143                 \textcolor{keywordflow}{return};
-144 
-145             \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_aa1dac84508d96d14b330d9cc8b084257}{Draw}();
-146         \}
+135         \{
+136             base.Draw(\_drawPosition);
+137 
+138             \textcolor{keywordflow}{if} (\_textObject == null)
+139                 \textcolor{keywordflow}{return};
+140 
+141             \_textObject.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object_aa1dac84508d96d14b330d9cc8b084257}{Draw}();
+142         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_a31b2de1912fc33234435806d5a2ef644}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Set\-Font@{Set\-Font}}
 \index{Set\-Font@{Set\-Font}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
@@ -124,20 +122,20 @@ Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_contr
 
 
 \begin{DoxyCode}
-125         \{
-126             \textcolor{comment}{// Override update logic to translate mouse click}
-127             \textcolor{comment}{// positions when label is aligned in a certain way}
-128 
-129             \textcolor{keywordflow}{if} (!Services.Input.MouseReleased(MouseButton.Left))
-130                 \textcolor{keywordflow}{return};
-131 
-132             var mousePos = Services.Input.MousePosition;
-133             \textcolor{keywordflow}{if} ((mousePos.X >= \_drawPosition.X && mousePos.X <= (\_drawPosition.X + 
+121         \{
+122             \textcolor{comment}{// Override update logic to translate mouse click}
+123             \textcolor{comment}{// positions when label is aligned in a certain way}
+124 
+125             \textcolor{keywordflow}{if} (!Services.Input.MouseReleased(MouseButton.Left))
+126                 \textcolor{keywordflow}{return};
+127 
+128             var mousePos = Services.Input.MousePosition;
+129             \textcolor{keywordflow}{if} ((mousePos.X >= \_drawPosition.X && mousePos.X <= (\_drawPosition.X + 
       \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_abcbba8d52dd84084bf239f2aea001bf7}{Rectangle}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a0e6a4faf2c4ba9c9284d7715ae9a555c}{Width}))
-134                 && (mousePos.Y >= \_drawPosition.Y && mousePos.Y <= (\_drawPosition.Y + 
+130                 && (mousePos.Y >= \_drawPosition.Y && mousePos.Y <= (\_drawPosition.Y + 
       \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_abcbba8d52dd84084bf239f2aea001bf7}{Rectangle}.\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle_a955ba67d04f81e6f30a983cd579d4509}{Height})))
-135                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_aa5d2b95535bb697420b640e5db72bc48}{OnClicked}();
-136         \}
+131                 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_aa5d2b95535bb697420b640e5db72bc48}{OnClicked}();
+132         \}
 \end{DoxyCode}
 \hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_abfc2bbb0e44e6b54b98b89e4a37653bf}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}!Update\-Text\-Object@{Update\-Text\-Object}}
 \index{Update\-Text\-Object@{Update\-Text\-Object}!TriDevs::TriEngine2D::UI::Label@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-U\-I\-::\-Label}}
@@ -182,13 +180,7 @@ Reimplemented from \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_contr
 115                     \_drawPosition = \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position};
 116                     \textcolor{keywordflow}{break};
 117             \}
-118 
-119             System.Console.WriteLine(\textcolor{stringliteral}{"New size set to: \{0\}x\{1\}"}, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.X, 
-      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_a9f162a69e4a170ed284cf13b0eaa655f}{Size}.Y);
-120             System.Console.WriteLine(\textcolor{stringliteral}{"Position: \{0\}x\{1\}"}, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.X, 
-      \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_label_adc1aa6af6f6ba7e66611ae9be5a1033b}{Position}.Y);
-121             System.Console.WriteLine(\textcolor{stringliteral}{"Draw pos: \{0\}x\{1\}"}, \_drawPosition.X, \_drawPosition.Y);
-122         \}
+118         \}
 \end{DoxyCode}
 
 

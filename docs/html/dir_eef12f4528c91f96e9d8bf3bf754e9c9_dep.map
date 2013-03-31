@@ -1,16 +1,17 @@
 <map id="TriDevs.TriEngine2D" name="TriDevs.TriEngine2D">
-<area shape="rect" id="node2" href="dir_d1b10e5509822011979a9bb66361e478.html" title="Audio" alt="" coords="1280,27,1352,75"/>
-<area shape="rect" id="node3" href="dir_c4a8fc679f2ccc0e8aa64941a499171c.html" title="Extensions" alt="" coords="1169,27,1255,75"/>
-<area shape="rect" id="node4" href="dir_20a83804b727400b022b8b6d9cb5050f.html" title="Helpers" alt="" coords="1072,27,1144,75"/>
-<area shape="rect" id="node5" href="dir_23a46816967e02a24c1ce7a1f9d13e57.html" title="Input" alt="" coords="976,27,1048,75"/>
-<area shape="rect" id="node6" href="dir_ba92bf44b506b5d1b5f2b925722f065b.html" title="Interfaces" alt="" coords="873,27,951,75"/>
-<area shape="rect" id="node7" href="dir_26e44ccb56d68e366f3b88403e8eeb52.html" title="Logging" alt="" coords="776,27,848,75"/>
-<area shape="rect" id="node8" href="dir_04c2f9a0b23add30db9db6e7bb4f88ee.html" title="Native" alt="" coords="680,27,752,75"/>
-<area shape="rect" id="node9" href="dir_53f875ce9050e8c1b1c89d974708c7eb.html" title="Properties" alt="" coords="574,27,655,75"/>
-<area shape="rect" id="node10" href="dir_b00bafaf0925d295d47f39b3b0d0b143.html" title="Serializing" alt="" coords="467,27,549,75"/>
-<area shape="rect" id="node11" href="dir_da4097c8cfee11bc2f285d1cb33613ca.html" title="Shaders" alt="" coords="371,27,443,75"/>
-<area shape="rect" id="node12" href="dir_6c7305958f6c1f3184ea16a8299a03e4.html" title="StateManagement" alt="" coords="219,27,347,75"/>
-<area shape="rect" id="node13" href="dir_adfbda0128ed86159769013e6b5d1e1e.html" title="Text" alt="" coords="123,27,195,75"/>
-<area shape="rect" id="node14" href="dir_31a0ee127806f71a64a724c3552408ca.html" title="UI" alt="" coords="27,27,99,75"/>
-<area shape="rect" id="clust1" href="dir_eef12f4528c91f96e9d8bf3bf754e9c9.html" alt="" coords="16,16,1525,85"/>
+<area shape="rect" id="node2" href="dir_d1b10e5509822011979a9bb66361e478.html" title="Audio" alt="" coords="1379,27,1451,75"/>
+<area shape="rect" id="node3" href="dir_c4a8fc679f2ccc0e8aa64941a499171c.html" title="Extensions" alt="" coords="1267,27,1353,75"/>
+<area shape="rect" id="node4" href="dir_3dd231abe64809309865374260b2bf83.html" title="Graphics" alt="" coords="1168,27,1243,75"/>
+<area shape="rect" id="node5" href="dir_20a83804b727400b022b8b6d9cb5050f.html" title="Helpers" alt="" coords="1072,27,1144,75"/>
+<area shape="rect" id="node6" href="dir_23a46816967e02a24c1ce7a1f9d13e57.html" title="Input" alt="" coords="976,27,1048,75"/>
+<area shape="rect" id="node7" href="dir_ba92bf44b506b5d1b5f2b925722f065b.html" title="Interfaces" alt="" coords="873,27,951,75"/>
+<area shape="rect" id="node8" href="dir_26e44ccb56d68e366f3b88403e8eeb52.html" title="Logging" alt="" coords="776,27,848,75"/>
+<area shape="rect" id="node9" href="dir_04c2f9a0b23add30db9db6e7bb4f88ee.html" title="Native" alt="" coords="680,27,752,75"/>
+<area shape="rect" id="node10" href="dir_53f875ce9050e8c1b1c89d974708c7eb.html" title="Properties" alt="" coords="574,27,655,75"/>
+<area shape="rect" id="node11" href="dir_b00bafaf0925d295d47f39b3b0d0b143.html" title="Serializing" alt="" coords="467,27,549,75"/>
+<area shape="rect" id="node12" href="dir_da4097c8cfee11bc2f285d1cb33613ca.html" title="Shaders" alt="" coords="371,27,443,75"/>
+<area shape="rect" id="node13" href="dir_6c7305958f6c1f3184ea16a8299a03e4.html" title="StateManagement" alt="" coords="219,27,347,75"/>
+<area shape="rect" id="node14" href="dir_adfbda0128ed86159769013e6b5d1e1e.html" title="Text" alt="" coords="123,27,195,75"/>
+<area shape="rect" id="node15" href="dir_31a0ee127806f71a64a724c3552408ca.html" title="UI" alt="" coords="27,27,99,75"/>
+<area shape="rect" id="clust1" href="dir_eef12f4528c91f96e9d8bf3bf754e9c9.html" alt="" coords="16,16,1624,85"/>
 </map>

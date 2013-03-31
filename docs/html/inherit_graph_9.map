@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading.html" title="Provides various helper functions for doing threading operations. " alt="" coords="6,5,197,46"/>
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_events_1_1_key_char_event_args.html" title="EventArgs class used for keychar&#45;related events. Contains information about the character related wit..." alt="" coords="137,5,311,46"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_events_1_1_key_event_args.html" title="EventArgs class used for key&#45;related events. Contains information about the key related with the even..." alt="" coords="137,70,311,111"/>
 </map>

@@ -29,10 +29,14 @@ var hierarchy =
         [ "TriDevs.TriEngine2D.Audio.NullSound", "class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html", null ],
         [ "TriDevs.TriEngine2D.Audio.Sound", "class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html", null ]
       ] ],
+      [ "TriDevs.TriEngine2D.Graphics.Rectangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html", null ],
+      [ "TriDevs.TriEngine2D.Graphics.Triangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle.html", null ],
       [ "TriDevs.TriEngine2D.Program", "class_tri_devs_1_1_tri_engine2_d_1_1_program.html", null ],
       [ "TriDevs.TriEngine2D.Shaders.Shader", "class_tri_devs_1_1_tri_engine2_d_1_1_shaders_1_1_shader.html", null ]
     ] ],
     [ "TriDevs.TriEngine2D.Interfaces.IDrawable", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html", [
+      [ "TriDevs.TriEngine2D.Graphics.Rectangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html", null ],
+      [ "TriDevs.TriEngine2D.Graphics.Triangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle.html", null ],
       [ "TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html", [
         [ "TriDevs.TriEngine2D.UI.IControlManager", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_manager.html", [
           [ "TriDevs.TriEngine2D.UI.ControlManager", "class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_manager.html", null ]

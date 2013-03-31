@@ -1,9 +1,10 @@
 var searchData=
 [
   ['audio',['Audio',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_audio.html',1,'TriDevs::TriEngine2D']]],
-  ['events',['Events',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_events.html',1,'TriDevs::TriEngine2D::UI']]],
   ['events',['Events',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_events.html',1,'TriDevs::TriEngine2D::Input']]],
+  ['events',['Events',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_events.html',1,'TriDevs::TriEngine2D::UI']]],
   ['extensions',['Extensions',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions.html',1,'TriDevs::TriEngine2D']]],
+  ['graphics',['Graphics',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_graphics.html',1,'TriDevs::TriEngine2D']]],
   ['helpers',['Helpers',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_helpers.html',1,'TriDevs::TriEngine2D']]],
   ['input',['Input',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_input.html',1,'TriDevs::TriEngine2D']]],
   ['interfaces',['Interfaces',['../namespace_tri_devs_1_1_tri_engine2_d_1_1_interfaces.html',1,'TriDevs::TriEngine2D']]],
