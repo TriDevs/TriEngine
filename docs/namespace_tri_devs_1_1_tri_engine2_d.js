@@ -2,6 +2,7 @@ var namespace_tri_devs_1_1_tri_engine2_d =
 [
     [ "Audio", "namespace_tri_devs_1_1_tri_engine2_d_1_1_audio.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_audio" ],
     [ "Extensions", "namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions" ],
+    [ "Graphics", "namespace_tri_devs_1_1_tri_engine2_d_1_1_graphics.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_graphics" ],
     [ "Helpers", "namespace_tri_devs_1_1_tri_engine2_d_1_1_helpers.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_helpers" ],
     [ "Input", "namespace_tri_devs_1_1_tri_engine2_d_1_1_input.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_input" ],
     [ "Interfaces", "namespace_tri_devs_1_1_tri_engine2_d_1_1_interfaces.html", "namespace_tri_devs_1_1_tri_engine2_d_1_1_interfaces" ],

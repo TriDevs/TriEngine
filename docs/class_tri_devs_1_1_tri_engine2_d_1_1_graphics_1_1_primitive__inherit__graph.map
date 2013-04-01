@@ -1,0 +1,5 @@
+<map id="TriDevs.TriEngine2D.Graphics.Primitive" name="TriDevs.TriEngine2D.Graphics.Primitive">
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html" title="A primitive 2D Rectangle shape. " alt="" coords="5,171,203,213"/>
+<area shape="rect" id="node5" href="$class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle.html" title="A primitive 2D Triangle shape. " alt="" coords="227,171,425,213"/>
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="122,5,200,32"/>
+</map>

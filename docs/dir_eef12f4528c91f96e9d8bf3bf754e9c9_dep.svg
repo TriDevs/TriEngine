@@ -32,7 +32,7 @@
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1156;
+var viewWidth = 1230;
 var viewHeight = 76;
 var sectionId = 'dynsection-0';
 </script>
@@ -40,116 +40,124 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>TriDevs.TriEngine2D</title>
-<polygon fill="white" stroke="white" points="-4,5 -4,-72 1153,-72 1153,5 -4,5"/>
+<polygon fill="white" stroke="white" points="-4,5 -4,-72 1227,-72 1227,5 -4,5"/>
 <g id="clust1" class="cluster"><title>clusterdir_eef12f4528c91f96e9d8bf3bf754e9c9</title>
 <g id="a_clust1"><a xlink:href="dir_eef12f4528c91f96e9d8bf3bf754e9c9.html" target="_top">
-<polygon fill="#eeeeff" stroke="black" points="8,-8 8,-60 1140,-60 1140,-8 8,-8"/>
+<polygon fill="#eeeeff" stroke="black" points="8,-8 8,-60 1214,-60 1214,-8 8,-8"/>
 </a>
 </g>
 </g>
 <!-- dir_eef12f4528c91f96e9d8bf3bf754e9c9 -->
 <g id="node1" class="node"><title>dir_eef12f4528c91f96e9d8bf3bf754e9c9</title>
-<text text-anchor="middle" x="1080" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D</text>
+<text text-anchor="middle" x="1154" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">TriDevs.TriEngine2D</text>
 </g>
 <!-- dir_d1b10e5509822011979a9bb66361e478 -->
 <g id="node2" class="node"><title>dir_d1b10e5509822011979a9bb66361e478</title>
 <g id="a_node2"><a xlink:href="dir_d1b10e5509822011979a9bb66361e478.html" target="_top" xlink:title="Audio">
-<polygon fill="white" stroke="black" points="1010,-52 956,-52 956,-16 1010,-16 1010,-52"/>
-<text text-anchor="middle" x="983" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Audio</text>
+<polygon fill="white" stroke="black" points="1084,-52 1030,-52 1030,-16 1084,-16 1084,-52"/>
+<text text-anchor="middle" x="1057" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Audio</text>
 </a>
 </g>
 </g>
 <!-- dir_c4a8fc679f2ccc0e8aa64941a499171c -->
 <g id="node3" class="node"><title>dir_c4a8fc679f2ccc0e8aa64941a499171c</title>
 <g id="a_node3"><a xlink:href="dir_c4a8fc679f2ccc0e8aa64941a499171c.html" target="_top" xlink:title="Extensions">
-<polygon fill="white" stroke="black" points="937.25,-52 872.75,-52 872.75,-16 937.25,-16 937.25,-52"/>
-<text text-anchor="middle" x="905" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Extensions</text>
+<polygon fill="white" stroke="black" points="1011.25,-52 946.75,-52 946.75,-16 1011.25,-16 1011.25,-52"/>
+<text text-anchor="middle" x="979" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Extensions</text>
+</a>
+</g>
+</g>
+<!-- dir_3dd231abe64809309865374260b2bf83 -->
+<g id="node4" class="node"><title>dir_3dd231abe64809309865374260b2bf83</title>
+<g id="a_node4"><a xlink:href="dir_3dd231abe64809309865374260b2bf83.html" target="_top" xlink:title="Graphics">
+<polygon fill="white" stroke="black" points="928,-52 872,-52 872,-16 928,-16 928,-52"/>
+<text text-anchor="middle" x="900" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Graphics</text>
 </a>
 </g>
 </g>
 <!-- dir_20a83804b727400b022b8b6d9cb5050f -->
-<g id="node4" class="node"><title>dir_20a83804b727400b022b8b6d9cb5050f</title>
-<g id="a_node4"><a xlink:href="dir_20a83804b727400b022b8b6d9cb5050f.html" target="_top" xlink:title="Helpers">
+<g id="node5" class="node"><title>dir_20a83804b727400b022b8b6d9cb5050f</title>
+<g id="a_node5"><a xlink:href="dir_20a83804b727400b022b8b6d9cb5050f.html" target="_top" xlink:title="Helpers">
 <polygon fill="white" stroke="black" points="854,-52 800,-52 800,-16 854,-16 854,-52"/>
 <text text-anchor="middle" x="827" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Helpers</text>
 </a>
 </g>
 </g>
 <!-- dir_23a46816967e02a24c1ce7a1f9d13e57 -->
-<g id="node5" class="node"><title>dir_23a46816967e02a24c1ce7a1f9d13e57</title>
-<g id="a_node5"><a xlink:href="dir_23a46816967e02a24c1ce7a1f9d13e57.html" target="_top" xlink:title="Input">
+<g id="node6" class="node"><title>dir_23a46816967e02a24c1ce7a1f9d13e57</title>
+<g id="a_node6"><a xlink:href="dir_23a46816967e02a24c1ce7a1f9d13e57.html" target="_top" xlink:title="Input">
 <polygon fill="white" stroke="red" points="782,-52 728,-52 728,-16 782,-16 782,-52"/>
 <text text-anchor="middle" x="755" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Input</text>
 </a>
 </g>
 </g>
 <!-- dir_ba92bf44b506b5d1b5f2b925722f065b -->
-<g id="node6" class="node"><title>dir_ba92bf44b506b5d1b5f2b925722f065b</title>
-<g id="a_node6"><a xlink:href="dir_ba92bf44b506b5d1b5f2b925722f065b.html" target="_top" xlink:title="Interfaces">
+<g id="node7" class="node"><title>dir_ba92bf44b506b5d1b5f2b925722f065b</title>
+<g id="a_node7"><a xlink:href="dir_ba92bf44b506b5d1b5f2b925722f065b.html" target="_top" xlink:title="Interfaces">
 <polygon fill="white" stroke="black" points="709.25,-52 650.75,-52 650.75,-16 709.25,-16 709.25,-52"/>
 <text text-anchor="middle" x="680" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Interfaces</text>
 </a>
 </g>
 </g>
 <!-- dir_26e44ccb56d68e366f3b88403e8eeb52 -->
-<g id="node7" class="node"><title>dir_26e44ccb56d68e366f3b88403e8eeb52</title>
-<g id="a_node7"><a xlink:href="dir_26e44ccb56d68e366f3b88403e8eeb52.html" target="_top" xlink:title="Logging">
+<g id="node8" class="node"><title>dir_26e44ccb56d68e366f3b88403e8eeb52</title>
+<g id="a_node8"><a xlink:href="dir_26e44ccb56d68e366f3b88403e8eeb52.html" target="_top" xlink:title="Logging">
 <polygon fill="white" stroke="black" points="632,-52 578,-52 578,-16 632,-16 632,-52"/>
 <text text-anchor="middle" x="605" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Logging</text>
 </a>
 </g>
 </g>
 <!-- dir_04c2f9a0b23add30db9db6e7bb4f88ee -->
-<g id="node8" class="node"><title>dir_04c2f9a0b23add30db9db6e7bb4f88ee</title>
-<g id="a_node8"><a xlink:href="dir_04c2f9a0b23add30db9db6e7bb4f88ee.html" target="_top" xlink:title="Native">
+<g id="node9" class="node"><title>dir_04c2f9a0b23add30db9db6e7bb4f88ee</title>
+<g id="a_node9"><a xlink:href="dir_04c2f9a0b23add30db9db6e7bb4f88ee.html" target="_top" xlink:title="Native">
 <polygon fill="white" stroke="black" points="560,-52 506,-52 506,-16 560,-16 560,-52"/>
 <text text-anchor="middle" x="533" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Native</text>
 </a>
 </g>
 </g>
 <!-- dir_53f875ce9050e8c1b1c89d974708c7eb -->
-<g id="node9" class="node"><title>dir_53f875ce9050e8c1b1c89d974708c7eb</title>
-<g id="a_node9"><a xlink:href="dir_53f875ce9050e8c1b1c89d974708c7eb.html" target="_top" xlink:title="Properties">
+<g id="node10" class="node"><title>dir_53f875ce9050e8c1b1c89d974708c7eb</title>
+<g id="a_node10"><a xlink:href="dir_53f875ce9050e8c1b1c89d974708c7eb.html" target="_top" xlink:title="Properties">
 <polygon fill="white" stroke="black" points="487.25,-52 426.75,-52 426.75,-16 487.25,-16 487.25,-52"/>
 <text text-anchor="middle" x="457" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Properties</text>
 </a>
 </g>
 </g>
 <!-- dir_b00bafaf0925d295d47f39b3b0d0b143 -->
-<g id="node10" class="node"><title>dir_b00bafaf0925d295d47f39b3b0d0b143</title>
-<g id="a_node10"><a xlink:href="dir_b00bafaf0925d295d47f39b3b0d0b143.html" target="_top" xlink:title="Serializing">
+<g id="node11" class="node"><title>dir_b00bafaf0925d295d47f39b3b0d0b143</title>
+<g id="a_node11"><a xlink:href="dir_b00bafaf0925d295d47f39b3b0d0b143.html" target="_top" xlink:title="Serializing">
 <polygon fill="white" stroke="black" points="408,-52 346,-52 346,-16 408,-16 408,-52"/>
 <text text-anchor="middle" x="377" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Serializing</text>
 </a>
 </g>
 </g>
 <!-- dir_da4097c8cfee11bc2f285d1cb33613ca -->
-<g id="node11" class="node"><title>dir_da4097c8cfee11bc2f285d1cb33613ca</title>
-<g id="a_node11"><a xlink:href="dir_da4097c8cfee11bc2f285d1cb33613ca.html" target="_top" xlink:title="Shaders">
+<g id="node12" class="node"><title>dir_da4097c8cfee11bc2f285d1cb33613ca</title>
+<g id="a_node12"><a xlink:href="dir_da4097c8cfee11bc2f285d1cb33613ca.html" target="_top" xlink:title="Shaders">
 <polygon fill="white" stroke="black" points="328,-52 274,-52 274,-16 328,-16 328,-52"/>
 <text text-anchor="middle" x="301" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Shaders</text>
 </a>
 </g>
 </g>
 <!-- dir_6c7305958f6c1f3184ea16a8299a03e4 -->
-<g id="node12" class="node"><title>dir_6c7305958f6c1f3184ea16a8299a03e4</title>
-<g id="a_node12"><a xlink:href="dir_6c7305958f6c1f3184ea16a8299a03e4.html" target="_top" xlink:title="StateManagement">
+<g id="node13" class="node"><title>dir_6c7305958f6c1f3184ea16a8299a03e4</title>
+<g id="a_node13"><a xlink:href="dir_6c7305958f6c1f3184ea16a8299a03e4.html" target="_top" xlink:title="StateManagement">
 <polygon fill="white" stroke="black" points="256,-52 160,-52 160,-16 256,-16 256,-52"/>
 <text text-anchor="middle" x="208" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">StateManagement</text>
 </a>
 </g>
 </g>
 <!-- dir_adfbda0128ed86159769013e6b5d1e1e -->
-<g id="node13" class="node"><title>dir_adfbda0128ed86159769013e6b5d1e1e</title>
-<g id="a_node13"><a xlink:href="dir_adfbda0128ed86159769013e6b5d1e1e.html" target="_top" xlink:title="Text">
+<g id="node14" class="node"><title>dir_adfbda0128ed86159769013e6b5d1e1e</title>
+<g id="a_node14"><a xlink:href="dir_adfbda0128ed86159769013e6b5d1e1e.html" target="_top" xlink:title="Text">
 <polygon fill="white" stroke="black" points="142,-52 88,-52 88,-16 142,-16 142,-52"/>
 <text text-anchor="middle" x="115" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Text</text>
 </a>
 </g>
 </g>
 <!-- dir_31a0ee127806f71a64a724c3552408ca -->
-<g id="node14" class="node"><title>dir_31a0ee127806f71a64a724c3552408ca</title>
-<g id="a_node14"><a xlink:href="dir_31a0ee127806f71a64a724c3552408ca.html" target="_top" xlink:title="UI">
+<g id="node15" class="node"><title>dir_31a0ee127806f71a64a724c3552408ca</title>
+<g id="a_node15"><a xlink:href="dir_31a0ee127806f71a64a724c3552408ca.html" target="_top" xlink:title="UI">
 <polygon fill="white" stroke="red" points="70,-52 16,-52 16,-16 70,-16 70,-52"/>
 <text text-anchor="middle" x="43" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">UI</text>
 </a>

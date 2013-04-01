@@ -1,6 +1,9 @@
 var hierarchy =
 [
+    [ "TriDevs.TriEngine2D.Extensions.ByteExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Color", "struct_tri_devs_1_1_tri_engine2_d_1_1_color.html", null ],
+    [ "TriDevs.TriEngine2D.Extensions.DecimalExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_decimal_extensions.html", null ],
+    [ "TriDevs.TriEngine2D.Extensions.DoubleExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_double_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Extensions.EnumerationExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_enumeration_extensions.html", null ],
     [ "EventArgs", null, [
       [ "TriDevs.TriEngine2D.Input.Events.KeyCharEventArgs", "class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_events_1_1_key_char_event_args.html", null ],
@@ -10,6 +13,7 @@ var hierarchy =
       [ "TriDevs.TriEngine2D.EngineException", "class_tri_devs_1_1_tri_engine2_d_1_1_engine_exception.html", null ]
     ] ],
     [ "TriDevs.TriEngine2D.Helpers.Exceptions", "class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_exceptions.html", null ],
+    [ "TriDevs.TriEngine2D.Extensions.FloatExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_float_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Text.Font", "class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font.html", null ],
     [ "TriDevs.TriEngine2D.Text.FontConstructionConfig", "class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font_construction_config.html", null ],
     [ "GameWindow", null, [
@@ -29,10 +33,15 @@ var hierarchy =
         [ "TriDevs.TriEngine2D.Audio.NullSound", "class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html", null ],
         [ "TriDevs.TriEngine2D.Audio.Sound", "class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html", null ]
       ] ],
+      [ "TriDevs.TriEngine2D.Graphics.Primitive", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_primitive.html", [
+        [ "TriDevs.TriEngine2D.Graphics.Rectangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html", null ],
+        [ "TriDevs.TriEngine2D.Graphics.Triangle", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle.html", null ]
+      ] ],
       [ "TriDevs.TriEngine2D.Program", "class_tri_devs_1_1_tri_engine2_d_1_1_program.html", null ],
       [ "TriDevs.TriEngine2D.Shaders.Shader", "class_tri_devs_1_1_tri_engine2_d_1_1_shaders_1_1_shader.html", null ]
     ] ],
     [ "TriDevs.TriEngine2D.Interfaces.IDrawable", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html", [
+      [ "TriDevs.TriEngine2D.Graphics.Primitive", "class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_primitive.html", null ],
       [ "TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent", "interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html", [
         [ "TriDevs.TriEngine2D.UI.IControlManager", "interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_manager.html", [
           [ "TriDevs.TriEngine2D.UI.ControlManager", "class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_manager.html", null ]
@@ -59,6 +68,7 @@ var hierarchy =
       [ "TriDevs.TriEngine2D.Input.InputManager", "class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html", null ],
       [ "TriDevs.TriEngine2D.Input.NullInputManager", "class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html", null ]
     ] ],
+    [ "TriDevs.TriEngine2D.Extensions.IntegerExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_integer_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Helpers.IO", "class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o.html", null ],
     [ "TriDevs.TriEngine2D.Text.ITextObject", "interface_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_i_text_object.html", [
       [ "TriDevs.TriEngine2D.Text.TextObject", "class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object.html", null ]
@@ -79,6 +89,7 @@ var hierarchy =
     [ "TriDevs.TriEngine2D.Services", "class_tri_devs_1_1_tri_engine2_d_1_1_services.html", null ],
     [ "TriDevs.TriEngine2D.Extensions.StringExtensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_string_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Helpers.Threading", "class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_threading.html", null ],
+    [ "TriDevs.TriEngine2D.Extensions.Vector3Extensions", "class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_vector3_extensions.html", null ],
     [ "TriDevs.TriEngine2D.Version", "class_tri_devs_1_1_tri_engine2_d_1_1_version.html", null ],
     [ "TriDevs.TriEngine2D.Native.WinAPI", "class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_win_a_p_i.html", null ]
 ];
