@@ -1,0 +1,81 @@
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions}{\section{Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-Byte\-Extensions Class Reference}
+\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions}\index{Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-Byte\-Extensions@{Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-Byte\-Extensions}}
+}
+
+
+\hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions}{Extensions} for System.\-Byte.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions_abf41ef0e95d360685ca0e59259e7970c}{Clamp} (this byte value, byte min, byte max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified byte between a minimum and maximum value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{namespace_tri_devs_1_1_tri_engine2_d_1_1_extensions}{Extensions} for System.\-Byte. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions_abf41ef0e95d360685ca0e59259e7970c}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-Byte\-Extensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-Byte\-Extensions}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine2D::Extensions::ByteExtensions@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Extensions\-::\-Byte\-Extensions}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static byte Tri\-Devs.\-Tri\-Engine2\-D.\-Extensions.\-Byte\-Extensions.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{this byte}]{value, }
+\item[{byte}]{min, }
+\item[{byte}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions_abf41ef0e95d360685ca0e59259e7970c}
+
+
+Clamps the specified byte between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified byte is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified byte is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the byte.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{keywordflow}{return} Helpers.Math.Clamp(value, min, max);
+41         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions_abf41ef0e95d360685ca0e59259e7970c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_byte_extensions_abf41ef0e95d360685ca0e59259e7970c_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine2\-D/\-Extensions/\hyperlink{_byte_extensions_8cs}{Byte\-Extensions.\-cs}\end{DoxyCompactItemize}
