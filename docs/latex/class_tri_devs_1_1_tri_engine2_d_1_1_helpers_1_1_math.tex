@@ -26,7 +26,9 @@ static ulong \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a3
 static float \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ab7bef68051503cf981d8d40a42995bd7}{Clamp} (float value, float min, float max)
 \begin{DoxyCompactList}\small\item\em Clamps the specified float between a minimum and maximum value. \end{DoxyCompactList}\item 
 static double \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_a1ca86361f1c492c65f901a98b86fd710}{Clamp} (double value, double min, double max)
-\begin{DoxyCompactList}\small\item\em Clamps the specified double between a minimum and maximum value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Clamps the specified double between a minimum and maximum value. \end{DoxyCompactList}\item 
+static decimal \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ae1f14f9e4637d28e90c75c8660332b24}{Clamp} (decimal value, decimal min, decimal max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified decimal between a minimum and maximum value. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -340,6 +342,40 @@ The clamped value of the double.
 164 
 165             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
 166         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ae1f14f9e4637d28e90c75c8660332b24}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine2D::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static decimal Tri\-Devs.\-Tri\-Engine2\-D.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{decimal}]{value, }
+\item[{decimal}]{min, }
+\item[{decimal}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_math_ae1f14f9e4637d28e90c75c8660332b24}
+
+
+Clamps the specified decimal between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified decimal is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified decimal is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the decimal.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+176         \{
+177             \textcolor{keywordflow}{if} (min > max)
+178                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be grater than maximum value."}, \textcolor{stringliteral}{"min"});
+179 
+180             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+181         \}
 \end{DoxyCode}
 
 

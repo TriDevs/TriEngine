@@ -5,7 +5,6 @@ var searchData=
   ['lavender',['Lavender',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ac945af6ee35194b137448fa868afca4d',1,'TriDevs::TriEngine2D::Color']]],
   ['lavenderblush',['LavenderBlush',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a3cce2e15246bc8bab8dd0996da22210d',1,'TriDevs::TriEngine2D::Color']]],
   ['lawngreen',['LawnGreen',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a9cdcea195fc07dc028f98582d3591cde',1,'TriDevs::TriEngine2D::Color']]],
-  ['lefttriangle',['LeftTriangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html#aa100178178cdaebc6eafeec2c19aafe9',1,'TriDevs::TriEngine2D::Graphics::Rectangle']]],
   ['lemonchiffon',['LemonChiffon',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#aa5ee1fd84bfe6589f1e6316c7ca9315e',1,'TriDevs::TriEngine2D::Color']]],
   ['lightblue',['LightBlue',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a26b55d84e33cf11eec00825edfd0dc71',1,'TriDevs::TriEngine2D::Color']]],
   ['lightcoral',['LightCoral',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af88ac202a4d5daf36ce4d5d88537cba6',1,'TriDevs::TriEngine2D::Color']]],

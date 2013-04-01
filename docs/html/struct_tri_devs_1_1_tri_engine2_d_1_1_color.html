@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine2D
-   &#160;<span id="projectnumber">v0.0.13</span>
+   &#160;<span id="projectnumber">v0.0.14</span>
    </div>
    <div id="projectbrief">2D general-purpose engine in C#/OpenGL</div>
   </td>
@@ -803,12 +803,11 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <div class="fragment"><div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;        {</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a> = 0.0f;</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a> = Helpers.Math.Clamp(r, 0.0f, 1.0f);</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a> = Helpers.Math.Clamp(g, 0.0f, 1.0f);</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a> = Helpers.Math.Clamp(b, 0.0f, 1.0f);</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a> = Helpers.Math.Clamp(a, 0.0f, 1.0f);</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;        }</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a> = Helpers.Math.Clamp(r, 0.0f, 1.0f);</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a> = Helpers.Math.Clamp(g, 0.0f, 1.0f);</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a> = Helpers.Math.Clamp(b, 0.0f, 1.0f);</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a> = Helpers.Math.Clamp(a, 0.0f, 1.0f);</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -828,9 +827,9 @@ Static Public Attributes</h2></td></tr>
 
 <p>Returns a Color4 representation of this color. This can be used with most OpenTK methods. </p>
 <dl class="section return"><dt>Returns</dt><dd>Color4 representation of this color.</dd></dl>
-<div class="fragment"><div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        {</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Color4(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a>);</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;        {</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Color4(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a>);</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -849,9 +848,9 @@ Static Public Attributes</h2></td></tr>
 
 <p>Returns a Vector3 representation of this color (ommits alpha value). This can be used with most OpenTK methods. </p>
 <dl class="section return"><dt>Returns</dt><dd>Vector3 representation of this color.</dd></dl>
-<div class="fragment"><div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        {</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector3(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>);</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;        {</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector3(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>);</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        }</div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -877,9 +876,9 @@ Here is the caller graph for this function:</div>
 
 <p>Returns a Vector4 representation of this color. This can be used with most OpenTK methods. </p>
 <dl class="section return"><dt>Returns</dt><dd>Vector4 representation of this color.</dd></dl>
-<div class="fragment"><div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        {</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector4(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a>);</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;        {</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> Vector4(<a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a1e20afa7351aa10c5ab4bfafcaeca021" title="The red component of the color. ">R</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af8dd846268b6f84ba3f0ac0c8d26aa61" title="The green component of the color. ">G</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#afa0a5303b8b93c319df33909f9361e6f" title="The blue component of the color. ">B</a>, <a class="code" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a007b76380dbfbb6ac2be76b45e3933e8" title="The color&#39;s alpha value. ">A</a>);</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4073,7 +4072,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine2_d.html">TriEngine2D</a></li><li class="navelem"><a class="el" href="struct_tri_devs_1_1_tri_engine2_d_1_1_color.html">Color</a></li>
-    <li class="footer">Generated on Sun Mar 31 2013 17:31:10 for TriEngine2D by
+    <li class="footer">Generated on Mon Apr 1 2013 02:09:39 for TriEngine2D by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

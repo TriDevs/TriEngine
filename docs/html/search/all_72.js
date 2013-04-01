@@ -18,7 +18,6 @@ var searchData=
   ['resources',['Resources',['../class_tri_devs_1_1_tri_engine2_d_1_1_resources.html',1,'TriDevs::TriEngine2D']]],
   ['resources_2ecs',['Resources.cs',['../_resources_8cs.html',1,'']]],
   ['resume',['Resume',['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html#ac7e2044d8ee146ad36fbfe7ffc6061fd',1,'TriDevs.TriEngine2D.Audio.ISong.Resume()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_song.html#ae05ce2123a764f238d69223dc297b74b',1,'TriDevs.TriEngine2D.Audio.NullSong.Resume()'],['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_song.html#adc4bc60055df0bd9a58850de19a0b37a',1,'TriDevs.TriEngine2D.Audio.Song.Resume()']]],
-  ['righttriangle',['RightTriangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle.html#a89366e6a5a27c27770e75d9c2e5f095d',1,'TriDevs::TriEngine2D::Graphics::Rectangle']]],
   ['rosybrown',['RosyBrown',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a0273800b7d32bf08b982beb95f9e6dd6',1,'TriDevs::TriEngine2D::Color']]],
   ['royalblue',['RoyalBlue',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#af560b006971ca8af57fa8ed0726494e2',1,'TriDevs::TriEngine2D::Color']]]
 ];

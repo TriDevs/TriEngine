@@ -3,6 +3,11 @@
 }
 
 
+A primitive 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle}{Rectangle} shape.  
+
+
+
+
 Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle\-:
 \nopagebreak
 \begin{figure}[H]
@@ -25,18 +30,13 @@ Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle\-:
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_af4ef9a87cfb8fccd625544ab4a67b06e}{Rectangle} (\hyperlink{struct_tri_devs_1_1_tri_engine2_d_1_1_rectangle}{Tri\-Engine2\-D.\-Rectangle} rect)
-\item 
-void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a771fe339faa53aa3de4e8041fc66ebd7}{Draw} ()
-\begin{DoxyCompactList}\small\item\em Draw the object to screen. \end{DoxyCompactList}\item 
-void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a683be8c47c770480ec66a9735e30a857}{Dispose} ()
-\end{DoxyCompactItemize}
-\subsection*{Properties}
-\begin{DoxyCompactItemize}
-\item 
-\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}{Left\-Triangle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
-\item 
-\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}{Right\-Triangle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Creates a new 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle}{Rectangle} with the specified settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A primitive 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle}{Rectangle} shape. 
+
 
 
 \subsection{Constructor \& Destructor Documentation}
@@ -48,64 +48,25 @@ void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a683
 \end{DoxyParamCaption}
 )}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_af4ef9a87cfb8fccd625544ab4a67b06e}
 
-\begin{DoxyCode}
-35         \{
-36             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}{LeftTriangle} = \textcolor{keyword}{new} Triangle(\textcolor{keyword}{new} Point<int>(rect.X, rect.Y), \textcolor{keyword}{new} Point<int>(rect.X, 
-      rect.Y + rect.Height),
-37                                         \textcolor{keyword}{new} Point<int>(rect.X + rect.Width, rect.Y + rect.Height));
-38             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}{RightTriangle} = \textcolor{keyword}{new} Triangle(\textcolor{keyword}{new} Point<int>(rect.X, rect.Y),
-39                                          \textcolor{keyword}{new} Point<int>(rect.X + rect.Width, rect.Y + rect.Height),
-40                                          \textcolor{keyword}{new} Point<int>(rect.X + rect.Width, rect.Y));
-41         \}
-\end{DoxyCode}
+
+Creates a new 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle}{Rectangle} with the specified settings. 
 
 
-\subsection{Member Function Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a683be8c47c770480ec66a9735e30a857}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}!Dispose@{Dispose}}
-\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Graphics::Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}}
-\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle.\-Dispose (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a683be8c47c770480ec66a9735e30a857}
+\begin{DoxyParams}{Parameters}
+{\em rect} & The rectangle defining the position and size of this primitive.\\
+\hline
+\end{DoxyParams}
 
 \begin{DoxyCode}
-50         \{
-51             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}{LeftTriangle}.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a1613611c48a6dbea26d19d66adf40c76}{Dispose}();
-52             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}{RightTriangle}.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a1613611c48a6dbea26d19d66adf40c76}{Dispose}();
-53         \}
+38             : base(\textcolor{keyword}{new} ushort[]
+39             \{
+40                 \textcolor{comment}{// First triangle}
+41                 0, 1, 2,
+42 
+43                 \textcolor{comment}{// Second triangle}
+44                 0, 2, 3
+45             \}, 
 \end{DoxyCode}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a771fe339faa53aa3de4e8041fc66ebd7}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}!Draw@{Draw}}
-\index{Draw@{Draw}!TriDevs::TriEngine2D::Graphics::Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}}
-\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle.\-Draw (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a771fe339faa53aa3de4e8041fc66ebd7}
-
-
-Draw the object to screen. 
-
-
-
-Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_a97752e755d82e7dcd22dc173192790a5}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Drawable}.
-
-
-\begin{DoxyCode}
-44         \{
-45             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}{LeftTriangle}.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aaaeb6be0f2ec3e13a4381c953e565db8}{Draw}();
-46             \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}{RightTriangle}.\hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aaaeb6be0f2ec3e13a4381c953e565db8}{Draw}();
-47         \}
-\end{DoxyCode}
-
-
-\subsection{Property Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}!Left\-Triangle@{Left\-Triangle}}
-\index{Left\-Triangle@{Left\-Triangle}!TriDevs::TriEngine2D::Graphics::Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}}
-\subsubsection[{Left\-Triangle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Triangle} Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle.\-Left\-Triangle\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_aa100178178cdaebc6eafeec2c19aafe9}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}!Right\-Triangle@{Right\-Triangle}}
-\index{Right\-Triangle@{Right\-Triangle}!TriDevs::TriEngine2D::Graphics::Rectangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Rectangle}}
-\subsubsection[{Right\-Triangle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Triangle} Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Rectangle.\-Right\-Triangle\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_rectangle_a89366e6a5a27c27770e75d9c2e5f095d}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

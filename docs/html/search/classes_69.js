@@ -10,6 +10,7 @@ var searchData=
   ['igamestatemanager',['IGameStateManager',['../interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state_manager.html',1,'TriDevs::TriEngine2D::StateManagement']]],
   ['iinputmanager',['IInputManager',['../interface_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_i_input_manager.html',1,'TriDevs::TriEngine2D::Input']]],
   ['inputmanager',['InputManager',['../class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_input_manager.html',1,'TriDevs::TriEngine2D::Input']]],
+  ['integerextensions',['IntegerExtensions',['../class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_integer_extensions.html',1,'TriDevs::TriEngine2D::Extensions']]],
   ['io',['IO',['../class_tri_devs_1_1_tri_engine2_d_1_1_helpers_1_1_i_o.html',1,'TriDevs::TriEngine2D::Helpers']]],
   ['isong',['ISong',['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_song.html',1,'TriDevs::TriEngine2D::Audio']]],
   ['isound',['ISound',['../interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_sound.html',1,'TriDevs::TriEngine2D::Audio']]],

@@ -3,6 +3,11 @@
 }
 
 
+A primitive 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} shape.  
+
+
+
+
 Inheritance diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Triangle\-:
 \nopagebreak
 \begin{figure}[H]
@@ -25,16 +30,13 @@ Collaboration diagram for Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Triangle\-:
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aefb71ffe1cf81d7a7b9073aeb19fba1e}{Triangle} (Point$<$ int $>$ top, Point$<$ int $>$ left, Point$<$ int $>$ right)
-\item 
-void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aaaeb6be0f2ec3e13a4381c953e565db8}{Draw} ()
-\begin{DoxyCompactList}\small\item\em Draw the object to screen. \end{DoxyCompactList}\item 
-void \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a1613611c48a6dbea26d19d66adf40c76}{Dispose} ()
-\end{DoxyCompactItemize}
-\subsection*{Properties}
-\begin{DoxyCompactItemize}
-\item 
-int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a8e7020e6d54842d8c70e042c935f938d}{I\-D}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Creates a new 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} with the specified points. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+A primitive 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} shape. 
+
 
 
 \subsection{Constructor \& Destructor Documentation}
@@ -48,70 +50,22 @@ int \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a8e702
 \end{DoxyParamCaption}
 )}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aefb71ffe1cf81d7a7b9073aeb19fba1e}
 
-\begin{DoxyCode}
-39         \{
-40             \_vertices = \textcolor{keyword}{new}[]
-41             \{
-42                 \textcolor{keyword}{new} Vector3(top.X, top.Y, 0),
-43                 \textcolor{keyword}{new} Vector3(left.X, left.Y, 0),
-44                 \textcolor{keyword}{new} Vector3(right.X, right.Y, 0)
-45             \};
-46 
-47             GL.GenBuffers(1, out \_id);
-48             GL.BindBuffer(BufferTarget.ArrayBuffer, \_id);
-49             GL.BufferData(BufferTarget.ArrayBuffer, \textcolor{keyword}{new} IntPtr(\_vertices.Length * Vector3.SizeInBytes), 
-      \_vertices, BufferUsageHint.StaticDraw);
-50         \}
-\end{DoxyCode}
+
+Creates a new 2\-D \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle}{Triangle} with the specified points. 
 
 
-\subsection{Member Function Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a1613611c48a6dbea26d19d66adf40c76}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}!Dispose@{Dispose}}
-\index{Dispose@{Dispose}!TriDevs::TriEngine2D::Graphics::Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}}
-\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Triangle.\-Dispose (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a1613611c48a6dbea26d19d66adf40c76}
+\begin{DoxyParams}{Parameters}
+{\em top} & Coordinate of the top edge of this triangle.\\
+\hline
+{\em left} & Coordinate of the lower left edge of this triangle.\\
+\hline
+{\em right} & Coordinate of the lower right edge of this triangle.\\
+\hline
+\end{DoxyParams}
 
 \begin{DoxyCode}
-64         \{
-65             GL.DeleteBuffers(1, ref \_id);
-66         \}
+40             : base(\textcolor{keyword}{new} ushort[] \{0, 1, 2\},
 \end{DoxyCode}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aaaeb6be0f2ec3e13a4381c953e565db8}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}!Draw@{Draw}}
-\index{Draw@{Draw}!TriDevs::TriEngine2D::Graphics::Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}}
-\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Triangle.\-Draw (
-\begin{DoxyParamCaption}
-{}
-\end{DoxyParamCaption}
-)}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_aaaeb6be0f2ec3e13a4381c953e565db8}
-
-
-Draw the object to screen. 
-
-
-
-Implements \hyperlink{interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_a97752e755d82e7dcd22dc173192790a5}{Tri\-Devs.\-Tri\-Engine2\-D.\-Interfaces.\-I\-Drawable}.
-
-
-\begin{DoxyCode}
-53         \{
-54             GL.EnableClientState(ArrayCap.VertexArray);
-55             GL.EnableVertexAttribArray(0);
-56             GL.BindBuffer(BufferTarget.ArrayBuffer, \hyperlink{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a8e7020e6d54842d8c70e042c935f938d}{ID});
-57             GL.VertexAttribPointer(0, \_vertices.Length, VertexAttribPointerType.Float, \textcolor{keyword}{false}, 0, 0);
-58             GL.DrawArrays(BeginMode.Triangles, 0, \_vertices.Length);
-59             GL.DisableVertexAttribArray(0);
-60             GL.DisableClientState(ArrayCap.VertexArray);
-61         \}
-\end{DoxyCode}
-
-
-\subsection{Property Documentation}
-\hypertarget{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a8e7020e6d54842d8c70e042c935f938d}{\index{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}!I\-D@{I\-D}}
-\index{I\-D@{I\-D}!TriDevs::TriEngine2D::Graphics::Triangle@{Tri\-Devs\-::\-Tri\-Engine2\-D\-::\-Graphics\-::\-Triangle}}
-\subsubsection[{I\-D}]{\setlength{\rightskip}{0pt plus 5cm}int Tri\-Devs.\-Tri\-Engine2\-D.\-Graphics.\-Triangle.\-I\-D\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle_a8e7020e6d54842d8c70e042c935f938d}
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
