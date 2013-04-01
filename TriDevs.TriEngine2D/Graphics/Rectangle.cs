@@ -1,4 +1,4 @@
-﻿/* Triangle.cs
+﻿/* Rectangle.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,35 +21,43 @@
  * SOFTWARE.
  */
 
-using System;
-using TriDevs.TriEngine2D.Interfaces;
+using OpenTK;
 
 namespace TriDevs.TriEngine2D.Graphics
 {
-    public class Rectangle : IDrawable, IDisposable
+    /// <summary>
+    /// A primitive 2D Rectangle shape.
+    /// </summary>
+    public class Rectangle : Primitive
     {
-        public Triangle LeftTriangle { get; private set; }
-        public Triangle RightTriangle { get; private set; }
-
+        /// <summary>
+        /// Creates a new 2D Rectangle with the specified settings.
+        /// </summary>
+        /// <param name="rect">The rectangle defining the position and size of this primitive.</param>
         public Rectangle(TriEngine2D.Rectangle rect)
-        {
-            LeftTriangle = new Triangle(new Point<int>(rect.X, rect.Y), new Point<int>(rect.X, rect.Y + rect.Height),
-                                        new Point<int>(rect.X + rect.Width, rect.Y + rect.Height));
-            RightTriangle = new Triangle(new Point<int>(rect.X, rect.Y),
-                                         new Point<int>(rect.X + rect.Width, rect.Y + rect.Height),
-                                         new Point<int>(rect.X + rect.Width, rect.Y));
-        }
+            : base(new ushort[]
+            {
+                // First triangle
+                0, 1, 2,
 
-        public void Draw()
-        {
-            LeftTriangle.Draw();
-            RightTriangle.Draw();
-        }
+                // Second triangle
+                0, 2, 3
+            }, 
+            new[]
+            {
+                // Top left
+                new Vector3(rect.X, rect.Y, 0),
 
-        public void Dispose()
+                // Bottom left
+                new Vector3(rect.X, rect.Y + rect.Height, 0),
+
+                // Bottom right
+                new Vector3(rect.X + rect.Width, rect.Y + rect.Height, 0),
+                
+                // Top right
+                new Vector3(rect.X + rect.Width, rect.Y, 0)
+            })
         {
-            LeftTriangle.Dispose();
-            RightTriangle.Dispose();
         }
     }
 }

@@ -819,7 +819,6 @@ namespace TriDevs.TriEngine2D
         /// <param name="a">Alpha value (0.0-1.0) where 0.0 is transparent and 1.0 is opauqe.</param>
         public Color(float r, float g, float b, float a = 1.0f)
         {
-            R = 0.0f;
             R = Helpers.Math.Clamp(r, 0.0f, 1.0f);
             G = Helpers.Math.Clamp(g, 0.0f, 1.0f);
             B = Helpers.Math.Clamp(b, 0.0f, 1.0f);

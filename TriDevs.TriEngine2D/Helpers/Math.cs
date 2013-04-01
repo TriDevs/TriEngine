@@ -164,5 +164,20 @@ namespace TriDevs.TriEngine2D.Helpers
 
             return value < min ? min : (value > max ? max : value);
         }
+
+        /// <summary>
+        /// Clamps the specified decimal between a minimum and maximum value.
+        /// </summary>
+        /// <param name="value">Value to clamp.</param>
+        /// <param name="min">If the specified decimal is below this value, then this will be returned.</param>
+        /// <param name="max">If the specified decimal is above this value, then this will be returned.</param>
+        /// <returns>The clamped value of the decimal.</returns>
+        public static decimal Clamp(decimal value, decimal min, decimal max)
+        {
+            if (min > max)
+                throw new ArgumentException("Minimum value cannot be grater than maximum value.", "min");
+
+            return value < min ? min : (value > max ? max : value);
+        }
     }
 }

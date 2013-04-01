@@ -1,7 +1,6 @@
 ﻿using NUnit.Framework;
-using TriDevs.TriEngine2D.UI;
 
-namespace TriDevs.TriEngine2D.Tests.UITests
+namespace TriDevs.TriEngine2D.Tests
 {
     [TestFixture]
     public class ColorTests
@@ -45,6 +44,31 @@ namespace TriDevs.TriEngine2D.Tests.UITests
             Assert.AreEqual(vector.Y, color.G);
             Assert.AreEqual(vector.Z, color.B);
             Assert.AreEqual(vector.W, color.A);
+        }
+
+        [Test]
+        public void ShouldConvertToColor4()
+        {
+            var color = new Color(0.1f, 0.2f, 0.3f, 0.4f);
+            var color4 = color.ToColor4();
+            Assert.AreEqual(color.R, color4.R, "Red component mismatch!");
+            Assert.AreEqual(color.G, color4.G, "Green component mismatch!");
+            Assert.AreEqual(color.B, color4.B, "Blue component mismatch!");
+            Assert.AreEqual(color.A, color4.A, "Alpha component mismatch!");
+        }
+
+        [Test]
+        public void ShouldReturnValidArgbValue()
+        {
+            var color = new Color(0.1f, 0.2f, 0.3f, 0.4f);
+            var color4 = color.ToColor4();
+            var argb = color4.ToArgb();
+            var expected =
+                (uint) (color4.A * byte.MaxValue) << 24 |
+                (uint) (color4.R * byte.MaxValue) << 16 |
+                (uint) (color4.G * byte.MaxValue) << 8 |
+                (uint) (color4.B * byte.MaxValue);
+            Assert.AreEqual(unchecked((int) expected), argb);
         }
     }
 }

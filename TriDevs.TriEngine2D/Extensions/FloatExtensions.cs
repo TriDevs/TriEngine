@@ -1,4 +1,4 @@
-﻿/* Triangle.cs
+﻿/* FloatExtensions.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,34 +21,23 @@
  * SOFTWARE.
  */
 
-using OpenTK;
-
-namespace TriDevs.TriEngine2D.Graphics
+namespace TriDevs.TriEngine2D.Extensions
 {
     /// <summary>
-    /// A primitive 2D Triangle shape.
+    /// Extensions for <see cref="System.Single" />.
     /// </summary>
-    public class Triangle : Primitive
+    public static class FloatExtensions
     {
         /// <summary>
-        /// Creates a new 2D Triangle with the specified points.
+        /// Clamps the specified float between a minimum and maximum value.
         /// </summary>
-        /// <param name="top">Coordinate of the top edge of this triangle.</param>
-        /// <param name="left">Coordinate of the lower left edge of this triangle.</param>
-        /// <param name="right">Coordinate of the lower right edge of this triangle.</param>
-        public Triangle(Point<int> top, Point<int> left, Point<int> right)
-            : base(new ushort[] {0, 1, 2},
-            new[]
-            {
-                new Vector3(top.X, top.Y, 0),
-                new Vector3(left.X, left.Y, 0),
-                new Vector3(right.X, right.Y, 0)
-            },
-            new[]
-            {
-                Color.Red, Color.Red, Color.Red
-            })
+        /// <param name="value">Value to clamp.</param>
+        /// <param name="min">If the specified float is below this value, then this will be returned.</param>
+        /// <param name="max">If the specified float is above this value, then this will be returned.</param>
+        /// <returns>The clamped value of the float.</returns>
+        public static float Clamp(this float value, float min, float max)
         {
+            return Helpers.Math.Clamp(value, min, max);
         }
     }
 }

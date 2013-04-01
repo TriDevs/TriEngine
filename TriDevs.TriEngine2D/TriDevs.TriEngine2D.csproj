@@ -73,9 +73,16 @@
     <Compile Include="Audio\Sound.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="EngineException.cs" />
+    <Compile Include="Extensions\ByteExtensions.cs" />
+    <Compile Include="Extensions\DecimalExtensions.cs" />
+    <Compile Include="Extensions\DoubleExtensions.cs" />
     <Compile Include="Extensions\EnumerationExtensions.cs" />
+    <Compile Include="Extensions\FloatExtensions.cs" />
+    <Compile Include="Extensions\IntegerExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\Vector3Extensions.cs" />
     <Compile Include="GameWindow2D.cs" />
+    <Compile Include="Graphics\Primitive.cs" />
     <Compile Include="Graphics\Rectangle.cs" />
     <Compile Include="Graphics\Triangle.cs" />
     <Compile Include="Helpers\Exceptions.cs" />

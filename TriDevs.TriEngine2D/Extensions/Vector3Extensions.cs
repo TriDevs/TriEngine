@@ -1,4 +1,4 @@
-﻿/* Triangle.cs
+﻿/* Vector3Extensions.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -23,32 +23,33 @@
 
 using OpenTK;
 
-namespace TriDevs.TriEngine2D.Graphics
+namespace TriDevs.TriEngine2D.Extensions
 {
     /// <summary>
-    /// A primitive 2D Triangle shape.
+    /// Extensions for <see cref="Vector3" />.
     /// </summary>
-    public class Triangle : Primitive
+    public static class Vector3Extensions
     {
         /// <summary>
-        /// Creates a new 2D Triangle with the specified points.
+        /// Converts an array of <see cref="Vector3" /> into
+        /// a float array (3 floats per vector).
         /// </summary>
-        /// <param name="top">Coordinate of the top edge of this triangle.</param>
-        /// <param name="left">Coordinate of the lower left edge of this triangle.</param>
-        /// <param name="right">Coordinate of the lower right edge of this triangle.</param>
-        public Triangle(Point<int> top, Point<int> left, Point<int> right)
-            : base(new ushort[] {0, 1, 2},
-            new[]
-            {
-                new Vector3(top.X, top.Y, 0),
-                new Vector3(left.X, left.Y, 0),
-                new Vector3(right.X, right.Y, 0)
-            },
-            new[]
-            {
-                Color.Red, Color.Red, Color.Red
-            })
+        /// <param name="vectors">The vector array to convert.</param>
+        /// <returns>A float array representation of the vectors.</returns>
+        public static float[] ToFloatArray(this Vector3[] vectors)
         {
+            var result = new float[3 * vectors.Length];
+
+            for (int i = 0; i < vectors.Length; i++)
+            {
+                int index = i * 3;
+
+                result[index] = vectors[i].X;
+                result[index + 1] = vectors[i].Y;
+                result[index + 2] = vectors[i].Z;
+            }
+
+            return result;
         }
     }
 }
