@@ -23,7 +23,7 @@
 
 using OpenTK.Input;
 
-namespace TriDevs.TriEngine2D.Input.Events
+namespace TriDevs.TriEngine.Input.Events
 {
     /// <summary>
     /// Event handler delegate for the MouseDown event.

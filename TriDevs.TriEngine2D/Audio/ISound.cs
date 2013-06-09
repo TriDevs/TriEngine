@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// A sound file for use with the audio manager.

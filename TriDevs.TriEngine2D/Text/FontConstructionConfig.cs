@@ -23,7 +23,7 @@
 
 using QuickFont;
 
-namespace TriDevs.TriEngine2D.Text
+namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Container class for different QFont configurations for use with the Font constructor.

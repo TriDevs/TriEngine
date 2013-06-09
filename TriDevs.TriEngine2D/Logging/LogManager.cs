@@ -26,11 +26,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using Microsoft.Win32.SafeHandles;
-using TriDevs.TriEngine2D.Native;
+using TriDevs.TriEngine.Native;
 using log4net;
 using log4net.Config;
 
-namespace TriDevs.TriEngine2D.Logging
+namespace TriDevs.TriEngine.Logging
 {
     /// <summary>
     /// Class to manage logging.

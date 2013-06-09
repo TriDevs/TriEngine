@@ -21,12 +21,7 @@
  * SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TriDevs.TriEngine2D.Text
+namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Different font types supported by TriEngine2D.

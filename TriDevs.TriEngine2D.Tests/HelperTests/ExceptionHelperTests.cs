@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NUnit.Framework;
-using TriDevs.TriEngine2D.Helpers;
+using TriDevs.TriEngine.Helpers;
 
-namespace TriDevs.TriEngine2D.Tests.HelperTests
+namespace TriDevs.TriEngine.Tests.HelperTests
 {
     [TestFixture]
     public class ExceptionHelperTests

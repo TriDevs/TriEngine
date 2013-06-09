@@ -22,9 +22,9 @@
  */
 
 using System;
-using TriDevs.TriEngine2D.Interfaces;
+using TriDevs.TriEngine.Interfaces;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// Manages various UI controls, automatically updating and drawing them to the screen.

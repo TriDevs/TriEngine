@@ -24,10 +24,10 @@
 using System;
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
-using TriDevs.TriEngine2D.Extensions;
-using TriDevs.TriEngine2D.Interfaces;
+using TriDevs.TriEngine.Extensions;
+using TriDevs.TriEngine.Interfaces;
 
-namespace TriDevs.TriEngine2D.Graphics
+namespace TriDevs.TriEngine.Graphics
 {
     /// <summary>
     /// Represents a primitive 2D shape composed of triangles.

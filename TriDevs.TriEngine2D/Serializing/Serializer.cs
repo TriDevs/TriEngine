@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TriDevs.TriEngine2D.Serializing
+namespace TriDevs.TriEngine.Serializing
 {
     /// <summary>
     /// Provides serialization methods.

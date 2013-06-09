@@ -2,13 +2,13 @@
 using OpenTK;
 using OpenTK.Input;
 using QuickFont;
-using TriDevs.TriEngine2D.Audio;
-using TriDevs.TriEngine2D.Graphics;
-using TriDevs.TriEngine2D.Input;
-using TriDevs.TriEngine2D.Text;
-using TriDevs.TriEngine2D.UI;
+using TriDevs.TriEngine.Audio;
+using TriDevs.TriEngine.Graphics;
+using TriDevs.TriEngine.Input;
+using TriDevs.TriEngine.Text;
+using TriDevs.TriEngine.UI;
 
-namespace TriDevs.TriEngine2D.EngineTest
+namespace TriDevs.TriEngine.EngineTest
 {
     public class Window2DTest : GameWindow2D
     {

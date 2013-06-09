@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TriEngine2D")]
-[assembly: AssemblyDescription("2D engine based on C#/OpenGL")]
+[assembly: AssemblyTitle("TriEngine")]
+[assembly: AssemblyDescription("Game engine based on C#/OpenGL")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TriEngine2D")]
+[assembly: AssemblyProduct("TriEngine")]
 [assembly: AssemblyCopyright("Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -36,4 +36,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("1.0.105.1927")]
 
 // Allow Test project to access internal members
-[assembly: InternalsVisibleTo("TriDevs.TriEngine2D.Tests")]
+[assembly: InternalsVisibleTo("TriDevs.TriEngine.Tests")]

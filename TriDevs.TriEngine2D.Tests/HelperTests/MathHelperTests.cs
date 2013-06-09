@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace TriDevs.TriEngine2D.Tests.HelperTests
+namespace TriDevs.TriEngine.Tests.HelperTests
 {
     [TestFixture]
     public class MathHelperTests

@@ -26,7 +26,7 @@ using OpenTK;
 using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Game window class specialized for drawing 2D graphics.

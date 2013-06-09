@@ -21,12 +21,7 @@
  * SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TriDevs.TriEngine2D.Interfaces
+namespace TriDevs.TriEngine.Interfaces
 {
     /// <summary>
     /// Implements a simple update method.

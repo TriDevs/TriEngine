@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// A rectangle representing an area in 2D space.

@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Version class specifiying the version of this project.

@@ -22,9 +22,9 @@
  */
 
 using System;
-using TriDevs.TriEngine2D.Logging;
+using TriDevs.TriEngine.Logging;
 
-namespace TriDevs.TriEngine2D.Helpers
+namespace TriDevs.TriEngine.Helpers
 {
     /// <summary>
     /// Provides helper methods for dealing with exceptions.

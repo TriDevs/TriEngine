@@ -25,10 +25,10 @@ using System.Collections.Generic;
 using System.IO;
 using OpenTK.Graphics.OpenGL;
 using QuickFont;
-using TriDevs.TriEngine2D.Shaders;
-using TriDevs.TriEngine2D.Text;
+using TriDevs.TriEngine.Shaders;
+using TriDevs.TriEngine.Text;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Static class to manage resources.

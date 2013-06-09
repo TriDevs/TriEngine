@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// A song that will be streamed in the audio player.

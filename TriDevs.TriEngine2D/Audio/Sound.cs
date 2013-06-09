@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using OpenTK.Audio.OpenAL;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// Sound class that can be used with the <see cref="AudioManager" />.

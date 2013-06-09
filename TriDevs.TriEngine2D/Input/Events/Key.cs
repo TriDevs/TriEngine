@@ -24,7 +24,7 @@
 using System;
 using OpenTK.Input;
 
-namespace TriDevs.TriEngine2D.Input.Events
+namespace TriDevs.TriEngine.Input.Events
 {
     /// <summary>
     /// EventArgs class used for key-related events.

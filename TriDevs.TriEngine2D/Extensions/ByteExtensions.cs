@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D.Extensions
+namespace TriDevs.TriEngine.Extensions
 {
     /// <summary>
     /// Extensions for <see cref="System.Byte" />.

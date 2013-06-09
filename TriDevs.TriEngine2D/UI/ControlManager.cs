@@ -25,7 +25,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// Control manager to manage various UI controls for a game.

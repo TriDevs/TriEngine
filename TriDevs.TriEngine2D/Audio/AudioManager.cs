@@ -27,7 +27,7 @@ using System.Linq;
 using NVorbis.OpenTKSupport;
 using OpenTK.Audio;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// Class to manage engine audio.

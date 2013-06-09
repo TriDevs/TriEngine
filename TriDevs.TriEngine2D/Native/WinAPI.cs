@@ -24,7 +24,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace TriDevs.TriEngine2D.Native
+namespace TriDevs.TriEngine.Native
 {
     /// <summary>
     /// Holds various WinAPI stuff.

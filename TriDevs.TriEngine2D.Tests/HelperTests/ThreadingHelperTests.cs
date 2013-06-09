@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using NUnit.Framework;
-using TriDevs.TriEngine2D.Helpers;
+using TriDevs.TriEngine.Helpers;
 
-namespace TriDevs.TriEngine2D.Tests.HelperTests
+namespace TriDevs.TriEngine.Tests.HelperTests
 {
     [TestFixture]
     public class ThreadingHelperTests

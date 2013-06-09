@@ -22,9 +22,9 @@
  */
 
 using OpenTK.Input;
-using TriDevs.TriEngine2D.Input.Events;
+using TriDevs.TriEngine.Input.Events;
 
-namespace TriDevs.TriEngine2D.Input
+namespace TriDevs.TriEngine.Input
 {
     /// <summary>
     /// Provides various methods to query input devices like the keyboard.

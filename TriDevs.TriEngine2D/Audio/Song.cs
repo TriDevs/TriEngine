@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using NVorbis.OpenTKSupport;
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// Song class that can be used with <see cref="AudioManager" />.

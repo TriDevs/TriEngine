@@ -1,8 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using TriDevs.TriEngine2D.Extensions;
+using TriDevs.TriEngine.Extensions;
 
-namespace TriDevs.TriEngine2D.Tests.ExtensionTests
+namespace TriDevs.TriEngine.Tests.ExtensionTests
 {
     [TestFixture]
     public class EnumerationExtensionTests

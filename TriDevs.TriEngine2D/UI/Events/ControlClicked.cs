@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D.UI.Events
+namespace TriDevs.TriEngine.UI.Events
 {
     /// <summary>
     /// Delegate handler for the control clicked event.

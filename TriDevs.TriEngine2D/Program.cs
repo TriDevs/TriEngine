@@ -23,9 +23,9 @@
 
 using System;
 using OpenTK.Graphics.OpenGL;
-using TriDevs.TriEngine2D.Shaders;
+using TriDevs.TriEngine.Shaders;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// An OpenGL program.

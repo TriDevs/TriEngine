@@ -23,7 +23,7 @@
 
 using System.IO;
 
-namespace TriDevs.TriEngine2D.Helpers
+namespace TriDevs.TriEngine.Helpers
 {
     /// <summary>
     /// Provides various helper functions for doing IO operations.

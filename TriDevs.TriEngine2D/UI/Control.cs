@@ -23,9 +23,9 @@
 
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
-using TriDevs.TriEngine2D.UI.Events;
+using TriDevs.TriEngine.UI.Events;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// Base control class that all other controls inherits from.

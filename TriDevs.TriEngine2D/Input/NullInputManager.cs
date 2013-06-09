@@ -22,9 +22,9 @@
  */
 
 using OpenTK.Input;
-using TriDevs.TriEngine2D.Input.Events;
+using TriDevs.TriEngine.Input.Events;
 
-namespace TriDevs.TriEngine2D.Input
+namespace TriDevs.TriEngine.Input
 {
     /// <summary>
     /// Used as a fallback InputManager object when the service locator fails to find one.

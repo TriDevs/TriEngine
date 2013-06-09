@@ -21,15 +21,10 @@
  * SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using TriDevs.TriEngine2D.Interfaces;
-using TriDevs.TriEngine2D.UI.Events;
+using TriDevs.TriEngine.Interfaces;
+using TriDevs.TriEngine.UI.Events;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// A UI control that can be drawn on screen and interacted with.

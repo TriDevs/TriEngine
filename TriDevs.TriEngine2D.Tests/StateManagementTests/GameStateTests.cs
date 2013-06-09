@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using NUnit.Framework;
-using TriDevs.TriEngine2D.Interfaces;
-using TriDevs.TriEngine2D.StateManagement;
+using TriDevs.TriEngine.Interfaces;
+using TriDevs.TriEngine.StateManagement;
 
-namespace TriDevs.TriEngine2D.Tests.StateManagementTests
+namespace TriDevs.TriEngine.Tests.StateManagementTests
 {
     [TestFixture]
     public class GameStateTests

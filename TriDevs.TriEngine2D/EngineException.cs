@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Base exception class for all engine-related exceptions.

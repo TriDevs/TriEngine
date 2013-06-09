@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// A struct representing an X/Y coordinate.

@@ -23,7 +23,7 @@
 
 using System.Threading;
 
-namespace TriDevs.TriEngine2D.Helpers
+namespace TriDevs.TriEngine.Helpers
 {
     /// <summary>
     /// Provides various helper functions for doing threading operations.

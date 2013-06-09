@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D.Audio
+namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// Fallback song class used in <see cref="NullAudioManager" />.

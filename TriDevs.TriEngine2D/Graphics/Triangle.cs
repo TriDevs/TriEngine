@@ -23,7 +23,7 @@
 
 using OpenTK;
 
-namespace TriDevs.TriEngine2D.Graphics
+namespace TriDevs.TriEngine.Graphics
 {
     /// <summary>
     /// A primitive 2D Triangle shape.

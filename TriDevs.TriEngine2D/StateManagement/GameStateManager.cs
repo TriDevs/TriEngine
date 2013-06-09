@@ -24,7 +24,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace TriDevs.TriEngine2D.StateManagement
+namespace TriDevs.TriEngine.StateManagement
 {
     /// <summary>
     /// Game state manager that keeps track of the active game states and provides

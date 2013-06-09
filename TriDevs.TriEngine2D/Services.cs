@@ -21,10 +21,10 @@
  * SOFTWARE.
  */
 
-using TriDevs.TriEngine2D.Audio;
-using TriDevs.TriEngine2D.Input;
+using TriDevs.TriEngine.Audio;
+using TriDevs.TriEngine.Input;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Provides different game-related service interfaces.

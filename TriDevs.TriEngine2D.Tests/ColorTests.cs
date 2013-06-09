@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TriDevs.TriEngine2D.Tests
+namespace TriDevs.TriEngine.Tests
 {
     [TestFixture]
     public class ColorTests

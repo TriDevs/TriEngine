@@ -23,7 +23,7 @@
 
 using System;
 
-namespace TriDevs.TriEngine2D.Helpers
+namespace TriDevs.TriEngine.Helpers
 {
     /// <summary>
     /// Various helper methods for working with math.

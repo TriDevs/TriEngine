@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using QuickFont;
 
-namespace TriDevs.TriEngine2D.Text
+namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Holds a specific font type.

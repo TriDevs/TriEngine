@@ -21,9 +21,9 @@
  * SOFTWARE.
  */
 
-using TriDevs.TriEngine2D.StateManagement;
+using TriDevs.TriEngine.StateManagement;
 
-namespace TriDevs.TriEngine2D.Interfaces
+namespace TriDevs.TriEngine.Interfaces
 {
     /// <summary>
     /// A game component that can be added to <see cref="IGameState" /> objects.

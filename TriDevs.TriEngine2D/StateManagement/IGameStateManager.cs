@@ -21,9 +21,9 @@
  * SOFTWARE.
  */
 
-using TriDevs.TriEngine2D.Interfaces;
+using TriDevs.TriEngine.Interfaces;
 
-namespace TriDevs.TriEngine2D.StateManagement
+namespace TriDevs.TriEngine.StateManagement
 {
     /// <summary>
     /// Game state manager that keeps track of the active game states and provides

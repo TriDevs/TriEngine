@@ -23,9 +23,9 @@
 
 using OpenTK.Input;
 using QuickFont;
-using TriDevs.TriEngine2D.Text;
+using TriDevs.TriEngine.Text;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// A simple label to display text on the screen.

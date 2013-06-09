@@ -25,7 +25,7 @@ using System.Diagnostics.Contracts;
 using OpenTK;
 using OpenTK.Graphics;
 
-namespace TriDevs.TriEngine2D
+namespace TriDevs.TriEngine
 {
     /// <summary>
     /// Represents an RGBA color that can be used with TriEngine2D.

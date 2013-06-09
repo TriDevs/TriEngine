@@ -23,9 +23,9 @@
 
 using System;
 using System.Collections.Generic;
-using TriDevs.TriEngine2D.Interfaces;
+using TriDevs.TriEngine.Interfaces;
 
-namespace TriDevs.TriEngine2D.StateManagement
+namespace TriDevs.TriEngine.StateManagement
 {
     /// <summary>
     /// A game state that can be used with the game state manager.

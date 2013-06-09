@@ -23,7 +23,7 @@
 
 using OpenTK;
 
-namespace TriDevs.TriEngine2D.Graphics
+namespace TriDevs.TriEngine.Graphics
 {
     /// <summary>
     /// A primitive 2D Rectangle shape.
@@ -34,7 +34,7 @@ namespace TriDevs.TriEngine2D.Graphics
         /// Creates a new 2D Rectangle with the specified settings.
         /// </summary>
         /// <param name="rect">The rectangle defining the position and size of this primitive.</param>
-        public Rectangle(TriEngine2D.Rectangle rect)
+        public Rectangle(TriEngine.Rectangle rect)
             : base(new ushort[]
             {
                 // First triangle

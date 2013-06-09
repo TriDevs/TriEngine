@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine2D.Interfaces
+namespace TriDevs.TriEngine.Interfaces
 {
     /// <summary>
     /// Implements a simple draw method.

@@ -23,7 +23,7 @@
 
 using QuickFont;
 
-namespace TriDevs.TriEngine2D.Text
+namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Implements methods to construct a text object and render it to screen.

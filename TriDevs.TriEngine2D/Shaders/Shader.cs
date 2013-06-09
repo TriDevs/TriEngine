@@ -25,7 +25,7 @@ using System;
 using System.IO;
 using OpenTK.Graphics.OpenGL;
 
-namespace TriDevs.TriEngine2D.Shaders
+namespace TriDevs.TriEngine.Shaders
 {
     /// <summary>
     /// GLSL shader object loaded and compiled from a *.glsl shader file.

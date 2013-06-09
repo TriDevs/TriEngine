@@ -25,7 +25,7 @@ using System;
 using OpenTK;
 using QuickFont;
 
-namespace TriDevs.TriEngine2D.Text
+namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Implements the ITextObject interface.

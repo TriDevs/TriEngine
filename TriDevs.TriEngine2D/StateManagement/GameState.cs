@@ -24,9 +24,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using TriDevs.TriEngine2D.Interfaces;
+using TriDevs.TriEngine.Interfaces;
 
-namespace TriDevs.TriEngine2D.StateManagement
+namespace TriDevs.TriEngine.StateManagement
 {
     /// <summary>
     /// Base GameState class that all other game states derive from,

@@ -23,7 +23,7 @@
 
 using System.ComponentModel;
 
-namespace TriDevs.TriEngine2D.UI
+namespace TriDevs.TriEngine.UI
 {
     /// <summary>
     /// A label that, when clicked, will open a URL.
