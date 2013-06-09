@@ -1,7 +1,7 @@
-TriEngine2D
-===========
+TriEngine
+=========
 
-2D general-purpose engine in C#/OpenGL
+General-purpose engine in C#/OpenGL
 
 Will eventually have scripting API for Lua (and possible additional languages)
 
@@ -20,14 +20,14 @@ License
 
 Copyright © 2013 by [Adam Hellberg](https://github.com/Sharparam), [Sijmen Schoon](https://github.com/Vijfhoek) and [Preston Shumway](https://github.com/anidude).
 
-TriEngine2D is licensed under the [MIT License](http://opensource.org/licenses/MIT), more info can be found in the **LICENSE** file.
+TriEngine is licensed under the [MIT License](http://opensource.org/licenses/MIT), more info can be found in the **LICENSE** file.
 
 Contributing
 ------------
 
 You are free to fork this project and make your own changes, as long as you follow the MIT License.
 
-If you want to make a pull request, please do so to the [main project](https://github.com/TriDevs/TriEngine2D) and not any of the "official" forks.
+If you want to make a pull request, please do so to the [main project](https://github.com/TriDevs/TriEngine) and not any of the "official" forks.
 
 For your pull request to be accepted, please follow our coding style:
  * Indent with 4 spaces, not tabs.
@@ -60,15 +60,15 @@ We use NUnit as test framework, feel free to use something else if you want to, 
 Dependencies
 ------------
 
-TriEngine2D depends on [log4net](http://logging.apache.org/log4net/), which is included in the **libs/log4net** folder.
+TriEngine depends on [log4net](http://logging.apache.org/log4net/), which is included in the **libs/log4net** folder.
 
-TriEngine2D depends on [OpenTK](http://www.opentk.com/), this is not included and you will have to build/install it yourself.  
+TriEngine depends on [OpenTK](http://www.opentk.com/), this is not included and you will have to build/install it yourself.  
 OpenTK depends on OpenGL drivers being installed, they are usually in your normal video card drivers.
 
-TriEngine2D depends on [Json.NET](http://json.codeplex.com/), this is not included, but is specified in the NuGet package config.  
+TriEngine depends on [Json.NET](http://json.codeplex.com/), this is not included, but is specified in the NuGet package config.  
 If you [properly configure your NuGet settings](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages#Using_NuGet_without_committing_packages_to_source_control), NuGet will automatically download Json.NET when building any projects that depend on it.
 
-TriEngine2D depends on [NVorbis](http://nvorbis.codeplex.com/), which is included in the **libs/NVorbis** folder.  
+TriEngine depends on [NVorbis](http://nvorbis.codeplex.com/), which is included in the **libs/NVorbis** folder.  
 [NVorbis is licensed under Ms-PL.](http://nvorbis.codeplex.com/license)
 
 If you want to run the tests you will need to have [NUnit](http://www.nunit.org/) installed.
