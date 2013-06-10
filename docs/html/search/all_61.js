@@ -12,14 +12,12 @@ var searchData=
   ['antiquewhite',['AntiqueWhite',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#ad8aa2a361231a1dea62b16ade16a5a5e',1,'TriDevs::TriEngine::Color']]],
   ['aqua',['Aqua',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a50641019b4572d17fc2a543669b12104',1,'TriDevs::TriEngine::Color']]],
   ['aquamarine',['Aquamarine',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#af54538bbc650d0c3b6f10b434a28a6ed',1,'TriDevs::TriEngine::Color']]],
-  ['assemblyinfo_2ecs',['AssemblyInfo.cs',['../_engine_test_2_properties_2_assembly_info_8cs.html',1,'']]],
-  ['assemblyinfo_2ecs',['AssemblyInfo.cs',['../_properties_2_assembly_info_8cs.html',1,'']]],
-  ['assemblyinfo_2ecs',['AssemblyInfo.cs',['../_tests_2_properties_2_assembly_info_8cs.html',1,'']]],
+  ['assemblyinfo_2ecs',['AssemblyInfo.cs',['../_assembly_info_8cs.html',1,'']]],
   ['audio',['Audio',['../class_tri_devs_1_1_tri_engine_1_1_services.html#a005c83f0dc7bf15ced5a3d81f193675f',1,'TriDevs::TriEngine::Services']]],
   ['audioformat',['AudioFormat',['../namespace_tri_devs_1_1_tri_engine_1_1_audio.html#a3e1817498a8306afd084903a967537ef',1,'TriDevs::TriEngine::Audio']]],
   ['audioformat_2ecs',['AudioFormat.cs',['../_audio_format_8cs.html',1,'']]],
-  ['audiomanager',['AudioManager',['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html#a87fb91e76fb20ceb35204dc4b755d0fd',1,'TriDevs::TriEngine::Audio::AudioManager']]],
   ['audiomanager',['AudioManager',['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html',1,'TriDevs::TriEngine::Audio']]],
+  ['audiomanager',['AudioManager',['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html#a87fb91e76fb20ceb35204dc4b755d0fd',1,'TriDevs::TriEngine::Audio::AudioManager']]],
   ['audiomanager_2ecs',['AudioManager.cs',['../_audio_manager_8cs.html',1,'']]],
   ['azure',['Azure',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a7adf069c5dc847a4abeafdd826062974',1,'TriDevs::TriEngine::Color']]]
 ];

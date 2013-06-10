@@ -1,7 +1,6 @@
 var searchData=
 [
   ['b',['B',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a83c0cf98d6809a4c38e8759f268dc894',1,'TriDevs::TriEngine::Color']]],
-  ['bar',['Bar',['../class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests.html#a59e82152889b8f49e69666cef95f0cc2addc35f88fa71b6ef142ae61f35364653',1,'TriDevs.TriEngine.Tests.ExtensionTests.EnumerationExtensionTests.Bar()'],['../class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests.html#afafe48b7eb972e3ce03565b3d04bf70daddc35f88fa71b6ef142ae61f35364653',1,'TriDevs.TriEngine.Tests.ExtensionTests.EnumerationExtensionTests.Bar()']]],
   ['basepath',['BasePath',['../class_tri_devs_1_1_tri_engine_1_1_resources.html#af47b8cda82cb2fc89cedbd8546997e77',1,'TriDevs::TriEngine::Resources']]],
   ['beige',['Beige',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a483cb936d847618fbb1daea09852d299',1,'TriDevs::TriEngine::Color']]],
   ['bisque',['Bisque',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a844107e304b4737b0ab05bb300eb8ba3',1,'TriDevs::TriEngine::Color']]],
