@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.Input.IInputManager" name="TriDevs.TriEngine.Input.IInputManager">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_input_1_1_input_manager.html" title="Input manager interfacing with input methods provided by a GameWindow. " alt="" coords="5,97,163,138"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_input_1_1_null_input_manager.html" title="Used as a fallback InputManager object when the service locator fails to find one. " alt="" coords="187,97,345,138"/>
+</map>

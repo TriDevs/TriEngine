@@ -1,0 +1,5 @@
+var namespace_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests =
+[
+    [ "EnumerationExtensionTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests.html", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests" ],
+    [ "StringExtensionTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_string_extension_tests.html", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_string_extension_tests" ]
+];

@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['addcomponent',['AddComponent',['../class_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_game_state.html#a49b2f8ff22d23c05ac8a9743e784db75',1,'TriDevs.TriEngine2D.StateManagement.GameState.AddComponent()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_state_management_1_1_i_game_state.html#adea1c0ea51ca39191fd9d30bbb49c3c7',1,'TriDevs.TriEngine2D.StateManagement.IGameState.AddComponent()']]],
-  ['addcontrol',['AddControl',['../class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_manager.html#a8279a97e05851a687461e8cd769b9c02',1,'TriDevs.TriEngine2D.UI.ControlManager.AddControl()'],['../interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_manager.html#a6402c9bdd51655809909a5b2df81bd4e',1,'TriDevs.TriEngine2D.UI.IControlManager.AddControl()']]],
-  ['addfont',['AddFont',['../class_tri_devs_1_1_tri_engine2_d_1_1_resources.html#aa529e97901e6d732b659f368fb0f532c',1,'TriDevs::TriEngine2D::Resources']]],
-  ['addshader',['AddShader',['../class_tri_devs_1_1_tri_engine2_d_1_1_resources.html#a7ee2414271382ccc08f969f0c4d81758',1,'TriDevs::TriEngine2D::Resources']]],
-  ['allocconsole',['AllocConsole',['../class_tri_devs_1_1_tri_engine2_d_1_1_native_1_1_win_a_p_i.html#a00f0889a729e989fbefd8267a20a1c06',1,'TriDevs::TriEngine2D::Native::WinAPI']]],
-  ['audiomanager',['AudioManager',['../class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_audio_manager.html#a0d838dafb78ee764eba20c242cf50bb2',1,'TriDevs::TriEngine2D::Audio::AudioManager']]]
+  ['addcomponent',['AddComponent',['../class_tri_devs_1_1_tri_engine_1_1_state_management_1_1_game_state.html#a049030ba4147caccbdc953712491f1f7',1,'TriDevs.TriEngine.StateManagement.GameState.AddComponent()'],['../interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state.html#af914b312a33357971f1d7552cf651776',1,'TriDevs.TriEngine.StateManagement.IGameState.AddComponent()']]],
+  ['addcontrol',['AddControl',['../class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager.html#ab96970bf405a0445c1e17cdbbc1e48a7',1,'TriDevs.TriEngine.UI.ControlManager.AddControl()'],['../interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager.html#a43ce1b3fc24b4658643b7910d0e97b3b',1,'TriDevs.TriEngine.UI.IControlManager.AddControl()']]],
+  ['addfont',['AddFont',['../class_tri_devs_1_1_tri_engine_1_1_resources.html#abb09cb92e22d6617dedca5e866dc381a',1,'TriDevs::TriEngine::Resources']]],
+  ['addshader',['AddShader',['../class_tri_devs_1_1_tri_engine_1_1_resources.html#a81083cc6b02468d7a437f34bddf455d0',1,'TriDevs::TriEngine::Resources']]],
+  ['allocconsole',['AllocConsole',['../class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a8f3b12350e016e847f91d32521efd788',1,'TriDevs::TriEngine::Native::WinAPI']]],
+  ['audiomanager',['AudioManager',['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html#a87fb91e76fb20ceb35204dc4b755d0fd',1,'TriDevs::TriEngine::Audio::AudioManager']]]
 ];

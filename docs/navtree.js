@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "TriEngine2D", "index.html", [
+  [ "TriEngine", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -18,6 +18,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
         [ "Properties", "functions_prop.html", null ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
@@ -30,10 +31,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_assembly_info_8cs.html",
-"class_tri_devs_1_1_tri_engine2_d_1_1_input_1_1_null_input_manager.html#a638ccbbaebcc111ae54943f229e887d6",
-"interface_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_i_audio_manager.html",
-"struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a9bdbe432499bebb309598b5f5d3178dd"
+"_audio_format_8cs.html",
+"class_tri_devs_1_1_tri_engine_1_1_input_1_1_input_manager.html#ad335148b7924c28531202538ecba26a3",
+"class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager.html#a6f14e9b2218648c1ca0b1abe4bba53e4",
+"namespace_tri_devs_1_1_tri_engine_1_1_state_management.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

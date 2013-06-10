@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.UI.IControl" name="TriDevs.TriEngine.UI.IControl">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="113,5,191,32"/>
+</map>

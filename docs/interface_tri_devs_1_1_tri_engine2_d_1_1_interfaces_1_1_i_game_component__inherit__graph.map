@@ -1,6 +1,0 @@
-<map id="TriDevs.TriEngine2D.Interfaces.IGameComponent" name="TriDevs.TriEngine2D.Interfaces.IGameComponent">
-<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable_game_component.html" title="A game component that can be added to GameState objects. Drawable game components also implement a dr..." alt="" coords="5,171,208,213"/>
-<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="65,5,148,32"/>
-<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_i_control_manager.html" title="Manages various UI controls, automatically updating and drawing them to the screen. " alt="" coords="5,262,208,303"/>
-<area shape="rect" id="node5" href="$class_tri_devs_1_1_tri_engine2_d_1_1_u_i_1_1_control_manager.html" title="Control manager to manage various UI controls for a game. " alt="" coords="7,353,205,394"/>
-</map>

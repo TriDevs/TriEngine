@@ -1,3 +1,0 @@
-<map id="TriDevs.TriEngine2D.Native.WinAPI.FreeConsole" name="TriDevs.TriEngine2D.Native.WinAPI.FreeConsole">
-<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine2_d_1_1_logging_1_1_log_manager.html#aa08e7d3ce6fce68baddeef73861bce50" title="Destroys the console associated with the process, if loaded. This method does nothing if DEBUG is not..." alt="" coords="235,5,426,46"/>
-</map>

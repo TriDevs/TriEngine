@@ -5,5 +5,6 @@ var searchData=
   ['shader_2ecs',['Shader.cs',['../_shader_8cs.html',1,'']]],
   ['song_2ecs',['Song.cs',['../_song_8cs.html',1,'']]],
   ['sound_2ecs',['Sound.cs',['../_sound_8cs.html',1,'']]],
-  ['stringextensions_2ecs',['StringExtensions.cs',['../_string_extensions_8cs.html',1,'']]]
+  ['stringextensions_2ecs',['StringExtensions.cs',['../_string_extensions_8cs.html',1,'']]],
+  ['stringextensiontests_2ecs',['StringExtensionTests.cs',['../_string_extension_tests_8cs.html',1,'']]]
 ];

@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.Logging.LogManager.SetupConsole" name="TriDevs.TriEngine.Logging.LogManager.SetupConsole">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a8f3b12350e016e847f91d32521efd788" title="Allocates a new console for the calling process. " alt="" coords="232,5,397,46"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a10f79c8b3a9a2c4c5f7322333912cbed" title="Retrieves a handle to the specified standard device (standard input, standard output, or standard error). " alt="" coords="232,70,397,111"/>
+</map>
