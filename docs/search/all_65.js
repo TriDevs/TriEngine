@@ -6,11 +6,7 @@ var searchData=
   ['engineexception_2ecs',['EngineException.cs',['../_engine_exception_8cs.html',1,'']]],
   ['enumerationextensions',['EnumerationExtensions',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_enumeration_extensions.html',1,'TriDevs::TriEngine::Extensions']]],
   ['enumerationextensions_2ecs',['EnumerationExtensions.cs',['../_enumeration_extensions_8cs.html',1,'']]],
-  ['enumerationextensiontests',['EnumerationExtensionTests',['../class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests.html',1,'TriDevs::TriEngine::Tests::ExtensionTests']]],
-  ['enumerationextensiontests_2ecs',['EnumerationExtensionTests.cs',['../_enumeration_extension_tests_8cs.html',1,'']]],
   ['equals',['Equals',['../struct_tri_devs_1_1_tri_engine_1_1_rectangle.html#a4c8f0bfa57e796a4f55cd3a216d153ee',1,'TriDevs::TriEngine::Rectangle']]],
-  ['exceptionhelpertests',['ExceptionHelperTests',['../class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests.html',1,'TriDevs::TriEngine::Tests::HelperTests']]],
-  ['exceptionhelpertests_2ecs',['ExceptionHelperTests.cs',['../_exception_helper_tests_8cs.html',1,'']]],
   ['exceptions',['Exceptions',['../class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_exceptions.html',1,'TriDevs::TriEngine::Helpers']]],
   ['exceptions_2ecs',['Exceptions.cs',['../_exceptions_8cs.html',1,'']]]
 ];

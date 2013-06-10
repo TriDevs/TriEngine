@@ -2,11 +2,9 @@ var hierarchy =
 [
     [ "TriDevs.TriEngine.Extensions.ByteExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_byte_extensions.html", null ],
     [ "TriDevs.TriEngine.Color", "struct_tri_devs_1_1_tri_engine_1_1_color.html", null ],
-    [ "TriDevs.TriEngine.Tests.ColorTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests.html", null ],
     [ "TriDevs.TriEngine.Extensions.DecimalExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_decimal_extensions.html", null ],
     [ "TriDevs.TriEngine.Extensions.DoubleExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_double_extensions.html", null ],
     [ "TriDevs.TriEngine.Extensions.EnumerationExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_enumeration_extensions.html", null ],
-    [ "TriDevs.TriEngine.Tests.ExtensionTests.EnumerationExtensionTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_enumeration_extension_tests.html", null ],
     [ "EventArgs", null, [
       [ "TriDevs.TriEngine.Input.Events.KeyCharEventArgs", "class_tri_devs_1_1_tri_engine_1_1_input_1_1_events_1_1_key_char_event_args.html", null ],
       [ "TriDevs.TriEngine.Input.Events.KeyEventArgs", "class_tri_devs_1_1_tri_engine_1_1_input_1_1_events_1_1_key_event_args.html", null ]
@@ -14,16 +12,12 @@ var hierarchy =
     [ "Exception", null, [
       [ "TriDevs.TriEngine.EngineException", "class_tri_devs_1_1_tri_engine_1_1_engine_exception.html", null ]
     ] ],
-    [ "TriDevs.TriEngine.Tests.HelperTests.ExceptionHelperTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests.html", null ],
     [ "TriDevs.TriEngine.Helpers.Exceptions", "class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_exceptions.html", null ],
     [ "TriDevs.TriEngine.Extensions.FloatExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_float_extensions.html", null ],
     [ "TriDevs.TriEngine.Text.Font", "class_tri_devs_1_1_tri_engine_1_1_text_1_1_font.html", null ],
     [ "TriDevs.TriEngine.Text.FontConstructionConfig", "class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html", null ],
-    [ "TriDevs.TriEngine.Tests.StateManagementTests.GameStateTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests.html", null ],
     [ "GameWindow", null, [
-      [ "TriDevs.TriEngine.GameWindow2D", "class_tri_devs_1_1_tri_engine_1_1_game_window2_d.html", [
-        [ "TriDevs.TriEngine.EngineTest.Window2DTest", "class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test.html", null ]
-      ] ]
+      [ "TriDevs.TriEngine.GameWindow2D", "class_tri_devs_1_1_tri_engine_1_1_game_window2_d.html", null ]
     ] ],
     [ "TriDevs.TriEngine.Native.Helpers", "class_tri_devs_1_1_tri_engine_1_1_native_1_1_helpers.html", null ],
     [ "IDisposable", null, [
@@ -89,15 +83,12 @@ var hierarchy =
     ] ],
     [ "TriDevs.TriEngine.Logging.LogManager", "class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager.html", null ],
     [ "TriDevs.TriEngine.Helpers.Math", "class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math.html", null ],
-    [ "TriDevs.TriEngine.Tests.HelperTests.MathHelperTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_math_helper_tests.html", null ],
     [ "TriDevs.TriEngine.Point< T >", "struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html", null ],
     [ "TriDevs.TriEngine.Resources", "class_tri_devs_1_1_tri_engine_1_1_resources.html", null ],
     [ "TriDevs.TriEngine.Serializing.Serializer", "class_tri_devs_1_1_tri_engine_1_1_serializing_1_1_serializer.html", null ],
     [ "TriDevs.TriEngine.Services", "class_tri_devs_1_1_tri_engine_1_1_services.html", null ],
     [ "TriDevs.TriEngine.Extensions.StringExtensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_string_extensions.html", null ],
-    [ "TriDevs.TriEngine.Tests.ExtensionTests.StringExtensionTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_extension_tests_1_1_string_extension_tests.html", null ],
     [ "TriDevs.TriEngine.Helpers.Threading", "class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading.html", null ],
-    [ "TriDevs.TriEngine.Tests.HelperTests.ThreadingHelperTests", "class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_threading_helper_tests.html", null ],
     [ "TriDevs.TriEngine.Extensions.Vector3Extensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html", null ],
     [ "TriDevs.TriEngine.Version", "class_tri_devs_1_1_tri_engine_1_1_version.html", null ],
     [ "TriDevs.TriEngine.Native.WinAPI", "class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html", null ]

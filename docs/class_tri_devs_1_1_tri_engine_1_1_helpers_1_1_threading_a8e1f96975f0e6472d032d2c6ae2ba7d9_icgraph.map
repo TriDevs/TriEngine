@@ -1,4 +1,0 @@
-<map id="TriDevs.TriEngine.Helpers.Threading.SetCurrentThreadName" name="TriDevs.TriEngine.Helpers.Threading.SetCurrentThreadName">
-<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_threading_helper_tests.html#a4bd93736e369a70e51b8399651f6f996" title="TriDevs.TriEngine.Tests.\lHelperTests.ThreadingHelperTests.\lShouldSetNameOfCurrentThread" alt="" coords="292,5,516,61"/>
-<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_threading_helper_tests.html#a536146a843a4ee479fae79fbece485c3" title="TriDevs.TriEngine.Tests.\lHelperTests.ThreadingHelperTests.\lShouldAbortSettingNameOfCurrentThread" alt="" coords="273,85,535,141"/>
-</map>
