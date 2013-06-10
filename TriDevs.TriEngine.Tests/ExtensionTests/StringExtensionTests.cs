@@ -10,7 +10,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         private const string FooString = "Foo Foo Foo";
 
         [Test]
-        public void ReplaceFirstCaseSensitive()
+        public void ShouldReplaceFirstWordCaseSensitive()
         {
             const string expected = "Bar Bar Baz";
             Assert.AreEqual(TestString.ReplaceFirst("Foo", "Bar"), expected);
@@ -18,7 +18,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void ReplaceFirstCaseInsensitive()
+        public void ShouldReplaceFirstWordCaseInsensitive()
         {
             const string expected = "Bar Bar Baz";
             Assert.AreEqual(TestString.ReplaceFirst("Foo", "Bar", true), expected);
@@ -26,7 +26,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void ReplaceAllCaseSensitive()
+        public void ShouldReplaceAllWordsCaseSensitive()
         {
             const string expected = "Bar Bar Bar";
             Assert.AreEqual(FooString.Replace("Foo", "Bar", false), expected);
@@ -34,7 +34,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void ReplaceAllCaseInsensitive()
+        public void ShouldReplaceAllWordsCaseInsensitive()
         {
             const string expected = "Bar Bar Bar";
             Assert.AreEqual(FooString.Replace("Foo", "Bar", true), expected);
@@ -42,7 +42,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void ReplaceTwoOccurrencesCaseSensitive()
+        public void ShouldReplaceFirstTwoOccurrencesCaseSensitive()
         {
             const string expected = "Bar Bar Foo";
             Assert.AreEqual(FooString.Replace("Foo", "Bar", 2), expected);
@@ -50,7 +50,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void ReplaceTwoOccurrencesCaseInsensitive()
+        public void ShouldReplaceFirstTwoOccurrencesCaseInsensitive()
         {
             const string expected = "Bar Bar Foo";
             Assert.AreEqual(FooString.Replace("Foo", "Bar", 2, true), expected);
