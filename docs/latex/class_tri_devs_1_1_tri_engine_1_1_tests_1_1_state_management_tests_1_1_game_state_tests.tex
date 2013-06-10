@@ -1,0 +1,318 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests}{\section{Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests}\index{Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests@{Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a841538b7dae7972981229471ce9d9a6c}{Should\-Add\-Component\-To\-Game\-State} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8ca615499f374f70c1e041ffd06955fd}{Should\-Remove\-Component\-From\-Game\-State} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_ae1b8a1233bdd034a6ca83ac3e12b68a4}{Should\-Remove\-All\-Components\-From\-Game\-State} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a3c59a601dd24b58015301a9e7e7767db}{Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a66ea115cd3c380e4ad8738bd40393a08}{Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a5fe0cfb0118f26a43891a2d644d978e9}{Should\-Only\-Have\-Exact\-Reference\-To\-Component} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_aa60a926b77a58f5551f845c2afd0a37c}{Should\-Have\-Component\-Of\-Type} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a76f254d2505a57a1dc0785ef7e64e320}{Should\-Have\-Component\-Matching\-Predicate} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a205304da4a98d7fb35cb825dc5686db9}{Should\-Return\-Component\-Of\-Type} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a650c8a2c32c5b18401ccbaeb18291c97}{Should\-Return\-Component\-Matching\-Predicate} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6edb9e3740880a5f05f2030ab5537d81}{Should\-Return\-All\-Component} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6aec1e8778ee3d8db03787a589bbc6ba}{Should\-Return\-All\-Components\-Of\-Type} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8c2a330d256c17db68a305d22cf0da13}{Should\-Return\-All\-Components\-Matching\-Predicate} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a841538b7dae7972981229471ce9d9a6c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Add\-Component\-To\-Game\-State@{Should\-Add\-Component\-To\-Game\-State}}
+\index{Should\-Add\-Component\-To\-Game\-State@{Should\-Add\-Component\-To\-Game\-State}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Add\-Component\-To\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Add\-Component\-To\-Game\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a841538b7dae7972981229471ce9d9a6c}
+
+\begin{DoxyCode}
+62         \{
+63             var state = \textcolor{keyword}{new} TestState();
+64             Assert.False(state.HasComponent(typeof (FooComponent)));
+65             var comp = state.AddComponent(\textcolor{keyword}{new} FooComponent());
+66             Assert.True(state.HasComponent(comp));
+67         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a76f254d2505a57a1dc0785ef7e64e320}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Have\-Component\-Matching\-Predicate@{Should\-Have\-Component\-Matching\-Predicate}}
+\index{Should\-Have\-Component\-Matching\-Predicate@{Should\-Have\-Component\-Matching\-Predicate}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Have\-Component\-Matching\-Predicate}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Have\-Component\-Matching\-Predicate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a76f254d2505a57a1dc0785ef7e64e320}
+
+\begin{DoxyCode}
+149         \{
+150             var state = \textcolor{keyword}{new} TestState();
+151             var fooComp = \textcolor{keyword}{new} FooComponent();
+152             state.AddComponent(fooComp);
+153             Assert.True(state.HasComponent(c => ((FooComponent)c).Test == \textcolor{stringliteral}{"Foo"}));
+154             Assert.False(state.HasComponent(c => ((FooComponent)c).Test == \textcolor{stringliteral}{"Bar"}));
+155         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_aa60a926b77a58f5551f845c2afd0a37c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Have\-Component\-Of\-Type@{Should\-Have\-Component\-Of\-Type}}
+\index{Should\-Have\-Component\-Of\-Type@{Should\-Have\-Component\-Of\-Type}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Have\-Component\-Of\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Have\-Component\-Of\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_aa60a926b77a58f5551f845c2afd0a37c}
+
+\begin{DoxyCode}
+139         \{
+140             var state = \textcolor{keyword}{new} TestState();
+141             var fooComp = \textcolor{keyword}{new} FooComponent();
+142             state.AddComponent(fooComp);
+143             Assert.True(state.HasComponent(typeof(FooComponent)));
+144             Assert.False(state.HasComponent(typeof(BarComponent)));
+145         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a5fe0cfb0118f26a43891a2d644d978e9}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Only\-Have\-Exact\-Reference\-To\-Component@{Should\-Only\-Have\-Exact\-Reference\-To\-Component}}
+\index{Should\-Only\-Have\-Exact\-Reference\-To\-Component@{Should\-Only\-Have\-Exact\-Reference\-To\-Component}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Only\-Have\-Exact\-Reference\-To\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Only\-Have\-Exact\-Reference\-To\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a5fe0cfb0118f26a43891a2d644d978e9}
+
+\begin{DoxyCode}
+128         \{
+129             var state = \textcolor{keyword}{new} TestState();
+130             var fooComp = \textcolor{keyword}{new} FooComponent();
+131             var fooComp2 = \textcolor{keyword}{new} FooComponent();
+132             state.AddComponent(fooComp);
+133             Assert.True(state.HasComponent(fooComp));
+134             Assert.False(state.HasComponent(fooComp2));
+135         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_ae1b8a1233bdd034a6ca83ac3e12b68a4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Remove\-All\-Components\-From\-Game\-State@{Should\-Remove\-All\-Components\-From\-Game\-State}}
+\index{Should\-Remove\-All\-Components\-From\-Game\-State@{Should\-Remove\-All\-Components\-From\-Game\-State}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Remove\-All\-Components\-From\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Remove\-All\-Components\-From\-Game\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_ae1b8a1233bdd034a6ca83ac3e12b68a4}
+
+\begin{DoxyCode}
+82         \{
+83             var state = \textcolor{keyword}{new} TestState();
+84             var fooComp1 = \textcolor{keyword}{new} FooComponent();
+85             var fooComp2 = \textcolor{keyword}{new} FooComponent();
+86             state.AddComponent(fooComp1);
+87             state.AddComponent(fooComp2);
+88             Assert.AreEqual(state.GetAllComponents().Count(), 2);
+89             state.RemoveAllComponents();
+90             Assert.IsEmpty(state.GetAllComponents());
+91         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a66ea115cd3c380e4ad8738bd40393a08}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State@{Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State}}
+\index{Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State@{Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Remove\-All\-Components\-Matching\-Predicate\-From\-Game\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a66ea115cd3c380e4ad8738bd40393a08}
+
+\begin{DoxyCode}
+108         \{
+109             var state = \textcolor{keyword}{new} TestState();
+110             var fooComp1 = \textcolor{keyword}{new} FooComponent();
+111             var fooComp2 = \textcolor{keyword}{new} FooComponent \{Test = \textcolor{stringliteral}{"NewFoo"}\};
+112             state.AddComponent(fooComp1);
+113             state.AddComponent(fooComp2);
+114             Assert.AreEqual(state.GetAllComponents().Count(), 2);
+115 
+116             \textcolor{comment}{// This is ok in this code, since we only have a FooComponent in the GameState}
+117             \textcolor{comment}{// at the moment. In production code we should probably cast c to FooComponent}
+118             \textcolor{comment}{// and make sure it's not null before checking the Test field.}
+119             state.RemoveAllComponents(c => ((FooComponent)c).Test == \textcolor{stringliteral}{"Foo"});
+120 
+121             \textcolor{comment}{// The component should only have one element left, as we changed the value of}
+122             \textcolor{comment}{// the Test field on one of the objects.}
+123             Assert.AreEqual(state.GetAllComponents().Count(), 1);
+124         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a3c59a601dd24b58015301a9e7e7767db}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State@{Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State}}
+\index{Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State@{Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Remove\-All\-Components\-Of\-Type\-From\-Game\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a3c59a601dd24b58015301a9e7e7767db}
+
+\begin{DoxyCode}
+95         \{
+96             var state = \textcolor{keyword}{new} TestState();
+97             var fooComp1 = \textcolor{keyword}{new} FooComponent();
+98             var fooComp2 = \textcolor{keyword}{new} FooComponent();
+99             state.AddComponent(fooComp1);
+100             state.AddComponent(fooComp2);
+101             Assert.AreEqual(state.GetAllComponents().Count(), 2);
+102             state.RemoveAllComponents(typeof (FooComponent));
+103             Assert.IsEmpty(state.GetAllComponents());
+104         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8ca615499f374f70c1e041ffd06955fd}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Remove\-Component\-From\-Game\-State@{Should\-Remove\-Component\-From\-Game\-State}}
+\index{Should\-Remove\-Component\-From\-Game\-State@{Should\-Remove\-Component\-From\-Game\-State}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Remove\-Component\-From\-Game\-State}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Remove\-Component\-From\-Game\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8ca615499f374f70c1e041ffd06955fd}
+
+\begin{DoxyCode}
+71         \{
+72             var state = \textcolor{keyword}{new} TestState();
+73             var fooComp = \textcolor{keyword}{new} FooComponent();
+74             state.AddComponent(fooComp);
+75             Assert.IsNotEmpty(state.GetAllComponents());
+76             state.RemoveComponent(fooComp);
+77             Assert.IsEmpty(state.GetAllComponents());
+78         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6edb9e3740880a5f05f2030ab5537d81}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Return\-All\-Component@{Should\-Return\-All\-Component}}
+\index{Should\-Return\-All\-Component@{Should\-Return\-All\-Component}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Return\-All\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Return\-All\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6edb9e3740880a5f05f2030ab5537d81}
+
+\begin{DoxyCode}
+190         \{
+191             var state = \textcolor{keyword}{new} TestState();
+192             var fooComp = \textcolor{keyword}{new} FooComponent();
+193             var customFoo = \textcolor{keyword}{new} FooComponent \{ Test = \textcolor{stringliteral}{"NewFoo"} \};
+194             var barComp = \textcolor{keyword}{new} BarComponent();
+195             var customBar = \textcolor{keyword}{new} BarComponent \{ Test = \textcolor{stringliteral}{"NewBar"} \};
+196             state.AddComponent(fooComp);
+197             state.AddComponent(customFoo);
+198             state.AddComponent(barComp);
+199             state.AddComponent(customBar);
+200             Assert.AreEqual(state.GetAllComponents().Count(), 4);
+201         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8c2a330d256c17db68a305d22cf0da13}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Return\-All\-Components\-Matching\-Predicate@{Should\-Return\-All\-Components\-Matching\-Predicate}}
+\index{Should\-Return\-All\-Components\-Matching\-Predicate@{Should\-Return\-All\-Components\-Matching\-Predicate}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Return\-All\-Components\-Matching\-Predicate}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Return\-All\-Components\-Matching\-Predicate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a8c2a330d256c17db68a305d22cf0da13}
+
+\begin{DoxyCode}
+220         \{
+221             var state = \textcolor{keyword}{new} TestState();
+222             var fooComp = \textcolor{keyword}{new} FooComponent();
+223             var customFoo = \textcolor{keyword}{new} FooComponent \{ Test = \textcolor{stringliteral}{"NewFoo"} \};
+224             var barComp = \textcolor{keyword}{new} BarComponent();
+225             var customBar = \textcolor{keyword}{new} BarComponent \{ Test = \textcolor{stringliteral}{"NewBar"} \};
+226             state.AddComponent(fooComp);
+227             state.AddComponent(customFoo);
+228             state.AddComponent(barComp);
+229             state.AddComponent(customBar);
+230 
+231             \textcolor{comment}{// We have to do some null checking, as we have both Foo and Bar components}
+232             \textcolor{comment}{// in the game state.}
+233 
+234             Assert.AreEqual(state.GetAllComponents(c =>
+235             \{
+236                 var f = c as FooComponent;
+237                 \textcolor{keywordflow}{return} f != null && f.Test == \textcolor{stringliteral}{"NewFoo"};
+238             \}).Count(), 1);
+239 
+240             Assert.IsEmpty(state.GetAllComponents(c =>
+241             \{
+242                 var f = c as FooComponent;
+243                 \textcolor{keywordflow}{return} f != null && f.Test == \textcolor{stringliteral}{"NewBar"};
+244             \}));
+245         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6aec1e8778ee3d8db03787a589bbc6ba}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Return\-All\-Components\-Of\-Type@{Should\-Return\-All\-Components\-Of\-Type}}
+\index{Should\-Return\-All\-Components\-Of\-Type@{Should\-Return\-All\-Components\-Of\-Type}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Return\-All\-Components\-Of\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Return\-All\-Components\-Of\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a6aec1e8778ee3d8db03787a589bbc6ba}
+
+\begin{DoxyCode}
+205         \{
+206             var state = \textcolor{keyword}{new} TestState();
+207             var fooComp = \textcolor{keyword}{new} FooComponent();
+208             var customFoo = \textcolor{keyword}{new} FooComponent \{ Test = \textcolor{stringliteral}{"NewFoo"} \};
+209             var barComp = \textcolor{keyword}{new} BarComponent();
+210             var customBar = \textcolor{keyword}{new} BarComponent \{ Test = \textcolor{stringliteral}{"NewBar"} \};
+211             state.AddComponent(fooComp);
+212             state.AddComponent(customFoo);
+213             state.AddComponent(barComp);
+214             state.AddComponent(customBar);
+215             Assert.AreEqual(state.GetAllComponents(typeof(FooComponent)).Count(), 2);
+216         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a650c8a2c32c5b18401ccbaeb18291c97}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Return\-Component\-Matching\-Predicate@{Should\-Return\-Component\-Matching\-Predicate}}
+\index{Should\-Return\-Component\-Matching\-Predicate@{Should\-Return\-Component\-Matching\-Predicate}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Return\-Component\-Matching\-Predicate}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Return\-Component\-Matching\-Predicate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a650c8a2c32c5b18401ccbaeb18291c97}
+
+\begin{DoxyCode}
+171         \{
+172             var state = \textcolor{keyword}{new} TestState();
+173             var fooComp = \textcolor{keyword}{new} FooComponent();
+174             var customFoo = \textcolor{keyword}{new} FooComponent \{ Test = \textcolor{stringliteral}{"NewFoo"} \};
+175             state.AddComponent(fooComp);
+176             state.AddComponent(customFoo);
+177 
+178             \textcolor{comment}{// We have to do some null checking, as we have both Foo and Bar components}
+179             \textcolor{comment}{// in the game state.}
+180 
+181             Assert.AreEqual(state.GetComponent(c =>
+182             \{
+183                 var cf = c as FooComponent;
+184                 \textcolor{keywordflow}{return} cf != null && cf.Test == \textcolor{stringliteral}{"NewFoo"};
+185             \}), customFoo);
+186         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a205304da4a98d7fb35cb825dc5686db9}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}!Should\-Return\-Component\-Of\-Type@{Should\-Return\-Component\-Of\-Type}}
+\index{Should\-Return\-Component\-Of\-Type@{Should\-Return\-Component\-Of\-Type}!TriDevs::TriEngine::Tests::StateManagementTests::GameStateTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-State\-Management\-Tests\-::\-Game\-State\-Tests}}
+\subsubsection[{Should\-Return\-Component\-Of\-Type}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-State\-Management\-Tests.\-Game\-State\-Tests.\-Should\-Return\-Component\-Of\-Type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_state_management_tests_1_1_game_state_tests_a205304da4a98d7fb35cb825dc5686db9}
+
+\begin{DoxyCode}
+159         \{
+160             var state = \textcolor{keyword}{new} TestState();
+161             var fooComp = \textcolor{keyword}{new} FooComponent();
+162             var customFoo = \textcolor{keyword}{new} FooComponent \{ Test = \textcolor{stringliteral}{"NewFoo"} \};
+163             state.AddComponent(fooComp);
+164             state.AddComponent(customFoo);
+165 
+166             Assert.IsInstanceOf<FooComponent>(state.GetComponent(typeof(FooComponent)));
+167         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine.\-Tests/\-State\-Management\-Tests/\hyperlink{_game_state_tests_8cs}{Game\-State\-Tests.\-cs}\end{DoxyCompactItemize}

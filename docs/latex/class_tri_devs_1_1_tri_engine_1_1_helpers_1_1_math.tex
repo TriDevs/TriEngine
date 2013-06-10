@@ -1,0 +1,384 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math}{\section{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math}\index{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math@{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math}}
+}
+
+
+Various helper methods for working with math.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static byte \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f954ed1093b528f99105bd8a6118100}{Clamp} (byte value, byte min, byte max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified byte between a minimum and maximum value. \end{DoxyCompactList}\item 
+static short \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_afe96bad9ca0c6f6666181b0967422fe0}{Clamp} (short value, short min, short max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified short between a minimum and maximum value. \end{DoxyCompactList}\item 
+static ushort \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a78d2b884ce34620f271ae846d6ff280b}{Clamp} (ushort value, ushort min, ushort max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified unsigned short between a minimum and maximum value. \end{DoxyCompactList}\item 
+static int \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a9c5e9c5176a465a9e76277b977f4917a}{Clamp} (int value, int min, int max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified integer between a minimum and maximum value. \end{DoxyCompactList}\item 
+static uint \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a08748ab6a39f02e42fac3f02328eae9c}{Clamp} (uint value, uint min, uint max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified unsigned integer between a minimum and maximum value. \end{DoxyCompactList}\item 
+static long \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f7d7eb5deaceed9fc0a180a2b9a43bb}{Clamp} (long value, long min, long max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified 64-\/bit integer between a minimum and maximum value. \end{DoxyCompactList}\item 
+static ulong \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a780b32cf6761161f71197f88ffe8e073}{Clamp} (ulong value, ulong min, ulong max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified 64-\/bit unsigned integer between a minimum and maximum value. \end{DoxyCompactList}\item 
+static float \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a95f317c05504d41f84e6b1bb19dd2fe4}{Clamp} (float value, float min, float max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified float between a minimum and maximum value. \end{DoxyCompactList}\item 
+static double \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a91165ec148c5bfbcedcdf8d2f36bbf3f}{Clamp} (double value, double min, double max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified double between a minimum and maximum value. \end{DoxyCompactList}\item 
+static decimal \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_ac74f18639491c7d04c75441691705200}{Clamp} (decimal value, decimal min, decimal max)
+\begin{DoxyCompactList}\small\item\em Clamps the specified decimal between a minimum and maximum value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Various helper methods for working with math. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f954ed1093b528f99105bd8a6118100}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static byte Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{byte}]{value, }
+\item[{byte}]{min, }
+\item[{byte}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f954ed1093b528f99105bd8a6118100}
+
+
+Clamps the specified byte between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified byte is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified byte is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the byte.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+41         \{
+42             \textcolor{keywordflow}{if} (min > max)
+43                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+44 
+45             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+46         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_afe96bad9ca0c6f6666181b0967422fe0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static short Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{short}]{value, }
+\item[{short}]{min, }
+\item[{short}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_afe96bad9ca0c6f6666181b0967422fe0}
+
+
+Clamps the specified short between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified short is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified short is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the short.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+56         \{
+57             \textcolor{keywordflow}{if} (min > max)
+58                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+59 
+60             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+61         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a78d2b884ce34620f271ae846d6ff280b}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static ushort Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{ushort}]{value, }
+\item[{ushort}]{min, }
+\item[{ushort}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a78d2b884ce34620f271ae846d6ff280b}
+
+
+Clamps the specified unsigned short between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified unsigned short is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified unsigned short is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the unsigned short.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+71         \{
+72             \textcolor{keywordflow}{if} (min > max)
+73                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+74 
+75             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+76         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a9c5e9c5176a465a9e76277b977f4917a}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static int Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{int}]{value, }
+\item[{int}]{min, }
+\item[{int}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a9c5e9c5176a465a9e76277b977f4917a}
+
+
+Clamps the specified integer between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified integer is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified integer is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the integer.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+86         \{
+87             \textcolor{keywordflow}{if} (min > max)
+88                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+89 
+90             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+91         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a08748ab6a39f02e42fac3f02328eae9c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static uint Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{uint}]{value, }
+\item[{uint}]{min, }
+\item[{uint}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a08748ab6a39f02e42fac3f02328eae9c}
+
+
+Clamps the specified unsigned integer between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified unsigned integer is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified unsigned integer is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the unsigned integer.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+101         \{
+102             \textcolor{keywordflow}{if} (min > max)
+103                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+104 
+105             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+106         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f7d7eb5deaceed9fc0a180a2b9a43bb}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static long Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{long}]{value, }
+\item[{long}]{min, }
+\item[{long}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a5f7d7eb5deaceed9fc0a180a2b9a43bb}
+
+
+Clamps the specified 64-\/bit integer between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified 64-\/bit integer is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified 64-\/bit integer is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the 64-\/bit integer.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+116         \{
+117             \textcolor{keywordflow}{if} (min > max)
+118                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+119 
+120             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+121         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a780b32cf6761161f71197f88ffe8e073}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static ulong Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{ulong}]{value, }
+\item[{ulong}]{min, }
+\item[{ulong}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a780b32cf6761161f71197f88ffe8e073}
+
+
+Clamps the specified 64-\/bit unsigned integer between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified 64-\/bit unsigned integer is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified 64-\/bit unsigned integer is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the 64-\/bit unsigned integer.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+131         \{
+132             \textcolor{keywordflow}{if} (min > max)
+133                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+134 
+135             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+136         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a95f317c05504d41f84e6b1bb19dd2fe4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static float Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{float}]{value, }
+\item[{float}]{min, }
+\item[{float}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a95f317c05504d41f84e6b1bb19dd2fe4}
+
+
+Clamps the specified float between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified float is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified float is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the float.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+146         \{
+147             \textcolor{keywordflow}{if} (min > max)
+148                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+149 
+150             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+151         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a91165ec148c5bfbcedcdf8d2f36bbf3f}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static double Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{double}]{value, }
+\item[{double}]{min, }
+\item[{double}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_a91165ec148c5bfbcedcdf8d2f36bbf3f}
+
+
+Clamps the specified double between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified double is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified double is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the double.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+161         \{
+162             \textcolor{keywordflow}{if} (min > max)
+163                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be greater than maximum value."}, \textcolor{stringliteral}{"min"});
+164 
+165             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+166         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_ac74f18639491c7d04c75441691705200}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}!Clamp@{Clamp}}
+\index{Clamp@{Clamp}!TriDevs::TriEngine::Helpers::Math@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Math}}
+\subsubsection[{Clamp}]{\setlength{\rightskip}{0pt plus 5cm}static decimal Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Math.\-Clamp (
+\begin{DoxyParamCaption}
+\item[{decimal}]{value, }
+\item[{decimal}]{min, }
+\item[{decimal}]{max}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_math_ac74f18639491c7d04c75441691705200}
+
+
+Clamps the specified decimal between a minimum and maximum value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to clamp.\\
+\hline
+{\em min} & If the specified decimal is below this value, then this will be returned.\\
+\hline
+{\em max} & If the specified decimal is above this value, then this will be returned.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The clamped value of the decimal.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+176         \{
+177             \textcolor{keywordflow}{if} (min > max)
+178                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} ArgumentException(\textcolor{stringliteral}{"Minimum value cannot be grater than maximum value."}, \textcolor{stringliteral}{"min"});
+179 
+180             \textcolor{keywordflow}{return} value < min ? min : (value > max ? max : value);
+181         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Helpers/\hyperlink{_math_8cs}{Math.\-cs}\end{DoxyCompactItemize}

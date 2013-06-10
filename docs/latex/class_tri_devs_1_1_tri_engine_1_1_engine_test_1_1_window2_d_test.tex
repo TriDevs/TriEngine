@@ -1,0 +1,195 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test}{\section{Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test}\index{Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test@{Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test}}
+}
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_abddc93d9c8a7a7bb32edcd78a5ef0860}{Main} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_af129342d5dd5f72bf80eeb0df114c1af}{On\-Update\-Frame} (Frame\-Event\-Args e)
+\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_a933ac31909d7fff29fae81fa16f1452b}{On\-Draw} (Frame\-Event\-Args e)
+\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_ac4e208e47b9882c823dac8fe707993b1}{On\-Unload} (Event\-Args e)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_abddc93d9c8a7a7bb32edcd78a5ef0860}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}!Main@{Main}}
+\index{Main@{Main}!TriDevs::TriEngine::EngineTest::Window2DTest@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}}
+\subsubsection[{Main}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test.\-Main (
+\begin{DoxyParamCaption}
+\item[{string\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_abddc93d9c8a7a7bb32edcd78a5ef0860}
+
+\begin{DoxyCode}
+29         \{
+30             \textcolor{keyword}{using} (var test = \textcolor{keyword}{new} Window2DTest())
+31             \{
+32                 test.Run(30.0);
+33             \}
+34         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_a933ac31909d7fff29fae81fa16f1452b}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}!On\-Draw@{On\-Draw}}
+\index{On\-Draw@{On\-Draw}!TriDevs::TriEngine::EngineTest::Window2DTest@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}}
+\subsubsection[{On\-Draw}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test.\-On\-Draw (
+\begin{DoxyParamCaption}
+\item[{Frame\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_a933ac31909d7fff29fae81fa16f1452b}
+
+
+Implements \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ace56fccc2852d47e7cba0e4469c282fe}{Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D}.
+
+
+\begin{DoxyCode}
+183         \{
+184             \_controlManager.\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_drawable_ac3ca4755140905755e8ad59d497447f0}{Draw}();
+185 
+186             \_text.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Draw}();
+187 
+188             \_triangle.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_primitive_a30aff7615e9c7662f21337db010a42fe}{Draw}();
+189             \_rectangle.Draw();
+190         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_ac4e208e47b9882c823dac8fe707993b1}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}!On\-Unload@{On\-Unload}}
+\index{On\-Unload@{On\-Unload}!TriDevs::TriEngine::EngineTest::Window2DTest@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}}
+\subsubsection[{On\-Unload}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test.\-On\-Unload (
+\begin{DoxyParamCaption}
+\item[{Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_ac4e208e47b9882c823dac8fe707993b1}
+
+\begin{DoxyCode}
+193         \{
+194             Console.WriteLine(\textcolor{stringliteral}{"UNLOAD!"});
+195 
+196             Services.Audio.Dispose();
+197 
+198             base.OnUnload(e);
+199         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_af129342d5dd5f72bf80eeb0df114c1af}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}!On\-Update\-Frame@{On\-Update\-Frame}}
+\index{On\-Update\-Frame@{On\-Update\-Frame}!TriDevs::TriEngine::EngineTest::Window2DTest@{Tri\-Devs\-::\-Tri\-Engine\-::\-Engine\-Test\-::\-Window2\-D\-Test}}
+\subsubsection[{On\-Update\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test.\-On\-Update\-Frame (
+\begin{DoxyParamCaption}
+\item[{Frame\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_af129342d5dd5f72bf80eeb0df114c1af}
+
+\begin{DoxyCode}
+110         \{
+111             base.OnUpdateFrame(e);
+112 
+113             Services.Input.Update();
+114 
+115             Title = \textcolor{keywordtype}{string}.Format(\textcolor{stringliteral}{"TriEngine2D Test X: \{0\}; Y: \{1\}; Mem: \{2\}"}, Services.Input.MouseX, 
+      Services.Input.MouseY, GetMemUsageString());
+116 
+117             \textcolor{keywordflow}{if} (!Focused)
+118                 \textcolor{keywordflow}{return};
+119 
+120             \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Number1))
+121             \{
+122                 \_activeSong = \textcolor{stringliteral}{"unknown1"};
+123                 Console.WriteLine(\textcolor{stringliteral}{"Selected song "} + \_activeSong);
+124             \}
+125             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Number2))
+126             \{
+127                 \_activeSong = \textcolor{stringliteral}{"call"};
+128                 Console.WriteLine(\textcolor{stringliteral}{"Selected song "} + \_activeSong);
+129             \}
+130             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Number3))
+131             \{
+132                 \_activeSong = \textcolor{stringliteral}{"pirates"};
+133                 Console.WriteLine(\textcolor{stringliteral}{"Selected song "} + \_activeSong);
+134             \}
+135 
+136             var song = Services.Audio.GetSong(\_activeSong);
+137 
+138             \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.P))
+139             \{
+140                 Console.WriteLine(\textcolor{stringliteral}{"Playing "} + \_activeSong);
+141                 song.Play();
+142             \}
+143             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.S))
+144             \{
+145                 Console.WriteLine(\textcolor{stringliteral}{"Stopping "} + \_activeSong);
+146                 song.Stop();
+147             \}
+148             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.U))
+149             \{
+150                 Console.WriteLine(\textcolor{stringliteral}{"Pausing "} + \_activeSong);
+151                 song.Pause();
+152             \}
+153             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.R))
+154             \{
+155                 Console.WriteLine(\textcolor{stringliteral}{"Resuming "} + \_activeSong);
+156                 song.Resume();
+157             \}
+158             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.L))
+159             \{
+160                 song.IsLooped = !song.IsLooped;
+161                 Console.WriteLine(\_activeSong + \textcolor{stringliteral}{" is \{0\} looping"}, song.IsLooped ? \textcolor{stringliteral}{"now"} : \textcolor{stringliteral}{"no longer"});
+162             \}
+163             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Minus))
+164             \{
+165                 song.Volume -= 0.1f;
+166                 Console.WriteLine(\textcolor{stringliteral}{"Volume of "} + \_activeSong + \textcolor{stringliteral}{" set to \{0\}"}, song.Volume);
+167             \}
+168             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Plus))
+169             \{
+170                 song.Volume += 0.1f;
+171                 Console.WriteLine(\textcolor{stringliteral}{"Volume of "} + \_activeSong + \textcolor{stringliteral}{" set to \{0\}"}, song.Volume);
+172             \}
+173 
+174             \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.Space))
+175                 Services.Audio.GetSound(\textcolor{stringliteral}{"test"}).Play();
+176             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (Services.Input.KeyPressed(Key.B))
+177                 Services.Audio.GetSound(\textcolor{stringliteral}{"test2"}).Play();
+178 
+179             \_controlManager.\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_updatable_a5392174d0eb92b04a0ef1908ce725f29}{Update}();
+180         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_af129342d5dd5f72bf80eeb0df114c1af_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine.\-Engine\-Test/\hyperlink{_window_test_8cs}{Window\-Test.\-cs}\end{DoxyCompactItemize}

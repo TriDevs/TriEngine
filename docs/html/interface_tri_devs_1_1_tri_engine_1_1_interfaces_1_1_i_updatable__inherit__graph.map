@@ -1,0 +1,14 @@
+<map id="TriDevs.TriEngine.Interfaces.IUpdatable" name="TriDevs.TriEngine.Interfaces.IUpdatable">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_game_component.html" title="A game component that can be added to IGameState objects. " alt="" coords="265,118,452,159"/>
+<area shape="rect" id="node8" href="$interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state.html" title="A game state that can be used with the game state manager. Represent a specific state of the game..." alt="" coords="241,231,477,273"/>
+<area shape="rect" id="node11" href="$interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state_manager.html" title="Game state manager that keeps track of the active game states and provides methods to control the sta..." alt="" coords="241,297,477,338"/>
+<area shape="rect" id="node13" href="$interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control.html" title="A UI control that can be drawn on screen and interacted with. " alt="" coords="265,363,452,389"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_drawable_game_component.html" title="A game component that can be added to GameState objects. Drawable game components also implement a dr..." alt="" coords="551,5,737,46"/>
+<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager.html" title="Manages various UI controls, automatically updating and drawing them to the screen. " alt="" coords="833,5,1020,46"/>
+<area shape="rect" id="node5" href="$class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager.html" title="Control manager to manage various UI controls for a game. " alt="" coords="1091,5,1274,46"/>
+<area shape="rect" id="node9" href="$class_tri_devs_1_1_tri_engine_1_1_state_management_1_1_game_state.html" title="Base GameState class that all other game states derive from, defines basic GameState behaviour..." alt="" coords="526,231,762,273"/>
+<area shape="rect" id="node12" href="$class_tri_devs_1_1_tri_engine_1_1_state_management_1_1_game_state_manager.html" title="Game state manager that keeps track of the active game states and provides methods to control the sta..." alt="" coords="526,297,762,338"/>
+<area shape="rect" id="node14" href="$class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control.html" title="Base control class that all other controls inherits from. Defines basic UI control behaviour..." alt="" coords="553,363,735,389"/>
+<area shape="rect" id="node15" href="$class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_label.html" title="A simple label to display text on the screen. " alt="" coords="840,363,1013,389"/>
+<area shape="rect" id="node16" href="$class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_link_label.html" title="A label that, when clicked, will open a URL. " alt="" coords="1099,355,1266,397"/>
+</map>

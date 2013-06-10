@@ -1,0 +1,134 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests}{\section{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests}\index{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests@{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a05213bd1f34dbb152608e048e6393af8}{Should\-Create\-Color\-With\-Alpha} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ad672f1cabfd4dc7db6ce18f885d87c91}{Should\-Make\-Byte\-Color\-Into\-White} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a3c5977409bd4be0f201265c1ddb4b500}{Should\-Convert\-To\-Vector3} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a2f6db1b26975a98b31fedb6bb624011a}{Should\-Convert\-To\-Vector4} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ac6c71954ab101514b844e092e2f29177}{Should\-Convert\-To\-Color4} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a881e7989fceced1960bd2deabcb5e5a6}{Should\-Return\-Valid\-Argb\-Value} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ac6c71954ab101514b844e092e2f29177}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Convert\-To\-Color4@{Should\-Convert\-To\-Color4}}
+\index{Should\-Convert\-To\-Color4@{Should\-Convert\-To\-Color4}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Convert\-To\-Color4}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Convert\-To\-Color4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ac6c71954ab101514b844e092e2f29177}
+
+\begin{DoxyCode}
+51         \{
+52             var color = \textcolor{keyword}{new} Color(0.1f, 0.2f, 0.3f, 0.4f);
+53             var color4 = color.ToColor4();
+54             Assert.AreEqual(color.R, color4.R, \textcolor{stringliteral}{"Red component mismatch!"});
+55             Assert.AreEqual(color.G, color4.G, \textcolor{stringliteral}{"Green component mismatch!"});
+56             Assert.AreEqual(color.B, color4.B, \textcolor{stringliteral}{"Blue component mismatch!"});
+57             Assert.AreEqual(color.A, color4.A, \textcolor{stringliteral}{"Alpha component mismatch!"});
+58         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a3c5977409bd4be0f201265c1ddb4b500}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Convert\-To\-Vector3@{Should\-Convert\-To\-Vector3}}
+\index{Should\-Convert\-To\-Vector3@{Should\-Convert\-To\-Vector3}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Convert\-To\-Vector3}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Convert\-To\-Vector3 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a3c5977409bd4be0f201265c1ddb4b500}
+
+\begin{DoxyCode}
+30         \{
+31             var color = \textcolor{keyword}{new} Color(0.1f, 0.2f, 0.3f);
+32             var vector = color.ToVector3();
+33             Assert.AreEqual(vector.X, color.R);
+34             Assert.AreEqual(vector.Y, color.G);
+35             Assert.AreEqual(vector.Z, color.B);
+36         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a2f6db1b26975a98b31fedb6bb624011a}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Convert\-To\-Vector4@{Should\-Convert\-To\-Vector4}}
+\index{Should\-Convert\-To\-Vector4@{Should\-Convert\-To\-Vector4}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Convert\-To\-Vector4}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Convert\-To\-Vector4 (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a2f6db1b26975a98b31fedb6bb624011a}
+
+\begin{DoxyCode}
+40         \{
+41             var color = \textcolor{keyword}{new} Color(0.1f, 0.2f, 0.3f, 0.4f);
+42             var vector = color.ToVector4();
+43             Assert.AreEqual(vector.X, color.R);
+44             Assert.AreEqual(vector.Y, color.G);
+45             Assert.AreEqual(vector.Z, color.B);
+46             Assert.AreEqual(vector.W, color.A);
+47         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a05213bd1f34dbb152608e048e6393af8}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Create\-Color\-With\-Alpha@{Should\-Create\-Color\-With\-Alpha}}
+\index{Should\-Create\-Color\-With\-Alpha@{Should\-Create\-Color\-With\-Alpha}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Create\-Color\-With\-Alpha}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Create\-Color\-With\-Alpha (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a05213bd1f34dbb152608e048e6393af8}
+
+\begin{DoxyCode}
+10         \{
+11             var color = \textcolor{keyword}{new} Color(0.1f, 0.2f, 0.3f, 0.4f);
+12             Assert.AreEqual(color.R, 0.1f);
+13             Assert.AreEqual(color.G, 0.2f);
+14             Assert.AreEqual(color.B, 0.3f);
+15             Assert.AreEqual(color.A, 0.4f);
+16         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ad672f1cabfd4dc7db6ce18f885d87c91}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Make\-Byte\-Color\-Into\-White@{Should\-Make\-Byte\-Color\-Into\-White}}
+\index{Should\-Make\-Byte\-Color\-Into\-White@{Should\-Make\-Byte\-Color\-Into\-White}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Make\-Byte\-Color\-Into\-White}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Make\-Byte\-Color\-Into\-White (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_ad672f1cabfd4dc7db6ce18f885d87c91}
+
+\begin{DoxyCode}
+20         \{
+21             var color = \textcolor{keyword}{new} Color(255, 255, 255);
+22             Assert.AreEqual(color.R, 1.0f);
+23             Assert.AreEqual(color.G, 1.0f);
+24             Assert.AreEqual(color.B, 1.0f);
+25             Assert.AreEqual(color.A, 1.0f);
+26         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a881e7989fceced1960bd2deabcb5e5a6}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}!Should\-Return\-Valid\-Argb\-Value@{Should\-Return\-Valid\-Argb\-Value}}
+\index{Should\-Return\-Valid\-Argb\-Value@{Should\-Return\-Valid\-Argb\-Value}!TriDevs::TriEngine::Tests::ColorTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Color\-Tests}}
+\subsubsection[{Should\-Return\-Valid\-Argb\-Value}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Color\-Tests.\-Should\-Return\-Valid\-Argb\-Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_color_tests_a881e7989fceced1960bd2deabcb5e5a6}
+
+\begin{DoxyCode}
+62         \{
+63             var color = \textcolor{keyword}{new} Color(0.1f, 0.2f, 0.3f, 0.4f);
+64             var color4 = color.ToColor4();
+65             var argb = color4.ToArgb();
+66             var expected =
+67                 (uint) (color4.A * byte.MaxValue) << 24 |
+68                 (uint) (color4.R * byte.MaxValue) << 16 |
+69                 (uint) (color4.G * byte.MaxValue) << 8 |
+70                 (uint) (color4.B * byte.MaxValue);
+71             Assert.AreEqual(unchecked((\textcolor{keywordtype}{int}) expected), argb);
+72         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine.\-Tests/\hyperlink{_color_tests_8cs}{Color\-Tests.\-cs}\end{DoxyCompactItemize}

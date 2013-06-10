@@ -1,0 +1,224 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object}{\section{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object}\index{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object@{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object}}
+}
+
+
+Implements the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object}{I\-Text\-Object} interface.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a75d145b0a63b4cfba96c6e546932730a}{Text\-Object} (string text, string font\-Name, Point$<$ int $>$ position=new Point$<$ int $>$(), Q\-Font\-Alignment alignment=Q\-Font\-Alignment.\-Centre)
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_acfbfc0b2b8ea2d28ea1c9cf15a187643}{Text\-Object} (string text, \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_font}{Font} font, Point$<$ int $>$ position=new Point$<$ int $>$(), Q\-Font\-Alignment alignment=Q\-Font\-Alignment.\-Centre)
+\begin{DoxyCompactList}\small\item\em Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object}{Text\-Object} instance. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draws this text object to screen with default parameters. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_aadfe21bb65b6f55b47062777a8178994}{Draw} (Point$<$ int $>$ position)
+\begin{DoxyCompactList}\small\item\em Draws this text object to a specific position on the screen specified by the supplied Point struct. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af36bac67ca19ddbd9a6a5d01841b5c8d}{Draw} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Draws this text oject to screen at the specified X/\-Y position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_font}{Font} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a325430b44bea322da0fb628336287098}{Font}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a7179c9aa04905b587827ba73c5c43cea}{Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a0b05792d9c7d5bb4cf5116bc2d6700a9}{Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Point$<$ int $>$ \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a2875cf8ae2489ddbf5dbc13457c1ccf4}{Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a734cf579ae63036f80f4915397271a10}{Bounds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Q\-Font\-Alignment \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a1dd71c94fe0ae82cf69d3488b1bef05c}{Alignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object}{I\-Text\-Object} interface. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a75d145b0a63b4cfba96c6e546932730a}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Text\-Object@{Text\-Object}}
+\index{Text\-Object@{Text\-Object}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Text\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Text\-Object (
+\begin{DoxyParamCaption}
+\item[{string}]{text, }
+\item[{string}]{font\-Name, }
+\item[{Point$<$ int $>$}]{position = {\ttfamily new~Point$<$int$>$()}, }
+\item[{Q\-Font\-Alignment}]{alignment = {\ttfamily QFontAlignment.Centre}}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a75d145b0a63b4cfba96c6e546932730a}
+
+\begin{DoxyCode}
+73             : \textcolor{keyword}{this}(text, Resources.GetFont(fontName), position, alignment)
+74         \{
+75             
+76         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_acfbfc0b2b8ea2d28ea1c9cf15a187643}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Text\-Object@{Text\-Object}}
+\index{Text\-Object@{Text\-Object}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Text\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Text\-Object (
+\begin{DoxyParamCaption}
+\item[{string}]{text, }
+\item[{{\bf Font}}]{font, }
+\item[{Point$<$ int $>$}]{position = {\ttfamily new~Point$<$int$>$()}, }
+\item[{Q\-Font\-Alignment}]{alignment = {\ttfamily QFontAlignment.Centre}}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_acfbfc0b2b8ea2d28ea1c9cf15a187643}
+
+
+Initializes a new \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object}{Text\-Object} instance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The initial text to set for this text object.\\
+\hline
+{\em font} & The font to use for this text object.\\
+\hline
+{\em position} & The intitial position of this text object.\\
+\hline
+{\em alignment} & The intitial alignment of the text in this text object.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+87         \{
+88             \textcolor{keywordflow}{if} (font == null)
+89                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Font supplied for TextObject is null!"}, \textcolor{keyword}{new} 
+      ArgumentNullException(\textcolor{stringliteral}{"font"}));
+90 
+91             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a0b05792d9c7d5bb4cf5116bc2d6700a9}{Text} = text;
+92             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a325430b44bea322da0fb628336287098}{Font} = font;
+93             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a2875cf8ae2489ddbf5dbc13457c1ccf4}{Position} = position;
+94             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a1dd71c94fe0ae82cf69d3488b1bef05c}{Alignment} = alignment;
+95         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}
+
+
+Draws this text object to screen with default parameters. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a97cdabe5df7c203503b91ebf7a6c42ad}{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object}.
+
+
+\begin{DoxyCode}
+104         \{
+105             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Draw}(\_vectorPos);
+106         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_aadfe21bb65b6f55b47062777a8178994}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+\item[{Point$<$ int $>$}]{position}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_aadfe21bb65b6f55b47062777a8178994}
+
+
+Draws this text object to a specific position on the screen specified by the supplied Point struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & Point class with X/\-Y coordinates.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_ad41a8d9fcf1fe46645aad68da230c18b}{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object}.
+
+
+\begin{DoxyCode}
+109         \{
+110             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Draw}(position.X, position.Y);
+111         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af36bac67ca19ddbd9a6a5d01841b5c8d}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af36bac67ca19ddbd9a6a5d01841b5c8d}
+
+
+Draws this text oject to screen at the specified X/\-Y position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_adb6766f846e2c116c2fecdec3c6aaeac}{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object}.
+
+
+\begin{DoxyCode}
+114         \{
+115             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Draw}(\textcolor{keyword}{new} Vector2(x, y));
+116         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a1dd71c94fe0ae82cf69d3488b1bef05c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Alignment@{Alignment}}
+\index{Alignment@{Alignment}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Alignment}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Font\-Alignment Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Alignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a1dd71c94fe0ae82cf69d3488b1bef05c}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a734cf579ae63036f80f4915397271a10}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Bounds}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rectangle} Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Bounds\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a734cf579ae63036f80f4915397271a10}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a7179c9aa04905b587827ba73c5c43cea}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Color@{Color}}
+\index{Color@{Color}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Color}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Color} Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Color\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a7179c9aa04905b587827ba73c5c43cea}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a325430b44bea322da0fb628336287098}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Font@{Font}}
+\index{Font@{Font}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Font} Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Font\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a325430b44bea322da0fb628336287098}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a2875cf8ae2489ddbf5dbc13457c1ccf4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Position@{Position}}
+\index{Position@{Position}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Position}]{\setlength{\rightskip}{0pt plus 5cm}Point$<$int$>$ Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a2875cf8ae2489ddbf5dbc13457c1ccf4}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a0b05792d9c7d5bb4cf5116bc2d6700a9}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}!Text@{Text}}
+\index{Text@{Text}!TriDevs::TriEngine::Text::TextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-Text\-Object}}
+\subsubsection[{Text}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object.\-Text\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_a0b05792d9c7d5bb4cf5116bc2d6700a9}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Text/\hyperlink{_text_object_8cs}{Text\-Object.\-cs}\end{DoxyCompactItemize}

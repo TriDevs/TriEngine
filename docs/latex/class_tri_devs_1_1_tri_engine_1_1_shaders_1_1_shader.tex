@@ -1,0 +1,166 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader}{\section{Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader}\index{Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader@{Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader}}
+}
+
+
+G\-L\-S\-L shader object loaded and compiled from a $\ast$.glsl shader file.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a8004bb8423bca0dda620f8e9e6341db0}{Shader} (string name, string file, Shader\-Type type)
+\begin{DoxyCompactList}\small\item\em Creates a new shader from specified G\-L\-S\-L source file. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b2c1cdc220e6d56bb4c9b8f7fa2dbbe}{Dispose} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a6c2188d32cf5447edf26587204028fa4}{Get\-Default\-Name} (string file)
+\begin{DoxyCompactList}\small\item\em Returns an auto-\/generated shader name based on the file name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly int \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{I\-D}
+\begin{DoxyCompactList}\small\item\em I\-D of the shader compiled by Open\-G\-L. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a23972333c28fdd8005cc9b747497f0ab}{Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The name of this shader object. \end{DoxyCompactList}\item 
+string \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0421c4a9222ee6d170eb083bc997766e}{File}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The file containing the source for this shader. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+G\-L\-S\-L shader object loaded and compiled from a $\ast$.glsl shader file. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a8004bb8423bca0dda620f8e9e6341db0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!Shader@{Shader}}
+\index{Shader@{Shader}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{Shader}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-Shader (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{file, }
+\item[{Shader\-Type}]{type}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a8004bb8423bca0dda620f8e9e6341db0}
+
+
+Creates a new shader from specified G\-L\-S\-L source file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name to give to this shader, or null to let constructor auto-\/generate a name based on the file name. \\
+\hline
+{\em file} & G\-L\-S\-L source to use.\\
+\hline
+{\em type} & The type of shader to create.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+63         \{
+64             \_file = file;
+65             \_name = name ?? \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a6c2188d32cf5447edf26587204028fa4}{GetDefaultName}(\_file);
+66             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{ID} = GL.CreateShader(type);
+67             var source = System.IO.File.ReadAllText(\_file);
+68             GL.ShaderSource(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{ID}, source);
+69             GL.CompileShader(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{ID});
+70         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b2c1cdc220e6d56bb4c9b8f7fa2dbbe}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b2c1cdc220e6d56bb4c9b8f7fa2dbbe}
+
+\begin{DoxyCode}
+83         \{
+84             GL.DeleteShader(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{ID});
+85         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a6c2188d32cf5447edf26587204028fa4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!Get\-Default\-Name@{Get\-Default\-Name}}
+\index{Get\-Default\-Name@{Get\-Default\-Name}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{Get\-Default\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static string Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-Get\-Default\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a6c2188d32cf5447edf26587204028fa4}
+
+
+Returns an auto-\/generated shader name based on the file name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The file name.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The auto-\/generated shader name.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+78         \{
+79             \textcolor{keywordflow}{return} Path.GetFileNameWithoutExtension(file);
+80         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!I\-D@{I\-D}}
+\index{I\-D@{I\-D}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{I\-D}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-I\-D}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0b76e92fedd5276309b1087489f15ed1}
+
+
+I\-D of the shader compiled by Open\-G\-L. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0421c4a9222ee6d170eb083bc997766e}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!File@{File}}
+\index{File@{File}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{File}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-File\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a0421c4a9222ee6d170eb083bc997766e}
+
+
+The file containing the source for this shader. 
+
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a23972333c28fdd8005cc9b747497f0ab}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}!Name@{Name}}
+\index{Name@{Name}!TriDevs::TriEngine::Shaders::Shader@{Tri\-Devs\-::\-Tri\-Engine\-::\-Shaders\-::\-Shader}}
+\subsubsection[{Name}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine.\-Shaders.\-Shader.\-Name\hspace{0.3cm}{\ttfamily [get]}}}\label{class_tri_devs_1_1_tri_engine_1_1_shaders_1_1_shader_a23972333c28fdd8005cc9b747497f0ab}
+
+
+The name of this shader object. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Shaders/\hyperlink{_shader_8cs}{Shader.\-cs}\end{DoxyCompactItemize}

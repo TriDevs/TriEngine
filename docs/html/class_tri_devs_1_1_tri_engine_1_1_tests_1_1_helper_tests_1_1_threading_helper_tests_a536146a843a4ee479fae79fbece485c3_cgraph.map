@@ -1,0 +1,3 @@
+<map id="TriDevs.TriEngine.Tests.HelperTests.ThreadingHelperTests.ShouldAbortSettingNameOfCurrentThread" name="TriDevs.TriEngine.Tests.HelperTests.ThreadingHelperTests.ShouldAbortSettingNameOfCurrentThread">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading.html#a8e1f96975f0e6472d032d2c6ae2ba7d9" title="Sets the name of the current thread, does nothing if the thread already has a name. " alt="" coords="318,13,535,54"/>
+</map>

@@ -1,0 +1,394 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager}{\section{Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager}\index{Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager@{Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager}}
+}
+
+
+Class to manage engine audio.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a87fb91e76fb20ceb35204dc4b755d0fd}{Audio\-Manager} ()
+\begin{DoxyCompactList}\small\item\em Creates a new instance of \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager}{Audio\-Manager}. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ac2178ef14673d624a13a13dc089c1ec2}{Dispose} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ab69a84df74dae9b250d8bbb062bd05b2}{Stop\-All} ()
+\begin{DoxyCompactList}\small\item\em Immediately stops all playback of sounds and songs. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound}{I\-Sound} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad81ae1b7d074183ac0424f795a7a1213}{Load\-Sound} (string name, string file, \hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_audio_a3e1817498a8306afd084903a967537ef}{Audio\-Format} format=Audio\-Format.\-Wav)
+\begin{DoxyCompactList}\small\item\em Loads a sound into the audio manager. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_af62a5fb8b964b687cc26feca23edc1ef}{Has\-Sound} (string name)
+\begin{DoxyCompactList}\small\item\em Returns a value indicating whether a sound with the specified name has been loaded into the audio manager. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound}{I\-Sound} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a39ccb0904481097723bec271ce4c720f}{Get\-Sound} (string name)
+\begin{DoxyCompactList}\small\item\em Gets the sound with the specified name. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad04c01eef431dfd0d25d7cc76fed0720}{Stop\-All\-Sounds} ()
+\begin{DoxyCompactList}\small\item\em Immediately stops playback of all sounds. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song}{I\-Song} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4e3e640920b01ea47e61b2228f5f516c}{Load\-Song} (string name, string file, \hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_audio_a3e1817498a8306afd084903a967537ef}{Audio\-Format} format=Audio\-Format.\-Ogg)
+\begin{DoxyCompactList}\small\item\em Load a song into the audio manager. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4718af183f587de26d9fb4babeb22ff0}{Has\-Song} (string name)
+\begin{DoxyCompactList}\small\item\em Returns a value indicating whether a song with the specified name has been loaded into the audio manager. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song}{I\-Song} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a5900884ef07947c0af22d317c6f67e0c}{Get\-Song} (string name)
+\begin{DoxyCompactList}\small\item\em Gets the song with the specified name. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a2d7f24c9b059f6b8bee6418973146993}{Stop\-All\-Songs} ()
+\begin{DoxyCompactList}\small\item\em Immediately stops playback of all songs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to manage engine audio. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a87fb91e76fb20ceb35204dc4b755d0fd}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Audio\-Manager@{Audio\-Manager}}
+\index{Audio\-Manager@{Audio\-Manager}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Audio\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Audio\-Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a87fb91e76fb20ceb35204dc4b755d0fd}
+
+
+Creates a new instance of \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager}{Audio\-Manager}. 
+
+
+\begin{DoxyCode}
+47         \{
+48             \_context = \textcolor{keyword}{new} AudioContext();
+49             \_oggStreamer = \textcolor{keyword}{new} OggStreamer();
+50             \_sounds = \textcolor{keyword}{new} List<ISound>();
+51             \_songs = \textcolor{keyword}{new} List<ISong>();
+52         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ac2178ef14673d624a13a13dc089c1ec2}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Dispose}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Dispose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ac2178ef14673d624a13a13dc089c1ec2}
+
+\begin{DoxyCode}
+55         \{
+56             \textcolor{keywordflow}{foreach} (var sound \textcolor{keywordflow}{in} \_sounds.Where(sound => sound != null))
+57                 sound.Dispose();
+58 
+59             \textcolor{keywordflow}{foreach} (var song \textcolor{keywordflow}{in} \_songs.Where(song => song != null))
+60                 song.Dispose();
+61 
+62             \textcolor{keywordflow}{if} (\_oggStreamer != null)
+63             \{
+64                 \_oggStreamer.Dispose();
+65                 \_oggStreamer = null;
+66             \}
+67             
+68             \textcolor{keywordflow}{if} (\_context != null)
+69             \{
+70                 \_context.Dispose();
+71                 \_context = null;
+72             \}
+73         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a5900884ef07947c0af22d317c6f67e0c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Get\-Song@{Get\-Song}}
+\index{Get\-Song@{Get\-Song}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Get\-Song}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Song} Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Get\-Song (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a5900884ef07947c0af22d317c6f67e0c}
+
+
+Gets the song with the specified name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the song to get.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An object implementing the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song}{I\-Song} interface, or null if no song matched the requested name. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a0265b18425d1921c7efb4d12ec7eccb3}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+132         \{
+133             \textcolor{keywordflow}{return} \_songs.FirstOrDefault(s => s.Name == name);
+134         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a39ccb0904481097723bec271ce4c720f}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Get\-Sound@{Get\-Sound}}
+\index{Get\-Sound@{Get\-Sound}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Get\-Sound}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Sound} Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Get\-Sound (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a39ccb0904481097723bec271ce4c720f}
+
+
+Gets the sound with the specified name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the sound to get.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An object implementing the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound}{I\-Sound} interface, or null if no sound matched the requested name. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a9011155a1fcaae04660066afa72b82f6}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+102         \{
+103             \textcolor{keywordflow}{return} \_sounds.FirstOrDefault(s => s.Name == name);
+104         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4718af183f587de26d9fb4babeb22ff0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Has\-Song@{Has\-Song}}
+\index{Has\-Song@{Has\-Song}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Has\-Song}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Has\-Song (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4718af183f587de26d9fb4babeb22ff0}
+
+
+Returns a value indicating whether a song with the specified name has been loaded into the audio manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to check for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the song has been loaded, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a2def1ff0941badf7d95bf49e7fa2261a}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+127         \{
+128             \textcolor{keywordflow}{return} \_songs.Any(s => s.Name == name);
+129         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_af62a5fb8b964b687cc26feca23edc1ef}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Has\-Sound@{Has\-Sound}}
+\index{Has\-Sound@{Has\-Sound}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Has\-Sound}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Has\-Sound (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_af62a5fb8b964b687cc26feca23edc1ef}
+
+
+Returns a value indicating whether a sound with the specified name has been loaded into the audio manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to check for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the sound has been loaded, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a5a0f5106c284ccb9c83cc04e36457a49}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+97         \{
+98             \textcolor{keywordflow}{return} \_sounds.Any(s => s.Name == name);
+99         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4e3e640920b01ea47e61b2228f5f516c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Load\-Song@{Load\-Song}}
+\index{Load\-Song@{Load\-Song}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Load\-Song}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Song} Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Load\-Song (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{file, }
+\item[{{\bf Audio\-Format}}]{format = {\ttfamily AudioFormat.Ogg}}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a4e3e640920b01ea47e61b2228f5f516c}
+
+
+Load a song into the audio manager. 
+
+If a song with the same name has already been loaded, it will be returned instead. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to assign to the new song object.\\
+\hline
+{\em file} & Path to the file that will be used.\\
+\hline
+{\em format} & Format of the file.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The resulting object implementing the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song}{I\-Song} interface.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a1352f516b9ec1b9cd322c157d0dd3cfe}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+112         \{
+113             var existing = \_songs.FirstOrDefault(s => s.Name == name);
+114             \textcolor{keywordflow}{if} (existing != null)
+115                 \textcolor{keywordflow}{return} existing;
+116 
+117             var loaded = \_songs.FirstOrDefault(s => s.File == file) != null;
+118             \textcolor{keywordflow}{if} (loaded)
+119                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"The song file \(\backslash\)""} + file + \textcolor{stringliteral}{"\(\backslash\)" has already been loaded under a
+       different name."});
+120 
+121             var song = \textcolor{keyword}{new} Song(name, file, format);
+122             \_songs.Add(song);
+123             \textcolor{keywordflow}{return} song;
+124         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad81ae1b7d074183ac0424f795a7a1213}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Load\-Sound@{Load\-Sound}}
+\index{Load\-Sound@{Load\-Sound}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Load\-Sound}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Sound} Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Load\-Sound (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{file, }
+\item[{{\bf Audio\-Format}}]{format = {\ttfamily AudioFormat.Wav}}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad81ae1b7d074183ac0424f795a7a1213}
+
+
+Loads a sound into the audio manager. 
+
+If a sound with the same name has already been loaded, it will be returned instead. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name to assign to the new sound object.\\
+\hline
+{\em file} & Path to the file that will be used.\\
+\hline
+{\em format} & The format of the file to load.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The resulting object implementing the \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound}{I\-Sound} interface.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a4f9892412bd2b05b20cdd60517181481}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+82         \{
+83             var existing = \_sounds.FirstOrDefault(s => s.Name == name);
+84             \textcolor{keywordflow}{if} (existing != null)
+85                 \textcolor{keywordflow}{return} existing;
+86 
+87             var loaded = \_sounds.FirstOrDefault(s => s.File == file) != null;
+88             \textcolor{keywordflow}{if} (loaded)
+89                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"The sound file \(\backslash\)""} + file + \textcolor{stringliteral}{"\(\backslash\)" has already been loaded under a
+       different name."});
+90 
+91             var sound = \textcolor{keyword}{new} Sound(name, file, format);
+92             \_sounds.Add(sound);
+93             \textcolor{keywordflow}{return} sound;
+94         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ab69a84df74dae9b250d8bbb062bd05b2}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Stop\-All@{Stop\-All}}
+\index{Stop\-All@{Stop\-All}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Stop\-All}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Stop\-All (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ab69a84df74dae9b250d8bbb062bd05b2}
+
+
+Immediately stops all playback of sounds and songs. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a2148566066e4700388c713f3c4c710af}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+76         \{
+77             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad04c01eef431dfd0d25d7cc76fed0720}{StopAllSounds}();
+78             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a2d7f24c9b059f6b8bee6418973146993}{StopAllSongs}();
+79         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a2d7f24c9b059f6b8bee6418973146993}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Stop\-All\-Songs@{Stop\-All\-Songs}}
+\index{Stop\-All\-Songs@{Stop\-All\-Songs}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Stop\-All\-Songs}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Stop\-All\-Songs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_a2d7f24c9b059f6b8bee6418973146993}
+
+
+Immediately stops playback of all songs. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a6f055c96d246f8122c7935dfbeb66cc0}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+137         \{
+138             \_songs.ForEach(s => s.Stop());
+139         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad04c01eef431dfd0d25d7cc76fed0720}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}!Stop\-All\-Sounds@{Stop\-All\-Sounds}}
+\index{Stop\-All\-Sounds@{Stop\-All\-Sounds}!TriDevs::TriEngine::Audio::AudioManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Audio\-::\-Audio\-Manager}}
+\subsubsection[{Stop\-All\-Sounds}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Audio.\-Audio\-Manager.\-Stop\-All\-Sounds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager_ad04c01eef431dfd0d25d7cc76fed0720}
+
+
+Immediately stops playback of all sounds. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager_a77c15b0eab9638436d5f7773c6fad61a}{Tri\-Devs.\-Tri\-Engine.\-Audio.\-I\-Audio\-Manager}.
+
+
+\begin{DoxyCode}
+107         \{
+108             \_sounds.ForEach(s => s.Stop());
+109         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Audio/\hyperlink{_audio_manager_8cs}{Audio\-Manager.\-cs}\end{DoxyCompactItemize}

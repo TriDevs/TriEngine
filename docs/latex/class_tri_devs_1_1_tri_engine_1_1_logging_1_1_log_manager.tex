@@ -1,0 +1,239 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager}{\section{Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager}\index{Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager@{Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager}}
+}
+
+
+Class to manage logging. I\-Log interfaces should be obtained from this class' methods, as opposed to calling default log4net methods.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_ae2ba7567853910a23da627a677d23785}{Load\-Config} (string file=null)
+\begin{DoxyCompactList}\small\item\em Load a config to use with log4net. \end{DoxyCompactList}\item 
+static I\-Log \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a19952b119ef4579d02616e78577dd5be}{Get\-Logger} (object sender)
+\begin{DoxyCompactList}\small\item\em Gets an I\-Log object for the specified object. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_abbc077826cba4e1ab1ca47c53ab74fc0}{Setup\-Console} ()
+\begin{DoxyCompactList}\small\item\em Set up a new console for this process. Will not set up a console if a debugger is attached. This method does nothing if D\-E\-B\-U\-G is not \#defined. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a5511d68a53c847514ac33b6f73d038b0}{Destroy\-Console} ()
+\begin{DoxyCompactList}\small\item\em Destroys the console associated with the process, if loaded. This method does nothing if D\-E\-B\-U\-G is not \#defined. \end{DoxyCompactList}\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a138b84f591d5fd6c556fa8102749166b}{Clear\-Old\-Logs} (int days\-Old=7, string logs\-Dir=\char`\"{}logs\char`\"{})
+\begin{DoxyCompactList}\small\item\em Clear logs that are older than the specified amount of days. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to manage logging. I\-Log interfaces should be obtained from this class' methods, as opposed to calling default log4net methods. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a138b84f591d5fd6c556fa8102749166b}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}!Clear\-Old\-Logs@{Clear\-Old\-Logs}}
+\index{Clear\-Old\-Logs@{Clear\-Old\-Logs}!TriDevs::TriEngine::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Clear\-Old\-Logs}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager.\-Clear\-Old\-Logs (
+\begin{DoxyParamCaption}
+\item[{int}]{days\-Old = {\ttfamily 7}, }
+\item[{string}]{logs\-Dir = {\ttfamily \char`\"{}logs\char`\"{}}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a138b84f591d5fd6c556fa8102749166b}
+
+
+Clear logs that are older than the specified amount of days. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em days\-Old} & Logs older than this amount of days will be deleted.\\
+\hline
+{\em logs\-Dir} & The directory to clear.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+136         \{
+137             var log = \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a19952b119ef4579d02616e78577dd5be}{GetLogger}(typeof(LogManager));
+138 
+139             log.InfoFormat(\textcolor{stringliteral}{">> ClearOldLogs(\{0\}, \(\backslash\)"\{1\}\(\backslash\)")"}, daysOld, logsDir);
+140 
+141             \textcolor{keywordflow}{if} (!Directory.Exists(logsDir))
+142             \{
+143                 log.InfoFormat(\textcolor{stringliteral}{"Directory \{0\} not found, no logs to clear"}, logsDir);
+144                 log.Info(\textcolor{stringliteral}{"<< ClearOldLogs()"});
+145                 \textcolor{keywordflow}{return};
+146             \}
+147 
+148             var now = DateTime.Now;
+149             var max = \textcolor{keyword}{new} TimeSpan(daysOld, 0, 0, 0);
+150             var count = 0;
+151             \textcolor{keywordflow}{foreach} (var file \textcolor{keywordflow}{in} from file \textcolor{keywordflow}{in} Directory.GetFiles(logsDir)
+152                                  let modTime = File.GetLastAccessTime(file)
+153                                  let age = now.Subtract(modTime)
+154                                  where age > max
+155                                  select file)
+156             \{
+157                 \textcolor{keywordflow}{try}
+158                 \{
+159                     File.Delete(file);
+160                     log.InfoFormat(\textcolor{stringliteral}{"Deleted old log file: \{0\}"}, file);
+161                     count++;
+162                 \}
+163                 \textcolor{keywordflow}{catch} (IOException ex)
+164                 \{
+165                     log.WarnFormat(\textcolor{stringliteral}{"Failed to delete log file: \{0\} (\{1\})"}, file, ex.Message);
+166                 \}
+167             \}
+168 
+169             log.InfoFormat(\textcolor{stringliteral}{"Done! Cleared \{0\} log files."}, count);
+170             log.Info(\textcolor{stringliteral}{"<< ClearOldLogs()"});
+171         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a5511d68a53c847514ac33b6f73d038b0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}!Destroy\-Console@{Destroy\-Console}}
+\index{Destroy\-Console@{Destroy\-Console}!TriDevs::TriEngine::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Destroy\-Console}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager.\-Destroy\-Console (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a5511d68a53c847514ac33b6f73d038b0}
+
+
+Destroys the console associated with the process, if loaded. This method does nothing if D\-E\-B\-U\-G is not \#defined. 
+
+
+\begin{DoxyCode}
+123         \{
+124 \textcolor{preprocessor}{#if DEBUG}
+125 \textcolor{preprocessor}{}            \textcolor{keywordflow}{if} (\_consoleLoaded)
+126                 \hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i}{WinAPI}.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i_a50bc62149edba1db3a60f837f8b6d106}{FreeConsole}();
+127 \textcolor{preprocessor}{#endif}
+128 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a5511d68a53c847514ac33b6f73d038b0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a19952b119ef4579d02616e78577dd5be}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}!Get\-Logger@{Get\-Logger}}
+\index{Get\-Logger@{Get\-Logger}!TriDevs::TriEngine::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Get\-Logger}]{\setlength{\rightskip}{0pt plus 5cm}static I\-Log Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager.\-Get\-Logger (
+\begin{DoxyParamCaption}
+\item[{object}]{sender}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a19952b119ef4579d02616e78577dd5be}
+
+
+Gets an I\-Log object for the specified object. 
+
+To get the logger object for a static class, or from static context, call Get\-Logger(typeof(\-Your\-Class)). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & The object or Type to get an I\-Log object for.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The I\-Log object.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+89         \{
+90             \textcolor{keywordflow}{if} (!\_loaded)
+91                 \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_ae2ba7567853910a23da627a677d23785}{LoadConfig}();
+92 
+93             \textcolor{keywordflow}{return} log4net.LogManager.GetLogger(sender.GetType().ToString() == \textcolor{stringliteral}{"System.RuntimeType"} ? (Type
+      )sender : sender.GetType());
+94         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_ae2ba7567853910a23da627a677d23785}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}!Load\-Config@{Load\-Config}}
+\index{Load\-Config@{Load\-Config}!TriDevs::TriEngine::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Load\-Config}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager.\-Load\-Config (
+\begin{DoxyParamCaption}
+\item[{string}]{file = {\ttfamily null}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_ae2ba7567853910a23da627a677d23785}
+
+
+Load a config to use with log4net. 
+
+Load\-Config will first try to load the specified file, if not null. If it is unable to find the specified file, it will call itself again with file set to null. If no file is specified, it will attempt to load a config file following the pattern\-: \char`\"{}(\-Assembly\-Name).\-config\char`\"{} If it is unable to load the config, it will default to Basic\-Configurator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The config file to load, null if automatic loading is preferred.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+57         \{
+58             \textcolor{keywordflow}{if} (file == null)
+59             \{
+60                 \textcolor{keywordflow}{if} (File.Exists(AppDomain.CurrentDomain.FriendlyName + \textcolor{stringliteral}{".config"}))
+61                     XmlConfigurator.Configure();
+62                 \textcolor{keywordflow}{else}
+63                     BasicConfigurator.Configure();
+64             \}
+65             \textcolor{keywordflow}{else}
+66             \{
+67                 \textcolor{keywordflow}{if} (File.Exists(file))
+68                     XmlConfigurator.Configure(\textcolor{keyword}{new} FileInfo(file));
+69                 \textcolor{keywordflow}{else}
+70                 \{
+71                     \hyperlink{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_ae2ba7567853910a23da627a677d23785}{LoadConfig}();
+72                     \textcolor{keywordflow}{return};
+73                 \}
+74             \}
+75 
+76             \_loaded = \textcolor{keyword}{true};
+77         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_abbc077826cba4e1ab1ca47c53ab74fc0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}!Setup\-Console@{Setup\-Console}}
+\index{Setup\-Console@{Setup\-Console}!TriDevs::TriEngine::Logging::LogManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-Logging\-::\-Log\-Manager}}
+\subsubsection[{Setup\-Console}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Logging.\-Log\-Manager.\-Setup\-Console (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_abbc077826cba4e1ab1ca47c53ab74fc0}
+
+
+Set up a new console for this process. Will not set up a console if a debugger is attached. This method does nothing if D\-E\-B\-U\-G is not \#defined. 
+
+
+\begin{DoxyCode}
+102         \{
+103 \textcolor{preprocessor}{#if DEBUG}
+104 \textcolor{preprocessor}{}            \textcolor{keywordflow}{if} (System.Diagnostics.Debugger.IsAttached)
+105                 \textcolor{keywordflow}{return};
+106 
+107             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i}{WinAPI}.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i_a8f3b12350e016e847f91d32521efd788}{AllocConsole}();
+108             var stdHandle = \hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i}{WinAPI}.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i_a10f79c8b3a9a2c4c5f7322333912cbed}{GetStdHandle}(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i}{WinAPI}.
+      \hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i_af25005f0e5e30af231f75210ad4bc09c}{STD\_OUTPUT\_HANDLE});
+109             var safeFileHandle = \textcolor{keyword}{new} SafeFileHandle(stdHandle, \textcolor{keyword}{true});
+110             var fileStream = \textcolor{keyword}{new} FileStream(safeFileHandle, FileAccess.Write);
+111             var encoding = Encoding.GetEncoding(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i}{WinAPI}.\hyperlink{class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i_adc3aadbeadf21e00eb044b0f15867203}{CODE\_PAGE});
+112             var stdOut = \textcolor{keyword}{new} StreamWriter(fileStream, encoding) \{ AutoFlush = \textcolor{keyword}{true} \};
+113             Console.SetOut(stdOut);
+114             \_consoleLoaded = \textcolor{keyword}{true};
+115 \textcolor{preprocessor}{#endif}
+116 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_abbc077826cba4e1ab1ca47c53ab74fc0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Logging/\hyperlink{_log_manager_8cs}{Log\-Manager.\-cs}\end{DoxyCompactItemize}

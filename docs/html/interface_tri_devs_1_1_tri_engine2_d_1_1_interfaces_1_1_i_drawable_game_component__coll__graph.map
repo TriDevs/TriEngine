@@ -1,5 +1,0 @@
-<map id="TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent" name="TriDevs.TriEngine2D.Interfaces.IDrawableGameComponent">
-<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_game_component.html" title="A game component that can be added to IGameState objects. " alt="" coords="5,80,131,107"/>
-<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="27,5,109,32"/>
-<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="155,80,233,107"/>
-</map>

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['textobject',['TextObject',['../class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object.html#ac5802fb2f68a2b4149767b3c143dfed4',1,'TriDevs.TriEngine2D.Text.TextObject.TextObject(string text, string fontName, Point&lt; int &gt; position=new Point&lt; int &gt;(), QFontAlignment alignment=QFontAlignment.Centre)'],['../class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_text_object.html#a4c2762cb2314aaff1c7f01bd1c93cff1',1,'TriDevs.TriEngine2D.Text.TextObject.TextObject(string text, Font font, Point&lt; int &gt; position=new Point&lt; int &gt;(), QFontAlignment alignment=QFontAlignment.Centre)']]],
-  ['tocolor4',['ToColor4',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ad45f3b764582e10cb8e0e47375a6f993',1,'TriDevs::TriEngine2D::Color']]],
-  ['tofloatarray',['ToFloatArray',['../class_tri_devs_1_1_tri_engine2_d_1_1_extensions_1_1_vector3_extensions.html#af175669e040ebf390b8128a21b552e49',1,'TriDevs::TriEngine2D::Extensions::Vector3Extensions']]],
-  ['tostring',['ToString',['../class_tri_devs_1_1_tri_engine2_d_1_1_text_1_1_font.html#a68347a3700cc1617cbc7b0d3eb498560',1,'TriDevs::TriEngine2D::Text::Font']]],
-  ['tovector3',['ToVector3',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#a0fa420642716c05e331154c47cb783e7',1,'TriDevs::TriEngine2D::Color']]],
-  ['tovector4',['ToVector4',['../struct_tri_devs_1_1_tri_engine2_d_1_1_color.html#ab35423a11d824b24afb63049f53d1868',1,'TriDevs::TriEngine2D::Color']]],
-  ['triangle',['Triangle',['../class_tri_devs_1_1_tri_engine2_d_1_1_graphics_1_1_triangle.html#aefb71ffe1cf81d7a7b9073aeb19fba1e',1,'TriDevs::TriEngine2D::Graphics::Triangle']]]
+  ['textobject',['TextObject',['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object.html#a75d145b0a63b4cfba96c6e546932730a',1,'TriDevs.TriEngine.Text.TextObject.TextObject(string text, string fontName, Point&lt; int &gt; position=new Point&lt; int &gt;(), QFontAlignment alignment=QFontAlignment.Centre)'],['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object.html#acfbfc0b2b8ea2d28ea1c9cf15a187643',1,'TriDevs.TriEngine.Text.TextObject.TextObject(string text, Font font, Point&lt; int &gt; position=new Point&lt; int &gt;(), QFontAlignment alignment=QFontAlignment.Centre)']]],
+  ['tocolor4',['ToColor4',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#add2dc2c8542f1209ae7b9db4ead2cff1',1,'TriDevs::TriEngine::Color']]],
+  ['tofloatarray',['ToFloatArray',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html#a7776099ffe75352e4604658a36815188',1,'TriDevs::TriEngine::Extensions::Vector3Extensions']]],
+  ['tostring',['ToString',['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_font.html#ab60bc463144b900144b0339f7b6c744b',1,'TriDevs::TriEngine::Text::Font']]],
+  ['tovector3',['ToVector3',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#aad4ad5d8764847e0bf3fb4ccb17a94b8',1,'TriDevs::TriEngine::Color']]],
+  ['tovector4',['ToVector4',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a64fe157316cbbb9722d30eecf2541e36',1,'TriDevs::TriEngine::Color']]],
+  ['triangle',['Triangle',['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_triangle.html#a489275e88b92e2d1245a1e93d1e852ab',1,'TriDevs::TriEngine::Graphics::Triangle']]]
 ];

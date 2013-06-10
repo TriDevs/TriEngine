@@ -1,0 +1,422 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager}{\section{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager}\index{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager@{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager}}
+}
+
+
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control}{Control} manager to manage various \hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_u_i}{U\-I} controls for a game.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_aaf52ddcc196fbbb0a856085e0d968508}{Control\-Manager} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of this control manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a78f9869b85195889aa8629578bee0542}{Enable} ()
+\begin{DoxyCompactList}\small\item\em Enables this game component. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a746de852afd57fa3da574a0e8697cbc0}{Disable} ()
+\begin{DoxyCompactList}\small\item\em Disables this game component. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a75a509f8757e2abc4e77e01984dae100}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates the object. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a34aa09aebabac8281866c783726213dd}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draw the object to screen. \end{DoxyCompactList}\item 
+\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ab96970bf405a0445c1e17cdbbc1e48a7}{Add\-Control} (\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control} control)
+\begin{DoxyCompactList}\small\item\em Adds a new control to this control manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a1ea14477960aee098283c0ac1f295e6f}{Remove\-Control} (\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control} control)
+\begin{DoxyCompactList}\small\item\em Removes a control from this control manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a38699c8cba1f875c28e55e6deb56bb82}{Remove\-All\-Controls} (Type type)
+\begin{DoxyCompactList}\small\item\em Removes all controls of a specific type from this control manager. \end{DoxyCompactList}\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ace8c2357f94e5e78d495ecb362e86684}{Remove\-All\-Controls} (Func$<$ \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control}, bool $>$ func)
+\begin{DoxyCompactList}\small\item\em Removes all controls matching the supplied predicate function. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{Has\-Control} (\hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control} control)
+\begin{DoxyCompactList}\small\item\em Returns whether this control manager contains the specified control. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a85655f6e42bb130ca4f86328c0b06bd0}{Has\-Control} (Type type)
+\begin{DoxyCompactList}\small\item\em Returns whether this control manager contains any control of the specified type. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a627a1c2a487dc45108417fb10296a26e}{Has\-Control} (Func$<$ \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control}{I\-Control}, bool $>$ func)
+\begin{DoxyCompactList}\small\item\em Returns whether this control manager contains any control matching the supplied predicate function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_acf10cfdfcefdba7bfa01f82581d9abc7}{Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control}{Control} manager to manage various \hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_u_i}{U\-I} controls for a game. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_aaf52ddcc196fbbb0a856085e0d968508}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Control\-Manager@{Control\-Manager}}
+\index{Control\-Manager@{Control\-Manager}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Control\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Control\-Manager (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_aaf52ddcc196fbbb0a856085e0d968508}
+
+
+Initializes a new instance of this control manager. 
+
+
+\begin{DoxyCode}
+53         \{
+54             \_controls = \textcolor{keyword}{new} List<IControl>();
+55         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ab96970bf405a0445c1e17cdbbc1e48a7}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Add\-Control@{Add\-Control}}
+\index{Add\-Control@{Add\-Control}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Add\-Control}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-Control} Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Add\-Control (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Control}}]{control}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ab96970bf405a0445c1e17cdbbc1e48a7}
+
+
+Adds a new control to this control manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & The control to add.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The control that was added.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_a43ce1b3fc24b4658643b7910d0e97b3b}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+78         \{
+79             \textcolor{keywordflow}{if} (\hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{HasControl}(control))
+80                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} InvalidOperationException(\textcolor{stringliteral}{"Cannot add a control more than once."});
+81             control.Enable();
+82             \_controls.Add(control);
+83             control.Show();
+84             \textcolor{keywordflow}{return} control;
+85         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ab96970bf405a0445c1e17cdbbc1e48a7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a746de852afd57fa3da574a0e8697cbc0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Disable@{Disable}}
+\index{Disable@{Disable}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Disable}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Disable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a746de852afd57fa3da574a0e8697cbc0}
+
+
+Disables this game component. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_game_component_aceaad156f42fe7bfc33a256e4f2bf4f7}{Tri\-Devs.\-Tri\-Engine.\-Interfaces.\-I\-Game\-Component}.
+
+
+\begin{DoxyCode}
+63         \{
+64             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_acf10cfdfcefdba7bfa01f82581d9abc7}{Enabled} = \textcolor{keyword}{false};
+65         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a34aa09aebabac8281866c783726213dd}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a34aa09aebabac8281866c783726213dd}
+
+
+Draw the object to screen. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_drawable_ac3ca4755140905755e8ad59d497447f0}{Tri\-Devs.\-Tri\-Engine.\-Interfaces.\-I\-Drawable}.
+
+
+\begin{DoxyCode}
+73         \{
+74             \_controls.ForEach(c => c.Draw());
+75         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a78f9869b85195889aa8629578bee0542}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Enable@{Enable}}
+\index{Enable@{Enable}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Enable}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Enable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a78f9869b85195889aa8629578bee0542}
+
+
+Enables this game component. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_game_component_a46af9ee42046dc4b9ceb64eec3ac19e0}{Tri\-Devs.\-Tri\-Engine.\-Interfaces.\-I\-Game\-Component}.
+
+
+\begin{DoxyCode}
+58         \{
+59             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_acf10cfdfcefdba7bfa01f82581d9abc7}{Enabled} = \textcolor{keyword}{true};
+60         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Has\-Control@{Has\-Control}}
+\index{Has\-Control@{Has\-Control}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Has\-Control}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Has\-Control (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Control}}]{control}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}
+
+
+Returns whether this control manager contains the specified control. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & The control to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the specified control exists in this control manager, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_a3bad94b57fceb189939c30c5ad1f120c}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+119         \{
+120             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{HasControl}(c => c == control);
+121         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a85655f6e42bb130ca4f86328c0b06bd0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Has\-Control@{Has\-Control}}
+\index{Has\-Control@{Has\-Control}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Has\-Control}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Has\-Control (
+\begin{DoxyParamCaption}
+\item[{Type}]{type}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a85655f6e42bb130ca4f86328c0b06bd0}
+
+
+Returns whether this control manager contains any control of the specified type. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The type to check.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if this control manager contains a control of the specified type, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_a65b1987e0c90394d922721b1d55e9b9d}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+124         \{
+125             \textcolor{keywordflow}{return} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{HasControl}(c => c.GetType() == type);
+126         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a627a1c2a487dc45108417fb10296a26e}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Has\-Control@{Has\-Control}}
+\index{Has\-Control@{Has\-Control}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Has\-Control}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Has\-Control (
+\begin{DoxyParamCaption}
+\item[{Func$<$ {\bf I\-Control}, bool $>$}]{func}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a627a1c2a487dc45108417fb10296a26e}
+
+
+Returns whether this control manager contains any control matching the supplied predicate function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & The predicate function.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if this control manager contains a control matching the specified predicate, false otherwise.
+\end{DoxyReturn}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_ab49c8d26784c2b23666bef031f24a9c9}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+129         \{
+130             \textcolor{keywordflow}{return} \_controls.Any(func);
+131         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a38699c8cba1f875c28e55e6deb56bb82}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Remove\-All\-Controls@{Remove\-All\-Controls}}
+\index{Remove\-All\-Controls@{Remove\-All\-Controls}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Remove\-All\-Controls}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Remove\-All\-Controls (
+\begin{DoxyParamCaption}
+\item[{Type}]{type}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a38699c8cba1f875c28e55e6deb56bb82}
+
+
+Removes all controls of a specific type from this control manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The type of control to remove.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_ae84c16c47a10cb7716092e5c85a73601}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+100         \{
+101             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a38699c8cba1f875c28e55e6deb56bb82}{RemoveAllControls}(c => c.GetType() == type);
+102         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ace8c2357f94e5e78d495ecb362e86684}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Remove\-All\-Controls@{Remove\-All\-Controls}}
+\index{Remove\-All\-Controls@{Remove\-All\-Controls}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Remove\-All\-Controls}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Remove\-All\-Controls (
+\begin{DoxyParamCaption}
+\item[{Func$<$ {\bf I\-Control}, bool $>$}]{func}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_ace8c2357f94e5e78d495ecb362e86684}
+
+
+Removes all controls matching the supplied predicate function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em func} & The predicate function to use.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_a42746539c1ca6c93d7369583ee6551db}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+105         \{
+106             var toRemove = \_controls.Where(func);
+107             var controls = toRemove as IList<IControl> ?? toRemove.ToList();
+108             \textcolor{keywordflow}{if} (controls.Count < 0)
+109                 \textcolor{keywordflow}{return};
+110             controls.ToList().ForEach(c =>
+111             \{
+112                 c.Hide();
+113                 c.Disable();
+114             \});
+115             \_controls.RemoveAll(c => func(c));
+116         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a1ea14477960aee098283c0ac1f295e6f}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Remove\-Control@{Remove\-Control}}
+\index{Remove\-Control@{Remove\-Control}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Remove\-Control}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Remove\-Control (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-Control}}]{control}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a1ea14477960aee098283c0ac1f295e6f}
+
+
+Removes a control from this control manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em control} & The control to remove.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager_ae053582b5b5743a75ea1b9b48e760432}{Tri\-Devs.\-Tri\-Engine.\-U\-I.\-I\-Control\-Manager}.
+
+
+\begin{DoxyCode}
+88         \{
+89             \textcolor{keywordflow}{if} (!\hyperlink{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a6f14e9b2218648c1ca0b1abe4bba53e4}{HasControl}(control))
+90                 \textcolor{keywordflow}{return};
+91             var match = \_controls.FirstOrDefault(c => c == control);
+92             \textcolor{keywordflow}{if} (match == null)
+93                 \textcolor{keywordflow}{return};
+94             match.Hide();
+95             match.Disable();
+96             \_controls.Remove(match);
+97         \}
+\end{DoxyCode}
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a1ea14477960aee098283c0ac1f295e6f_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a75a509f8757e2abc4e77e01984dae100}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Update@{Update}}
+\index{Update@{Update}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_a75a509f8757e2abc4e77e01984dae100}
+
+
+Updates the object. 
+
+
+
+Implements \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_updatable_a5392174d0eb92b04a0ef1908ce725f29}{Tri\-Devs.\-Tri\-Engine.\-Interfaces.\-I\-Updatable}.
+
+
+\begin{DoxyCode}
+68         \{
+69             \_controls.ForEach(c => c.Update());
+70         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_acf10cfdfcefdba7bfa01f82581d9abc7}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}!Enabled@{Enabled}}
+\index{Enabled@{Enabled}!TriDevs::TriEngine::UI::ControlManager@{Tri\-Devs\-::\-Tri\-Engine\-::\-U\-I\-::\-Control\-Manager}}
+\subsubsection[{Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-U\-I.\-Control\-Manager.\-Enabled\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager_acf10cfdfcefdba7bfa01f82581d9abc7}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-U\-I/\hyperlink{_control_manager_8cs}{Control\-Manager.\-cs}\end{DoxyCompactItemize}

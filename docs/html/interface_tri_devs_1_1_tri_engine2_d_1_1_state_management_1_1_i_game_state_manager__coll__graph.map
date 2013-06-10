@@ -1,4 +1,0 @@
-<map id="TriDevs.TriEngine2D.StateManagement.IGameStateManager" name="TriDevs.TriEngine2D.StateManagement.IGameStateManager">
-<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="21,5,104,32"/>
-<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine2_d_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="129,5,207,32"/>
-</map>

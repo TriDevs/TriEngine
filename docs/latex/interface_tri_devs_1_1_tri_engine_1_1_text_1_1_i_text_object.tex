@@ -1,0 +1,158 @@
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object}{\section{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object Interface Reference}
+\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object}\index{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object@{Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object}}
+}
+
+
+Implements methods to construct a text object and render it to screen.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a97cdabe5df7c203503b91ebf7a6c42ad}{Draw} ()
+\begin{DoxyCompactList}\small\item\em Draws this text object to screen with default parameters. \end{DoxyCompactList}\item 
+void \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_ad41a8d9fcf1fe46645aad68da230c18b}{Draw} (Point$<$ int $>$ position)
+\begin{DoxyCompactList}\small\item\em Draws this text object to a specific position on the screen specified by the supplied Point struct. \end{DoxyCompactList}\item 
+void \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_adb6766f846e2c116c2fecdec3c6aaeac}{Draw} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Draws this text oject to screen at the specified X/\-Y position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_font}{Font} \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a638f5e225cfe81ed5312d7b8ec18ffb3}{Font}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_font}{Font} font instance associated with this text object. \end{DoxyCompactList}\item 
+string \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a3174625e154cefa41e4ed4540e736035}{Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the text value of this text object. \end{DoxyCompactList}\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_aa4dc850c84434169ccd61eb6d895412a}{Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the color of the text. \end{DoxyCompactList}\item 
+Point$<$ int $>$ \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a2d3a38a11fd0a84360e32122668901ab}{Position}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the screen position of this text, in pixels. \end{DoxyCompactList}\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a145c9d010de6587d761db23074b61264}{Bounds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the bounds of this text object. \end{DoxyCompactList}\item 
+Q\-Font\-Alignment \hyperlink{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a11c5cec397c309fb33e948fecab11f61}{Alignment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a Q\-Font\-Alignment value to manage how this text is aligned on screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implements methods to construct a text object and render it to screen. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a97cdabe5df7c203503b91ebf7a6c42ad}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a97cdabe5df7c203503b91ebf7a6c42ad}
+
+
+Draws this text object to screen with default parameters. 
+
+
+
+Implemented in \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af7f35c49514fb7a6b8a92d56f2919c79}{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object}.
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_ad41a8d9fcf1fe46645aad68da230c18b}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+\item[{Point$<$ int $>$}]{position}
+\end{DoxyParamCaption}
+)}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_ad41a8d9fcf1fe46645aad68da230c18b}
+
+
+Draws this text object to a specific position on the screen specified by the supplied Point struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & Point class with X/\-Y coordinates.\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_aadfe21bb65b6f55b47062777a8178994}{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object}.
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_adb6766f846e2c116c2fecdec3c6aaeac}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Draw@{Draw}}
+\index{Draw@{Draw}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Draw (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_adb6766f846e2c116c2fecdec3c6aaeac}
+
+
+Draws this text oject to screen at the specified X/\-Y position. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_text_object_af36bac67ca19ddbd9a6a5d01841b5c8d}{Tri\-Devs.\-Tri\-Engine.\-Text.\-Text\-Object}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a11c5cec397c309fb33e948fecab11f61}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Alignment@{Alignment}}
+\index{Alignment@{Alignment}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Alignment}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Font\-Alignment Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Alignment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a11c5cec397c309fb33e948fecab11f61}
+
+
+Gets or sets a Q\-Font\-Alignment value to manage how this text is aligned on screen. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a145c9d010de6587d761db23074b61264}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Bounds}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Rectangle} Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Bounds\hspace{0.3cm}{\ttfamily [get]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a145c9d010de6587d761db23074b61264}
+
+
+Gets the bounds of this text object. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_aa4dc850c84434169ccd61eb6d895412a}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Color@{Color}}
+\index{Color@{Color}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Color}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Color} Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Color\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_aa4dc850c84434169ccd61eb6d895412a}
+
+
+Gets or sets the color of the text. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a638f5e225cfe81ed5312d7b8ec18ffb3}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Font@{Font}}
+\index{Font@{Font}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Font}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Font} Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Font\hspace{0.3cm}{\ttfamily [get]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a638f5e225cfe81ed5312d7b8ec18ffb3}
+
+
+Gets the \hyperlink{class_tri_devs_1_1_tri_engine_1_1_text_1_1_font}{Font} font instance associated with this text object. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a2d3a38a11fd0a84360e32122668901ab}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Position@{Position}}
+\index{Position@{Position}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Position}]{\setlength{\rightskip}{0pt plus 5cm}Point$<$int$>$ Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a2d3a38a11fd0a84360e32122668901ab}
+
+
+Gets or sets the screen position of this text, in pixels. 
+
+\hypertarget{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a3174625e154cefa41e4ed4540e736035}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}!Text@{Text}}
+\index{Text@{Text}!TriDevs::TriEngine::Text::ITextObject@{Tri\-Devs\-::\-Tri\-Engine\-::\-Text\-::\-I\-Text\-Object}}
+\subsubsection[{Text}]{\setlength{\rightskip}{0pt plus 5cm}string Tri\-Devs.\-Tri\-Engine.\-Text.\-I\-Text\-Object.\-Text\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{interface_tri_devs_1_1_tri_engine_1_1_text_1_1_i_text_object_a3174625e154cefa41e4ed4540e736035}
+
+
+Gets or sets the text value of this text object. 
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Text/\hyperlink{_i_text_object_8cs}{I\-Text\-Object.\-cs}\end{DoxyCompactItemize}

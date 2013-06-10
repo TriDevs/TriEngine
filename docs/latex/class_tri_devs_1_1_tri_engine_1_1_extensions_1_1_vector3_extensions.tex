@@ -1,0 +1,62 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions}{\section{Tri\-Devs.\-Tri\-Engine.\-Extensions.\-Vector3\-Extensions Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions}\index{Tri\-Devs.\-Tri\-Engine.\-Extensions.\-Vector3\-Extensions@{Tri\-Devs.\-Tri\-Engine.\-Extensions.\-Vector3\-Extensions}}
+}
+
+
+\hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_extensions}{Extensions} for Vector3.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static float\mbox{[}$\,$\mbox{]} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions_a7776099ffe75352e4604658a36815188}{To\-Float\-Array} (this Vector3\mbox{[}$\,$\mbox{]} vectors)
+\begin{DoxyCompactList}\small\item\em Converts an array of Vector3 into a float array (3 floats per vector). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{namespace_tri_devs_1_1_tri_engine_1_1_extensions}{Extensions} for Vector3. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions_a7776099ffe75352e4604658a36815188}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Extensions\-::\-Vector3\-Extensions@{Tri\-Devs\-::\-Tri\-Engine\-::\-Extensions\-::\-Vector3\-Extensions}!To\-Float\-Array@{To\-Float\-Array}}
+\index{To\-Float\-Array@{To\-Float\-Array}!TriDevs::TriEngine::Extensions::Vector3Extensions@{Tri\-Devs\-::\-Tri\-Engine\-::\-Extensions\-::\-Vector3\-Extensions}}
+\subsubsection[{To\-Float\-Array}]{\setlength{\rightskip}{0pt plus 5cm}static float \mbox{[}$\,$\mbox{]} Tri\-Devs.\-Tri\-Engine.\-Extensions.\-Vector3\-Extensions.\-To\-Float\-Array (
+\begin{DoxyParamCaption}
+\item[{this Vector3\mbox{[}$\,$\mbox{]}}]{vectors}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions_a7776099ffe75352e4604658a36815188}
+
+
+Converts an array of Vector3 into a float array (3 floats per vector). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em vectors} & The vector array to convert.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A float array representation of the vectors.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+40         \{
+41             var result = \textcolor{keyword}{new} \textcolor{keywordtype}{float}[3 * vectors.Length];
+42 
+43             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < vectors.Length; i++)
+44             \{
+45                 \textcolor{keywordtype}{int} index = i * 3;
+46 
+47                 result[index] = vectors[i].X;
+48                 result[index + 1] = vectors[i].Y;
+49                 result[index + 2] = vectors[i].Z;
+50             \}
+51 
+52             \textcolor{keywordflow}{return} result;
+53         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Extensions/\hyperlink{_vector3_extensions_8cs}{Vector3\-Extensions.\-cs}\end{DoxyCompactItemize}

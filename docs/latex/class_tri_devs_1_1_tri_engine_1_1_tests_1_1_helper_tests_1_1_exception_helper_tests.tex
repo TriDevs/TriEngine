@@ -1,0 +1,46 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests}{\section{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Helper\-Tests.\-Exception\-Helper\-Tests Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests}\index{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Helper\-Tests.\-Exception\-Helper\-Tests@{Tri\-Devs.\-Tri\-Engine.\-Tests.\-Helper\-Tests.\-Exception\-Helper\-Tests}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_a6e840f7952d6912d6fc6e945620ebe86}{Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic} ()
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_aaa03ed6518b19377787fb77bdcef81f3}{Should\-Throw\-Unmodified\-Engine\-Exception} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_a6e840f7952d6912d6fc6e945620ebe86}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests}!Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic@{Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic}}
+\index{Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic@{Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic}!TriDevs::TriEngine::Tests::HelperTests::ExceptionHelperTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests}}
+\subsubsection[{Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Helper\-Tests.\-Exception\-Helper\-Tests.\-Should\-Throw\-Engine\-Exception\-When\-Passed\-Generic (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_a6e840f7952d6912d6fc6e945620ebe86}
+
+\begin{DoxyCode}
+13         \{
+14             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_exceptions}{Exceptions}.Throw(\textcolor{keyword}{new} Exception());
+15         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_aaa03ed6518b19377787fb77bdcef81f3}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests}!Should\-Throw\-Unmodified\-Engine\-Exception@{Should\-Throw\-Unmodified\-Engine\-Exception}}
+\index{Should\-Throw\-Unmodified\-Engine\-Exception@{Should\-Throw\-Unmodified\-Engine\-Exception}!TriDevs::TriEngine::Tests::HelperTests::ExceptionHelperTests@{Tri\-Devs\-::\-Tri\-Engine\-::\-Tests\-::\-Helper\-Tests\-::\-Exception\-Helper\-Tests}}
+\subsubsection[{Should\-Throw\-Unmodified\-Engine\-Exception}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Tests.\-Helper\-Tests.\-Exception\-Helper\-Tests.\-Should\-Throw\-Unmodified\-Engine\-Exception (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_tri_devs_1_1_tri_engine_1_1_tests_1_1_helper_tests_1_1_exception_helper_tests_aaa03ed6518b19377787fb77bdcef81f3}
+
+\begin{DoxyCode}
+20         \{
+21             var ex = \textcolor{keyword}{new} EngineException(\textcolor{stringliteral}{"Original Exception Message"});
+22             \textcolor{comment}{// The message passed in as parameter shouldn't be used}
+23             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_exceptions}{Exceptions}.Throw(ex, \textcolor{stringliteral}{"New Exception Message"});
+24         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine.\-Tests/\-Helper\-Tests/\hyperlink{_exception_helper_tests_8cs}{Exception\-Helper\-Tests.\-cs}\end{DoxyCompactItemize}

@@ -1,0 +1,197 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d}{\section{Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d}\index{Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D@{Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D}}
+}
+
+
+Game window class specialized for drawing 2\-D graphics.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_tri_devs_1_1_tri_engine_1_1_game_window2_d__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{class_tri_devs_1_1_tri_engine_1_1_game_window2_d__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_adab390dc8d20c7e97a5250dae2ba5eb5}{Game\-Window2\-D} (int width, int height, string title, bool vsync=true)
+\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ae0d49eb7998763deb93494e4611dd595}{On\-Resize} (Event\-Args e)
+\item 
+override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a0b4bcb7122b225d8d1d3c8555eb9b96f}{On\-Load} (Event\-Args e)
+\item 
+sealed override void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6c67dcfa77a3cc0f3791ecd558de715a}{On\-Render\-Frame} (Frame\-Event\-Args e)
+\item 
+abstract void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ace56fccc2852d47e7cba0e4469c282fe}{On\-Draw} (Frame\-Event\-Args e)
+\item 
+void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a64a153dc9c2cb227dc0404924e532012}{Initialize} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6f526984765fe29865ec4d996099dbe5}{Clear\-Color}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Game window class specialized for drawing 2\-D graphics. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_adab390dc8d20c7e97a5250dae2ba5eb5}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!Game\-Window2\-D@{Game\-Window2\-D}}
+\index{Game\-Window2\-D@{Game\-Window2\-D}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{Game\-Window2\-D}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-Game\-Window2\-D (
+\begin{DoxyParamCaption}
+\item[{int}]{width, }
+\item[{int}]{height, }
+\item[{string}]{title, }
+\item[{bool}]{vsync = {\ttfamily true}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_adab390dc8d20c7e97a5250dae2ba5eb5}
+
+\begin{DoxyCode}
+49             : base(width, height, GraphicsMode.Default, title)
+50         \{
+51             VSync = vsync ? VSyncMode.On : VSyncMode.Off;
+52 
+53             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6f526984765fe29865ec4d996099dbe5}{ClearColor} = Color.\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color_a5109776f06564614216e7f23e5e54cbb}{CornflowerBlue};
+54         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a64a153dc9c2cb227dc0404924e532012}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}void Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a64a153dc9c2cb227dc0404924e532012}
+
+\begin{DoxyCode}
+92         \{
+93             \textcolor{keywordflow}{try}
+94             \{
+95                 GL.Viewport(0, 0, ClientRectangle.Width, ClientRectangle.Height);
+96 
+97                 GL.MatrixMode(MatrixMode.Projection);
+98 
+99                 GL.LoadIdentity();
+100 
+101                 GL.Ortho(0, ClientRectangle.Width - 1, ClientRectangle.Height - 1, 0, -1, 1);
+102 
+103                 GL.MatrixMode(MatrixMode.Modelview);
+104 
+105                 \textcolor{comment}{// Disable the Z-buffer, this is a 2D game window}
+106                 \textcolor{comment}{//GL.Disable(EnableCap.DepthTest);}
+107                 \textcolor{comment}{//GL.Disable(EnableCap.CullFace);}
+108                 GL.Enable(EnableCap.Blend);
+109                 GL.BlendEquation(BlendEquationMode.FuncAdd);
+110                 GL.BlendFunc(BlendingFactorSrc.SrcAlpha, BlendingFactorDest.OneMinusSrcAlpha);
+111                 \textcolor{comment}{//GL.PixelStore(PixelStoreParameter.UnpackAlignment, 1);}
+112                 \textcolor{comment}{//GL.RenderMode(RenderingMode.Render);}
+113 
+114                 GL.ClearColor(\hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6f526984765fe29865ec4d996099dbe5}{ClearColor}.\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color_add2dc2c8542f1209ae7b9db4ead2cff1}{ToColor4}());
+115             \}
+116             \textcolor{keywordflow}{catch} (Exception ex)
+117             \{
+118                 Helpers.Exceptions.Throw(ex, \textcolor{stringliteral}{"Initialization of 2D game window failed during OpenGL setup!"}
+      );
+119             \}
+120         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ace56fccc2852d47e7cba0e4469c282fe}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!On\-Draw@{On\-Draw}}
+\index{On\-Draw@{On\-Draw}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{On\-Draw}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-On\-Draw (
+\begin{DoxyParamCaption}
+\item[{Frame\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ace56fccc2852d47e7cba0e4469c282fe}
+
+
+Implemented in \hyperlink{class_tri_devs_1_1_tri_engine_1_1_engine_test_1_1_window2_d_test_a933ac31909d7fff29fae81fa16f1452b}{Tri\-Devs.\-Tri\-Engine.\-Engine\-Test.\-Window2\-D\-Test}.
+
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a0b4bcb7122b225d8d1d3c8555eb9b96f}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!On\-Load@{On\-Load}}
+\index{On\-Load@{On\-Load}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{On\-Load}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-On\-Load (
+\begin{DoxyParamCaption}
+\item[{Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a0b4bcb7122b225d8d1d3c8555eb9b96f}
+
+\begin{DoxyCode}
+72         \{
+73             base.OnLoad(e);
+74 
+75             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a64a153dc9c2cb227dc0404924e532012}{Initialize}();
+76         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6c67dcfa77a3cc0f3791ecd558de715a}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!On\-Render\-Frame@{On\-Render\-Frame}}
+\index{On\-Render\-Frame@{On\-Render\-Frame}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{On\-Render\-Frame}]{\setlength{\rightskip}{0pt plus 5cm}sealed override void Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-On\-Render\-Frame (
+\begin{DoxyParamCaption}
+\item[{Frame\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6c67dcfa77a3cc0f3791ecd558de715a}
+
+\begin{DoxyCode}
+79         \{
+80             base.OnRenderFrame(e);
+81 
+82             GL.Clear(ClearBufferMask.ColorBufferBit);
+83 
+84             \hyperlink{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ace56fccc2852d47e7cba0e4469c282fe}{OnDraw}(e);
+85 
+86             SwapBuffers();
+87         \}
+\end{DoxyCode}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ae0d49eb7998763deb93494e4611dd595}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!On\-Resize@{On\-Resize}}
+\index{On\-Resize@{On\-Resize}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{On\-Resize}]{\setlength{\rightskip}{0pt plus 5cm}override void Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-On\-Resize (
+\begin{DoxyParamCaption}
+\item[{Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_ae0d49eb7998763deb93494e4611dd595}
+
+\begin{DoxyCode}
+57         \{
+58             base.OnResize(e);
+59 
+60             GL.Viewport(0, 0, ClientRectangle.Width, ClientRectangle.Height);
+61 
+62             GL.MatrixMode(MatrixMode.Projection);
+63 
+64             GL.LoadIdentity();
+65 
+66             GL.Ortho(0, ClientRectangle.Width - 1, ClientRectangle.Height - 1, 0, -1, 1);
+67 
+68             GL.MatrixMode(MatrixMode.Modelview);
+69         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6f526984765fe29865ec4d996099dbe5}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}!Clear\-Color@{Clear\-Color}}
+\index{Clear\-Color@{Clear\-Color}!TriDevs::TriEngine::GameWindow2D@{Tri\-Devs\-::\-Tri\-Engine\-::\-Game\-Window2\-D}}
+\subsubsection[{Clear\-Color}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Color} Tri\-Devs.\-Tri\-Engine.\-Game\-Window2\-D.\-Clear\-Color\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}}\label{class_tri_devs_1_1_tri_engine_1_1_game_window2_d_a6f526984765fe29865ec4d996099dbe5}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\hyperlink{_game_window2_d_8cs}{Game\-Window2\-D.\-cs}\end{DoxyCompactItemize}

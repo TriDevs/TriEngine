@@ -1,0 +1,227 @@
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{\section{Tri\-Devs.\-Tri\-Engine.\-Rectangle Struct Reference}
+\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle}\index{Tri\-Devs.\-Tri\-Engine.\-Rectangle@{Tri\-Devs.\-Tri\-Engine.\-Rectangle}}
+}
+
+
+A rectangle representing an area in 2\-D space.  
+
+
+
+
+Inheritance diagram for Tri\-Devs.\-Tri\-Engine.\-Rectangle\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{struct_tri_devs_1_1_tri_engine_1_1_rectangle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Tri\-Devs.\-Tri\-Engine.\-Rectangle\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_tri_devs_1_1_tri_engine_1_1_rectangle__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab1c4ed209c8c80200f13759e6749405c}{Rectangle} (Point$<$ int $>$ position, Point$<$ int $>$ size, \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color}?color=null)
+\begin{DoxyCompactList}\small\item\em Initializes a new \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} with position and size based on two point objects. \end{DoxyCompactList}\item 
+\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ad5c2f3ee0e275c7e84faee50dc645119}{Rectangle} (int x, int y, int width, int height, \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color}?color=null)
+\begin{DoxyCompactList}\small\item\em Initializes a new rectangle with specified position and size. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_af80938259f3834c2ffd5535ca4e1d455}{Intersects} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} other)
+\begin{DoxyCompactList}\small\item\em Returns whether this rectangle is intersecting with another rectangle. \end{DoxyCompactList}\item 
+bool \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a4c8f0bfa57e796a4f55cd3a216d153ee}{Equals} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} other)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+readonly int \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X}
+\begin{DoxyCompactList}\small\item\em The X position of this rectangle, in screen pixels. \end{DoxyCompactList}\item 
+readonly int \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y}
+\begin{DoxyCompactList}\small\item\em The Y position of this rectangle, in screen pixels. \end{DoxyCompactList}\item 
+readonly int \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{Width}
+\begin{DoxyCompactList}\small\item\em The width of this rectangle in pixels. \end{DoxyCompactList}\item 
+readonly int \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{Height}
+\begin{DoxyCompactList}\small\item\em The height of this rectangle in pixels. \end{DoxyCompactList}\item 
+readonly \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7d89328df1188361322d0266c3e9c472}{Color}
+\begin{DoxyCompactList}\small\item\em Optional color of this rectangle, if it is to be drawn onto the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A rectangle representing an area in 2\-D space. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab1c4ed209c8c80200f13759e6749405c}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Rectangle}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Rectangle (
+\begin{DoxyParamCaption}
+\item[{Point$<$ int $>$}]{position, }
+\item[{Point$<$ int $>$}]{size, }
+\item[{{\bf Color}?}]{color = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab1c4ed209c8c80200f13759e6749405c}
+
+
+Initializes a new \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} with position and size based on two point objects. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & The point to get position from.\\
+\hline
+{\em size} & The point to get width and height from.\\
+\hline
+{\em color} & \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} of this rectangle, set to null for default color of black.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+66             : \textcolor{keyword}{this}(position.X, position.Y, size.X, size.Y, color)
+67         \{
+68             
+69         \}
+\end{DoxyCode}
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ad5c2f3ee0e275c7e84faee50dc645119}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Rectangle}]{\setlength{\rightskip}{0pt plus 5cm}Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Rectangle (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y, }
+\item[{int}]{width, }
+\item[{int}]{height, }
+\item[{{\bf Color}?}]{color = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ad5c2f3ee0e275c7e84faee50dc645119}
+
+
+Initializes a new rectangle with specified position and size. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X-\/position of this rectangle, in screen pixels.\\
+\hline
+{\em y} & Y-\/position of this rectangle, in screen pixels.\\
+\hline
+{\em width} & Width of this rectangle, in pixels.\\
+\hline
+{\em height} & Height of this rectangle, in pixels.\\
+\hline
+{\em color} & \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color}{Color} of this rectangle, set to null for default color of black.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+80         \{
+81             \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} = x;
+82             \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} = y;
+83             \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{Width} = width;
+84             \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{Height} = height;
+85             \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7d89328df1188361322d0266c3e9c472}{Color} = color.HasValue ? color.Value : \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7d89328df1188361322d0266c3e9c472}{Color}.\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_color_a352957b410f8cc32fd4b63e6b521e230}{Black};
+86         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a4c8f0bfa57e796a4f55cd3a216d153ee}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Equals@{Equals}}
+\index{Equals@{Equals}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Equals}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Equals (
+\begin{DoxyParamCaption}
+\item[{{\bf Rectangle}}]{other}
+\end{DoxyParamCaption}
+)}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a4c8f0bfa57e796a4f55cd3a216d153ee}
+
+\begin{DoxyCode}
+114         \{
+115             \textcolor{keywordflow}{return} \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} == other.X && \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} == other.Y && \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{Width} == other.Width && 
+      \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{Height} == other.Height;
+116         \}
+\end{DoxyCode}
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_af80938259f3834c2ffd5535ca4e1d455}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Intersects@{Intersects}}
+\index{Intersects@{Intersects}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Intersects}]{\setlength{\rightskip}{0pt plus 5cm}bool Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Intersects (
+\begin{DoxyParamCaption}
+\item[{{\bf Rectangle}}]{other}
+\end{DoxyParamCaption}
+)}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_af80938259f3834c2ffd5535ca4e1d455}
+
+
+Returns whether this rectangle is intersecting with another rectangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle}{Rectangle} to check against.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if this rectangle is intersecting with the other rectangle, false otherwise.
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+94         \{
+95             \textcolor{keywordflow}{if} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a4c8f0bfa57e796a4f55cd3a216d153ee}{Equals}(other))
+96                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+97 
+98             \textcolor{keywordflow}{if} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} >= other.X && (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} + \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{Width}) <= (other.X + other.Width))
+99                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+100 
+101             \textcolor{keywordflow}{if} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} < other.X && (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{X} + \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{Width}) >= other.X)
+102                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+103 
+104             \textcolor{keywordflow}{if} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} >= other.Y && (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} + \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{Height}) <= (other.Y + other.Height))
+105                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+106 
+107             \textcolor{keywordflow}{if} (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} < other.Y && (\hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{Y} + \hyperlink{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{Height}) >= other.Y)
+108                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+109 
+110             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+111         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7d89328df1188361322d0266c3e9c472}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Color@{Color}}
+\index{Color@{Color}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Color}]{\setlength{\rightskip}{0pt plus 5cm}readonly {\bf Color} Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Color}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7d89328df1188361322d0266c3e9c472}
+
+
+Optional color of this rectangle, if it is to be drawn onto the screen. 
+
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Height@{Height}}
+\index{Height@{Height}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Height}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Height}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_ab658107474a933269cab1d3dcbb46cf0}
+
+
+The height of this rectangle in pixels. 
+
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Width@{Width}}
+\index{Width@{Width}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Width}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Width}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a290425f699b44898216275f26b585bf0}
+
+
+The width of this rectangle in pixels. 
+
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!X@{X}}
+\index{X@{X}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{X}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-X}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_a7aa76fc1fe420a06617ed0642f4aaca0}
+
+
+The X position of this rectangle, in screen pixels. 
+
+\hypertarget{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}!Y@{Y}}
+\index{Y@{Y}!TriDevs::TriEngine::Rectangle@{Tri\-Devs\-::\-Tri\-Engine\-::\-Rectangle}}
+\subsubsection[{Y}]{\setlength{\rightskip}{0pt plus 5cm}readonly int Tri\-Devs.\-Tri\-Engine.\-Rectangle.\-Y}}\label{struct_tri_devs_1_1_tri_engine_1_1_rectangle_acca174d01cbb82151fc769fcaf7a97e4}
+
+
+The Y position of this rectangle, in screen pixels. 
+
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\hyperlink{_rectangle_8cs}{Rectangle.\-cs}\end{DoxyCompactItemize}

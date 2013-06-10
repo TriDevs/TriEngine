@@ -1,0 +1,63 @@
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading}{\section{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Threading Class Reference}
+\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading}\index{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Threading@{Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Threading}}
+}
+
+
+Provides various helper functions for doing threading operations.  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading_a8e1f96975f0e6472d032d2c6ae2ba7d9}{Set\-Current\-Thread\-Name} (string name)
+\begin{DoxyCompactList}\small\item\em Sets the name of the current thread, does nothing if the thread already has a name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Provides various helper functions for doing threading operations. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading_a8e1f96975f0e6472d032d2c6ae2ba7d9}{\index{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Threading@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Threading}!Set\-Current\-Thread\-Name@{Set\-Current\-Thread\-Name}}
+\index{Set\-Current\-Thread\-Name@{Set\-Current\-Thread\-Name}!TriDevs::TriEngine::Helpers::Threading@{Tri\-Devs\-::\-Tri\-Engine\-::\-Helpers\-::\-Threading}}
+\subsubsection[{Set\-Current\-Thread\-Name}]{\setlength{\rightskip}{0pt plus 5cm}static void Tri\-Devs.\-Tri\-Engine.\-Helpers.\-Threading.\-Set\-Current\-Thread\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading_a8e1f96975f0e6472d032d2c6ae2ba7d9}
+
+
+Sets the name of the current thread, does nothing if the thread already has a name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The new name for the current thread\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{comment}{// We can't set the name on a thread if it's already set, it would throw an exception}
+41             \textcolor{comment}{// So we have to check if the current name is null before trying to set a new one}
+42             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrEmpty(Thread.CurrentThread.Name))
+43                 Thread.CurrentThread.Name = name;
+44         \}
+\end{DoxyCode}
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_threading_a8e1f96975f0e6472d032d2c6ae2ba7d9_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Tri\-Devs.\-Tri\-Engine/\-Helpers/\hyperlink{_threading_8cs}{Threading.\-cs}\end{DoxyCompactItemize}

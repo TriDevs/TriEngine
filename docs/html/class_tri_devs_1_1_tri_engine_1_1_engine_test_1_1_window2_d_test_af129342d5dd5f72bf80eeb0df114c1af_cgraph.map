@@ -1,0 +1,8 @@
+<map id="TriDevs.TriEngine.EngineTest.Window2DTest.OnUpdateFrame" name="TriDevs.TriEngine.EngineTest.Window2DTest.OnUpdateFrame">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_input_1_1_i_input_manager.html#a89d08a72cfcff02e73df274bc2855377" title="Updates the input manager, refreshing all current and previous states. " alt="" coords="301,5,459,46"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_input_1_1_i_input_manager.html#af2d3ea5813f87d62135938f59b63240e" title="Returns whether or not the specified key has been pressed. " alt="" coords="291,70,469,111"/>
+<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager.html#a0265b18425d1921c7efb4d12ec7eccb3" title="Gets the song with the specified name. " alt="" coords="299,135,461,177"/>
+<area shape="rect" id="node5" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#af0ef0365ddb942ab4ac5a029b2f377c6" title="Starts playback of the song. " alt="" coords="299,201,461,242"/>
+<area shape="rect" id="node6" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager.html#a9011155a1fcaae04660066afa72b82f6" title="Gets the sound with the specified name. " alt="" coords="295,266,465,307"/>
+<area shape="rect" id="node7" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound.html#aebcbc90990e32b903d2fda6d9fbe618a" title="Plays the sound. " alt="" coords="299,331,461,373"/>
+</map>

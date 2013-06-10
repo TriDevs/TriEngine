@@ -41,7 +41,7 @@ namespace TriDevs.TriEngine
         /// <summary>
         /// Patch version of the project.
         /// </summary>
-        public const int Patch = 14;
+        public const int Patch = 15;
 
         /// <summary>
         /// Optional suffix, empty if no suffix for this version.

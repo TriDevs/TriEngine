@@ -1,4 +1,0 @@
-<map id="TriDevs.TriEngine2D.Audio.ISound" name="TriDevs.TriEngine2D.Audio.ISound">
-<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_null_sound.html" title="Fallback sound class used in NullAudioManager. " alt="" coords="5,171,184,213"/>
-<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine2_d_1_1_audio_1_1_sound.html" title="Sound class that can be used with the AudioManager. " alt="" coords="208,171,387,213"/>
-</map>
