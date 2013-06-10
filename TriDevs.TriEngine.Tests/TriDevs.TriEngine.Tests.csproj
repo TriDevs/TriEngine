@@ -51,7 +51,7 @@
     <Compile Include="ColorTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TriDevs.TriEngine2D\TriDevs.TriEngine.csproj">
+    <ProjectReference Include="..\TriDevs.TriEngine\TriDevs.TriEngine.csproj">
       <Project>{04ec0b36-eff2-47e7-ae67-3cccb26d8c6a}</Project>
       <Name>TriDevs.TriEngine</Name>
     </ProjectReference>

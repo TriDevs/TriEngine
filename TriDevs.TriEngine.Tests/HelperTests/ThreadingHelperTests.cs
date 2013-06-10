@@ -10,7 +10,7 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         private const string NewThreadName = "NewName";
 
         [Test]
-        public void SetCurrentThreadNameTest()
+        public void ShouldSetNameOfCurrentThread()
         {
             string expected = NewThreadName;
             if (!string.IsNullOrEmpty(Thread.CurrentThread.Name))
@@ -20,7 +20,7 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         }
 
         [Test]
-        public void SetCurrentThreadNameExistingTest()
+        public void ShouldAbortSettingNameOfCurrentThread()
         {
             const string expected = "OldName";
             string resultName = null;

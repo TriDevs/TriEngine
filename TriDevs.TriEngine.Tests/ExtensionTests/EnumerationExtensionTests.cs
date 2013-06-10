@@ -23,25 +23,25 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
 
         [Test]
         [ExpectedException(typeof(ArgumentException))]
-        public void HasStringTest()
+        public void ShouldThrowExceptionOnString()
         {
             Enum.Foo.Has("string");
         }
 
         [Test]
-        public void HasTest()
+        public void ShouldHaveValue()
         {
             Assert.True(Enum.Foo.Has(Enum.Foo));
         }
 
         [Test]
-        public void MissingTest()
+        public void ShouldNotHaveValue()
         {
             Assert.True(Enum.Bar.Missing(Enum.Foo));
         }
 
         [Test]
-        public void IncludeTest()
+        public void ShouldIncludeValue()
         {
             var val = Enum.Foo;
             val = val.Include(Enum.Bar);
@@ -50,7 +50,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void RemoveTest()
+        public void ShouldRemoveValue()
         {
             var val = Enum.Foo.Include(Enum.Bar);
             val = val.Remove(Enum.Foo);
@@ -59,19 +59,19 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void HasLongTest()
+        public void ShouldHaveLongValue()
         {
             Assert.True(LongEnum.Foo.Has(LongEnum.Foo));
         }
 
         [Test]
-        public void MissingLongTest()
+        public void ShouldNotHaveLongValue()
         {
             Assert.True(LongEnum.Bar.Missing(LongEnum.Foo));
         }
 
         [Test]
-        public void IncludeLongTest()
+        public void ShouldIncludeLongValue()
         {
             var val = LongEnum.Foo;
             val = val.Include(LongEnum.Bar);
@@ -80,7 +80,7 @@ namespace TriDevs.TriEngine.Tests.ExtensionTests
         }
 
         [Test]
-        public void RemoveLongTest()
+        public void ShouldRemoveLongValue()
         {
             var val = LongEnum.Foo.Include(LongEnum.Bar);
             val = val.Remove(LongEnum.Foo);

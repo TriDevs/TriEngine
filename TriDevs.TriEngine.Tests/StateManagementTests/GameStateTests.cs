@@ -58,7 +58,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void AddComponentTest()
+        public void ShouldAddComponentToGameState()
         {
             var state = new TestState();
             Assert.False(state.HasComponent(typeof (FooComponent)));
@@ -67,7 +67,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void RemoveSingleComponent()
+        public void ShouldRemoveComponentFromGameState()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -78,7 +78,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void RemoveAllComponents()
+        public void ShouldRemoveAllComponentsFromGameState()
         {
             var state = new TestState();
             var fooComp1 = new FooComponent();
@@ -91,7 +91,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void RemoveAllComponentsOfType()
+        public void ShouldRemoveAllComponentsOfTypeFromGameState()
         {
             var state = new TestState();
             var fooComp1 = new FooComponent();
@@ -104,7 +104,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void RemoveComponentsMatchingPredicate()
+        public void ShouldRemoveAllComponentsMatchingPredicateFromGameState()
         {
             var state = new TestState();
             var fooComp1 = new FooComponent();
@@ -124,7 +124,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void HasComponentReference()
+        public void ShouldOnlyHaveExactReferenceToComponent()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -135,7 +135,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void HasComponentType()
+        public void ShouldHaveComponentOfType()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -145,7 +145,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void HasComponentMatchingPredicate()
+        public void ShouldHaveComponentMatchingPredicate()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -155,7 +155,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void GetComponentByType()
+        public void ShouldReturnComponentOfType()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -167,7 +167,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void GetComponentMatchingPredicate()
+        public void ShouldReturnComponentMatchingPredicate()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -186,7 +186,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void GetAllComponents()
+        public void ShouldReturnAllComponent()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -201,7 +201,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void GetAllComponentsByType()
+        public void ShouldReturnAllComponentsOfType()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
@@ -216,7 +216,7 @@ namespace TriDevs.TriEngine.Tests.StateManagementTests
         }
 
         [Test]
-        public void GetAllComponentsMatchingPredicate()
+        public void ShouldReturnAllComponentsMatchingPredicate()
         {
             var state = new TestState();
             var fooComp = new FooComponent();
