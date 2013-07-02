@@ -24,13 +24,14 @@
 using System;
 using System.IO;
 using QuickFont;
+using TriDevs.TriEngine.Resources;
 
 namespace TriDevs.TriEngine.Text
 {
     /// <summary>
     /// Holds a specific font type.
     /// </summary>
-    public class Font
+    public class Font : IResource
     {
         private const string NameFormat = "{0}@{1}pt";
 

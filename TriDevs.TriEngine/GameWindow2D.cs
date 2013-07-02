@@ -35,6 +35,9 @@ namespace TriDevs.TriEngine
     {
         private Color _clearColor;
 
+        /// <summary>
+        /// Gets or sets the clear color for this window.
+        /// </summary>
         protected Color ClearColor
         {
             get { return _clearColor; }

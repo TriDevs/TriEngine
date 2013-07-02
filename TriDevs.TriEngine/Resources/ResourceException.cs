@@ -1,4 +1,4 @@
-﻿/* IAudioManager.cs
+﻿/* ResourceException.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,34 +21,18 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine.Audio
+using System;
+
+namespace TriDevs.TriEngine.Resources
 {
     /// <summary>
-    /// Used as a fallback AudioManager object when the service locator fails to find one.
+    /// Exception for resource-related issues. Thrown when there is a problem in <see cref="ResourceManager" />.
     /// </summary>
-    public class NullAudioManager : IAudioManager
+    public class ResourceException : EngineException
     {
-        private static readonly ISound Sound = new NullSound();
-        private static readonly ISong Song = new NullSong();
-
-        public void Dispose()
+        internal ResourceException(string message, Exception innerException = null) : base(message, innerException)
         {
-            
-        }
 
-        public void StopAll()
-        {
-            
-        }
-
-        public void StopAllSounds()
-        {
-            
-        }
-
-        public void StopAllSongs()
-        {
-            
         }
     }
 }

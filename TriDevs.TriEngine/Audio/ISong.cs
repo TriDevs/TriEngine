@@ -21,20 +21,15 @@
  * SOFTWARE.
  */
 
-using System;
+using TriDevs.TriEngine.Resources;
 
 namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// A song that will be streamed in the audio player.
     /// </summary>
-    public interface ISong : IDisposable
+    public interface ISong : IResource
     {
-        /// <summary>
-        /// Gets the name associated with this song.
-        /// </summary>
-        string Name { get; }
-
         /// <summary>
         /// Gets the file this song was loaded from.
         /// </summary>

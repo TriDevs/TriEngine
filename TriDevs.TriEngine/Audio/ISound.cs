@@ -21,20 +21,15 @@
  * SOFTWARE.
  */
 
-using System;
+using TriDevs.TriEngine.Resources;
 
 namespace TriDevs.TriEngine.Audio
 {
     /// <summary>
     /// A sound file for use with the audio manager.
     /// </summary>
-    public interface ISound : IDisposable
+    public interface ISound : IResource
     {
-        /// <summary>
-        /// Gets the name associated with this sound.
-        /// </summary>
-        string Name { get; }
-
         /// <summary>
         /// Gets the file this sound was created from.
         /// </summary>

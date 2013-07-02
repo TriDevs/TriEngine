@@ -21,11 +21,9 @@
  * SOFTWARE.
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using NVorbis.OpenTKSupport;
 using OpenTK.Audio;
+using TriDevs.TriEngine.Resources;
 
 namespace TriDevs.TriEngine.Audio
 {
@@ -37,9 +35,6 @@ namespace TriDevs.TriEngine.Audio
         private AudioContext _context;
         private OggStreamer _oggStreamer;
 
-        private readonly List<ISound> _sounds;
-        private readonly List<ISong> _songs; 
-
         /// <summary>
         /// Creates a new instance of <see cref="AudioManager" />.
         /// </summary>
@@ -47,18 +42,10 @@ namespace TriDevs.TriEngine.Audio
         {
             _context = new AudioContext();
             _oggStreamer = new OggStreamer();
-            _sounds = new List<ISound>();
-            _songs = new List<ISong>();
         }
 
         public void Dispose()
         {
-            foreach (var sound in _sounds.Where(sound => sound != null))
-                sound.Dispose();
-
-            foreach (var song in _songs.Where(song => song != null))
-                song.Dispose();
-
             if (_oggStreamer != null)
             {
                 _oggStreamer.Dispose();
@@ -78,64 +65,16 @@ namespace TriDevs.TriEngine.Audio
             StopAllSongs();
         }
 
-        public ISound LoadSound(string name, string file, AudioFormat format = AudioFormat.Wav)
-        {
-            var existing = _sounds.FirstOrDefault(s => s.Name == name);
-            if (existing != null)
-                return existing;
-
-            var loaded = _sounds.FirstOrDefault(s => s.File == file) != null;
-            if (loaded)
-                throw new Exception("The sound file \"" + file + "\" has already been loaded under a different name.");
-
-            var sound = new Sound(name, file, format);
-            _sounds.Add(sound);
-            return sound;
-        }
-
-        public bool HasSound(string name)
-        {
-            return _sounds.Any(s => s.Name == name);
-        }
-
-        public ISound GetSound(string name)
-        {
-            return _sounds.FirstOrDefault(s => s.Name == name);
-        }
-
         public void StopAllSounds()
         {
-            _sounds.ForEach(s => s.Stop());
-        }
-
-        public ISong LoadSong(string name, string file, AudioFormat format = AudioFormat.Ogg)
-        {
-            var existing = _songs.FirstOrDefault(s => s.Name == name);
-            if (existing != null)
-                return existing;
-
-            var loaded = _songs.FirstOrDefault(s => s.File == file) != null;
-            if (loaded)
-                throw new Exception("The song file \"" + file + "\" has already been loaded under a different name.");
-
-            var song = new Song(name, file, format);
-            _songs.Add(song);
-            return song;
-        }
-
-        public bool HasSong(string name)
-        {
-            return _songs.Any(s => s.Name == name);
-        }
-
-        public ISong GetSong(string name)
-        {
-            return _songs.FirstOrDefault(s => s.Name == name);
+            foreach (var sound in ResourceManager.GetAll<ISound>())
+                sound.Stop();
         }
 
         public void StopAllSongs()
         {
-            _songs.ForEach(s => s.Stop());
+            foreach (var song in ResourceManager.GetAll<ISong>())
+                song.Stop();
         }
     }
 }
