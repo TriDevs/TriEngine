@@ -21,16 +21,16 @@
  * SOFTWARE.
  */
 
-using System;
 using System.IO;
 using OpenTK.Graphics.OpenGL;
+using TriDevs.TriEngine.Resources;
 
 namespace TriDevs.TriEngine.Shaders
 {
     /// <summary>
     /// GLSL shader object loaded and compiled from a *.glsl shader file.
     /// </summary>
-    public class Shader : IDisposable
+    public class Shader : IResource
     {
         private readonly string _name;
         private readonly string _file;

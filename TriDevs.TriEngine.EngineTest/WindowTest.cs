@@ -5,6 +5,7 @@ using QuickFont;
 using TriDevs.TriEngine.Audio;
 using TriDevs.TriEngine.Graphics;
 using TriDevs.TriEngine.Input;
+using TriDevs.TriEngine.Resources;
 using TriDevs.TriEngine.Text;
 using TriDevs.TriEngine.UI;
 
@@ -37,13 +38,13 @@ namespace TriDevs.TriEngine.EngineTest
         {
             Services.Provide(new InputManager(this), new AudioManager());
             _controlManager = new ControlManager();
-            Services.Audio.LoadSong("unknown1", "menu1.ogg");
-            Services.Audio.LoadSong("call", "menu2.ogg");
-            Services.Audio.LoadSong("pirates", "menu3.ogg").IsLooped = true;
-            Services.Audio.LoadSound("test", "test1.wav");
-            Services.Audio.LoadSound("test2", "test2.wav");
+            ResourceManager.LoadSong("unknown1", "menu1.ogg");
+            ResourceManager.LoadSong("call", "menu2.ogg");
+            ResourceManager.LoadSong("pirates", "menu3.ogg").IsLooped = true;
+            ResourceManager.LoadSound("test", "test1.wav");
+            ResourceManager.LoadSound("test2", "test2.wav");
             //Services.Audio.LoadSong("unknown2", "menu4.ogg");
-            _font = Resources.LoadFont("Anon", "Anonymous.ttf", 32);
+            _font = ResourceManager.LoadFont("Anon", "Anonymous.ttf", 32);
             _control = new Label
             {
                 Rectangle = new Rectangle(100, 100, 250, 250),
@@ -133,7 +134,7 @@ namespace TriDevs.TriEngine.EngineTest
                 Console.WriteLine("Selected song " + _activeSong);
             }
 
-            var song = Services.Audio.GetSong(_activeSong);
+            var song = ResourceManager.Get<ISong>(_activeSong);
 
             if (Services.Input.KeyPressed(Key.P))
             {
@@ -172,9 +173,9 @@ namespace TriDevs.TriEngine.EngineTest
             }
 
             if (Services.Input.KeyPressed(Key.Space))
-                Services.Audio.GetSound("test").Play();
+                ResourceManager.Get<ISound>("test").Play();
             else if (Services.Input.KeyPressed(Key.B))
-                Services.Audio.GetSound("test2").Play();
+                ResourceManager.Get<ISound>("test2").Play();
 
             _controlManager.Update();
         }
