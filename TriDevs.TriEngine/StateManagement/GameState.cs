@@ -34,6 +34,9 @@ namespace TriDevs.TriEngine.StateManagement
     /// </summary>
     public abstract class GameState : IGameState
     {
+        /// <summary>
+        /// List of components currently added to this <see cref="GameState" />.
+        /// </summary>
         protected readonly List<IGameComponent> Components;
 
         public bool Paused { get; set; }

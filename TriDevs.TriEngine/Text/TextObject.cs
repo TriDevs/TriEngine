@@ -70,7 +70,7 @@ namespace TriDevs.TriEngine.Text
 
         public TextObject(string text, string fontName, Point<int> position = new Point<int>(),
                           QFontAlignment alignment = QFontAlignment.Centre)
-            : this(text, Resources.GetFont(fontName), position, alignment)
+            : this(text, Resources.ResourceManager.Get<Font>(fontName), position, alignment)
         {
             
         }

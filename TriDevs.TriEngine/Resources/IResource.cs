@@ -1,4 +1,4 @@
-﻿/* IAudioManager.cs
+﻿/* IResource.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,34 +21,18 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine.Audio
+using System;
+
+namespace TriDevs.TriEngine.Resources
 {
     /// <summary>
-    /// Used as a fallback AudioManager object when the service locator fails to find one.
+    /// An external resource created from a file.
     /// </summary>
-    public class NullAudioManager : IAudioManager
+    public interface IResource : IDisposable
     {
-        private static readonly ISound Sound = new NullSound();
-        private static readonly ISong Song = new NullSong();
-
-        public void Dispose()
-        {
-            
-        }
-
-        public void StopAll()
-        {
-            
-        }
-
-        public void StopAllSounds()
-        {
-            
-        }
-
-        public void StopAllSongs()
-        {
-            
-        }
+        /// <summary>
+        /// Gets the name associated with this resource.
+        /// </summary>
+        string Name { get; }
     }
 }
