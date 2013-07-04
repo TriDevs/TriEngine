@@ -1,4 +1,4 @@
-﻿/* Vector3Extensions.cs
+﻿/* Vector4Extensions.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -26,38 +26,39 @@ using OpenTK;
 namespace TriDevs.TriEngine.Extensions
 {
     /// <summary>
-    /// Extensions for <see cref="Vector3" />.
+    /// Extensions for <see cref="Vector4" />.
     /// </summary>
-    public static class Vector3Extensions
+    public static class Vector4Extensions
     {
         /// <summary>
-        /// Converts a <see cref="Vector3" /> into
-        /// a float array (3 floats for XYZ).
+        /// Converts a <see cref="Vector4" /> into
+        /// a float array (4 floats for XYZW).
         /// </summary>
         /// <param name="vector">The vector to convert.</param>
         /// <returns>A float array representation of the vector.</returns>
-        public static float[] ToFloatArray(this Vector3 vector)
+        public static float[] ToFloatArray(this Vector4 vector)
         {
-            return new[] {vector.X, vector.Y, vector.Z};
+            return new[] {vector.X, vector.Y, vector.Z, vector.W};
         }
 
         /// <summary>
-        /// Converts an array of <see cref="Vector3" /> into
-        /// a float array (3 floats per vector).
+        /// Converts an array of <see cref="Vector4" /> into
+        /// a float array (4 floats per vector).
         /// </summary>
         /// <param name="vectors">The vector array to convert.</param>
         /// <returns>A float array representation of the vectors.</returns>
-        public static float[] ToFloatArray(this Vector3[] vectors)
+        public static float[] ToFloatArray(this Vector4[] vectors)
         {
-            var result = new float[3 * vectors.Length];
+            var result = new float[4 * vectors.Length];
 
             for (var i = 0; i < vectors.Length; i++)
             {
-                var index = i * 3;
+                var index = i * 4;
 
                 result[index] = vectors[i].X;
                 result[index + 1] = vectors[i].Y;
                 result[index + 2] = vectors[i].Z;
+                result[index + 3] = vectors[i].W;
             }
 
             return result;

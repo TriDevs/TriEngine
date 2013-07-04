@@ -81,6 +81,7 @@
     <Compile Include="Extensions\IntegerExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Extensions\Vector3Extensions.cs" />
+    <Compile Include="Extensions\Vector4Extensions.cs" />
     <Compile Include="GameWindow2D.cs" />
     <Compile Include="Graphics\Primitive.cs" />
     <Compile Include="Graphics\Rectangle.cs" />
