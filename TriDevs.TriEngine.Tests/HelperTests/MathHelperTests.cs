@@ -19,6 +19,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         }
 
         [Test]
+        public void ShouldNotClampDecimal()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(0.5M, 0M, 1M), 0.5M);
+        }
+
+        [Test]
         public void ShouldNotClampInt16()
         {
             Assert.AreEqual(Helpers.Math.Clamp((short) 3, (short) 0, (short) 5), 3);
@@ -70,6 +76,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         public void ShouldClampDoubleToMinimum()
         {
             Assert.AreEqual(Helpers.Math.Clamp(-1.5, 0.0, 1.0), 0.0);
+        }
+
+        [Test]
+        public void ShouldClampDecimalToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(-1.5M, 0M, 1M), 0M);
         }
 
         [Test]
@@ -127,6 +139,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         }
 
         [Test]
+        public void ShouldClampDecimalToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(1.5M, 0M, 1M), 1M);
+        }
+
+        [Test]
         public void ShouldClampInt16ToMaximum()
         {
             Assert.AreEqual(Helpers.Math.Clamp((short) 10, (short) 0, (short) 5), 5);
@@ -170,63 +188,70 @@ namespace TriDevs.TriEngine.Tests.HelperTests
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowFloatClampArgumentException()
+        public void FloatClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(0.5f, 1.0f, 0.0f);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowDoubleClampArgumentException()
+        public void DoubleClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(0.5, 1.0, 0.0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt16ClampArgumentException()
+        public void DecimalClampShouldThrowArgumentException()
+        {
+            Helpers.Math.Clamp(0.5M, 1M, 0M);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void Int16ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((short) 5, (short) 10, (short) 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt16ClampArgumentException()
+        public void UInt16ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((ushort) 5, (ushort) 10, (ushort) 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt32ClampArgumentException()
+        public void Int32ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt32ClampArgumentException()
+        public void UInt32ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((uint) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt64ClampArgumentException()
+        public void Int64ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((long) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt64ClampArgumentException()
+        public void UInt64ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((ulong) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowByteClampArgumentException()
+        public void ByteClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((byte) 5, (byte) 10, (byte) 0);
         }
