@@ -188,70 +188,70 @@ namespace TriDevs.TriEngine.Tests.HelperTests
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowFloatClampArgumentException()
+        public void FloatClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(0.5f, 1.0f, 0.0f);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowDoubleClampArgumentException()
+        public void DoubleClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(0.5, 1.0, 0.0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowDecimalClampArgumentException()
+        public void DecimalClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(0.5M, 1M, 0M);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt16ClampArgumentException()
+        public void Int16ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((short) 5, (short) 10, (short) 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt16ClampArgumentException()
+        public void UInt16ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((ushort) 5, (ushort) 10, (ushort) 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt32ClampArgumentException()
+        public void Int32ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp(5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt32ClampArgumentException()
+        public void UInt32ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((uint) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowInt64ClampArgumentException()
+        public void Int64ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((long) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowUInt64ClampArgumentException()
+        public void UInt64ClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((ulong) 5, 10, 0);
         }
 
         [Test]
         [ExpectedException(typeof (ArgumentException))]
-        public void ShouldThrowByteClampArgumentException()
+        public void ByteClampShouldThrowArgumentException()
         {
             Helpers.Math.Clamp((byte) 5, (byte) 10, (byte) 0);
         }
