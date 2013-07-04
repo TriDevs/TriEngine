@@ -1,4 +1,4 @@
-﻿/* Point.cs
+﻿/* Vector4Extensions.cs
  *
  * Copyright © 2013 by Adam Hellberg, Sijmen Schoon and Preston Shumway.
  *
@@ -21,40 +21,47 @@
  * SOFTWARE.
  */
 
-namespace TriDevs.TriEngine
+using OpenTK;
+
+namespace TriDevs.TriEngine.Extensions
 {
     /// <summary>
-    /// A struct representing an X/Y/Z coordinate.
+    /// Extensions for <see cref="Vector4" />.
     /// </summary>
-    /// <typeparam name="T">The type used for the X, Y and Z members.</typeparam>
-    public struct Point<T> where T : struct
+    public static class Vector4Extensions
     {
         /// <summary>
-        /// The X value of the coordinate.
+        /// Converts a <see cref="Vector4" /> into
+        /// a float array (4 floats for XYZW).
         /// </summary>
-        public T X;
-
-        /// <summary>
-        /// The Y value of the coordinate.
-        /// </summary>
-        public T Y;
-
-        /// <summary>
-        /// The Z value of the coordinate.
-        /// </summary>
-        public T Z;
-
-        /// <summary>
-        /// Creates a new <see cref="Point&lt;T&gt;" /> with the specified X and Y values.
-        /// </summary>
-        /// <param name="x">The X value.</param>
-        /// <param name="y">The Y value.</param>
-        /// <param name="z">The Z value.</param>
-        public Point(T x, T y, T z = default(T))
+        /// <param name="vector">The vector to convert.</param>
+        /// <returns>A float array representation of the vector.</returns>
+        public static float[] ToFloatArray(this Vector4 vector)
         {
-            X = x;
-            Y = y;
-            Z = z;
+            return new[] {vector.X, vector.Y, vector.Z, vector.W};
+        }
+
+        /// <summary>
+        /// Converts an array of <see cref="Vector4" /> into
+        /// a float array (4 floats per vector).
+        /// </summary>
+        /// <param name="vectors">The vector array to convert.</param>
+        /// <returns>A float array representation of the vectors.</returns>
+        public static float[] ToFloatArray(this Vector4[] vectors)
+        {
+            var result = new float[4 * vectors.Length];
+
+            for (var i = 0; i < vectors.Length; i++)
+            {
+                var index = i * 4;
+
+                result[index] = vectors[i].X;
+                result[index + 1] = vectors[i].Y;
+                result[index + 2] = vectors[i].Z;
+                result[index + 3] = vectors[i].W;
+            }
+
+            return result;
         }
     }
 }

@@ -31,6 +31,17 @@ namespace TriDevs.TriEngine.Extensions
     public static class Vector3Extensions
     {
         /// <summary>
+        /// Converts a <see cref="Vector3" /> into
+        /// a float array (3 floats for XYZ).
+        /// </summary>
+        /// <param name="vector">The vector to convert.</param>
+        /// <returns>A float array representation of the vector.</returns>
+        public static float[] ToFloatArray(this Vector3 vector)
+        {
+            return new[] {vector.X, vector.Y, vector.Z};
+        }
+
+        /// <summary>
         /// Converts an array of <see cref="Vector3" /> into
         /// a float array (3 floats per vector).
         /// </summary>
@@ -40,9 +51,9 @@ namespace TriDevs.TriEngine.Extensions
         {
             var result = new float[3 * vectors.Length];
 
-            for (int i = 0; i < vectors.Length; i++)
+            for (var i = 0; i < vectors.Length; i++)
             {
-                int index = i * 3;
+                var index = i * 3;
 
                 result[index] = vectors[i].X;
                 result[index + 1] = vectors[i].Y;
