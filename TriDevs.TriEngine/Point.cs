@@ -24,9 +24,9 @@
 namespace TriDevs.TriEngine
 {
     /// <summary>
-    /// A struct representing an X/Y coordinate.
+    /// A struct representing an X/Y/Z coordinate.
     /// </summary>
-    /// <typeparam name="T">The type used for the X and Y members.</typeparam>
+    /// <typeparam name="T">The type used for the X, Y and Z members.</typeparam>
     public struct Point<T> where T : struct
     {
         /// <summary>
@@ -40,14 +40,21 @@ namespace TriDevs.TriEngine
         public T Y;
 
         /// <summary>
+        /// The Z value of the coordinate.
+        /// </summary>
+        public T Z;
+
+        /// <summary>
         /// Creates a new <see cref="Point&lt;T&gt;" /> with the specified X and Y values.
         /// </summary>
         /// <param name="x">The X value.</param>
         /// <param name="y">The Y value.</param>
-        public Point(T x, T y)
+        /// <param name="z">The Z value.</param>
+        public Point(T x, T y, T z = default(T))
         {
             X = x;
             Y = y;
+            Z = z;
         }
     }
 }
