@@ -779,6 +779,24 @@ namespace TriDevs.TriEngine
         }
 
         /// <summary>
+        /// Creates a new color from a <see cref="Vector3" /> vector.
+        /// </summary>
+        /// <param name="vector">The base <see cref="Vector3" /> to use, RGB will be copied from its XYZ values.</param>
+        public Color(Vector3 vector) : this(vector.X, vector.Y, vector.Z)
+        {
+            
+        }
+
+        /// <summary>
+        /// Creates a new color from a <see cref="Vector4" /> vector.
+        /// </summary>
+        /// <param name="vector">The base <see cref="Vector4" /> to use, RGBA will be copied from its XYZW values.</param>
+        public Color(Vector4 vector) : this(vector.X, vector.Y, vector.Z, vector.W)
+        {
+            
+        }
+
+        /// <summary>
         /// Creates a new color from a base color with new alpha value.
         /// </summary>
         /// <param name="base">The base color to use, RGB will be copied from this color.</param>
@@ -826,17 +844,6 @@ namespace TriDevs.TriEngine
         }
 
         /// <summary>
-        /// Returns a <see cref="Vector4" /> representation of this color.
-        /// This can be used with most OpenTK methods.
-        /// </summary>
-        /// <returns><see cref="Vector4" /> representation of this color.</returns>
-        [Pure]
-        public Vector4 ToVector4()
-        {
-            return new Vector4(R, G, B, A);
-        }
-
-        /// <summary>
         /// Returns a <see cref="Vector3" /> representation of this color (ommits alpha value).
         /// This can be used with most OpenTK methods.
         /// </summary>
@@ -845,6 +852,17 @@ namespace TriDevs.TriEngine
         public Vector3 ToVector3()
         {
             return new Vector3(R, G, B);
+        }
+
+        /// <summary>
+        /// Returns a <see cref="Vector4" /> representation of this color.
+        /// This can be used with most OpenTK methods.
+        /// </summary>
+        /// <returns><see cref="Vector4" /> representation of this color.</returns>
+        [Pure]
+        public Vector4 ToVector4()
+        {
+            return new Vector4(R, G, B, A);
         }
 
         /// <summary>
