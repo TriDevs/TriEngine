@@ -19,6 +19,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         }
 
         [Test]
+        public void ShouldNotClampDecimal()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(0.5M, 0M, 1M), 0.5M);
+        }
+
+        [Test]
         public void ShouldNotClampInt16()
         {
             Assert.AreEqual(Helpers.Math.Clamp((short) 3, (short) 0, (short) 5), 3);
@@ -70,6 +76,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         public void ShouldClampDoubleToMinimum()
         {
             Assert.AreEqual(Helpers.Math.Clamp(-1.5, 0.0, 1.0), 0.0);
+        }
+
+        [Test]
+        public void ShouldClampDecimalToMinimum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(-1.5M, 0M, 1M), 0M);
         }
 
         [Test]
@@ -127,6 +139,12 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         }
 
         [Test]
+        public void ShouldClampDecimalToMaximum()
+        {
+            Assert.AreEqual(Helpers.Math.Clamp(1.5M, 0M, 1M), 1M);
+        }
+
+        [Test]
         public void ShouldClampInt16ToMaximum()
         {
             Assert.AreEqual(Helpers.Math.Clamp((short) 10, (short) 0, (short) 5), 5);
@@ -180,6 +198,13 @@ namespace TriDevs.TriEngine.Tests.HelperTests
         public void ShouldThrowDoubleClampArgumentException()
         {
             Helpers.Math.Clamp(0.5, 1.0, 0.0);
+        }
+
+        [Test]
+        [ExpectedException(typeof (ArgumentException))]
+        public void ShouldThrowDecimalClampArgumentException()
+        {
+            Helpers.Math.Clamp(0.5M, 1M, 0M);
         }
 
         [Test]
