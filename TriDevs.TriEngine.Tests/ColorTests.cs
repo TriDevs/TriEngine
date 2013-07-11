@@ -28,6 +28,98 @@ namespace TriDevs.TriEngine.Tests
         }
 
         [Test]
+        public void ShouldCreateColorFromArgbValue()
+        {
+            // 0xAARRGGBB
+            const byte alpha = 0x11;
+            const byte red   = 0x22;
+            const byte green = 0x33;
+            const byte blue  = 0x44;
+            const uint val = (alpha << 24) +
+                             (red   << 16) +
+                             (green <<  8) +
+                             (blue  <<  0);
+            var color = new Color(val);
+            const float fa = alpha / 255.0f;
+            const float fr = red / 255.0f;
+            const float fg = green / 255.0f;
+            const float fb = blue / 255.0f;
+            Assert.AreEqual(fa, color.A);
+            Assert.AreEqual(fr, color.R);
+            Assert.AreEqual(fg, color.G);
+            Assert.AreEqual(fb, color.B);
+        }
+
+        [Test]
+        public void ShouldCreateColorFromRgbaValue()
+        {
+            // 0xRRGGBBAA
+            const byte alpha = 0x11;
+            const byte red   = 0x22;
+            const byte green = 0x33;
+            const byte blue  = 0x44;
+            const uint val = (red   << 24) +
+                             (green << 16) +
+                             (blue  <<  8) +
+                             (alpha <<  0);
+            var color = Color.FromRgba(val);
+            const float fa = alpha / 255.0f;
+            const float fr = red / 255.0f;
+            const float fg = green / 255.0f;
+            const float fb = blue / 255.0f;
+            Assert.AreEqual(fa, color.A);
+            Assert.AreEqual(fr, color.R);
+            Assert.AreEqual(fg, color.G);
+            Assert.AreEqual(fb, color.B);
+        }
+
+        [Test]
+        public void ShouldCreateColorFromBgraValue()
+        {
+            // 0xBBGGRRAA
+            const byte alpha = 0x11;
+            const byte red   = 0x22;
+            const byte green = 0x33;
+            const byte blue  = 0x44;
+            const uint val = (blue  << 24) +
+                             (green << 16) +
+                             (red   <<  8) +
+                             (alpha <<  0);
+            var color = Color.FromBgra(val);
+            const float fa = alpha / 255.0f;
+            const float fr = red / 255.0f;
+            const float fg = green / 255.0f;
+            const float fb = blue / 255.0f;
+            Assert.AreEqual(fa, color.A);
+            Assert.AreEqual(fr, color.R);
+            Assert.AreEqual(fg, color.G);
+            Assert.AreEqual(fb, color.B);
+        }
+
+        [Test]
+        public void ShouldCreateColorFromAbgrValue()
+        {
+            // 0xAABBGGRR
+            const byte alpha = 0x11;
+            const byte red   = 0x22;
+            const byte green = 0x33;
+            const byte blue  = 0x44;
+            const uint val = (alpha << 24) +
+                             (blue  << 16) +
+                             (green <<  8) +
+                             (red   <<  0);
+            var color = Color.FromAbgr(val);
+            const float fa = alpha / 255.0f;
+            const float fr = red / 255.0f;
+            const float fg = green / 255.0f;
+            const float fb = blue / 255.0f;
+            Assert.AreEqual(fa, color.A);
+            Assert.AreEqual(fr, color.R);
+            Assert.AreEqual(fg, color.G);
+            Assert.AreEqual(fb, color.B);
+        }
+
+        [Test]
         public void ShouldCreateColorFromBaseWithNewByteAlpha()
         {
             var baseColor = new Color(1.0f, 1.0f, 1.0f);
@@ -82,6 +174,46 @@ namespace TriDevs.TriEngine.Tests
             Assert.AreEqual(color.G, color4.G);
             Assert.AreEqual(color.B, color4.B);
             Assert.AreEqual(color.A, color4.A);
+        }
+
+        [Test]
+        public void ShouldConvertToArgb()
+        {
+            // 0xAARRGGBB
+            const int val = 0x11223344;
+            var color = new Color(val);
+            var argb = color.ToArgb();
+            Assert.AreEqual(val, argb);
+        }
+
+        [Test]
+        public void ShouldConvertToRgba()
+        {
+            // 0xRRGGBBAA
+            const uint val = 0x22334411;
+            var color = Color.FromRgba(val);
+            var rgba = color.ToRgba();
+            Assert.AreEqual(val, rgba);
+        }
+
+        [Test]
+        public void ShouldConvertToBgra()
+        {
+            // 0xBBGGRRAA
+            const uint val = 0x44332211;
+            var color = Color.FromBgra(val);
+            var bgra = color.ToBgra();
+            Assert.AreEqual(val, bgra);
+        }
+
+        [Test]
+        public void ShouldConvertToAbgr()
+        {
+            // 0xAABBGGRR
+            const uint val = 0x11443322;
+            var color = Color.FromAbgr(val);
+            var abgr = color.ToAbgr();
+            Assert.AreEqual(val, abgr);
         }
 
         [Test]
