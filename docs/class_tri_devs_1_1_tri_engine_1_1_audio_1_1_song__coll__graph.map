@@ -1,4 +1,0 @@
-<map id="TriDevs.TriEngine.Audio.Song" name="TriDevs.TriEngine.Audio.Song">
-<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html" title="A song that will be streamed in the audio player. " alt="" coords="74,155,128,181"/>
-<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_resources_1_1_i_resource.html" title="An external resource created from a file. " alt="" coords="61,80,141,107"/>
-</map>

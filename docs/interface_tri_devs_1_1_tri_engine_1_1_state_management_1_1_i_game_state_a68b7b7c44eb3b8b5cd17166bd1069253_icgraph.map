@@ -1,3 +1,0 @@
-<map id="TriDevs.TriEngine.StateManagement.IGameState.Unload" name="TriDevs.TriEngine.StateManagement.IGameState.Unload">
-<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_state_management_1_1_game_state_manager.html#a8af850bba73f9559ad188bc7195056ac" title="Switches to a new game state, discarding all previous ones in the stack. " alt="" coords="291,5,527,46"/>
-</map>
