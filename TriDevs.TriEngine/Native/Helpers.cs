@@ -21,8 +21,12 @@
  * SOFTWARE.
  */
 
+// TODO: Implementations for other OS platforms
+
+#if WINDOWS
 using System.ComponentModel;
 using System.Runtime.InteropServices;
+#endif
 
 namespace TriDevs.TriEngine.Native
 {
@@ -37,7 +41,11 @@ namespace TriDevs.TriEngine.Native
         /// <returns>The error code associated with the thrown error.</returns>
         public static int GetLastError()
         {
+#if WINDOWS
             return Marshal.GetLastWin32Error();
+#else
+            throw new System.NotImplementedException();
+#endif
         }
 
         /// <summary>
@@ -48,7 +56,11 @@ namespace TriDevs.TriEngine.Native
         public static int GetLastErrorInfo(out string message)
         {
             var err = GetLastError();
+#if WINDOWS
             message = GetWin32Exception(err).Message;
+#else
+            throw new System.NotImplementedException();
+#endif
             return err;
         }
 
@@ -59,7 +71,11 @@ namespace TriDevs.TriEngine.Native
         /// <returns>The error message.</returns>
         public static string GetErrorMessage(int err)
         {
+#if WINDOWS
             return GetWin32Exception(err).Message;
+#else
+            throw new System.NotImplementedException();
+#endif
         }
 
         /// <summary>
@@ -71,6 +87,7 @@ namespace TriDevs.TriEngine.Native
             return GetErrorMessage(GetLastError());
         }
 
+#if WINDOWS
         /// <summary>
         /// Gets the <see cref="Win32Exception" /> associated with the specified error code.
         /// </summary>
@@ -89,5 +106,6 @@ namespace TriDevs.TriEngine.Native
         {
             return GetWin32Exception(GetLastError());
         }
+#endif
     }
 }

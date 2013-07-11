@@ -57,6 +57,37 @@ If you write tests for your code, please place these tests in their own project:
 
 We use NUnit as test framework, feel free to use something else if you want to, but make sure you document what framework you are using and that it is freely available for anyone to obtain.
 
+### Platform-specific developing ###
+
+The solution/project files have several different configurations defined for debugging on different platforms (Linux, Windows and OSX).
+
+Each configuration has a compile constant defined:
+ * "Debug (Linux)" and "Release (Linux)" have the **LINUX** constant #defined
+ * "Debug (Windows)" and "Release (Windows)" have the **WINDOWS** constant #defined
+ * "Debug (OSX)" and "Release (OSX)" have the **OSX** constant #defined
+
+Platform-specific code must be enclosed in #if {PLATFORM} /* Code goes here */ #endif
+
+Example:
+
+```c#
+#if WINDOWS
+DoWindowsStuff();
+#elif LINUX
+DoLinuxStuff();
+#elif OSX
+DoOSXStuff();
+#else
+// Unsupported platform?
+#endif
+
+#if WINDOWS
+DoExclusiveWindowsStuff();
+#else
+AllOtherPlatforms();
+#endif
+```
+
 Dependencies
 ------------
 
