@@ -797,6 +797,20 @@ namespace TriDevs.TriEngine
         }
 
         /// <summary>
+        /// Creates a new color from an ARGB value.
+        /// </summary>
+        /// <param name="value">The ARGB value to create the color from.</param>
+        /// <remarks>The format of the ARGB value is expected to be <c>0xAARRGGBB</c>.</remarks>
+        public Color(uint value)
+            : this((byte)((value >> 16) & 0xFF),
+                   (byte)((value >>  8) & 0xFF),
+                   (byte)((value >>  0) & 0xFF),
+                   (byte)((value >> 24) & 0xFF))
+        {
+            
+        }
+
+        /// <summary>
         /// Creates a new color from a base color with new alpha value.
         /// </summary>
         /// <param name="base">The base color to use, RGB will be copied from this color.</param>
@@ -841,6 +855,109 @@ namespace TriDevs.TriEngine
             G = Helpers.Math.Clamp(g, 0.0f, 1.0f);
             B = Helpers.Math.Clamp(b, 0.0f, 1.0f);
             A = Helpers.Math.Clamp(a, 0.0f, 1.0f);
+        }
+
+        /// <summary>
+        /// Creates a new <see cref="Color" /> from an RGBA value.
+        /// </summary>
+        /// <param name="value">The RGBA value to create the color from.</param>
+        /// <returns>A new <see cref="Color" /> created from the supplied RGBA value.</returns>
+        /// <remarks>The RGBA value is expected to be in the format <c>0xRRGGBBAA</c>.</remarks>
+        public static Color FromRgba(uint value)
+        {
+            return new Color(((value & 0xFF) << 24) + (value >> 8));
+        }
+
+        /// <summary>
+        /// Creates a new <see cref="Color" /> from a BGRA value.
+        /// </summary>
+        /// <param name="value">The BGRA value to create the color from.</param>
+        /// <returns>A new <see cref="Color" /> created from the supplied BGRA value.</returns>
+        /// <remarks>The BGRA value is expected to be in the format <c>0xBBGGRRAA</c>.</remarks>
+        public static Color FromBgra(uint value)
+        {
+            // 0xBBGGRRAA
+            uint a = (value & 0x000000FF) << 24; // Alpha
+            uint r = (value & 0x0000FF00) <<  8; // Red
+            uint g = (value & 0x00FF0000) >>  8; // Green
+            uint b = (value & 0xFF000000) >> 24; // Blue
+            return new Color(a + r + g + b);
+        }
+
+        /// <summary>
+        /// Creates a new <see cref="Color" /> from an ABGR value.
+        /// </summary>
+        /// <param name="value">The ABGR value to create the color from.</param>
+        /// <returns>A new <see cref="Color" /> created from the supplied ABGR value.</returns>
+        /// <remarks>The ABGR value is expected to be in the format <c>0xAABBGGRR</c>.</remarks>
+        public static Color FromAbgr(uint value)
+        {
+            // 0xAABBGGRR
+            uint a =  value & 0xFF000000;        // Alpha
+            uint r = (value & 0x000000FF) << 16; // Red
+            uint g =  value & 0x0000FF00;        // Green
+            uint b = (value & 0x00FF0000) >> 16; // Blue
+            return new Color(a + r + g + b);
+        }
+
+        /// <summary>
+        /// Converts this color to an ARGB value.
+        /// </summary>
+        /// <returns>The ARGB value of this color.</returns>
+        /// <remarks>The format of the ARGB value is <c>0xAARRGGBB</c>.</remarks>
+        [Pure]
+        public uint ToArgb()
+        {
+            // 0xAARRGGBB
+            return (uint) ((((byte) (A * 255)) << 24) + // Alpha
+                           (((byte) (R * 255)) << 16) + // Red
+                           (((byte) (G * 255)) <<  8) + // Green
+                           (((byte) (B * 255)) <<  0)); // Blue
+        }
+
+        /// <summary>
+        /// Converts this color to an RGBA value.
+        /// </summary>
+        /// <returns>The RGBA value of this color.</returns>
+        /// <remarks>The format of the RGBA value is <c>0xRRGGBBAA</c>.</remarks>
+        [Pure]
+        public uint ToRgba()
+        {
+            // 0xRRGGBBAA
+            return (uint) ((((byte) (R * 255)) << 24) + // Red
+                           (((byte) (G * 255)) << 16) + // Green
+                           (((byte) (B * 255)) <<  8) + // Blue
+                           (((byte) (A * 255)) << 0));  // Alpha
+        }
+
+        /// <summary>
+        /// Converts this color to an BGRA value.
+        /// </summary>
+        /// <returns>The BGRA value of this color.</returns>
+        /// <remarks>The format of the BGRA value is <c>0xBBGGRRAA</c>.</remarks>
+        [Pure]
+        public uint ToBgra()
+        {
+            // 0xBBGGRRAA
+            return (uint) ((((byte) (B * 255)) << 24) + // Red
+                           (((byte) (G * 255)) << 16) + // Green
+                           (((byte) (R * 255)) <<  8) + // Red
+                           (((byte) (A * 255)) <<  0)); // Alpha
+        }
+
+        /// <summary>
+        /// Converts this color to an ABGR value.
+        /// </summary>
+        /// <returns>The ABGR value of this color.</returns>
+        /// <remarks>The format of the ABGR value is <c>0xAABBGGRR</c>.</remarks>
+        [Pure]
+        public uint ToAbgr()
+        {
+            // 0xAABBGGRR
+            return (uint) ((((byte) (A * 255)) << 24) + // Alpha
+                           (((byte) (B * 255)) << 16) + // Blue
+                           (((byte) (G * 255)) <<  8) + // Green
+                           (((byte) (R * 255)) <<  0)); // Red
         }
 
         /// <summary>
