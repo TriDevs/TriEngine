@@ -1,7 +1,0 @@
-var searchData=
-[
-  ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['rectangle_2ecs',['Rectangle.cs',['../_graphics_2_rectangle_8cs.html',1,'']]],
-  ['rectangle_2ecs',['Rectangle.cs',['../_rectangle_8cs.html',1,'']]],
-  ['resources_2ecs',['Resources.cs',['../_resources_8cs.html',1,'']]]
-];
