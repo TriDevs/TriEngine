@@ -8,6 +8,7 @@ var namespace_tri_devs_1_1_tri_engine =
     [ "Interfaces", "namespace_tri_devs_1_1_tri_engine_1_1_interfaces.html", "namespace_tri_devs_1_1_tri_engine_1_1_interfaces" ],
     [ "Logging", "namespace_tri_devs_1_1_tri_engine_1_1_logging.html", "namespace_tri_devs_1_1_tri_engine_1_1_logging" ],
     [ "Native", "namespace_tri_devs_1_1_tri_engine_1_1_native.html", "namespace_tri_devs_1_1_tri_engine_1_1_native" ],
+    [ "Resources", "namespace_tri_devs_1_1_tri_engine_1_1_resources.html", "namespace_tri_devs_1_1_tri_engine_1_1_resources" ],
     [ "Serializing", "namespace_tri_devs_1_1_tri_engine_1_1_serializing.html", "namespace_tri_devs_1_1_tri_engine_1_1_serializing" ],
     [ "Shaders", "namespace_tri_devs_1_1_tri_engine_1_1_shaders.html", "namespace_tri_devs_1_1_tri_engine_1_1_shaders" ],
     [ "StateManagement", "namespace_tri_devs_1_1_tri_engine_1_1_state_management.html", "namespace_tri_devs_1_1_tri_engine_1_1_state_management" ],
@@ -19,7 +20,6 @@ var namespace_tri_devs_1_1_tri_engine =
     [ "Point< T >", "struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html", "struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4" ],
     [ "Program", "class_tri_devs_1_1_tri_engine_1_1_program.html", "class_tri_devs_1_1_tri_engine_1_1_program" ],
     [ "Rectangle", "struct_tri_devs_1_1_tri_engine_1_1_rectangle.html", "struct_tri_devs_1_1_tri_engine_1_1_rectangle" ],
-    [ "Resources", "class_tri_devs_1_1_tri_engine_1_1_resources.html", "class_tri_devs_1_1_tri_engine_1_1_resources" ],
     [ "Services", "class_tri_devs_1_1_tri_engine_1_1_services.html", "class_tri_devs_1_1_tri_engine_1_1_services" ],
     [ "Version", "class_tri_devs_1_1_tri_engine_1_1_version.html", "class_tri_devs_1_1_tri_engine_1_1_version" ]
 ];

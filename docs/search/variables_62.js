@@ -1,7 +1,7 @@
 var searchData=
 [
   ['b',['B',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a83c0cf98d6809a4c38e8759f268dc894',1,'TriDevs::TriEngine::Color']]],
-  ['basepath',['BasePath',['../class_tri_devs_1_1_tri_engine_1_1_resources.html#af47b8cda82cb2fc89cedbd8546997e77',1,'TriDevs::TriEngine::Resources']]],
+  ['basepath',['BasePath',['../class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#a33be06beccd69562d34424e285c0b235',1,'TriDevs::TriEngine::Resources::ResourceManager']]],
   ['beige',['Beige',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a483cb936d847618fbb1daea09852d299',1,'TriDevs::TriEngine::Color']]],
   ['bisque',['Bisque',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a844107e304b4737b0ab05bb300eb8ba3',1,'TriDevs::TriEngine::Color']]],
   ['black',['Black',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a352957b410f8cc32fd4b63e6b521e230',1,'TriDevs::TriEngine::Color']]],

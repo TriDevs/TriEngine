@@ -23,5 +23,8 @@ var dir_313858bbfa0cf0c2e15d7098863449cc =
     ] ],
     [ "Vector3Extensions.cs", "_vector3_extensions_8cs.html", [
       [ "Vector3Extensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions" ]
+    ] ],
+    [ "Vector4Extensions.cs", "_vector4_extensions_8cs.html", [
+      [ "Vector4Extensions", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector4_extensions.html", "class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector4_extensions" ]
     ] ]
 ];

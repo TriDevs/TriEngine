@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine
-   &#160;<span id="projectnumber">v0.0.15</span>
+   &#160;<span id="projectnumber">v0.0.16</span>
    </div>
    <div id="projectbrief">General-purpose engine in C#/OpenGL</div>
   </td>
@@ -114,14 +114,14 @@ $(document).ready(function(){initNavTree('struct_tri_devs_1_1_tri_engine_1_1_poi
 </div><!--header-->
 <div class="contents">
 
-<p>A struct representing an X/Y coordinate.  
+<p>A struct representing an X/Y/Z coordinate.  
  <a href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acaa754e7e4d55407811d9dd146fa4856"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#acaa754e7e4d55407811d9dd146fa4856">Point</a> (T x, T y)</td></tr>
-<tr class="memdesc:acaa754e7e4d55407811d9dd146fa4856"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Point&amp;lt;T&amp;gt; with the specified X and Y values.  <a href="#acaa754e7e4d55407811d9dd146fa4856">More...</a><br/></td></tr>
-<tr class="separator:acaa754e7e4d55407811d9dd146fa4856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b48c2825b67b2f89536ef0c0274f3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a98b48c2825b67b2f89536ef0c0274f3b">Point</a> (T x, T y, T z=default(T))</td></tr>
+<tr class="memdesc:a98b48c2825b67b2f89536ef0c0274f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Point&amp;lt;T&amp;gt; with the specified X and Y values.  <a href="#a98b48c2825b67b2f89536ef0c0274f3b">More...</a><br/></td></tr>
+<tr class="separator:a98b48c2825b67b2f89536ef0c0274f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -131,12 +131,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1af61f477e5af56a1add14b354d8795a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a1af61f477e5af56a1add14b354d8795a">Y</a></td></tr>
 <tr class="memdesc:a1af61f477e5af56a1add14b354d8795a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Y value of the coordinate.  <a href="#a1af61f477e5af56a1add14b354d8795a">More...</a><br/></td></tr>
 <tr class="separator:a1af61f477e5af56a1add14b354d8795a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6587a5a854286f2e77c2ab9b7ff6d25"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#ad6587a5a854286f2e77c2ab9b7ff6d25">Z</a></td></tr>
+<tr class="memdesc:ad6587a5a854286f2e77c2ab9b7ff6d25"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Z value of the coordinate.  <a href="#ad6587a5a854286f2e77c2ab9b7ff6d25">More...</a><br/></td></tr>
+<tr class="separator:ad6587a5a854286f2e77c2ab9b7ff6d25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A struct representing an X/Y coordinate. </p>
+<div class="textblock"><p>A struct representing an X/Y/Z coordinate. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>The type used for the X and Y members.</td></tr>
+    <tr><td class="paramname">T</td><td>The type used for the X, Y and Z members.</td></tr>
   </table>
   </dd>
 </dl>
@@ -148,7 +151,7 @@ Public Attributes</h2></td></tr>
 </dl>
 </div>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="acaa754e7e4d55407811d9dd146fa4856"></a>
+<a class="anchor" id="a98b48c2825b67b2f89536ef0c0274f3b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -162,7 +165,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>z</em> = <code>default(T)</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -177,13 +186,15 @@ Public Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">x</td><td>The X value.</td></tr>
     <tr><td class="paramname">y</td><td>The Y value.</td></tr>
+    <tr><td class="paramname">z</td><td>The Z value.</td></tr>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a6cf67ed6637a21f67470f388f0b4fe74" title="The X value of the coordinate. ">X</a> = x;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a1af61f477e5af56a1add14b354d8795a" title="The Y value of the coordinate. ">Y</a> = y;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a6cf67ed6637a21f67470f388f0b4fe74" title="The X value of the coordinate. ">X</a> = x;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#a1af61f477e5af56a1add14b354d8795a" title="The Y value of the coordinate. ">Y</a> = y;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html#ad6587a5a854286f2e77c2ab9b7ff6d25" title="The Z value of the coordinate. ">Z</a> = z;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -216,6 +227,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ad6587a5a854286f2e77c2ab9b7ff6d25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">T TriDevs.TriEngine.Point&lt; T &gt;.Z</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Z value of the coordinate. </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>TriDevs.TriEngine/<a class="el" href="_point_8cs.html">Point.cs</a></li>
 </ul>
@@ -225,7 +250,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine.html">TriEngine</a></li><li class="navelem"><a class="el" href="struct_tri_devs_1_1_tri_engine_1_1_point_3_01_t_01_4.html">Point< T ></a></li>
-    <li class="footer">Generated on Mon Jun 10 2013 17:39:47 for TriEngine by
+    <li class="footer">Generated on Thu Jul 11 2013 19:19:59 for TriEngine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

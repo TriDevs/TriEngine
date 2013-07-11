@@ -1,4 +1,5 @@
 <map id="TriDevs.TriEngine.Audio.ISound" name="TriDevs.TriEngine.Audio.ISound">
-<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_sound.html" title="Fallback sound class used in NullAudioManager. " alt="" coords="5,171,168,213"/>
-<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_sound.html" title="Sound class that can be used with the AudioManager. " alt="" coords="192,171,355,213"/>
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_sound.html" title="Fallback sound class used in NullAudioManager. " alt="" coords="5,246,168,287"/>
+<area shape="rect" id="node5" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_sound.html" title="Sound class that can be used with the AudioManager. " alt="" coords="192,246,355,287"/>
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_resources_1_1_i_resource.html" title="An external resource created from a file. " alt="" coords="140,80,220,107"/>
 </map>

@@ -6,6 +6,5 @@ var interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song =
     [ "Stop", "interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#a067e96e7f83b12ce14edd82f762532a3", null ],
     [ "File", "interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#a205590d12f0472f544e82405d6594f38", null ],
     [ "IsLooped", "interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#a4d3e7c993097fd4ee1397997395cf71d", null ],
-    [ "Name", "interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#a91fdaeb52931f21f1d9b98e5ea49523e", null ],
     [ "Volume", "interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#aca29bef6067582a446c872d86b8b7130", null ]
 ];

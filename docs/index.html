@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine
-   &#160;<span id="projectnumber">v0.0.15</span>
+   &#160;<span id="projectnumber">v0.0.16</span>
    </div>
    <div id="projectbrief">General-purpose engine in C#/OpenGL</div>
   </td>
@@ -132,6 +132,18 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>If you're using Visual Studio, you can change the indent behaviour by going to: <b>Tools</b> -&gt; <b>Options</b> -&gt; <b>Text Editor</b> -&gt; <b>C#</b> -&gt; <b>Tabs</b> and make sure "Insert spaces" is checked.</p>
 <p>If you write tests for your code, please place these tests in their own project: "&amp;lt; &lt;strong&gt;Namespace&lt;/strong&gt; &amp;gt;.Tests", create said project if it does not exist (of type Class Library).</p>
 <p>We use NUnit as test framework, feel free to use something else if you want to, but make sure you document what framework you are using and that it is freely available for anyone to obtain.</p>
+<h3>Platform-specific developing</h3>
+<p>The solution/project files have several different configurations defined for debugging on different platforms (Linux, Windows and OSX).</p>
+<p>Each configuration has a compile constant defined:</p>
+<ul>
+<li>"Debug (Linux)" and "Release (Linux)" have the <b>LINUX</b> constant #defined</li>
+<li>"Debug (Windows)" and "Release (Windows)" have the <b>WINDOWS</b> constant #defined</li>
+<li>"Debug (OSX)" and "Release (OSX)" have the <b>OSX</b> constant #defined</li>
+</ul>
+<p>Platform-specific code must be enclosed in #if {PLATFORM} /* Code goes here */ #endif</p>
+<p>Example:</p>
+<p>```c# #if WINDOWS DoWindowsStuff(); #elif LINUX DoLinuxStuff(); #elif OSX DoOSXStuff(); #else // Unsupported platform? #endif</p>
+<p>#if WINDOWS DoExclusiveWindowsStuff(); #else AllOtherPlatforms(); #endif ```</p>
 <h2>Dependencies</h2>
 <p>TriEngine depends on <a href="http://logging.apache.org/log4net/">log4net</a>, which is included in the <b>libs/log4net</b> folder.</p>
 <p>TriEngine depends on <a href="http://www.opentk.com/">OpenTK</a>, this is not included and you will have to build/install it yourself. OpenTK depends on OpenGL drivers being installed, they are usually in your normal video card drivers.</p>
@@ -143,7 +155,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 10 2013 17:39:48 for TriEngine by
+    <li class="footer">Generated on Thu Jul 11 2013 19:20:01 for TriEngine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine
-   &#160;<span id="projectnumber">v0.0.15</span>
+   &#160;<span id="projectnumber">v0.0.16</span>
    </div>
    <div id="projectbrief">General-purpose engine in C#/OpenGL</div>
   </td>
@@ -110,6 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_0x78.html#index_x"><span>x</span></a></li>
       <li><a href="functions_0x79.html#index_y"><span>y</span></a></li>
+      <li><a href="functions_0x7a.html#index_z"><span>z</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -209,25 +210,21 @@ $(document).ready(function(){initNavTree('functions_0x6c.html','');});
 : <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_state_management_1_1_game_state.html#adf7c58ffb318c3afc07afeae539877c2">TriDevs.TriEngine.StateManagement.GameState</a>
 , <a class="el" href="interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state.html#a382b9a4617f0b3fa2adc3e4954ba58ff">TriDevs.TriEngine.StateManagement.IGameState</a>
 </li>
-<li>LoadConfig()
-: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager.html#ae2ba7567853910a23da627a677d23785">TriDevs.TriEngine.Logging.LogManager</a>
-, <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html#a60c3e6fa0b71a0084eb9272fe3030b57">TriDevs.TriEngine.Text.FontConstructionConfig</a>
+<li>LoadConfig
+: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html#a60c3e6fa0b71a0084eb9272fe3030b57">TriDevs.TriEngine.Text.FontConstructionConfig</a>
+, <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager.html#ae2ba7567853910a23da627a677d23785">TriDevs.TriEngine.Logging.LogManager</a>
 </li>
 <li>LoadFont()
-: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources.html#a1ffcf498ae3168d7b21cd70b86ff6a29">TriDevs.TriEngine.Resources</a>
+: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#ad5ad4816ff5a268ab03661d26589a8d2">TriDevs.TriEngine.Resources.ResourceManager</a>
 </li>
 <li>LoadShader()
-: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources.html#aa51dd74225059aedf36acfd93bbc1a8a">TriDevs.TriEngine.Resources</a>
+: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#ada18c81492f03f446992af50b456ac30">TriDevs.TriEngine.Resources.ResourceManager</a>
 </li>
 <li>LoadSong()
-: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_audio_manager.html#abbcc85592060f0de8dd68ee20b65387b">TriDevs.TriEngine.Audio.NullAudioManager</a>
-, <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html#a4e3e640920b01ea47e61b2228f5f516c">TriDevs.TriEngine.Audio.AudioManager</a>
-, <a class="el" href="interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager.html#a1352f516b9ec1b9cd322c157d0dd3cfe">TriDevs.TriEngine.Audio.IAudioManager</a>
+: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#a62d3d11c3e09afc31b14dac287c7dfa1">TriDevs.TriEngine.Resources.ResourceManager</a>
 </li>
 <li>LoadSound()
-: <a class="el" href="interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_audio_manager.html#a4f9892412bd2b05b20cdd60517181481">TriDevs.TriEngine.Audio.IAudioManager</a>
-, <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html#ad81ae1b7d074183ac0424f795a7a1213">TriDevs.TriEngine.Audio.AudioManager</a>
-, <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_audio_manager.html#ab1e595366496dcad31999c46ff47c848">TriDevs.TriEngine.Audio.NullAudioManager</a>
+: <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#a2bae785377bacc8817822d07e742ed4a">TriDevs.TriEngine.Resources.ResourceManager</a>
 </li>
 <li>LogException()
 : <a class="el" href="class_tri_devs_1_1_tri_engine_1_1_helpers_1_1_exceptions.html#a2d70375ec51bd398c443bc9be1f91cc8">TriDevs.TriEngine.Helpers.Exceptions</a>
@@ -238,7 +235,7 @@ $(document).ready(function(){initNavTree('functions_0x6c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 10 2013 17:39:49 for TriEngine by
+    <li class="footer">Generated on Thu Jul 11 2013 19:20:01 for TriEngine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

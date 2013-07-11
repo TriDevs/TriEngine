@@ -9,6 +9,7 @@ var dir_2abff9210325492622d6ab62ad8d03b9 =
     [ "Logging", "dir_747ccaa0b5a963cd6a4958cb6dd48cb6.html", "dir_747ccaa0b5a963cd6a4958cb6dd48cb6" ],
     [ "Native", "dir_7aad0cae985347accea0b401221c1145.html", "dir_7aad0cae985347accea0b401221c1145" ],
     [ "Properties", "dir_ae5d1542e6180a0a4dc51416b6dd169b.html", "dir_ae5d1542e6180a0a4dc51416b6dd169b" ],
+    [ "Resources", "dir_9a3f0141eaf150da6f86fd7c24de15ec.html", "dir_9a3f0141eaf150da6f86fd7c24de15ec" ],
     [ "Serializing", "dir_9aef910b89770f58de5732a1b2db09f2.html", "dir_9aef910b89770f58de5732a1b2db09f2" ],
     [ "Shaders", "dir_f69714c7d1458dd89da9fb6196ca2805.html", "dir_f69714c7d1458dd89da9fb6196ca2805" ],
     [ "StateManagement", "dir_1a161993c0eb84b48ed5a485608c9d0a.html", "dir_1a161993c0eb84b48ed5a485608c9d0a" ],
@@ -31,9 +32,6 @@ var dir_2abff9210325492622d6ab62ad8d03b9 =
     ] ],
     [ "Rectangle.cs", "_rectangle_8cs.html", [
       [ "Rectangle", "struct_tri_devs_1_1_tri_engine_1_1_rectangle.html", "struct_tri_devs_1_1_tri_engine_1_1_rectangle" ]
-    ] ],
-    [ "Resources.cs", "_resources_8cs.html", [
-      [ "Resources", "class_tri_devs_1_1_tri_engine_1_1_resources.html", "class_tri_devs_1_1_tri_engine_1_1_resources" ]
     ] ],
     [ "Services.cs", "_services_8cs.html", [
       [ "Services", "class_tri_devs_1_1_tri_engine_1_1_services.html", "class_tri_devs_1_1_tri_engine_1_1_services" ]

@@ -2,6 +2,8 @@ var searchData=
 [
   ['vector3extensions',['Vector3Extensions',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html',1,'TriDevs::TriEngine::Extensions']]],
   ['vector3extensions_2ecs',['Vector3Extensions.cs',['../_vector3_extensions_8cs.html',1,'']]],
+  ['vector4extensions',['Vector4Extensions',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector4_extensions.html',1,'TriDevs::TriEngine::Extensions']]],
+  ['vector4extensions_2ecs',['Vector4Extensions.cs',['../_vector4_extensions_8cs.html',1,'']]],
   ['version',['Version',['../class_tri_devs_1_1_tri_engine_1_1_version.html',1,'TriDevs::TriEngine']]],
   ['version_2ecs',['Version.cs',['../_version_8cs.html',1,'']]],
   ['versionstring',['VersionString',['../class_tri_devs_1_1_tri_engine_1_1_version.html#ac673598a246291c8d7e8741cc9657db4',1,'TriDevs::TriEngine::Version']]],

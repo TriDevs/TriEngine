@@ -3,7 +3,6 @@ var searchData=
   ['cadetblue',['CadetBlue',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#ad02139884481a691ab9aeb5dbe785183',1,'TriDevs::TriEngine::Color']]],
   ['chartreuse',['Chartreuse',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#ad93b0b8683b7c8ac73619c095aee63d4',1,'TriDevs::TriEngine::Color']]],
   ['chocolate',['Chocolate',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#aa8052b86fd2d5541c792273b6ad18fe2',1,'TriDevs::TriEngine::Color']]],
-  ['code_5fpage',['CODE_PAGE',['../class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#adc3aadbeadf21e00eb044b0f15867203',1,'TriDevs::TriEngine::Native::WinAPI']]],
   ['color',['Color',['../struct_tri_devs_1_1_tri_engine_1_1_rectangle.html#a7d89328df1188361322d0266c3e9c472',1,'TriDevs::TriEngine::Rectangle']]],
   ['colorid',['ColorId',['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_primitive.html#a9c28bed59141e2166f2ca246d39c2348',1,'TriDevs::TriEngine::Graphics::Primitive']]],
   ['colors',['Colors',['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_primitive.html#ac2f09f32d071a3b5279951c28b094761',1,'TriDevs::TriEngine::Graphics::Primitive']]],

@@ -10,6 +10,7 @@ var searchData=
   ['interfaces',['Interfaces',['../namespace_tri_devs_1_1_tri_engine_1_1_interfaces.html',1,'TriDevs::TriEngine']]],
   ['logging',['Logging',['../namespace_tri_devs_1_1_tri_engine_1_1_logging.html',1,'TriDevs::TriEngine']]],
   ['native',['Native',['../namespace_tri_devs_1_1_tri_engine_1_1_native.html',1,'TriDevs::TriEngine']]],
+  ['resources',['Resources',['../namespace_tri_devs_1_1_tri_engine_1_1_resources.html',1,'TriDevs::TriEngine']]],
   ['serializing',['Serializing',['../namespace_tri_devs_1_1_tri_engine_1_1_serializing.html',1,'TriDevs::TriEngine']]],
   ['shaders',['Shaders',['../namespace_tri_devs_1_1_tri_engine_1_1_shaders.html',1,'TriDevs::TriEngine']]],
   ['statemanagement',['StateManagement',['../namespace_tri_devs_1_1_tri_engine_1_1_state_management.html',1,'TriDevs::TriEngine']]],

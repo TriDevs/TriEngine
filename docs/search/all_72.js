@@ -2,8 +2,8 @@ var searchData=
 [
   ['r',['R',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#ab31693fb99effc5b2b761a6f53f247ca',1,'TriDevs::TriEngine::Color']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_rectangle.html',1,'TriDevs::TriEngine::Graphics']]],
   ['rectangle',['Rectangle',['../struct_tri_devs_1_1_tri_engine_1_1_rectangle.html',1,'TriDevs::TriEngine']]],
+  ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_rectangle.html',1,'TriDevs::TriEngine::Graphics']]],
   ['rectangle',['Rectangle',['../class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control.html#ab9544a7d5067f97206752c1af74ae359',1,'TriDevs.TriEngine.UI.Control.Rectangle()'],['../interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control.html#a0aa8012b7ace9f60f2d41675b3f465fe',1,'TriDevs.TriEngine.UI.IControl.Rectangle()'],['../class_tri_devs_1_1_tri_engine_1_1_graphics_1_1_rectangle.html#a9702029463c2c08ebf1bf4d033583812',1,'TriDevs.TriEngine.Graphics.Rectangle.Rectangle()'],['../struct_tri_devs_1_1_tri_engine_1_1_rectangle.html#ab1c4ed209c8c80200f13759e6749405c',1,'TriDevs.TriEngine.Rectangle.Rectangle(Point&lt; int &gt; position, Point&lt; int &gt; size, Color?color=null)'],['../struct_tri_devs_1_1_tri_engine_1_1_rectangle.html#ad5c2f3ee0e275c7e84faee50dc645119',1,'TriDevs.TriEngine.Rectangle.Rectangle(int x, int y, int width, int height, Color?color=null)']]],
   ['rectangle_2ecs',['Rectangle.cs',['../_graphics_2_rectangle_8cs.html',1,'']]],
   ['rectangle_2ecs',['Rectangle.cs',['../_rectangle_8cs.html',1,'']]],
@@ -15,8 +15,10 @@ var searchData=
   ['removecontrol',['RemoveControl',['../class_tri_devs_1_1_tri_engine_1_1_u_i_1_1_control_manager.html#a1ea14477960aee098283c0ac1f295e6f',1,'TriDevs.TriEngine.UI.ControlManager.RemoveControl()'],['../interface_tri_devs_1_1_tri_engine_1_1_u_i_1_1_i_control_manager.html#ae053582b5b5743a75ea1b9b48e760432',1,'TriDevs.TriEngine.UI.IControlManager.RemoveControl()']]],
   ['replace',['Replace',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_string_extensions.html#a5577f5dbd781157c2af561a594d7e4b4',1,'TriDevs.TriEngine.Extensions.StringExtensions.Replace(this string s, string search, string replace, int count, bool caseInsensitive=false)'],['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_string_extensions.html#a6b790ff74822667e6f43d7b477565cd9',1,'TriDevs.TriEngine.Extensions.StringExtensions.Replace(this string s, string search, string replace, bool caseInsensitive=false)']]],
   ['replacefirst',['ReplaceFirst',['../class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_string_extensions.html#aaf8e22b3fc467ca0a60930c95b0da275',1,'TriDevs::TriEngine::Extensions::StringExtensions']]],
-  ['resources',['Resources',['../class_tri_devs_1_1_tri_engine_1_1_resources.html',1,'TriDevs::TriEngine']]],
-  ['resources_2ecs',['Resources.cs',['../_resources_8cs.html',1,'']]],
+  ['resourceexception',['ResourceException',['../class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_exception.html',1,'TriDevs::TriEngine::Resources']]],
+  ['resourceexception_2ecs',['ResourceException.cs',['../_resource_exception_8cs.html',1,'']]],
+  ['resourcemanager',['ResourceManager',['../class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html',1,'TriDevs::TriEngine::Resources']]],
+  ['resourcemanager_2ecs',['ResourceManager.cs',['../_resource_manager_8cs.html',1,'']]],
   ['resume',['Resume',['../interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_song.html#a6493e500269f8e92b642a262a393f876',1,'TriDevs.TriEngine.Audio.ISong.Resume()'],['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_song.html#a3c6e125c188d5e387cb542b065116980',1,'TriDevs.TriEngine.Audio.NullSong.Resume()'],['../class_tri_devs_1_1_tri_engine_1_1_audio_1_1_song.html#a8084b19a78b5becfb2a34de506992a10',1,'TriDevs.TriEngine.Audio.Song.Resume()']]],
   ['rosybrown',['RosyBrown',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a4bce585a1257a48390f509f60ffe067c',1,'TriDevs::TriEngine::Color']]],
   ['royalblue',['RoyalBlue',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#ac98fc2cbcc98003e40959349b6a3c38f',1,'TriDevs::TriEngine::Color']]]

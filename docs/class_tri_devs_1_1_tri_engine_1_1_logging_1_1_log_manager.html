@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine
-   &#160;<span id="projectnumber">v0.0.15</span>
+   &#160;<span id="projectnumber">v0.0.16</span>
    </div>
    <div id="projectbrief">General-purpose engine in C#/OpenGL</div>
   </td>
@@ -241,18 +241,10 @@ Static Public Member Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">#if DEBUG</span></div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span> (_consoleLoaded)</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                <a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html" title="Holds various WinAPI stuff. ">WinAPI</a>.<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a50bc62149edba1db3a60f837f8b6d106" title="Detaches the calling process from its console. ">FreeConsole</a>();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                WinAPI.FreeConsole();</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor"></span>        }</div>
 </div><!-- fragment -->
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_a5511d68a53c847514ac33b6f73d038b0_cgraph.svg" width="414" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a19952b119ef4579d02616e78577dd5be"></a>
@@ -376,25 +368,17 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span> (System.Diagnostics.Debugger.IsAttached)</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html" title="Holds various WinAPI stuff. ">WinAPI</a>.<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a8f3b12350e016e847f91d32521efd788" title="Allocates a new console for the calling process. ">AllocConsole</a>();</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            var stdHandle = <a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html" title="Holds various WinAPI stuff. ">WinAPI</a>.<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a10f79c8b3a9a2c4c5f7322333912cbed" title="Retrieves a handle to the specified standard device (standard input, standard output, or standard error). ">GetStdHandle</a>(<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html" title="Holds various WinAPI stuff. ">WinAPI</a>.<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#af25005f0e5e30af231f75210ad4bc09c" title="The standard output device. Initially, this is the active console screen buffer, CONOUT$. ">STD_OUTPUT_HANDLE</a>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            WinAPI.AllocConsole();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            var stdHandle = WinAPI.GetStdHandle(WinAPI.STD_OUTPUT_HANDLE);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            var safeFileHandle = <span class="keyword">new</span> SafeFileHandle(stdHandle, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            var fileStream = <span class="keyword">new</span> FileStream(safeFileHandle, FileAccess.Write);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            var encoding = Encoding.GetEncoding(<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html" title="Holds various WinAPI stuff. ">WinAPI</a>.<a class="code" href="class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#adc3aadbeadf21e00eb044b0f15867203" title="The code page to use for the console. ">CODE_PAGE</a>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            var encoding = Encoding.GetEncoding(WinAPI.CODE_PAGE);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            var stdOut = <span class="keyword">new</span> StreamWriter(fileStream, encoding) { AutoFlush = <span class="keyword">true</span> };</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            Console.SetOut(stdOut);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            _consoleLoaded = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span>        }</div>
 </div><!-- fragment -->
-<p><div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager_abbc077826cba4e1ab1ca47c53ab74fc0_cgraph.svg" width="403" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -406,7 +390,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine.html">TriEngine</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine_1_1_logging.html">Logging</a></li><li class="navelem"><a class="el" href="class_tri_devs_1_1_tri_engine_1_1_logging_1_1_log_manager.html">LogManager</a></li>
-    <li class="footer">Generated on Mon Jun 10 2013 17:39:48 for TriEngine by
+    <li class="footer">Generated on Thu Jul 11 2013 19:20:00 for TriEngine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

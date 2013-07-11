@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">TriEngine
-   &#160;<span id="projectnumber">v0.0.15</span>
+   &#160;<span id="projectnumber">v0.0.16</span>
    </div>
    <div id="projectbrief">General-purpose engine in C#/OpenGL</div>
   </td>
@@ -118,6 +118,9 @@ $(document).ready(function(){initNavTree('class_tri_devs_1_1_tri_engine_1_1_exte
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a908b570c6839f080ca0b522ec14a1112"><td class="memItemLeft" align="right" valign="top">static float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html#a908b570c6839f080ca0b522ec14a1112">ToFloatArray</a> (this Vector3 vector)</td></tr>
+<tr class="memdesc:a908b570c6839f080ca0b522ec14a1112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a Vector3 into a float array (3 floats for XYZ).  <a href="#a908b570c6839f080ca0b522ec14a1112">More...</a><br/></td></tr>
+<tr class="separator:a908b570c6839f080ca0b522ec14a1112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7776099ffe75352e4604658a36815188"><td class="memItemLeft" align="right" valign="top">static float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html#a7776099ffe75352e4604658a36815188">ToFloatArray</a> (this Vector3[] vectors)</td></tr>
 <tr class="memdesc:a7776099ffe75352e4604658a36815188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an array of Vector3 into a float array (3 floats per vector).  <a href="#a7776099ffe75352e4604658a36815188">More...</a><br/></td></tr>
 <tr class="separator:a7776099ffe75352e4604658a36815188"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +128,42 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespace_tri_devs_1_1_tri_engine_1_1_extensions.html">Extensions</a> for Vector3. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a908b570c6839f080ca0b522ec14a1112"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float [] TriDevs.TriEngine.Extensions.Vector3Extensions.ToFloatArray </td>
+          <td>(</td>
+          <td class="paramtype">this Vector3&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a Vector3 into a float array (3 floats for XYZ). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>The vector to convert.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A float array representation of the vector.</dd></dl>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span>[] {vector.X, vector.Y, vector.Z};</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a7776099ffe75352e4604658a36815188"></a>
 <div class="memitem">
 <div class="memproto">
@@ -155,20 +194,20 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A float array representation of the vectors.</dd></dl>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            var result = <span class="keyword">new</span> <span class="keywordtype">float</span>[3 * vectors.Length];</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; vectors.Length; i++)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordtype">int</span> index = i * 3;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                result[index] = vectors[i].X;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                result[index + 1] = vectors[i].Y;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                result[index + 2] = vectors[i].Z;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            var result = <span class="keyword">new</span> <span class="keywordtype">float</span>[3 * vectors.Length];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">for</span> (var i = 0; i &lt; vectors.Length; i++)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                var index = i * 3;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                result[index] = vectors[i].X;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                result[index + 1] = vectors[i].Y;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                result[index + 2] = vectors[i].Z;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -181,7 +220,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tri_devs.html">TriDevs</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine.html">TriEngine</a></li><li class="navelem"><a class="el" href="namespace_tri_devs_1_1_tri_engine_1_1_extensions.html">Extensions</a></li><li class="navelem"><a class="el" href="class_tri_devs_1_1_tri_engine_1_1_extensions_1_1_vector3_extensions.html">Vector3Extensions</a></li>
-    <li class="footer">Generated on Mon Jun 10 2013 17:39:48 for TriEngine by
+    <li class="footer">Generated on Thu Jul 11 2013 19:20:00 for TriEngine by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

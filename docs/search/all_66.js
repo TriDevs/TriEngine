@@ -11,10 +11,12 @@ var searchData=
   ['fontconstructionconfig',['FontConstructionConfig',['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html',1,'TriDevs::TriEngine::Text']]],
   ['fontconstructionconfig',['FontConstructionConfig',['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html#a5846913131043b64ee8fa0bcd0c6b1b0',1,'TriDevs.TriEngine.Text.FontConstructionConfig.FontConstructionConfig(QFontLoaderConfiguration loadConfig)'],['../class_tri_devs_1_1_tri_engine_1_1_text_1_1_font_construction_config.html#a8e208c1f14fbb175cce6a0d7ea891c9a',1,'TriDevs.TriEngine.Text.FontConstructionConfig.FontConstructionConfig(QFontBuilderConfiguration buildConfig, QFontLoaderConfiguration loadConfig=null)']]],
   ['fontconstructionconfig_2ecs',['FontConstructionConfig.cs',['../_font_construction_config_8cs.html',1,'']]],
-  ['fontpath',['FontPath',['../class_tri_devs_1_1_tri_engine_1_1_resources.html#aea17ebe400f5b84c30cb0a7e0f965f42',1,'TriDevs::TriEngine::Resources']]],
+  ['fontpath',['FontPath',['../class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_manager.html#a33bcdbd1c631a78aa04172f02b0a10ed',1,'TriDevs::TriEngine::Resources::ResourceManager']]],
   ['fonttype',['FontType',['../namespace_tri_devs_1_1_tri_engine_1_1_text.html#a823573b800952d8909dc50e1efa3358b',1,'TriDevs::TriEngine::Text']]],
   ['fonttype_2ecs',['FontType.cs',['../_font_type_8cs.html',1,'']]],
   ['forestgreen',['ForestGreen',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#af63bc7371a1abce993b11655062cc73f',1,'TriDevs::TriEngine::Color']]],
-  ['freeconsole',['FreeConsole',['../class_tri_devs_1_1_tri_engine_1_1_native_1_1_win_a_p_i.html#a50bc62149edba1db3a60f837f8b6d106',1,'TriDevs::TriEngine::Native::WinAPI']]],
+  ['fromabgr',['FromAbgr',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a8b331aae781f28cc4ae6480ae652c970',1,'TriDevs::TriEngine::Color']]],
+  ['frombgra',['FromBgra',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#af84f21ff949be89b64e74cf454fa6c80',1,'TriDevs::TriEngine::Color']]],
+  ['fromrgba',['FromRgba',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#a07209f3c5e0d937dfd94bcc7362e33df',1,'TriDevs::TriEngine::Color']]],
   ['fuchsia',['Fuchsia',['../struct_tri_devs_1_1_tri_engine_1_1_color.html#afd4ba1d396778a11f5928f86d4ae13a2',1,'TriDevs::TriEngine::Color']]]
 ];
