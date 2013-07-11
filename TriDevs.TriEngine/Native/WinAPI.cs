@@ -21,6 +21,10 @@
  * SOFTWARE.
  */
 
+// THIS FILE CONTAINS CODE EXCLUSIVE TO THE WINDOWS PLATFORM
+// CODE DEFINED HERE IS NOT AVAILABLE ON ANY OTHER PLATFORMS
+#if WINDOWS
+
 using System;
 using System.Runtime.InteropServices;
 
@@ -29,6 +33,7 @@ namespace TriDevs.TriEngine.Native
     /// <summary>
     /// Holds various WinAPI stuff.
     /// </summary>
+    /// <remarks>This class is only compiled if the WINDOWS constant is #defined.</remarks>
     public static class WinAPI
     {
 // ReSharper disable InconsistentNaming
@@ -88,3 +93,5 @@ namespace TriDevs.TriEngine.Native
 // ReSharper restore InconsistentNaming
     }
 }
+
+#endif
