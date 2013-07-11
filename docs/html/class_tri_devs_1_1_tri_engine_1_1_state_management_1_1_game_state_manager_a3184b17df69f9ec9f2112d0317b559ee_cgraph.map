@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.StateManagement.GameStateManager.Push" name="TriDevs.TriEngine.StateManagement.GameStateManager.Push">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state.html#a9f790c4d9beed08bf8feab50e4bed3f5" title="Pauses the game state, preventing update calls from running. " alt="" coords="291,5,527,46"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state.html#a382b9a4617f0b3fa2adc3e4954ba58ff" title="Loads resources associated with this game component. " alt="" coords="291,70,527,111"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.Audio.NullSound" name="TriDevs.TriEngine.Audio.NullSound">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_audio_1_1_i_sound.html" title="A sound file for use with the audio manager. " alt="" coords="55,155,117,181"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_resources_1_1_i_resource.html" title="An external resource created from a file. " alt="" coords="47,80,127,107"/>
+</map>

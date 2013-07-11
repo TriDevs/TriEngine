@@ -112,8 +112,5 @@ UpgradeLog*.XML
 /TriDevs.TriEngine.sln.VisualState.xml
 
 # Source files for LaTeX PDF
-docs/latex
-docs/latex/*
-docs/latex/*.*
-docs/latex/**/*.*
-!docs/latex/refman.pdf
+/docs/latex/*
+!/docs/latex/refman.pdf
