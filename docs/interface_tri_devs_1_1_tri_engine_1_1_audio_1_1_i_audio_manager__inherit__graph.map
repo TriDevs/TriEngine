@@ -1,0 +1,4 @@
+<map id="TriDevs.TriEngine.Audio.IAudioManager" name="TriDevs.TriEngine.Audio.IAudioManager">
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_audio_manager.html" title="Class to manage engine audio. " alt="" coords="5,171,168,213"/>
+<area shape="rect" id="node4" href="$class_tri_devs_1_1_tri_engine_1_1_audio_1_1_null_audio_manager.html" title="Used as a fallback AudioManager object when the service locator fails to find one. " alt="" coords="192,171,355,213"/>
+</map>

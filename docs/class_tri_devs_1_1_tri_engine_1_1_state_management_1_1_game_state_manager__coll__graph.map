@@ -1,0 +1,5 @@
+<map id="TriDevs.TriEngine.StateManagement.GameStateManager" name="TriDevs.TriEngine.StateManagement.GameStateManager">
+<area shape="rect" id="node2" href="$interface_tri_devs_1_1_tri_engine_1_1_state_management_1_1_i_game_state_manager.html" title="Game state manager that keeps track of the active game states and provides methods to control the sta..." alt="" coords="52,80,193,107"/>
+<area shape="rect" id="node3" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_updatable.html" title="Implements a simple update method. " alt="" coords="29,5,112,32"/>
+<area shape="rect" id="node4" href="$interface_tri_devs_1_1_tri_engine_1_1_interfaces_1_1_i_drawable.html" title="Implements a simple draw method. " alt="" coords="137,5,215,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_tri_devs_1_1_tri_engine_1_1_engine_exception.html" title="Base exception class for all engine&#45;related exceptions. The inner exception will contain more info as..." alt="" coords="134,5,301,46"/>
+<area shape="rect" id="node3" href="$class_tri_devs_1_1_tri_engine_1_1_resources_1_1_resource_exception.html" title="Exception for resource&#45;related issues. Thrown when there is a problem in ResourceManager. " alt="" coords="349,5,541,46"/>
+</map>
